@@ -72,7 +72,7 @@ fp = open(rst_file, 'w')
 results = []
 for train_index, test_index in folds:
     model = None
-    model = TFParts(text_embed, batch_size=64, dim=this_dim, label_weights=this_data.label_weights(), layers=2, encoder='lstm', residual=True, combine=this_combine, use_type=this_use_type, num_type=this_num_type)
+    model = TFParts(text_embed, batch_size=64, dim=this_dim, label_weights=this_data.label_weights(), layers=this_layer, encoder='lstm', residual=True, combine=this_combine, use_type=this_use_type, num_type=this_num_type)
     m = Container()
     m.load(model)
     m.fit(text_index, index1, index2, Y, train_index, t1, t2, epochs=80, lr=0.0002)
