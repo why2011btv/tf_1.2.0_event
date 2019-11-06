@@ -1,0 +1,141 @@
+Text	The United States has swiftly condemned photos of soldiers posing with the mangled corpses of insurgents in Afghanistan , seeking to limit the fallout from the latest scandal involving US troops . The photographs , which date back to 2010 but were published by the Los Angeles Times on Wednesday , add to a string of damaging incidents that have ignited anti-Western feeling and complicated NATO efforts to withdraw most troops in 2014 . US Defence Secretary Leon Panetta said those responsible would be punished but voiced `` regret '' that the LA Times had decided to publish the images against the Pentagon 's wishes , warning that they could prompt a violent backlash , reports AFP . `` I know that war is ugly and it 's violent and I know that young people sometimes caught up in the moment make some very foolish decisions , '' Panetta told a NATO press conference in Brussels . `` I 'm not excusing that behaviour , but neither do I want these images to bring further injury to our people and to our relationship with the Afghan people . '' The LA Times published two of 18 photographs it was given by a soldier who believed they pointed to a breakdown in leadership and discipline that compromised the safety of the troops . One showed a soldier with a dead insurgent 's hand draped on his right shoulder . The other showed soldiers grinning and giving a thumbs-up behind the disembodied legs of a Taliban fighter . The Times said another set of photos , which it has not yet published , show soldiers from the same division holding a dead man 's severed hand with the middle finger raised . The first incident took place in February 2010 , when paratroopers from the 82nd Airborne Division 's 4th Brigade Combat Team were sent to an Afghan police station in Zabul province to inspect the remains of an alleged suicide bomber . The soldiers had orders to try to get fingerprints and possibly scan the irises of the corpse , but instead they posed for pictures next to the Afghan police , holding up or squatting beside the remains , the LA Times reported . A few months later , the same platoon went to inspect the remains of three insurgents whom Afghan police said had blown themselves up by accident . The soldiers allegedly involved in the incident served in a unit plagued by leadership problems , according to media reports . The commander of the brigade was cited for allowing a poor command climate , and a battalion leader and senior enlisted officer were relieved of their posts after showing racist and sexist slides in PowerPoint briefings , the Army Times reported . The wife of the brigade commander also was reportedly banned from participating in family morale events at the unit 's base in Fort Bragg , North Carolina after an investigation found she was harassing other spouses . Senior US officials insisted the incident did not signal any wider discipline problem , and NATO chief Anders Fogh Rasmussen said the photos did not represent the values of the alliance 's mission . `` These events took place apparently a couple of years ago and I consider them an isolated event , '' he said . White House spokesman Jay Carney said the photos were `` reprehensible '' but also said President Barack Obama 's administration was `` very disappointed '' that the paper had published them . The newspaper 's editor , Davan Maharaj , said he had decided to publish a `` small but representative selection '' of the images because of their news value and to `` fulfill our obligation to readers to report vigorously and impartially on all aspects of the American mission in Afghanistan . ''
+Event	1	condemned	Reporting	30	5
+Event	2	posing	HalfGeneric	59	9
+Event	3	seeking	I_Action	121	19
+Event	4	fallout	Occurrence	142	23
+Event	5	scandal	Occurrence	166	27
+Event	6	published	Occurrence	245	42
+Event	7	incidents	HalfGeneric	322	57
+Event	8	ignited	I_Action	342	60
+Event	9	complicated	I_Action	375	64
+Event	10	efforts	I_Action	392	66
+Event	11	said	Reporting	467	79
+Event	12	voiced	Reporting	512	86
+Event	13	decided	I_Action	550	95
+Event	14	publish	Occurrence	561	97
+Event	15	warning	I_Action	611	106
+Event	16	reports	Reporting	662	115
+Event	17	told	Reporting	823	149
+Event	18	conference	Occurrence	841	153
+Event	19	published	Occurrence	1034	192
+Event	20	given	Occurrence	1073	199
+Event	21	grinning	Occurrence	1311	242
+Event	22	giving	I_Action	1324	244
+Event	23	said	Reporting	1403	258
+Event	24	holding	Occurrence	1500	277
+Event	25	incident	Occurrence	1575	292
+Event	26	took	Occurrence	1584	293
+Event	27	sent	I_Action	1694	312
+Event	28	inspect	Occurrence	1748	322
+Event	29	posed	Occurrence	1910	352
+Event	30	holding	Occurrence	1956	361
+Event	31	squatting	Occurrence	1970	364
+Event	32	reported	Reporting	2013	372
+Event	33	went	I_Action	2060	382
+Event	34	inspect	Occurrence	2068	384
+Event	35	said	Reporting	2127	393
+Event	36	blown	Occurrence	2136	395
+Event	37	served	Occurrence	2217	408
+Event	38	reports	HalfGeneric	2285	420
+Event	39	cited	Reporting	2327	428
+Event	40	relieved	Occurrence	2426	445
+Event	41	showing	Occurrence	2456	450
+Event	42	briefings	HalfGeneric	2503	457
+Event	43	reported	Reporting	2529	462
+Event	44	banned	I_Action	2593	473
+Event	45	investigation	Occurrence	2701	493
+Event	46	found	I_Action	2715	494
+Event	47	harassing	Occurrence	2729	497
+Event	48	insisted	Reporting	2774	504
+Event	49	incident	Occurrence	2787	407
+Event	50	said	Reporting	2878	521
+Event	51	events	I_Action	2957	479
+Event	52	took	Occurrence	2964	538
+Event	53	said	Reporting	3051	556
+Event	54	said	Reporting	3090	563
+Event	55	said	Reporting	3136	572
+Event	56	published	Occurrence	3224	269
+Event	57	said	Reporting	3279	598
+Event	58	decided	I_Action	3291	601
+Event	59	publish	Occurrence	3302	603
+Relation	14	6	Coref	false	publish	published
+Relation	19	14	Coref	false	published	publish
+Relation	52	49	Coref	false	took	incident
+Relation	56	19	Coref	false	published	published
+Relation	56	59	Coref	false	published	publish
+Relation	25	2	Coref	false	incident	posing
+Relation	49	25	Coref	false	incident	incident
+Relation	49	5	Coref	false	incident	scandal
+Relation	5	6	SuperSub	false	scandal	published
+Relation	5	4	SuperSub	false	scandal	fallout
+Relation	7	5	SuperSub	false	incidents	scandal
+Relation	42	41	SuperSub	false	briefings	showing
+Relation	25	31	SuperSub	false	incident	squatting
+Relation	25	30	SuperSub	false	incident	holding
+Relation	2	21	SuperSub	false	posing	grinning
+Relation	2	24	SuperSub	false	posing	holding
+Relation	29	30	SuperSub	false	posed	holding
+Relation	29	31	SuperSub	false	posed	squatting
+Relation	5	2	SuperSub	false	scandal	posing
+Relation	7	25	SuperSub	false	incidents	incident
+Relation	25	29	SuperSub	false	incident	posed
+Relation	37	28	SuperSub	false	served	inspect
+Relation	37	34	SuperSub	false	served	inspect
+Relation	49	6	SuperSub	true	incident	published
+Relation	5	14	SuperSub	true	scandal	publish
+Relation	49	4	SuperSub	true	incident	fallout
+Relation	7	49	SuperSub	true	incidents	incident
+Relation	49	31	SuperSub	true	incident	squatting
+Relation	2	31	SuperSub	true	posing	squatting
+Relation	49	30	SuperSub	true	incident	holding
+Relation	2	30	SuperSub	true	posing	holding
+Relation	25	21	SuperSub	true	incident	grinning
+Relation	25	24	SuperSub	true	incident	holding
+Relation	49	2	SuperSub	true	incident	posing
+Relation	5	25	SuperSub	true	scandal	incident
+Relation	7	49	SuperSub	true	incidents	incident
+Relation	7	2	SuperSub	true	incidents	posing
+Relation	49	29	SuperSub	true	incident	posed
+Relation	2	29	SuperSub	true	posing	posed
+Relation	7	6	SuperSub	true	incidents	published
+Relation	7	4	SuperSub	true	incidents	fallout
+Relation	5	21	SuperSub	true	scandal	grinning
+Relation	5	24	SuperSub	true	scandal	holding
+Relation	7	31	SuperSub	true	incidents	squatting
+Relation	7	30	SuperSub	true	incidents	holding
+Relation	7	29	SuperSub	true	incidents	posed
+Relation	49	21	SuperSub	true	incident	grinning
+Relation	49	24	SuperSub	true	incident	holding
+Relation	5	31	SuperSub	true	scandal	squatting
+Relation	5	30	SuperSub	true	scandal	holding
+Relation	5	29	SuperSub	true	scandal	posed
+Relation	7	21	SuperSub	true	incidents	grinning
+Relation	7	24	SuperSub	true	incidents	holding
+Relation	7	6	SuperSub	true	incidents	published
+Relation	7	4	SuperSub	true	incidents	fallout
+Relation	5	21	SuperSub	true	scandal	grinning
+Relation	5	24	SuperSub	true	scandal	holding
+Relation	7	31	SuperSub	true	incidents	squatting
+Relation	7	30	SuperSub	true	incidents	holding
+Relation	7	29	SuperSub	true	incidents	posed
+Relation	49	21	SuperSub	true	incident	grinning
+Relation	49	24	SuperSub	true	incident	holding
+Relation	5	31	SuperSub	true	scandal	squatting
+Relation	5	30	SuperSub	true	scandal	holding
+Relation	5	29	SuperSub	true	scandal	posed
+Relation	7	21	SuperSub	true	incidents	grinning
+Relation	7	24	SuperSub	true	incidents	holding
+Relation	7	6	SuperSub	true	incidents	published
+Relation	7	4	SuperSub	true	incidents	fallout
+Relation	5	21	SuperSub	true	scandal	grinning
+Relation	5	24	SuperSub	true	scandal	holding
+Relation	7	31	SuperSub	true	incidents	squatting
+Relation	7	30	SuperSub	true	incidents	holding
+Relation	7	29	SuperSub	true	incidents	posed
+Relation	49	21	SuperSub	true	incident	grinning
+Relation	49	24	SuperSub	true	incident	holding
+Relation	5	31	SuperSub	true	scandal	squatting
+Relation	5	30	SuperSub	true	scandal	holding
+Relation	5	29	SuperSub	true	scandal	posed
+Relation	7	21	SuperSub	true	incidents	grinning
+Relation	7	24	SuperSub	true	incidents	holding

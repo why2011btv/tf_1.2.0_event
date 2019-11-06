@@ -1,0 +1,26 @@
+Text	A black market fuel-laundering plant costing €2m a year in lost taxes has been uncovered . Customs officers disrupted the illegal double processing unit , one concealed in a shed and the other in a 40ft container , on commercial premises in Rathmore , Dundalk , Co Louth . The operation had the capacity to process four million litres of fuel a year . Customs seized four lorries , 18,000 litres of marked mineral oil , a tanker containing 6,000 litres of laundered fuel , the lorry trailer with a concealed tank and bleaching earth . Elsewhere , an oil tanker containing 19,000 litres of smuggled fuel was seized by Revenue ’ s Customs Service while travelling south on the M1 . In a separate operation , a man in his 20s was arrested after 248,000 cigarettes , 51 kilos of tobacco and a small quantity of herbal cannabis was seized in a raid on a small lock-up in north inner city Dublin . The cigarettes were worth €116,000 and would have cost the Exchequer €98,000 while the rolling tobacco was estimated at €22,000 .
+Event	1	uncovered	Occurrence	79	14
+Event	2	disrupted	Occurrence	107	18
+Event	3	concealed	Occurrence	157	26
+Event	4	operation	Occurrence	271	50
+Event	5	seized	Occurrence	353	65
+Event	6	seized	Occurrence	595	108
+Event	7	travelling	Occurrence	637	116
+Event	8	operation	Occurrence	679	125
+Event	9	arrested	Occurrence	711	133
+Event	10	seized	Occurrence	810	150
+Event	11	raid	Occurrence	822	153
+Event	12	estimated	Occurrence	981	181
+Relation	1	2	SuperSub	false	uncovered	disrupted
+Relation	2	5	SuperSub	false	disrupted	seized
+Relation	7	6	SuperSub	false	travelling	seized
+Relation	1	7	SuperSub	false	uncovered	travelling
+Relation	8	9	SuperSub	false	operation	arrested
+Relation	8	10	SuperSub	false	operation	seized
+Relation	8	11	SuperSub	false	operation	raid
+Relation	1	5	SuperSub	true	uncovered	seized
+Relation	1	6	SuperSub	true	uncovered	seized
+Relation	1	5	SuperSub	true	uncovered	seized
+Relation	1	6	SuperSub	true	uncovered	seized
+Relation	1	5	SuperSub	true	uncovered	seized
+Relation	1	6	SuperSub	true	uncovered	seized

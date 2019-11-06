@@ -1,0 +1,100 @@
+Text	President Barack Obama on Thursday declared a new chapter in U.S. relations with Myanmar , easing an investment ban and naming the first U.S. ambassador to the former pariah state in 22 years to reward it for democratic reforms . Myanmar 's reforms over the past year or so have seen it emerge from decades of authoritarian rule and diplomatic isolation , although it remains dominated by its military . Obama pointed to the parliamentary election of opposition figure Aung San Suu Kyi as a prominent example of progress in the Asian nation also known as Burma . After meeting Myanmar 's Foreign Minister , Wunna Maung Lwin , Secretary of State Hillary Rodham Clinton said that the U.S. was suspending sanctions on American investment across all sectors of the Myanmar economy and export of financial services . She described it as the most significant action Washington has taken so far to reward Myanmar for its reforms . `` Today we say to American businesses , invest in Burma , and do it responsibly , '' she told a joint news conference after talks with the foreign minister at the State Department . She said U.S. companies would be expected to conduct due diligence to avoid any problems , including human rights abuses . Despite the easing of restrictions , U.S. companies would still be barred from doing business with firms associated with the country 's powerful military , and the White House announced it was keeping its framework of hard-hitting sanctions in place for now , saying Myanmar 's democratic reforms are still `` nascent . '' The move was welcomed by two Republican senators influential on Myanmar policy , John McCain and Mitch McConnell , who both met with Wunna Maung Lwin Thursday . They also welcomed the nomination of Derek Mitchell , who will become the first U.S. ambassador to the country since 1990 . Clinton urged his quick confirmation by the Senate . The U.S. is currently represented by a lower-level diplomat . Myanmar will also send a full ambassador to Washington , a post to be taken by its current permanent representative to the United Nations in New York , Than Swe . Human rights groups and exiled Myanmar activists criticized the announcement on the easing on economic controls . The U.S . Coalition for Burma said the Obama administration was prematurely rewarding Myanmar while its military was escalating violence against the Kachin ethnic minority in the north of the country . The fighting over the past year has displaced tens of thousands of villagers . Clinton voiced continued concern over detention of political prisoners . Western governments say hundreds of such detainees are still held despite a series of amnesties granted by Myanmar 's President Thein Sein over the past year . The Obama administration had announced after democracy leader Suu Kyi 's election in April that it planned to ease a ban on American investment that has been in place since 1997 . That fueled intense debate in Washington on how and at what pace the U.S. should ease policies that have long punished Myanmar country for rights abuses and suppression of democracy . U.S. businesses and some lawmakers have been pushing to lift economic sanctions and point to the European Union 's recent suspension of its restrictions , which could now leave American corporations at a competitive disadvantage - not least in the potentially lucrative oil , gas and mining sectors . Suu Kyi , who spent 15 of the previous 22 years under house arrest before her release in late 2010 , this week gave cautious backing to the suspension of economic sanctions but warned that the reforms in Myanmar were still reversible . Human Rights Watch is demanding the imposition of binding rules on corporate responsibility for U.S. companies working in Myanmar and revision of a blacklist of sanctioned Myanmar entities - which U.S. officials say is underway . Many of them , both individuals and companies , are linked to the military , and U.S. firms will still be barred from working with those entities . A senior administration official said the U.S. government would develop a mechanism to ensure transparency and oversight in American business dealings in Myanmar , but the standards would not be legally binding . The official , who was briefing reporters on condition of anonymity to provide details of the new U.S. policies , also cautioned that Myanmar was not currently a very welcoming place for foreign businesses , because of the human rights situation , corruption and the rudimentary legal and regulatory environment .
+Event	1	declared	Reporting	35	5
+Event	2	easing	StateChange	90	15
+Event	3	ban	Occurrence	111	18
+Event	4	naming	Occurrence	119	20
+Event	5	reforms	HalfGeneric	219	38
+Event	6	reforms	HalfGeneric	238	42
+Event	7	emerge	StateChange	284	52
+Event	8	pointed	I_Action	405	71
+Event	9	election	Occurrence	434	75
+Event	10	meeting	Occurrence	563	99
+Event	11	said	Reporting	659	115
+Event	12	suspending	I_Action	682	120
+Event	13	described	Reporting	806	139
+Event	14	action	Occurrence	843	145
+Event	15	taken	I_Action	865	148
+Event	16	reforms	HalfGeneric	904	156
+Event	17	say	Reporting	923	161
+Event	18	told	Reporting	996	177
+Event	19	conference	Occurrence	1014	181
+Event	20	talks	Occurrence	1031	183
+Event	21	said	Reporting	1092	194
+Event	22	easing	StateChange	1221	216
+Event	23	announced	Reporting	1382	243
+Event	24	saying	Reporting	1465	257
+Event	25	reforms	HalfGeneric	1493	261
+Event	26	move	Occurrence	1526	269
+Event	27	welcomed	I_Action	1535	271
+Event	28	met	Occurrence	1644	289
+Event	29	welcomed	I_Action	1690	298
+Event	30	nomination	Occurrence	1703	300
+Event	31	urged	I_Action	1810	319
+Event	32	confirmation	Reporting	1826	322
+Event	33	criticized	I_Action	2124	375
+Event	34	announcement	I_Action	2139	377
+Event	35	said	Reporting	2217	391
+Event	36	rewarding	Occurrence	2263	397
+Event	37	escalating	I_Action	2304	403
+Event	38	violence	HalfGeneric	2315	404
+Event	39	fighting	HalfGeneric	2392	418
+Event	40	displaced	HalfGeneric	2424	424
+Event	41	voiced	Reporting	2474	432
+Event	42	detention	HalfGeneric	2504	436
+Event	43	say	Reporting	2558	443
+Event	44	series	I_Action	2614	453
+Event	45	amnesties	HalfGeneric	2624	455
+Event	46	granted	I_Action	2634	456
+Event	47	announced	Reporting	2725	472
+Event	48	election	Occurrence	2768	479
+Event	49	planned	I_Action	2794	484
+Event	50	fueled	I_Action	2879	501
+Event	51	debate	Occurrence	2894	503
+Event	52	punished	HalfGeneric	2984	520
+Event	53	pushing	I_Action	3102	538
+Event	54	suspension	Occurrence	3178	551
+Event	55	spent	I_Action	3367	584
+Event	56	arrest	Occurrence	3413	593
+Event	57	release	Occurrence	3431	596
+Event	58	gave	I_Action	3463	603
+Event	59	backing	I_Action	3477	605
+Event	60	suspension	Occurrence	3492	608
+Event	61	warned	Reporting	3529	613
+Event	62	reforms	HalfGeneric	3545	616
+Event	63	demanding	I_Action	3609	627
+Event	64	sanctioned	Occurrence	3748	648
+Event	65	say	Reporting	3799	655
+Event	66	said	Reporting	3993	691
+Event	67	briefing	Reporting	4193	725
+Event	68	provide	Reporting	4241	732
+Event	69	cautioned	Reporting	4288	741
+Relation	6	5	Coref	false	reforms	reforms
+Relation	14	2	Coref	false	action	easing
+Relation	16	6	Coref	false	reforms	reforms
+Relation	22	2	Coref	false	easing	easing
+Relation	25	16	Coref	false	reforms	reforms
+Relation	26	22	Coref	false	move	easing
+Relation	4	30	Coref	false	naming	nomination
+Relation	48	9	Coref	false	election	election
+Relation	60	26	Coref	false	suspension	move
+Relation	62	25	Coref	false	reforms	reforms
+Relation	6	7	SuperSub	false	reforms	emerge
+Relation	6	9	SuperSub	false	reforms	election
+Relation	20	10	SuperSub	false	talks	meeting
+Relation	20	28	SuperSub	false	talks	met
+Relation	36	30	SuperSub	false	rewarding	nomination
+Relation	36	22	SuperSub	false	rewarding	easing
+Relation	38	39	SuperSub	false	violence	fighting
+Relation	39	40	SuperSub	false	fighting	displaced
+Relation	56	57	SuperSub	false	arrest	release
+Relation	5	7	SuperSub	true	reforms	emerge
+Relation	16	7	SuperSub	true	reforms	emerge
+Relation	5	9	SuperSub	true	reforms	election
+Relation	16	9	SuperSub	true	reforms	election
+Relation	6	48	SuperSub	true	reforms	election
+Relation	36	4	SuperSub	true	rewarding	naming
+Relation	36	2	SuperSub	true	rewarding	easing
+Relation	36	26	SuperSub	true	rewarding	move
+Relation	38	40	SuperSub	true	violence	displaced
+Relation	38	40	SuperSub	true	violence	displaced
+Relation	38	40	SuperSub	true	violence	displaced

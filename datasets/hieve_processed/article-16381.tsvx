@@ -1,0 +1,29 @@
+Text	JPMorgan had informed the UK ’ s Financial Services Authority ( FSA ) of the situation , but this was a regulatory requirement and there was no indication at this stage that the regulator would take any action , a source familiar with the situation said . In a Securities and Exchange Commission filing , JPMorgan reported that since the end of March , its chief investment office has had significant mark-to-market losses in its synthetic credit portfolio . While other gains partially offset the trading loss , the bank estimates the business unit will post a loss of $ 800 million in the current quarter , excluding private equity results and litigation expenses . The bank previously forecast the unit would make a profit of about $ 200 million . “ It could cost us as much as $ 1 billion or more , ” in addition to the loss estimated so far , Dimon said . The dollar loss , though , could be less significant than the hit to Dimon and the reputation of a bank which was strong enough to take over investment bank Bear Stearns and consumer bank Washington Mutual when they collapsed in 2008 . JPMorgan had $ 2.32 trillion of assets supported by $ 190 billion of shareholder equity at the end of March — an equity ratio of almost 13 % . That is four times the industry mean and ahead of 10-11 % at Citigroup and Bank of America Corp. JPMorgan has been earning more than $ 4 billion each quarter , on average , for the past two years . “ Jamie has always styled himself as one of the kings of Wall Street , ” said Nancy Bush , a longtime bank analyst and contributing editor at SNL Financial . “ I don ’ t know how this went so bad so quickly with his knowledge and aversion to risk. ” Ekta Kapoor files case against Dirty Picture remake
+Event	1	informed	Occurrence	13	2
+Event	2	said	Reporting	243	45
+Event	3	filing	Occurrence	289	53
+Event	4	reported	Reporting	306	56
+Event	5	losses	HalfGeneric	407	72
+Event	6	gains	HalfGeneric	461	81
+Event	7	offset	I_Action	477	83
+Event	8	loss	Occurrence	496	86
+Event	9	estimates	Occurrence	511	90
+Event	10	loss	Occurrence	551	97
+Event	11	forecast	Occurrence	674	118
+Event	12	loss	Occurrence	804	150
+Event	13	said	Reporting	833	156
+Event	14	loss	Occurrence	851	160
+Event	15	hit	Occurrence	900	170
+Event	16	take	Occurrence	969	35
+Event	17	collapsed	Occurrence	1054	197
+Event	18	said	Reporting	1475	286
+Event	19	went	Occurrence	1581	309
+Event	20	files	Occurrence	1658	324
+Relation	5	8	Coref	false	losses	loss
+Relation	10	8	Coref	false	loss	loss
+Relation	12	10	Coref	false	loss	loss
+Relation	12	14	Coref	false	loss	loss
+Relation	3	1	SuperSub	false	filing	informed
+Relation	3	9	SuperSub	false	filing	estimates
+Relation	14	15	SuperSub	false	loss	hit
+Relation	12	15	SuperSub	true	loss	hit

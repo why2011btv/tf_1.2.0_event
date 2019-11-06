@@ -1,0 +1,52 @@
+Text	The Vatican is investigating seven priests from the troubled Legion of Christ religious order for alleged sexual abuse of minors , according to the Associated Press news agency . All but one case involves alleged abuse dating from decades ago , the Legion said . Two other priests are also under investigation for alleged sacramental violations , believed to involve using spiritual direction to have inappropriate relations with women . It is the first time the Vatican is known to have taken action against Legion priests for alleged sexual assault following the scandal of the order 's founder . The church had previously insisted the crimes of the late Reverend Marcial Maciel were his alone . He was long held up as a model by Pope John Paul II despite credible accusations - later proven - that he raped and molested his seminarians . The Legion of Christ order had over 900 priests worldwide and was praised for attracting both money and vocations to the priesthood . Documentation from Vatican archives , however , revealed that as early as the 1950s , the Vatican had evidence that Maciel was a drug addict and paedophile . Only in 2006 did the Vatican sanction Maciel to a lifetime of penance and prayer for his crimes . He died in 2008 and a year later the orthodox order confessed he had fathered three children with two different women and had abused his seminarians . In 2010 the Vatican took control of the Legion and started to implement a system of change .
+Event	1	investigating	Occurrence	15	3
+Event	2	said	Reporting	253	43
+Event	3	investigation	Occurrence	292	51
+Event	4	taken	I_Action	482	81
+Event	5	action	Occurrence	488	82
+Event	6	scandal	Occurrence	559	92
+Event	7	insisted	Reporting	617	103
+Event	8	crimes	Occurrence	630	105
+Event	9	accusations	HalfGeneric	758	131
+Event	10	proven	I_Action	778	134
+Event	11	raped	Occurrence	795	138
+Event	12	molested	Occurrence	805	140
+Event	13	praised	I_Action	897	156
+Event	14	attracting	Occurrence	909	158
+Event	15	revealed	Occurrence	1010	174
+Event	16	sanction	Occurrence	1147	201
+Event	17	crimes	HalfGeneric	1207	212
+Event	18	died	Occurrence	1218	215
+Event	19	confessed	I_Action	1267	225
+Event	20	fathered	Occurrence	1284	228
+Event	21	abused	Occurrence	1341	237
+Event	22	took	Occurrence	1385	245
+Event	23	started	I_Action	1416	251
+Event	24	implement	Occurrence	1427	253
+Relation	8	17	Coref	false	crimes	crimes
+Relation	5	1	SuperSub	false	action	investigating
+Relation	5	3	SuperSub	false	action	investigation
+Relation	6	8	SuperSub	false	scandal	crimes
+Relation	8	11	SuperSub	false	crimes	raped
+Relation	8	12	SuperSub	false	crimes	molested
+Relation	6	9	SuperSub	false	scandal	accusations
+Relation	6	16	SuperSub	false	scandal	sanction
+Relation	17	21	SuperSub	false	crimes	abused
+Relation	17	20	SuperSub	false	crimes	fathered
+Relation	6	17	SuperSub	true	scandal	crimes
+Relation	17	11	SuperSub	true	crimes	raped
+Relation	17	12	SuperSub	true	crimes	molested
+Relation	8	21	SuperSub	true	crimes	abused
+Relation	8	20	SuperSub	true	crimes	fathered
+Relation	6	11	SuperSub	true	scandal	raped
+Relation	6	12	SuperSub	true	scandal	molested
+Relation	6	21	SuperSub	true	scandal	abused
+Relation	6	20	SuperSub	true	scandal	fathered
+Relation	6	11	SuperSub	true	scandal	raped
+Relation	6	12	SuperSub	true	scandal	molested
+Relation	6	21	SuperSub	true	scandal	abused
+Relation	6	20	SuperSub	true	scandal	fathered
+Relation	6	11	SuperSub	true	scandal	raped
+Relation	6	12	SuperSub	true	scandal	molested
+Relation	6	21	SuperSub	true	scandal	abused
+Relation	6	20	SuperSub	true	scandal	fathered

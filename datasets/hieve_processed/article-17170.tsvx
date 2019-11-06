@@ -1,0 +1,120 @@
+Text	Greek party leaders are to resume power-sharing talks Monday as negotiations to create a government drag into a second week , raising the specter of fresh elections that could threaten the crisis-stricken country 's international bailout and its membership of the euro . President Karolos Papoulias has summoned party leaders back to negotiations at 7:30 p.m. ( 1630GMT ) , after talks on Sunday failed to lead to the creation of a coalition government . The conservatives New Democracy party won May 6 general elections , but the poll failed to produce an outright winner . The second-placed left wing party , Syriza , has refused to join a coalition , demanding that the terms of an international bailout be scrapped or radically renegotiated . Syriza leader Alexis Tsipras will not attend Monday 's meeting , party officials said . `` They are looking for an accomplice to continue their catastrophic work — we will not help them , '' Panos Skourletis , a spokesman for the party , told Mega television . The political turmoil has taken a toll on markets across Europe , with shares on the Athens Stock Exchange 3.5 percent lower at 590.38 in midday trading . `` Voices of support ( in Europe ) to Greece ... are becoming fewer and fewer , while there is a frenetic increase of those that are predicting the country 's exit from the euro , '' an editorial in Greece 's top-selling Ta Nea said . `` The dramatic drop in state revenues during the election campaign and the serious souring of the atmosphere in Europe toward Greece mean that after almost certain repeat elections there will be a need for even tougher austerity measures . '' Greece 's two traditionally dominant parties , New Democracy and the Socialist PASOK were hammered on May 6 , as the bailed-out country suffers through a fifth year of recession , with more than one in five Greeks out of work . Since the election , Syriza has gained support , and in a survey published Monday led with a projected 20.5 percent of public support , pushing New Democracy to second place with 19.4 percent , while PASOK was third with 11.8 percent . No margin of error was given in the Rass poll of 1,002 people , conducted May 10-11 for the Eleftheros Typos newspaper . New Democracy and PASOK could form a government without Syriza , but the small Democratic Left party that would provide the required support is insisting that such a coalition would be unworkable . `` The president has invited us to a new meeting and I will attend , '' Democratic Left leader Fotis Kouvelis told Antenna television . `` I will repeat my position , that without the participation of the second largest party , the government would not have sufficient popular and parliamentary support .
+Event	1	talks	Occurrence	48	7
+Event	2	negotiations	I_Action	64	10
+Event	3	drag	Occurrence	100	15
+Event	4	raising	StateChange	125	21
+Event	5	elections	Occurrence	154	26
+Event	6	bailout	Occurrence	228	35
+Event	7	summoned	Occurrence	300	47
+Event	8	talks	Occurrence	374	61
+Event	9	failed	I_Action	390	64
+Event	10	won	I_Action	486	80
+Event	11	elections	Occurrence	504	84
+Event	12	poll	Occurrence	523	88
+Event	13	failed	I_Action	528	89
+Event	14	refused	I_Action	613	105
+Event	15	demanding	Reporting	642	111
+Event	16	said	Reporting	813	138
+Event	17	looking	Occurrence	829	143
+Event	18	told	Reporting	962	169
+Event	19	turmoil	Occurrence	998	175
+Event	20	taken	I_Action	1010	177
+Event	21	trading	HalfGeneric	1128	199
+Event	22	becoming	StateChange	1186	213
+Event	23	increase	StateChange	1238	223
+Event	24	said	Reporting	1355	246
+Event	25	drop	StateChange	1375	251
+Event	26	campaign	Occurrence	1418	258
+Event	27	souring	StateChange	1443	262
+Event	28	hammered	Occurrence	1688	303
+Event	29	suffers	HalfGeneric	1733	312
+Event	30	recession	Occurrence	1765	318
+Event	31	election	Occurrence	1833	257
+Event	32	gained	StateChange	1854	337
+Event	33	survey	Occurrence	1879	343
+Event	34	published	I_Action	1886	344
+Event	35	pushing	StateChange	1956	356
+Event	36	poll	Occurrence	2095	383
+Event	37	conducted	I_Action	2117	388
+Event	38	insisting	Reporting	2316	421
+Event	39	invited	Occurrence	2388	434
+Event	40	told	Reporting	2474	451
+Relation	11	12	Coref	false	elections	poll
+Relation	31	11	Coref	false	election	elections
+Relation	36	33	Coref	false	poll	survey
+Relation	7	39	Coref	false	summoned	invited
+Relation	1	3	SuperSub	false	talks	drag
+Relation	1	4	SuperSub	false	talks	raising
+Relation	1	7	SuperSub	false	talks	summoned
+Relation	1	8	SuperSub	false	talks	talks
+Relation	19	1	SuperSub	false	turmoil	talks
+Relation	19	5	SuperSub	false	turmoil	elections
+Relation	19	11	SuperSub	false	turmoil	elections
+Relation	19	26	SuperSub	false	turmoil	campaign
+Relation	19	27	SuperSub	false	turmoil	souring
+Relation	19	25	SuperSub	false	turmoil	drop
+Relation	11	28	SuperSub	false	elections	hammered
+Relation	30	19	SuperSub	false	recession	turmoil
+Relation	19	32	SuperSub	false	turmoil	gained
+Relation	32	35	SuperSub	false	gained	pushing
+Relation	19	33	SuperSub	false	turmoil	survey
+Relation	1	39	SuperSub	true	talks	invited
+Relation	19	12	SuperSub	true	turmoil	poll
+Relation	19	31	SuperSub	true	turmoil	election
+Relation	12	28	SuperSub	true	poll	hammered
+Relation	31	28	SuperSub	true	election	hammered
+Relation	19	36	SuperSub	true	turmoil	poll
+Relation	19	3	SuperSub	true	turmoil	drag
+Relation	19	4	SuperSub	true	turmoil	raising
+Relation	19	7	SuperSub	true	turmoil	summoned
+Relation	19	8	SuperSub	true	turmoil	talks
+Relation	19	28	SuperSub	true	turmoil	hammered
+Relation	30	1	SuperSub	true	recession	talks
+Relation	30	5	SuperSub	true	recession	elections
+Relation	30	11	SuperSub	true	recession	elections
+Relation	30	26	SuperSub	true	recession	campaign
+Relation	30	27	SuperSub	true	recession	souring
+Relation	30	25	SuperSub	true	recession	drop
+Relation	30	32	SuperSub	true	recession	gained
+Relation	30	33	SuperSub	true	recession	survey
+Relation	19	35	SuperSub	true	turmoil	pushing
+Relation	19	3	SuperSub	true	turmoil	drag
+Relation	19	4	SuperSub	true	turmoil	raising
+Relation	19	7	SuperSub	true	turmoil	summoned
+Relation	19	8	SuperSub	true	turmoil	talks
+Relation	19	28	SuperSub	true	turmoil	hammered
+Relation	30	1	SuperSub	true	recession	talks
+Relation	30	5	SuperSub	true	recession	elections
+Relation	30	11	SuperSub	true	recession	elections
+Relation	30	26	SuperSub	true	recession	campaign
+Relation	30	27	SuperSub	true	recession	souring
+Relation	30	25	SuperSub	true	recession	drop
+Relation	30	32	SuperSub	true	recession	gained
+Relation	30	33	SuperSub	true	recession	survey
+Relation	19	35	SuperSub	true	turmoil	pushing
+Relation	30	3	SuperSub	true	recession	drag
+Relation	30	4	SuperSub	true	recession	raising
+Relation	30	7	SuperSub	true	recession	summoned
+Relation	30	8	SuperSub	true	recession	talks
+Relation	30	28	SuperSub	true	recession	hammered
+Relation	30	35	SuperSub	true	recession	pushing
+Relation	19	3	SuperSub	true	turmoil	drag
+Relation	19	4	SuperSub	true	turmoil	raising
+Relation	19	7	SuperSub	true	turmoil	summoned
+Relation	19	8	SuperSub	true	turmoil	talks
+Relation	19	28	SuperSub	true	turmoil	hammered
+Relation	30	1	SuperSub	true	recession	talks
+Relation	30	5	SuperSub	true	recession	elections
+Relation	30	11	SuperSub	true	recession	elections
+Relation	30	26	SuperSub	true	recession	campaign
+Relation	30	27	SuperSub	true	recession	souring
+Relation	30	25	SuperSub	true	recession	drop
+Relation	30	32	SuperSub	true	recession	gained
+Relation	30	33	SuperSub	true	recession	survey
+Relation	19	35	SuperSub	true	turmoil	pushing
+Relation	30	3	SuperSub	true	recession	drag
+Relation	30	4	SuperSub	true	recession	raising
+Relation	30	7	SuperSub	true	recession	summoned
+Relation	30	8	SuperSub	true	recession	talks
+Relation	30	28	SuperSub	true	recession	hammered
+Relation	30	35	SuperSub	true	recession	pushing

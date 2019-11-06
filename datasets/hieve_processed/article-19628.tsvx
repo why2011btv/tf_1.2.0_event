@@ -1,0 +1,36 @@
+Text	Syrian rebels delivered six U.N. ceasefire monitors caught up in attack that killed at least 21 civilians to U.N. colleagues on Wednesday , a rebel commander said . `` We gave the six with their cars to a U.N. convoy near the entrance of Khan Sheikhoun . They are all safe , in good heath and on their way to Damascus , '' Free Syrian Army commander Abu Hassan said by satellite phone from the site of the handover . Video footage released by the Free Syrian Army showed a United Nations convoy , including damaged U.N. vehicles on flatbed trucks , driving off from the area . Abu Hassan said the monitors , whose cars were damaged in the attack at a funeral in Khan Sheikhoun on Tuesday , had been under protection of the rebels since then . Rebels said the attack was carried out by government forces , while pro-government media accused unidentified gunmen of carrying it out . ( Reporting by Mariam Karouny and Khaled Yacoub Oweis ; Editing by Louise Ireland )
+Event	1	delivered	Occurrence	14	2
+Event	2	caught	I_Action	52	7
+Event	3	attack	Occurrence	65	10
+Event	4	killed	Occurrence	77	12
+Event	5	said	Reporting	157	26
+Event	6	gave	Occurrence	167	30
+Event	7	said	Reporting	352	69
+Event	8	handover	Occurrence	397	78
+Event	9	released	Occurrence	421	82
+Event	10	driving	Occurrence	537	102
+Event	11	said	Reporting	575	110
+Event	12	damaged	Occurrence	610	95
+Event	13	attack	Occurrence	625	120
+Event	14	funeral	Occurrence	637	123
+Event	15	said	Reporting	734	141
+Event	16	attack	Occurrence	743	143
+Event	17	carried	I_Action	754	145
+Event	18	accused	Occurrence	815	154
+Relation	6	1	Coref	false	gave	delivered
+Relation	8	6	Coref	false	handover	gave
+Relation	13	3	Coref	false	attack	attack
+Relation	16	13	Coref	false	attack	attack
+Relation	3	4	SuperSub	false	attack	killed
+Relation	3	12	SuperSub	false	attack	damaged
+Relation	14	13	SuperSub	false	funeral	attack
+Relation	13	4	SuperSub	true	attack	killed
+Relation	13	12	SuperSub	true	attack	damaged
+Relation	14	3	SuperSub	true	funeral	attack
+Relation	14	16	SuperSub	true	funeral	attack
+Relation	14	4	SuperSub	true	funeral	killed
+Relation	14	12	SuperSub	true	funeral	damaged
+Relation	14	4	SuperSub	true	funeral	killed
+Relation	14	12	SuperSub	true	funeral	damaged
+Relation	14	4	SuperSub	true	funeral	killed
+Relation	14	12	SuperSub	true	funeral	damaged

@@ -1,0 +1,16 @@
+Text	A Russian-made Soyuz craft carrying three astronauts has docked with the International Space Station , putting the crew in place for the imminent arrival of the first ever privately owned cargo ship to the orbiting lab . The Soyuz eased into position over the Mongolian-Kazakh border after a two-day trip that began with the launch from the Russian-leased Baikonur cosmodrome in southern Kazakhstan . Nasa astronaut Joseph Acaba and Russian cosmonauts Gennady Padalka and Sergei Revin are set for a four-and-half-month stay in space . Their arrival comes just two days ahead of the planned launch of the privately owned SpaceX 's Dragon Capsule from Cape Canaveral . The space station is currently occupied by Russian cosmonaut Oleg Kononenko , Nasa astronaut Don Pettit and Holland 's Andre Kuipers .
+Event	1	docked	Occurrence	57	8
+Event	2	putting	Occurrence	102	15
+Event	3	eased	Occurrence	229	39
+Event	4	trip	Occurrence	298	49
+Event	5	began	I_Action	308	51
+Event	6	launch	Occurrence	323	54
+Event	7	arrival	Occurrence	537	23
+Event	8	comes	Occurrence	545	87
+Relation	7	2	Coref	false	arrival	putting
+Relation	3	1	Coref	false	eased	docked
+Relation	4	6	SuperSub	false	trip	launch
+Relation	4	1	SuperSub	false	trip	docked
+Relation	4	7	SuperSub	false	trip	arrival
+Relation	4	3	SuperSub	true	trip	eased
+Relation	4	2	SuperSub	true	trip	putting

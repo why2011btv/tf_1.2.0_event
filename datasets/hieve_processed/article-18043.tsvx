@@ -1,0 +1,44 @@
+Text	`` Majid Jamali Fashi , the Mossad spy and the person who assassinated Masoud Ali Mohammadi , our nation 's nuclear scientist , was hanged Tuesday morning ( local time ) , '' IRNA said . Local media reported August 28 that Jamali Fashi was sentenced to death after being `` convicted of Moharebeh ( waging war against God ) for placing a bomb-laden bike and blowing it up in front of martyr Ali Mohammadi 's home , in collaboration with the Zionist regime and Mossad '' . Jamali Fashi stood trial as the main suspect in the killing of Ali Mohammadi , a particle physics professor at Tehran University who was killed in a bomb attack outside his home in January 2010 . Jamali Fashi also faced charges of cooperating with Israel 's spy agency Mossad and of receiving $ US120,000 for passing on intelligence to its agents . The Islamic republic has blamed the Jewish state and the United States for the killing of four of its scientists and nuclear experts since 2010 . Western powers and Israel suspect Iran is seeking an atomic weapons capability under the guise of its civilian nuclear and space programs - a charge Tehran vehemently denies .
+Event	1	assassinated	Occurrence	55	12
+Event	2	hanged	Occurrence	126	24
+Event	3	said	Reporting	169	34
+Event	4	reported	Reporting	187	38
+Event	5	sentenced	Occurrence	228	45
+Event	6	convicted	Occurrence	260	51
+Event	7	placing	Occurrence	312	61
+Event	8	blowing	Occurrence	342	66
+Event	9	collaboration	Occurrence	400	79
+Event	10	stood	I_Action	464	90
+Event	11	trial	Occurrence	470	91
+Event	12	killing	Occurrence	503	98
+Event	13	killed	Occurrence	587	112
+Event	14	attack	Occurrence	604	116
+Event	15	faced	I_Action	663	127
+Event	16	charges	I_Action	669	128
+Event	17	blamed	I_Action	820	154
+Event	18	killing	Occurrence	874	164
+Event	19	charge	Occurrence	1082	200
+Event	20	denies	I_Action	1107	203
+Relation	12	13	Coref	false	killing	killed
+Relation	12	1	Coref	false	killing	assassinated
+Relation	11	5	SuperSub	false	trial	sentenced
+Relation	11	6	SuperSub	false	trial	convicted
+Relation	8	12	SuperSub	false	blowing	killing
+Relation	9	14	SuperSub	false	collaboration	attack
+Relation	14	7	SuperSub	false	attack	placing
+Relation	14	8	SuperSub	false	attack	blowing
+Relation	18	13	SuperSub	false	killing	killed
+Relation	8	1	SuperSub	true	blowing	assassinated
+Relation	8	13	SuperSub	true	blowing	killed
+Relation	18	12	SuperSub	true	killing	killing
+Relation	9	7	SuperSub	true	collaboration	placing
+Relation	9	8	SuperSub	true	collaboration	blowing
+Relation	14	12	SuperSub	true	attack	killing
+Relation	9	7	SuperSub	true	collaboration	placing
+Relation	9	8	SuperSub	true	collaboration	blowing
+Relation	14	12	SuperSub	true	attack	killing
+Relation	9	12	SuperSub	true	collaboration	killing
+Relation	9	7	SuperSub	true	collaboration	placing
+Relation	9	8	SuperSub	true	collaboration	blowing
+Relation	14	12	SuperSub	true	attack	killing
+Relation	9	12	SuperSub	true	collaboration	killing

@@ -1,0 +1,122 @@
+Text	The Afghan president has announced that security control of a large section of the country is to be transferred to Afghan hands . Meanwhile , growing calls for troop withdrawal from allied nations may leave the US holding the bag in the conflict . Hamid Karzai ’ s announcement to push ahead with the five-stage power transfer will bring 122 more districts across Afghanistan under local security ’ s jurisdiction , making Afghan forces responsible for the protection of 75 percent of the population . The latest swathe of the country to be transferred includes the Uruzgan province , where most of the Australian coalition troops are currently in action . US President Barack Obama hailed the move as an “ important step ” in the US-Afghan security transition , in which the American government has pledged to hand over complete security control to Afghanistan by 2014 . The Afghan government has said this next stage of the security handover could take as little as six months . NATO estimates differ , putting the transition time at 12-18 months . The ranks of Afghan security forces currently stand at 350,000 , but there are still 130,000 NATO coalition troops active in the ongoing fight against insurgency in the country . The Afghanistan campaign has faced declining popularity with more nations resolving to accelerate the withdrawal of their troops . Australia announced an early withdrawal of troops in April , pledging to pull all forces out of the country by the end of 2013 . While newly elected French president Francois Hollande said during his campaign that he would push to have France ’ s soldiers withdrawn by the end of 2012 . This dwindling support for the war is bad news for the US , which has pledged annual financial backing of $ 4.1 billion to Afghanistan after signing the Strategic Partnership Agreement ( SPA ) at the beginning of May . The NATO summit in Chicago on May 20 will see President Obama pushing for the allied nations to front a quarter of the costs of financing the Afghan forces , equating to around $ 1 billion a year . However , this target may be overly ambitious given the backdrop of worsening financial crisis in Europe and growing calls to withdraw allied troops as soon as possible . John Rees from the Stop the War coalition told RT that ten years of war are having a disastrous effect on all the countries involved . “ The clearest way to bring that to an end , the clearest way to stop the war spilling over the Afghan borders into other countries is to end the occupation now . The advice that should be given to all the major powers that are at work in Afghanistan is to get out of it , ” Rees told RT . Meanwhile , the assassination of top Afghan peace-negotiator Maulvi Arsala Rahmani in Kabul on Sunday has dealt a significant blow to talks with the Taliban . Taliban defector Rahmani used his strong ties with the terrorist movement to reach out to its commanders . His death has been described as a “ huge loss to Afghanistan ” by President Karzai ’ s spokesperson Aimal Faizi . The Taliban have denied any involvement in Rahmani ’ s killing , although they had previously said they would target peace negotiators . Western neglect of Afghanistan after the Soviet withdrawal brought about a growth of terror in the country , Afghan President Hamid Karzai believes . This in turn led to both 9/11 , and terror attacks in Russia , he insists .
+Event	1	announced	Reporting	25	4
+Event	2	growing	StateChange	140	25
+Event	3	calls	I_Action	148	26
+Event	4	conflict	Occurrence	235	42
+Event	5	announcement	I_Action	260	48
+Event	6	hailed	I_Action	672	115
+Event	7	move	Occurrence	683	117
+Event	8	transition	Occurrence	737	128
+Event	9	pledged	I_Action	786	136
+Event	10	said	Reporting	883	152
+Event	11	handover	Occurrence	920	159
+Event	12	fight	I_Action	1169	203
+Event	13	insurgency	Occurrence	1183	205
+Event	14	campaign	Occurrence	1226	212
+Event	15	faced	I_Action	1239	214
+Event	16	declining	StateChange	1245	215
+Event	17	resolving	I_Action	1284	220
+Event	18	withdrawal	Occurrence	1312	29
+Event	19	announced	I_Action	1350	230
+Event	20	pledging	I_Action	1400	239
+Event	21	elected	Occurrence	1479	256
+Event	22	said	Reporting	1522	261
+Event	23	campaign	Occurrence	1538	264
+Event	24	dwindling	StateChange	1627	283
+Event	25	war	Occurrence	1653	287
+Event	26	pledged	I_Action	1691	297
+Event	27	signing	Occurrence	1761	308
+Event	28	worsening	StateChange	2098	373
+Event	29	crisis	Occurrence	2118	375
+Event	30	growing	StateChange	2139	379
+Event	31	calls	I_Action	2147	380
+Event	32	told	Reporting	2242	398
+Event	33	war	Occurrence	2268	404
+Event	34	war	Occurrence	2406	433
+Event	35	occupation	Occurrence	2478	446
+Event	36	told	Reporting	2609	475
+Event	37	assassination	Occurrence	2633	481
+Event	38	dealt	I_Action	2723	494
+Event	39	blow	I_Action	2743	497
+Event	40	talks	HalfGeneric	2751	499
+Event	41	used	I_Action	2800	507
+Event	42	reach	Reporting	2852	516
+Event	43	death	Occurrence	2885	523
+Event	44	described	I_Action	2900	526
+Event	45	denied	I_Action	3007	547
+Event	46	killing	Occurrence	3043	554
+Event	47	said	Reporting	3081	560
+Event	48	withdrawal	Occurrence	3171	224
+Event	49	brought	I_Action	3182	575
+Event	50	growth	StateChange	3198	578
+Event	51	led	I_Action	3284	594
+Event	53	attacks	HalfGeneric	3313	601
+Event	54	insists	Reporting	3335	606
+Relation	8	11	Coref	false	transition	handover
+Relation	24	16	Coref	false	dwindling	declining
+Relation	25	4	Coref	false	war	conflict
+Relation	30	2	Coref	false	growing	growing
+Relation	33	4	Coref	false	war	conflict
+Relation	34	33	Coref	false	war	war
+Relation	43	37	Coref	false	death	assassination
+Relation	46	43	Coref	false	killing	death
+Relation	4	2	SuperSub	false	conflict	growing
+Relation	4	8	SuperSub	false	conflict	transition
+Relation	8	7	SuperSub	false	transition	move
+Relation	4	13	SuperSub	false	conflict	insurgency
+Relation	14	4	SuperSub	false	campaign	conflict
+Relation	14	16	SuperSub	false	campaign	declining
+Relation	11	18	SuperSub	false	handover	withdrawal
+Relation	29	28	SuperSub	false	crisis	worsening
+Relation	14	35	SuperSub	false	campaign	occupation
+Relation	40	37	SuperSub	false	talks	assassination
+Relation	8	48	SuperSub	false	transition	withdrawal
+Relation	25	2	SuperSub	true	war	growing
+Relation	33	2	SuperSub	true	war	growing
+Relation	4	30	SuperSub	true	conflict	growing
+Relation	25	8	SuperSub	true	war	transition
+Relation	33	8	SuperSub	true	war	transition
+Relation	4	11	SuperSub	true	conflict	handover
+Relation	11	7	SuperSub	true	handover	move
+Relation	25	13	SuperSub	true	war	insurgency
+Relation	33	13	SuperSub	true	war	insurgency
+Relation	14	25	SuperSub	true	campaign	war
+Relation	14	33	SuperSub	true	campaign	war
+Relation	14	24	SuperSub	true	campaign	dwindling
+Relation	8	18	SuperSub	true	transition	withdrawal
+Relation	40	43	SuperSub	true	talks	death
+Relation	11	48	SuperSub	true	handover	withdrawal
+Relation	4	7	SuperSub	true	conflict	move
+Relation	4	48	SuperSub	true	conflict	withdrawal
+Relation	14	2	SuperSub	true	campaign	growing
+Relation	14	8	SuperSub	true	campaign	transition
+Relation	14	13	SuperSub	true	campaign	insurgency
+Relation	25	7	SuperSub	true	war	move
+Relation	25	48	SuperSub	true	war	withdrawal
+Relation	33	7	SuperSub	true	war	move
+Relation	33	48	SuperSub	true	war	withdrawal
+Relation	4	18	SuperSub	true	conflict	withdrawal
+Relation	4	7	SuperSub	true	conflict	move
+Relation	4	48	SuperSub	true	conflict	withdrawal
+Relation	14	2	SuperSub	true	campaign	growing
+Relation	14	8	SuperSub	true	campaign	transition
+Relation	14	13	SuperSub	true	campaign	insurgency
+Relation	25	7	SuperSub	true	war	move
+Relation	25	48	SuperSub	true	war	withdrawal
+Relation	33	7	SuperSub	true	war	move
+Relation	33	48	SuperSub	true	war	withdrawal
+Relation	4	18	SuperSub	true	conflict	withdrawal
+Relation	14	7	SuperSub	true	campaign	move
+Relation	14	48	SuperSub	true	campaign	withdrawal
+Relation	4	7	SuperSub	true	conflict	move
+Relation	4	48	SuperSub	true	conflict	withdrawal
+Relation	14	2	SuperSub	true	campaign	growing
+Relation	14	8	SuperSub	true	campaign	transition
+Relation	14	13	SuperSub	true	campaign	insurgency
+Relation	25	7	SuperSub	true	war	move
+Relation	25	48	SuperSub	true	war	withdrawal
+Relation	33	7	SuperSub	true	war	move
+Relation	33	48	SuperSub	true	war	withdrawal
+Relation	4	18	SuperSub	true	conflict	withdrawal
+Relation	14	7	SuperSub	true	campaign	move
+Relation	14	48	SuperSub	true	campaign	withdrawal

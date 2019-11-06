@@ -1,0 +1,56 @@
+Text	A Soyuz spaceship carrying two Russians and one American astronaut blasted off for the International Space Station ( ISS ) on Tuesday after more than a month 's delay over a problem with the hull of the Russian-built capsule . NASA astronaut Joseph Acaba , veteran cosmonaut Gennady Padalka and Sergei Revin , who is departing on his maiden space flight , launched in clear skies aboard the Soyuz TMA-04M rocket from the Baikonur cosmodrome in Kazakhstan on Monday night . Three minutes into the flight , the crew members gave a thumbs-up signal to a camera on board the capsule . An anchor inside Mission Control outside Moscow told assembled scientists and students that the three astronauts were feeling well . The trio will berth early on Wednesday , joining Russian cosmonaut Oleg Kononenko , NASA 's Don Pettit and European Space Agency astronaut Andre Kuipers aboard the ISS , a $ 100 billion research complex orbiting about 240 miles above Earth . Since the retirement of the space shuttles last year , the United States is dependent on Russia to fly astronauts to the ISS , which costs the nation $ 60 million per person . Moscow hopes a smooth mission will begin to restore confidence in its once-pioneering space program after a string of launch mishaps last year , including the failure of a mission touted as post-Soviet Russia 's interplanetary debut . Tuesday 's flight was delayed from March 30 to allow Russia 's partly state-owned space contractor , RKK Energia , to prepare a new capsule for launch after an accident during pressure tests damaged the Soyuz crew capsule . The previous crew of three at the ISS returned from the station in late April , following a delay due to safety fears after an unmanned Russian Progress craft taking supplies to the station broke up in the atmosphere in August . That was one of five botched launches last year that marred celebrations of the 50th anniversary of Soviet pilot Yuri Gagarin 's first human space flight , including a long-awaited unmanned mission to return samples from the Martian moon Phobos .
+Event	1	blasted	Occurrence	67	10
+Event	2	delay	Occurrence	158	28
+Event	3	problem	Occurrence	171	31
+Event	4	departing	I_Action	311	55
+Event	5	flight	Occurrence	341	60
+Event	6	launched	Occurrence	349	62
+Event	7	flight	Occurrence	488	85
+Event	8	gave	I_Action	513	90
+Event	9	signal	Occurrence	530	93
+Event	10	told	Reporting	619	109
+Event	11	retirement	Occurrence	949	166
+Event	12	mishaps	HalfGeneric	1236	218
+Event	13	failure	I_Action	1269	224
+Event	14	mission	Occurrence	1282	202
+Event	15	touted	I_Action	1290	228
+Event	16	debut	Occurrence	1336	234
+Event	17	flight	Occurrence	1353	238
+Event	18	delayed	I_Action	1364	240
+Event	19	prepare	Occurrence	1457	257
+Event	20	accident	Occurrence	1499	265
+Event	21	tests	Occurrence	1524	268
+Event	22	damaged	I_Action	1530	269
+Event	23	returned	Occurrence	1600	283
+Event	24	delay	Occurrence	1653	293
+Event	25	taking	Occurrence	1720	304
+Event	26	broke	Occurrence	1751	309
+Event	27	launches	Occurrence	1818	323
+Event	28	marred	I_Action	1842	327
+Event	29	celebrations	HalfGeneric	1849	328
+Event	30	flight	Occurrence	1935	342
+Event	31	mission	I_Action	1977	227
+Relation	1	6	Coref	false	blasted	launched
+Relation	5	7	Coref	false	flight	flight
+Relation	17	7	Coref	false	flight	flight
+Relation	5	1	SuperSub	false	flight	blasted
+Relation	7	9	SuperSub	false	flight	signal
+Relation	12	14	SuperSub	false	mishaps	mission
+Relation	21	20	SuperSub	false	tests	accident
+Relation	20	3	SuperSub	false	accident	problem
+Relation	25	26	SuperSub	false	taking	broke
+Relation	12	27	SuperSub	false	mishaps	launches
+Relation	29	12	SuperSub	false	celebrations	mishaps
+Relation	7	1	SuperSub	true	flight	blasted
+Relation	5	6	SuperSub	true	flight	launched
+Relation	17	9	SuperSub	true	flight	signal
+Relation	5	9	SuperSub	true	flight	signal
+Relation	21	3	SuperSub	true	tests	problem
+Relation	29	14	SuperSub	true	celebrations	mission
+Relation	29	27	SuperSub	true	celebrations	launches
+Relation	21	3	SuperSub	true	tests	problem
+Relation	29	14	SuperSub	true	celebrations	mission
+Relation	29	27	SuperSub	true	celebrations	launches
+Relation	21	3	SuperSub	true	tests	problem
+Relation	29	14	SuperSub	true	celebrations	mission
+Relation	29	27	SuperSub	true	celebrations	launches

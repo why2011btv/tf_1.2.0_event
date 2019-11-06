@@ -1,0 +1,40 @@
+Text	A 6-foot-long inactive training missile accidentally fell from a military helicopter into field near a Texas military post , causing the brief evacuation of nearby homes but not harming anyone , officials said . About 100 homes in a neighborhood near Fort Hood were evacuated Tuesday night after a witness reported seeing something fall from the sky around 8 p.m. , Killeen police spokeswoman Carroll Smith said . Residents were allowed back into their homes within an hour of the incident . Ordnance technicians from the Army post examined the missile and determined it did n't have a warhead or propulsion system , Fort Hood officials said . The training missile , which had implanted itself into the ground , was removed before midnight and left a hole in the ground several feet deep . `` Safety is always our No . 1 concern , and we regret the inconvenience to the families affected in the area , '' Col. Howard Arey , a Fort Hood aviation officer , said in a statement Wednesday . `` We want to reassure the public that our military aircraft never fly off the installation with live munitions . '' Arey said the post is investigating and reviewing its safety procedures , but `` we believe at this time that it is not a systemic issue . '' Copyright 2012 The Associated Press . All rights reserved . This material may not be published , broadcast , rewritten or redistributed .
+Event	1	fell	Occurrence	53	6
+Event	2	causing	I_Action	124	19
+Event	3	evacuation	Occurrence	142	22
+Event	4	said	Reporting	203	32
+Event	5	evacuated	Occurrence	263	44
+Event	6	reported	I_Action	303	50
+Event	7	seeing	Perception	312	51
+Event	8	fall	Occurrence	329	53
+Event	9	said	Reporting	403	66
+Event	10	allowed	Occurrence	424	70
+Event	11	incident	Occurrence	476	80
+Event	12	examined	Occurrence	526	88
+Event	13	determined	Occurrence	551	92
+Event	14	said	Reporting	629	106
+Event	15	implanted	Occurrence	667	114
+Event	16	removed	Occurrence	705	121
+Event	17	left	Occurrence	733	125
+Event	18	said	Reporting	934	169
+Event	19	said	Reporting	1082	197
+Event	20	investigating	Occurrence	1099	201
+Event	21	reviewing	Occurrence	1117	203
+Relation	5	3	Coref	false	evacuated	evacuation
+Relation	8	1	Coref	false	fall	fell
+Relation	11	1	SuperSub	false	incident	fell
+Relation	1	5	SuperSub	false	fell	evacuated
+Relation	11	7	SuperSub	false	incident	seeing
+Relation	8	15	SuperSub	false	fall	implanted
+Relation	12	13	SuperSub	false	examined	determined
+Relation	16	17	SuperSub	false	removed	left
+Relation	11	8	SuperSub	true	incident	fall
+Relation	8	5	SuperSub	true	fall	evacuated
+Relation	1	3	SuperSub	true	fell	evacuation
+Relation	1	15	SuperSub	true	fell	implanted
+Relation	11	5	SuperSub	true	incident	evacuated
+Relation	11	15	SuperSub	true	incident	implanted
+Relation	11	5	SuperSub	true	incident	evacuated
+Relation	11	15	SuperSub	true	incident	implanted
+Relation	11	5	SuperSub	true	incident	evacuated
+Relation	11	15	SuperSub	true	incident	implanted

@@ -1,0 +1,188 @@
+Text	Long-imprisoned Nobel laureate Aung San Suu Kyi 's political party claimed victory Monday in parliamentary elections in Myanmar , a dramatic development in the southeast Asian country 's efforts to end its international isolation . The party said Monday it had won at least 43 out of the 44 seats that it contested -- including Suu Kyi 's . `` This is not our triumph , this is a triumph of the people , '' Suu Kyi said as she arrived at the headquarters of the National League for Democracy in Yangon to meet with fellow candidates and other party members . U.S. Secretary of State Hillary Clinton was already cautiously hailing the results of the voting on Sunday . She told CNN she was `` very hopeful for the the people '' of Myanmar , also known as Burma . `` If this election goes as well as it is reported to have from the early reports , that would be a significant step , '' she said . The official election results of Sunday 's elections are expected sometime this week . The NLD prediction was based on the party 's own estimates , according to party member Thae Da Win Aung . It was still unclear whether the NLD had won the 44th seat , she said . While control of parliament will not change even if the opposition wins all 44 seats , the vote itself marks an important step forward for many in the country who have lived under military rule for 50 years . Suu Kyi , 66 , led her party to a landslide victory the last time Myanmar held multiparty elections , in 1990 . But the junta ignored the results and placed her under house arrest . Released in November 2010 , Suu Kyi was allowed to crisscross the country to rally support for the NLD for Sunday 's race . The United States announced in January that it would exchange ambassadors with Myanmar after the regime released political prisoners . Clinton visited Myanmar in December -- a historic trip marking the first time a secretary of state had been to the country in more than 50 years -- and British Foreign Secretary William Hague visited the following month . On Sunday Clinton said she had been impressed with her visit . `` I was very touched by the visit that I made and the commitments I received from members of the government who were quite sincere in their desire to move their country forward , '' she said , even as she underlined that the United States wanted to see `` continuing progress . '' The NLD fielded a candidate for every one of the 45 seats up for grabs . But the election commission rejected one candidate apparently because his parents had foreign residency . The NLD has said it plans to challenge his exclusion . The government had promised the vote would be free and fair , and allowed international observers to monitor the polling . On Sunday , the NLD said it had received more than 50 reports of voting irregularities . Suu Kyi has said she has no regrets about taking part in the by-elections because the process has raised people 's political awareness . In front of hundreds of supporters and journalists gathered at the NLD headquarters Monday , Suu Kyi said she planned to push for more emphasis on the role of the people in governing the country . She said she would happily work with anybody who wanted national reconciliation . Myanmar 's legislature has 664 seats , more than 80 % of which are still held by lawmakers aligned with the military-backed ruling party , Union Solidarity and Development Party ( USDP ) . The 45 seats under contention in Sunday 's elections were vacancies created by the promotion of parliamentarians to the Cabinet and other posts last year . Still , the election was an opportunity for voters to weigh in during a time of enormous change in Myanmar . Analysts said it was the first real test of the government 's commitment to transition from military rule . Two years ago , Myanmar staged a general election that was widely derided as a sham . Several former military leaders formed the Union Solidarity and Development Party ( USDP ) at the time to contest the election . Suu Kyi 's party boycotted it . After attracting international condemnation for manipulating the voting process in the 2010 race , Myanmar 's leaders appear to have concluded that a fairer election will be proof to the world that the authorities can conduct a legitimate vote , experts said . In the past 12 months , the country pardoned hundreds of political prisoners , secured a ceasefire with Karen rebels and agreed to negotiate with other ethnic rebel groups . Freer press rules have encouraged the proliferation of journals and magazines . Myanmar 's efforts to thaw its frosty relations with the rest of the world have been warmly welcomed and rewarded . In February , the European Union lifted a travel ban on Myanmar officials . There have been hints , too , that a successful vote on Sunday would lead to the relatively swift unraveling of sanctions that have long choked the country 's economy . Thousands of Burmese living in exile around the world were watching the election for a clear sign that it is safe to return home . As a member of parliament , Suu Kyi would be expected to be free to travel outside Myanmar -- and more importantly to return -- something that was n't possible during her long years of repression and confinement .
+Event	1	claimed	I_Action	66	10
+Event	2	victory	Occurrence	74	11
+Event	3	elections	Occurrence	106	15
+Event	4	development	Occurrence	139	21
+Event	5	efforts	I_Action	184	28
+Event	6	said	Reporting	238	37
+Event	7	won	Occurrence	257	41
+Event	8	contested	Occurrence	301	52
+Event	9	triumph	Occurrence	352	64
+Event	10	triumph	Occurrence	371	69
+Event	11	said	Reporting	403	77
+Event	12	arrived	I_Action	415	80
+Event	13	hailing	Reporting	609	111
+Event	14	voting	Occurrence	636	116
+Event	15	told	Reporting	658	121
+Event	16	election	Occurrence	751	144
+Event	17	said	Reporting	862	168
+Event	18	elections	Occurrence	910	177
+Event	19	said	Reporting	1120	219
+Event	20	vote	Occurrence	1216	238
+Event	21	led	I_Action	1346	265
+Event	22	victory	Occurrence	1375	271
+Event	23	held	I_Action	1405	276
+Event	24	elections	Occurrence	1421	278
+Event	25	ignored	Occurrence	1455	286
+Event	26	placed	I_Action	1479	290
+Event	27	arrest	Occurrence	1502	294
+Event	28	Released	Occurrence	1509	296
+Event	29	allowed	I_Action	1549	304
+Event	30	crisscross	I_Action	1560	306
+Event	31	rally	Occurrence	1586	310
+Event	32	race	Occurrence	1625	318
+Event	33	announced	Reporting	1649	323
+Event	34	visited	Occurrence	1773	341
+Event	35	trip	Occurrence	1815	348
+Event	36	visited	Occurrence	1957	374
+Event	37	said	Reporting	2004	382
+Event	38	impressed	StateChange	2022	386
+Event	39	visit	Occurrence	2041	389
+Event	40	visit	Occurrence	2075	398
+Event	41	made	I_Action	2088	401
+Event	42	received	Occurrence	2115	406
+Event	43	said	Reporting	2230	427
+Event	44	underlined	Reporting	2248	432
+Event	45	fielded	Occurrence	2327	447
+Event	46	rejected	Occurrence	2419	465
+Event	47	said	Reporting	2508	479
+Event	48	exclusion	Occurrence	2539	485
+Event	49	promised	Occurrence	2569	490
+Event	50	vote	Occurrence	2582	492
+Event	51	allowed	I_Action	2615	500
+Event	52	monitor	Occurrence	2650	504
+Event	53	polling	Occurrence	2662	506
+Event	54	said	Reporting	2690	513
+Event	55	received	I_Action	2702	516
+Event	56	said	Reporting	2770	528
+Event	57	elections	Occurrence	2822	640
+Event	58	raised	StateChange	2856	543
+Event	59	gathered	Occurrence	2944	557
+Event	60	said	Reporting	2993	566
+Event	61	planned	I_Action	3002	568
+Event	62	said	Reporting	3092	586
+Event	64	created	Occurrence	3418	643
+Event	65	promotion	Occurrence	3433	646
+Event	66	election	Occurrence	3516	172
+Event	67	opportunity	I_Action	3532	664
+Event	68	said	Reporting	3621	680
+Event	69	test	Occurrence	3648	686
+Event	70	staged	I_Action	3741	703
+Event	71	election	Occurrence	3758	463
+Event	72	derided	Occurrence	3783	710
+Event	73	formed	I_Action	3834	719
+Event	74	contest	I_Action	3906	733
+Event	75	election	Occurrence	3918	661
+Event	76	boycotted	Occurrence	3944	741
+Event	77	attracting	I_Action	3964	745
+Event	78	condemnation	I_Action	3989	747
+Event	79	manipulating	I_Action	4006	749
+Event	80	process	Occurrence	4030	541
+Event	81	race	Occurrence	4050	756
+Event	82	said	Reporting	4209	785
+Event	83	pardoned	HalfGeneric	4250	795
+Event	84	secured	I_Action	4292	801
+Event	85	ceasefire	Occurrence	4302	803
+Event	86	agreed	I_Action	4334	808
+Event	87	encouraged	I_Action	4409	821
+Event	88	proliferation	HalfGeneric	4424	823
+Event	89	efforts	I_Action	4475	831
+Event	90	welcomed	Occurrence	4556	846
+Event	91	rewarded	Occurrence	4569	848
+Event	92	lifted	Occurrence	4611	856
+Event	93	sanctions	HalfGeneric	4763	885
+Event	94	watching	I_Action	4877	905
+Event	95	election	Occurrence	4890	706
+Event	96	repression	HalfGeneric	5131	955
+Event	97	confinement	HalfGeneric	5146	957
+Relation	4	2	Coref	false	development	victory
+Relation	9	10	Coref	false	triumph	triumph
+Relation	16	3	Coref	false	election	elections
+Relation	18	16	Coref	false	elections	election
+Relation	9	7	Coref	false	triumph	won
+Relation	20	14	Coref	false	vote	voting
+Relation	32	20	Coref	false	race	vote
+Relation	39	34	Coref	false	visit	visited
+Relation	40	39	Coref	false	visit	visit
+Relation	48	46	Coref	false	exclusion	rejected
+Relation	50	20	Coref	false	vote	vote
+Relation	53	50	Coref	false	polling	vote
+Relation	57	18	Coref	false	elections	elections
+Relation	63	57	Coref	false	elections	elections
+Relation	66	63	Coref	false	election	elections
+Relation	75	71	Coref	false	election	election
+Relation	69	66	Coref	false	test	election
+Relation	81	75	Coref	false	race	election
+Relation	95	69	Coref	false	election	test
+Relation	3	2	SuperSub	false	elections	victory
+Relation	8	7	SuperSub	false	contested	won
+Relation	3	14	SuperSub	false	elections	voting
+Relation	3	8	SuperSub	false	elections	contested
+Relation	24	22	SuperSub	false	elections	victory
+Relation	27	28	SuperSub	false	arrest	Released
+Relation	18	31	SuperSub	false	elections	rally
+Relation	35	34	SuperSub	false	trip	visited
+Relation	39	38	SuperSub	false	visit	impressed
+Relation	38	42	SuperSub	false	impressed	received
+Relation	18	45	SuperSub	false	elections	fielded
+Relation	45	46	SuperSub	false	fielded	rejected
+Relation	50	52	SuperSub	false	vote	monitor
+Relation	57	58	SuperSub	false	elections	raised
+Relation	65	64	SuperSub	false	promotion	created
+Relation	71	72	SuperSub	false	election	derided
+Relation	75	76	SuperSub	false	election	boycotted
+Relation	81	80	SuperSub	false	race	process
+Relation	91	92	SuperSub	false	rewarded	lifted
+Relation	27	96	SuperSub	false	arrest	repression
+Relation	27	97	SuperSub	false	arrest	confinement
+Relation	16	2	SuperSub	true	election	victory
+Relation	3	4	SuperSub	true	elections	development
+Relation	8	9	SuperSub	true	contested	triumph
+Relation	16	14	SuperSub	true	election	voting
+Relation	3	20	SuperSub	true	elections	vote
+Relation	16	8	SuperSub	true	election	contested
+Relation	57	31	SuperSub	true	elections	rally
+Relation	16	31	SuperSub	true	election	rally
+Relation	35	39	SuperSub	true	trip	visit
+Relation	40	38	SuperSub	true	visit	impressed
+Relation	34	38	SuperSub	true	visited	impressed
+Relation	57	45	SuperSub	true	elections	fielded
+Relation	16	45	SuperSub	true	election	fielded
+Relation	45	48	SuperSub	true	fielded	exclusion
+Relation	20	52	SuperSub	true	vote	monitor
+Relation	53	52	SuperSub	true	polling	monitor
+Relation	63	58	SuperSub	true	elections	raised
+Relation	18	58	SuperSub	true	elections	raised
+Relation	75	72	SuperSub	true	election	derided
+Relation	71	76	SuperSub	true	election	boycotted
+Relation	81	76	SuperSub	true	race	boycotted
+Relation	75	80	SuperSub	true	election	process
+Relation	3	7	SuperSub	true	elections	won
+Relation	39	42	SuperSub	true	visit	received
+Relation	18	46	SuperSub	true	elections	rejected
+Relation	16	7	SuperSub	true	election	won
+Relation	35	38	SuperSub	true	trip	impressed
+Relation	40	42	SuperSub	true	visit	received
+Relation	34	42	SuperSub	true	visited	received
+Relation	57	46	SuperSub	true	elections	rejected
+Relation	16	46	SuperSub	true	election	rejected
+Relation	3	7	SuperSub	true	elections	won
+Relation	39	42	SuperSub	true	visit	received
+Relation	18	46	SuperSub	true	elections	rejected
+Relation	16	7	SuperSub	true	election	won
+Relation	35	38	SuperSub	true	trip	impressed
+Relation	40	42	SuperSub	true	visit	received
+Relation	34	42	SuperSub	true	visited	received
+Relation	57	46	SuperSub	true	elections	rejected
+Relation	16	46	SuperSub	true	election	rejected
+Relation	35	42	SuperSub	true	trip	received
+Relation	3	7	SuperSub	true	elections	won
+Relation	39	42	SuperSub	true	visit	received
+Relation	18	46	SuperSub	true	elections	rejected
+Relation	16	7	SuperSub	true	election	won
+Relation	35	38	SuperSub	true	trip	impressed
+Relation	40	42	SuperSub	true	visit	received
+Relation	34	42	SuperSub	true	visited	received
+Relation	57	46	SuperSub	true	elections	rejected
+Relation	16	46	SuperSub	true	election	rejected
+Relation	35	42	SuperSub	true	trip	received

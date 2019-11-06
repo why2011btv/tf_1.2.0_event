@@ -1,0 +1,355 @@
+Text	Andre Iguodala hopped on the scorer 's table and played to the crowd as the catchy 76ers ' anthem blared in the arena . His teammates joined Iguodala and danced along as confetti fluttered around them . `` Number one , Philadelphia . Here they come , team of the year . '' Team of the first round , for sure . Eight years of going home empty in April is over . The Sixers at last had a reason to go wild . Iguodala made the go-ahead free throws with 2.2 seconds left and Philadelphia rallied for a 79-78 victory over the top-seeded Chicago Bulls in Game 6 on Thursday night , advancing to the second round of the Eastern Conference playoffs for the first time since 2003 . The 76ers will face Boston , which beat Atlanta in six games , in the conference semifinals . `` I do n't know how we won this game , '' coach Doug Collins said . Collins and the Sixers hardly cared the series win comes with an asterisk . The Bulls lost reigning MVP Derrick Rose to a torn anterior cruciate ligament in his left knee late in their Game 1 win . Center Joakim Noah missed the last three games with a sprained left ankle . `` I thought we had more than enough to win with , '' Bulls coach Tom Thibodeau said . `` I 'm disappointed in the loss but I 'm not disappointed in our team . '' Without their stars , the Bulls found it tough to gut one out against the Sixers . Omer Asik missed two free throws for the Bulls with 7 seconds left that would have given them a three-point lead . Iguodala grabbed the second miss , sprinted the length of the court , and was fouled by Asik on the driving layup . The Sixers put their season in the hands of one of the worst fourth-quarter free-throw shooters in the NBA . Collins was hunched over and his hands clasped with Iguodala at the line . He made both — and 20,362 fans went absolutely wild . Iguodala made nine of 10 free throws in the fourth quarter in this series after shooting 45 percent ( 23 of 51 ) from the line in the period this season . Iguodala changed his approach at the line this series . He started thinking what it would be like to teach his son how to shoot free throws . Dads do n't miss . `` I was like , 'Son , this is how you shoot free throws , ' '' Iguodala said . The Sixers are the fifth No . 8 seed to win a first-round series against a No . 1 seed . Memphis eliminated San Antonio last season , while Golden State ( 2007 ) , New York ( 1999 ) and Denver ( 1994 ) also pulled off the rare feat . In his second season , Collins had already led the Sixers to their first winning season in seven years . Now , it 's on to the second round for the first time since Allen Iverson was an All-Star . The Sixers were smiling and mobbed each other as they dashed to the locker room to keep the party going . The Sixers were 2.2 seconds from playing Game 7 in Chicago . Now , they will pack their bags for the second round . They went 2-1 against the Celtics this season . Collins had a catch in his voice at the postgame podium and was joined by his 4-year-old grandson , Cooper . Collins rubbed his head and held back tears talking about faith , family and his guys in the locker room . `` I 'm a Sixer for life , '' he said . Iguodala scored 20 points , and Jrue Holiday and Lou Williams each scored 14 for the Sixers who were outrebounded 56-33 . Iguodala snagged the one that mattered . `` We win on a rebound . Something we do n't get all night , '' a smiling Collins said . The Sixers started 20-9 and led the Atlantic Division for the first half of the season until a late fade sent them tumbling toward eighth place . None of that matters now . Not even the fact the Bulls were down two stars . The 50-win Bulls are heading home early a year after they reached the conference finals . `` We were on the ropes and we battled , '' forward Carlos Boozer said . `` In the end , it came down to the very last second . So , it 's tough . We were right there , given everything , right there . It will be a long summer . '' Luol Deng had 19 points and 17 rebounds for the Bulls . Richard Hamilton scored 19 points and Boozer grabbed 13 rebounds . The Bulls had the lock-down defensive effort to nearly pull off the win . The signature series came in the fourth quarter when the Sixers wasted a forced turnover on the other end with a brutal offensive possession . Spencer Hawes missed a shot , Thaddeus Young missed two straight in the paint , and Hawes missed again against hands-up defense that sent the bench into a frenzy . Noah was the first one up pumping his fist and screaming encouragement for the fantastic defensive effort . Hawes fired an airball next time down and there was a collective groan from the crowd . Iguodala made up for a string of Sixers misses with a tying 3 that made it 70-all . The Sixers tried to get a laugh by showing the Bulls bench on `` Kiss Cam . '' Noah popped his warmup jacket toward the camera and the crowd booed the oversized `` Chicago '' on the big screen . Noah was one of the top offensive rebounders in the league and the Bulls figured on missing his presence in the middle . Led by Deng and Boozer , the Bulls instead went out and controlled the boards , holding a 49-29 edge early in the fourth . `` We have to use this as motivation to move forward , '' Thibodeau said . Notes : The Sixers scored a measly 26 first-half points in their Game 5 loss . They led Game 6 48-40 at halftime . The Sixers started 12 of 20 from the field and finished the half at 50 percent . They shot a season-low 32 percent in Game 5 and failed to shoot better than 40 percent in three other games .
+Event	1	hopped	Occurrence	15	2
+Event	2	played	Occurrence	48	9
+Event	3	blared	Occurrence	96	19
+Event	4	joined	Occurrence	131	26
+Event	5	danced	Occurrence	151	29
+Event	6	fluttered	Occurrence	176	33
+Event	7	made	I_Action	399	85
+Event	8	throws	Occurrence	422	89
+Event	9	rallied	I_Action	468	96
+Event	10	victory	Occurrence	488	100
+Event	11	Game	Occurrence	533	107
+Event	12	advancing	I_Action	559	113
+Event	13	playoffs	Occurrence	615	122
+Event	14	beat	Occurrence	689	137
+Event	15	games	HalfGeneric	709	141
+Event	16	won	Occurrence	767	155
+Event	17	said	Reporting	802	163
+Event	18	win	Occurrence	855	173
+Event	19	lost	Occurrence	893	181
+Event	20	Game	Occurrence	992	199
+Event	21	win	Occurrence	999	201
+Event	22	missed	I_Action	1023	206
+Event	23	games	HalfGeneric	1045	210
+Event	24	said	Reporting	1154	234
+Event	25	loss	Occurrence	1185	242
+Event	26	missed	I_Action	1320	272
+Event	27	throws	Occurrence	1336	275
+Event	28	grabbed	I_Action	1433	293
+Event	29	miss	Occurrence	1452	296
+Event	30	sprinted	Occurrence	1458	298
+Event	31	fouled	Occurrence	1500	307
+Event	32	layup	Occurrence	1530	313
+Event	33	put	Occurrence	1548	317
+Event	34	hunched	Occurrence	1657	337
+Event	35	clasped	Occurrence	1684	342
+Event	36	made	Occurrence	1722	350
+Event	37	went	StateChange	1750	356
+Event	38	made	I_Action	1781	361
+Event	39	throws	HalfGeneric	1802	366
+Event	40	shooting	HalfGeneric	1852	375
+Event	41	changed	StateChange	1933	393
+Event	42	said	Reporting	2146	443
+Event	43	win	Occurrence	2191	226
+Event	44	eliminated	Occurrence	2246	467
+Event	45	pulled	I_Action	2348	491
+Event	46	mobbed	Occurrence	2594	542
+Event	47	dashed	I_Action	2620	547
+Event	48	party	Occurrence	2658	555
+Event	49	went	Occurrence	2789	583
+Event	50	catch	Occurrence	2845	594
+Event	51	joined	Occurrence	2895	604
+Event	52	rubbed	Occurrence	2946	613
+Event	53	talking	Reporting	2982	620
+Event	54	said	Reporting	3070	643
+Event	55	scored	Occurrence	3085	646
+Event	56	scored	Occurrence	3142	657
+Event	57	outrebounded	Occurrence	3176	664
+Event	58	snagged	Occurrence	3205	668
+Event	59	win	Occurrence	3240	455
+Event	60	said	Reporting	3311	693
+Event	61	started	Occurrence	3328	403
+Event	62	reached	I_Action	3595	750
+Event	63	battled	Occurrence	3655	763
+Event	64	said	Reporting	3687	769
+Event	65	given	Occurrence	3781	286
+Event	66	rebounds	HalfGeneric	3870	817
+Event	67	scored	Occurrence	3911	824
+Event	68	grabbed	I_Action	3939	829
+Event	69	rebounds	HalfGeneric	3950	831
+Event	70	effort	I_Action	3998	839
+Event	71	series	Occurrence	4047	172
+Event	72	came	Occurrence	4054	777
+Event	73	wasted	I_Action	4097	858
+Event	74	turnover	Occurrence	4113	861
+Event	75	missed	I_Action	4189	874
+Event	76	missed	Occurrence	4219	880
+Event	77	missed	Occurrence	4263	889
+Event	78	sent	StateChange	4306	715
+Event	79	pumping	Occurrence	4362	908
+Event	80	screaming	Occurrence	4383	912
+Event	81	effort	Occurrence	4435	918
+Event	82	fired	Occurrence	4449	921
+Event	83	groan	Occurrence	4508	932
+Event	84	made	I_Action	4539	938
+Event	85	string	I_Action	4553	942
+Event	86	misses	HalfGeneric	4570	945
+Event	87	made	Occurrence	4597	951
+Event	88	tried	I_Action	4624	957
+Event	89	popped	Occurrence	4692	974
+Event	90	booed	Occurrence	4749	984
+Event	91	figured	I_Action	4871	1009
+Event	92	said	Reporting	5101	1057
+Event	93	scored	Occurrence	5125	1063
+Event	94	loss	Occurrence	5178	1073
+Event	95	led	I_Action	5189	505
+Event	96	Game	Occurrence	5193	565
+Event	97	started	Occurrence	5230	697
+Event	98	finished	Occurrence	5266	1093
+Event	99	shot	Occurrence	5304	876
+Event	100	Game	Occurrence	5336	1071
+Event	101	failed	I_Action	5347	1110
+Event	102	games	HalfGeneric	5401	1120
+Relation	16	10	Coref	false	won	victory
+Relation	18	16	Coref	false	win	won
+Relation	43	18	Coref	false	win	win
+Relation	59	43	Coref	false	win	win
+Relation	81	71	Coref	false	effort	series
+Relation	96	11	Coref	false	Game	Game
+Relation	15	14	SuperSub	false	games	beat
+Relation	11	8	SuperSub	false	Game	throws
+Relation	8	10	SuperSub	false	throws	victory
+Relation	11	3	SuperSub	false	Game	blared
+Relation	2	4	SuperSub	false	played	joined
+Relation	11	6	SuperSub	false	Game	fluttered
+Relation	20	19	SuperSub	false	Game	lost
+Relation	20	21	SuperSub	false	Game	win
+Relation	11	25	SuperSub	false	Game	loss
+Relation	27	29	SuperSub	false	throws	miss
+Relation	32	31	SuperSub	false	layup	fouled
+Relation	11	27	SuperSub	false	Game	throws
+Relation	11	30	SuperSub	false	Game	sprinted
+Relation	11	32	SuperSub	false	Game	layup
+Relation	11	33	SuperSub	false	Game	put
+Relation	11	34	SuperSub	false	Game	hunched
+Relation	11	35	SuperSub	false	Game	clasped
+Relation	11	37	SuperSub	false	Game	went
+Relation	8	36	SuperSub	false	throws	made
+Relation	48	46	SuperSub	false	party	mobbed
+Relation	11	48	SuperSub	false	Game	party
+Relation	48	1	SuperSub	false	party	hopped
+Relation	48	2	SuperSub	false	party	played
+Relation	48	5	SuperSub	false	party	danced
+Relation	27	58	SuperSub	false	throws	snagged
+Relation	11	57	SuperSub	false	Game	outrebounded
+Relation	11	55	SuperSub	false	Game	scored
+Relation	11	56	SuperSub	false	Game	scored
+Relation	48	50	SuperSub	false	party	catch
+Relation	48	51	SuperSub	false	party	joined
+Relation	48	52	SuperSub	false	party	rubbed
+Relation	63	65	SuperSub	false	battled	given
+Relation	11	63	SuperSub	false	Game	battled
+Relation	11	66	SuperSub	false	Game	rebounds
+Relation	11	67	SuperSub	false	Game	scored
+Relation	11	69	SuperSub	false	Game	rebounds
+Relation	11	71	SuperSub	false	Game	series
+Relation	11	74	SuperSub	false	Game	turnover
+Relation	77	78	SuperSub	false	missed	sent
+Relation	71	79	SuperSub	false	series	pumping
+Relation	71	80	SuperSub	false	series	screaming
+Relation	82	83	SuperSub	false	fired	groan
+Relation	86	76	SuperSub	false	misses	missed
+Relation	86	77	SuperSub	false	misses	missed
+Relation	86	82	SuperSub	false	misses	fired
+Relation	71	86	SuperSub	false	series	misses
+Relation	11	89	SuperSub	false	Game	popped
+Relation	11	90	SuperSub	false	Game	booed
+Relation	11	87	SuperSub	false	Game	made
+Relation	100	93	SuperSub	false	Game	scored
+Relation	100	94	SuperSub	false	Game	loss
+Relation	100	99	SuperSub	false	Game	shot
+Relation	96	97	SuperSub	false	Game	started
+Relation	96	98	SuperSub	false	Game	finished
+Relation	96	8	SuperSub	true	Game	throws
+Relation	8	16	SuperSub	true	throws	won
+Relation	96	3	SuperSub	true	Game	blared
+Relation	96	6	SuperSub	true	Game	fluttered
+Relation	96	25	SuperSub	true	Game	loss
+Relation	96	27	SuperSub	true	Game	throws
+Relation	96	30	SuperSub	true	Game	sprinted
+Relation	96	32	SuperSub	true	Game	layup
+Relation	96	33	SuperSub	true	Game	put
+Relation	96	34	SuperSub	true	Game	hunched
+Relation	96	35	SuperSub	true	Game	clasped
+Relation	96	37	SuperSub	true	Game	went
+Relation	96	48	SuperSub	true	Game	party
+Relation	96	57	SuperSub	true	Game	outrebounded
+Relation	96	55	SuperSub	true	Game	scored
+Relation	96	56	SuperSub	true	Game	scored
+Relation	96	63	SuperSub	true	Game	battled
+Relation	96	66	SuperSub	true	Game	rebounds
+Relation	96	67	SuperSub	true	Game	scored
+Relation	96	69	SuperSub	true	Game	rebounds
+Relation	96	71	SuperSub	true	Game	series
+Relation	11	81	SuperSub	true	Game	effort
+Relation	96	74	SuperSub	true	Game	turnover
+Relation	81	79	SuperSub	true	effort	pumping
+Relation	81	80	SuperSub	true	effort	screaming
+Relation	81	86	SuperSub	true	effort	misses
+Relation	96	89	SuperSub	true	Game	popped
+Relation	96	90	SuperSub	true	Game	booed
+Relation	96	87	SuperSub	true	Game	made
+Relation	11	97	SuperSub	true	Game	started
+Relation	11	98	SuperSub	true	Game	finished
+Relation	11	10	SuperSub	true	Game	victory
+Relation	11	36	SuperSub	true	Game	made
+Relation	11	29	SuperSub	true	Game	miss
+Relation	11	58	SuperSub	true	Game	snagged
+Relation	11	31	SuperSub	true	Game	fouled
+Relation	11	46	SuperSub	true	Game	mobbed
+Relation	11	1	SuperSub	true	Game	hopped
+Relation	11	2	SuperSub	true	Game	played
+Relation	11	5	SuperSub	true	Game	danced
+Relation	11	50	SuperSub	true	Game	catch
+Relation	11	51	SuperSub	true	Game	joined
+Relation	11	52	SuperSub	true	Game	rubbed
+Relation	48	4	SuperSub	true	party	joined
+Relation	11	65	SuperSub	true	Game	given
+Relation	11	79	SuperSub	true	Game	pumping
+Relation	11	80	SuperSub	true	Game	screaming
+Relation	11	86	SuperSub	true	Game	misses
+Relation	86	78	SuperSub	true	misses	sent
+Relation	86	83	SuperSub	true	misses	groan
+Relation	71	76	SuperSub	true	series	missed
+Relation	71	77	SuperSub	true	series	missed
+Relation	71	82	SuperSub	true	series	fired
+Relation	96	10	SuperSub	true	Game	victory
+Relation	96	36	SuperSub	true	Game	made
+Relation	96	29	SuperSub	true	Game	miss
+Relation	96	58	SuperSub	true	Game	snagged
+Relation	96	31	SuperSub	true	Game	fouled
+Relation	96	46	SuperSub	true	Game	mobbed
+Relation	96	1	SuperSub	true	Game	hopped
+Relation	96	2	SuperSub	true	Game	played
+Relation	96	5	SuperSub	true	Game	danced
+Relation	96	50	SuperSub	true	Game	catch
+Relation	96	51	SuperSub	true	Game	joined
+Relation	96	52	SuperSub	true	Game	rubbed
+Relation	96	4	SuperSub	true	Game	joined
+Relation	96	65	SuperSub	true	Game	given
+Relation	96	79	SuperSub	true	Game	pumping
+Relation	96	80	SuperSub	true	Game	screaming
+Relation	96	86	SuperSub	true	Game	misses
+Relation	96	76	SuperSub	true	Game	missed
+Relation	96	77	SuperSub	true	Game	missed
+Relation	96	82	SuperSub	true	Game	fired
+Relation	81	76	SuperSub	true	effort	missed
+Relation	81	77	SuperSub	true	effort	missed
+Relation	81	82	SuperSub	true	effort	fired
+Relation	81	78	SuperSub	true	effort	sent
+Relation	81	83	SuperSub	true	effort	groan
+Relation	11	10	SuperSub	true	Game	victory
+Relation	11	36	SuperSub	true	Game	made
+Relation	11	29	SuperSub	true	Game	miss
+Relation	11	58	SuperSub	true	Game	snagged
+Relation	11	31	SuperSub	true	Game	fouled
+Relation	11	46	SuperSub	true	Game	mobbed
+Relation	11	1	SuperSub	true	Game	hopped
+Relation	11	2	SuperSub	true	Game	played
+Relation	11	5	SuperSub	true	Game	danced
+Relation	11	50	SuperSub	true	Game	catch
+Relation	11	51	SuperSub	true	Game	joined
+Relation	11	52	SuperSub	true	Game	rubbed
+Relation	48	4	SuperSub	true	party	joined
+Relation	11	65	SuperSub	true	Game	given
+Relation	11	79	SuperSub	true	Game	pumping
+Relation	11	80	SuperSub	true	Game	screaming
+Relation	11	86	SuperSub	true	Game	misses
+Relation	86	78	SuperSub	true	misses	sent
+Relation	86	83	SuperSub	true	misses	groan
+Relation	71	76	SuperSub	true	series	missed
+Relation	71	77	SuperSub	true	series	missed
+Relation	71	82	SuperSub	true	series	fired
+Relation	96	10	SuperSub	true	Game	victory
+Relation	96	36	SuperSub	true	Game	made
+Relation	96	29	SuperSub	true	Game	miss
+Relation	96	58	SuperSub	true	Game	snagged
+Relation	96	31	SuperSub	true	Game	fouled
+Relation	96	46	SuperSub	true	Game	mobbed
+Relation	96	1	SuperSub	true	Game	hopped
+Relation	96	2	SuperSub	true	Game	played
+Relation	96	5	SuperSub	true	Game	danced
+Relation	96	50	SuperSub	true	Game	catch
+Relation	96	51	SuperSub	true	Game	joined
+Relation	96	52	SuperSub	true	Game	rubbed
+Relation	96	4	SuperSub	true	Game	joined
+Relation	96	65	SuperSub	true	Game	given
+Relation	96	79	SuperSub	true	Game	pumping
+Relation	96	80	SuperSub	true	Game	screaming
+Relation	96	86	SuperSub	true	Game	misses
+Relation	96	76	SuperSub	true	Game	missed
+Relation	96	77	SuperSub	true	Game	missed
+Relation	96	82	SuperSub	true	Game	fired
+Relation	81	76	SuperSub	true	effort	missed
+Relation	81	77	SuperSub	true	effort	missed
+Relation	81	82	SuperSub	true	effort	fired
+Relation	81	78	SuperSub	true	effort	sent
+Relation	81	83	SuperSub	true	effort	groan
+Relation	11	4	SuperSub	true	Game	joined
+Relation	11	76	SuperSub	true	Game	missed
+Relation	11	77	SuperSub	true	Game	missed
+Relation	11	82	SuperSub	true	Game	fired
+Relation	11	78	SuperSub	true	Game	sent
+Relation	11	83	SuperSub	true	Game	groan
+Relation	71	78	SuperSub	true	series	sent
+Relation	71	83	SuperSub	true	series	groan
+Relation	96	78	SuperSub	true	Game	sent
+Relation	96	83	SuperSub	true	Game	groan
+Relation	11	10	SuperSub	true	Game	victory
+Relation	11	36	SuperSub	true	Game	made
+Relation	11	29	SuperSub	true	Game	miss
+Relation	11	58	SuperSub	true	Game	snagged
+Relation	11	31	SuperSub	true	Game	fouled
+Relation	11	46	SuperSub	true	Game	mobbed
+Relation	11	1	SuperSub	true	Game	hopped
+Relation	11	2	SuperSub	true	Game	played
+Relation	11	5	SuperSub	true	Game	danced
+Relation	11	50	SuperSub	true	Game	catch
+Relation	11	51	SuperSub	true	Game	joined
+Relation	11	52	SuperSub	true	Game	rubbed
+Relation	48	4	SuperSub	true	party	joined
+Relation	11	65	SuperSub	true	Game	given
+Relation	11	79	SuperSub	true	Game	pumping
+Relation	11	80	SuperSub	true	Game	screaming
+Relation	11	86	SuperSub	true	Game	misses
+Relation	86	78	SuperSub	true	misses	sent
+Relation	86	83	SuperSub	true	misses	groan
+Relation	71	76	SuperSub	true	series	missed
+Relation	71	77	SuperSub	true	series	missed
+Relation	71	82	SuperSub	true	series	fired
+Relation	96	10	SuperSub	true	Game	victory
+Relation	96	36	SuperSub	true	Game	made
+Relation	96	29	SuperSub	true	Game	miss
+Relation	96	58	SuperSub	true	Game	snagged
+Relation	96	31	SuperSub	true	Game	fouled
+Relation	96	46	SuperSub	true	Game	mobbed
+Relation	96	1	SuperSub	true	Game	hopped
+Relation	96	2	SuperSub	true	Game	played
+Relation	96	5	SuperSub	true	Game	danced
+Relation	96	50	SuperSub	true	Game	catch
+Relation	96	51	SuperSub	true	Game	joined
+Relation	96	52	SuperSub	true	Game	rubbed
+Relation	96	4	SuperSub	true	Game	joined
+Relation	96	65	SuperSub	true	Game	given
+Relation	96	79	SuperSub	true	Game	pumping
+Relation	96	80	SuperSub	true	Game	screaming
+Relation	96	86	SuperSub	true	Game	misses
+Relation	96	76	SuperSub	true	Game	missed
+Relation	96	77	SuperSub	true	Game	missed
+Relation	96	82	SuperSub	true	Game	fired
+Relation	81	76	SuperSub	true	effort	missed
+Relation	81	77	SuperSub	true	effort	missed
+Relation	81	82	SuperSub	true	effort	fired
+Relation	81	78	SuperSub	true	effort	sent
+Relation	81	83	SuperSub	true	effort	groan
+Relation	11	4	SuperSub	true	Game	joined
+Relation	11	76	SuperSub	true	Game	missed
+Relation	11	77	SuperSub	true	Game	missed
+Relation	11	82	SuperSub	true	Game	fired
+Relation	11	78	SuperSub	true	Game	sent
+Relation	11	83	SuperSub	true	Game	groan
+Relation	71	78	SuperSub	true	series	sent
+Relation	71	83	SuperSub	true	series	groan
+Relation	96	78	SuperSub	true	Game	sent
+Relation	96	83	SuperSub	true	Game	groan

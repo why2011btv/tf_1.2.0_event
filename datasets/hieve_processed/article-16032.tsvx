@@ -1,0 +1,64 @@
+Text	A man dressed as a member of the Afghan army has opened fire on NATO troops in eastern Afghanistan , killing one soldier . The attack is under investigation . At the same time , the UN reports that civilian deaths are down . NATO announced on Friday that one of its soldiers had been killed in the east of Afghanistan , shot either by a member of the Afghan security forces or by somebody posing as one . `` An individual in Afghan army uniform turned his weapon against coalition service members in eastern Afghanistan today , killing one service member , '' NATO 's mission in Afghanistan said in a statement . The International Security Assistance Force ( ISAF ) gave no further details , as per standard policy , saying the soldier 's home country would announce his nationality when it saw fit . ISAF also said the incident was under investigation . This was the 15th case this year when men dressed in Afghan army uniform opened fire on NATO allies . 20 ISAF soldiers have been killed in such attacks during 2012 . Some of the attacks are claimed by the Taliban , who say they have infiltrated the Afghan army 's ranks , but others are attributed to friction between the two allied forces . Civilian deaths recede : UN The United Nations said on Thursday that civilian casualties in Afghanistan were down 20 percent between January and April this year in comparison to the same period in 2011 . Fighting often ebbs somewhat during the winter months in Afghanistan , with fighting usually intensifying after the snows melt . Over the past few months , the country was subjected to one of its harshest winters in 30 years . Civilian casualties have generally been on the increase year-on-year in Afghanistan since the US-led invasion in 2001 . Last year more than 3,000 civilians were killed and another 4,500 injured in Afghanistan , roughly a 5-percent increase compared to 2010 .
+Event	1	opened	I_Action	49	11
+Event	2	fire	Occurrence	56	12
+Event	3	killing	Occurrence	100	20
+Event	4	attack	Occurrence	125	25
+Event	5	investigation	Occurrence	141	28
+Event	6	reports	Reporting	181	37
+Event	7	down	StateChange	214	42
+Event	8	announced	Reporting	225	45
+Event	9	killed	Occurrence	279	55
+Event	10	shot	Occurrence	314	62
+Event	11	turned	Occurrence	436	86
+Event	12	killing	Occurrence	518	98
+Event	13	said	Reporting	577	109
+Event	14	statement	Occurrence	587	112
+Event	15	saying	Reporting	698	132
+Event	16	said	Reporting	790	149
+Event	17	incident	Occurrence	799	151
+Event	18	investigation	Occurrence	818	154
+Event	19	opened	I_Action	906	170
+Event	20	fire	Occurrence	913	171
+Event	21	killed	Occurrence	961	181
+Event	22	attacks	HalfGeneric	976	184
+Event	23	attacks	HalfGeneric	1009	191
+Event	24	claimed	I_Action	1021	193
+Event	25	say	Reporting	1049	199
+Event	26	infiltrated	Occurrence	1063	202
+Event	27	said	Reporting	1215	229
+Event	28	down	StateChange	1277	238
+Event	29	subjected	Occurrence	1540	285
+Event	30	invasion	Occurrence	1695	310
+Event	31	killed	HalfGeneric	1754	321
+Event	32	injured	HalfGeneric	1779	325
+Event	33	increase	StateChange	1823	303
+Relation	4	2	Coref	false	attack	fire
+Relation	9	3	Coref	false	killed	killing
+Relation	10	9	Coref	false	shot	killed
+Relation	11	2	Coref	false	turned	fire
+Relation	12	10	Coref	false	killing	shot
+Relation	18	5	Coref	false	investigation	investigation
+Relation	17	4	Coref	false	incident	attack
+Relation	23	22	Coref	false	attacks	attacks
+Relation	4	3	SuperSub	false	attack	killing
+Relation	22	20	SuperSub	false	attacks	fire
+Relation	20	21	SuperSub	false	fire	killed
+Relation	22	17	SuperSub	false	attacks	incident
+Relation	29	28	SuperSub	true	subjected	down
+Relation	33	31	SuperSub	false	increase	killed
+Relation	33	32	SuperSub	false	increase	injured
+Relation	17	3	SuperSub	true	incident	killing
+Relation	2	3	SuperSub	true	fire	killing
+Relation	4	9	SuperSub	true	attack	killed
+Relation	23	20	SuperSub	true	attacks	fire
+Relation	23	17	SuperSub	true	attacks	incident
+Relation	22	4	SuperSub	true	attacks	attack
+Relation	22	21	SuperSub	true	attacks	killed
+Relation	23	21	SuperSub	true	attacks	killed
+Relation	22	3	SuperSub	true	attacks	killing
+Relation	22	21	SuperSub	true	attacks	killed
+Relation	23	21	SuperSub	true	attacks	killed
+Relation	22	3	SuperSub	true	attacks	killing
+Relation	22	21	SuperSub	true	attacks	killed
+Relation	23	21	SuperSub	true	attacks	killed
+Relation	22	3	SuperSub	true	attacks	killing

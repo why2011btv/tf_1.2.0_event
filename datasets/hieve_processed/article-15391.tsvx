@@ -1,0 +1,41 @@
+Text	Twenty-nine people , including a woman pregnant with twins , were killed when the Real IRA bomb ripped through the Co Tyrone market town on 15 August , 1998 . The family campaigners have previously demanded a cross-border inquiry into whether the authorities in Northern Ireland and in the Republic of Ireland could have done more to prevent the bombing . Relatives who commissioned the report met Northern Ireland Secretary Owen Paterson in Belfast on Thursday ahead of presenting the final version to the UK Government next month . Michael Gallagher , whose 21-year-old son Aiden was murdered in the attack , said the meeting was `` hot and heavy '' . `` We told him we have evidence that there was a live police operation going on on August 15 that could have intercepted the bombers , '' he said . `` This is new evidence that has n't been made public before . '' He added : `` We also have evidence that public officials lied to the general public about the Omagh bombing . `` We will be producing all of that evidence to him on June 18 . '' Mr Gallagher said he would not be outlining full details of the evidence unearthed until the report had been passed to the Westminster Government . The Omagh Support and Self Help Group commissioned the report from a group of London-based consultants who have interviewed key figures associated with the case . The consultants have also examined material already compiled on the bombing . The documentation includes police reports from both sides of the Irish border , a probe carried out by the Police Ombudsman in Northern Ireland , plus a government-sponsored review of how intelligence on the attack was handled . The relatives also secured disclosure of other documents linked to the case . Four men have been held responsible by a civil court for the bombing . A man accused of murder was cleared by a court in 2007 .
+Event	1	killed	Occurrence	64	11
+Event	2	ripped	Occurrence	94	17
+Event	3	demanded	I_Action	194	35
+Event	4	bombing	Occurrence	342	59
+Event	5	murdered	Occurrence	579	97
+Event	6	attack	Occurrence	595	100
+Event	7	said	Reporting	603	102
+Event	8	meeting	Occurrence	612	104
+Event	9	said	Reporting	777	140
+Event	10	added	Reporting	846	157
+Event	11	said	Reporting	1026	195
+Event	12	commissioned	I_Action	1198	63
+Event	13	interviewed	Occurrence	1272	236
+Event	14	examined	Occurrence	1348	248
+Event	15	compiled	Occurrence	1374	251
+Event	16	bombing	Occurrence	1390	175
+Event	17	probe	Occurrence	1480	270
+Event	18	carried	I_Action	1486	271
+Event	19	secured	Occurrence	1644	297
+Event	20	bombing	Occurrence	1763	254
+Event	21	accused	I_Action	1778	323
+Event	22	cleared	Occurrence	1800	327
+Relation	4	2	Coref	false	bombing	ripped
+Relation	6	4	Coref	false	attack	bombing
+Relation	16	6	Coref	false	bombing	attack
+Relation	20	16	Coref	false	bombing	bombing
+Relation	6	2	Coref	false	attack	ripped
+Relation	2	1	SuperSub	false	ripped	killed
+Relation	1	5	SuperSub	false	killed	murdered
+Relation	6	1	SuperSub	true	attack	killed
+Relation	4	1	SuperSub	true	bombing	killed
+Relation	2	5	SuperSub	true	ripped	murdered
+Relation	6	5	SuperSub	true	attack	murdered
+Relation	4	5	SuperSub	true	bombing	murdered
+Relation	2	5	SuperSub	true	ripped	murdered
+Relation	6	5	SuperSub	true	attack	murdered
+Relation	4	5	SuperSub	true	bombing	murdered
+Relation	2	5	SuperSub	true	ripped	murdered
+Relation	6	5	SuperSub	true	attack	murdered
+Relation	4	5	SuperSub	true	bombing	murdered

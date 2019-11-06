@@ -1,0 +1,241 @@
+Text	A student who was left handcuffed and forgotten in a tiny holding cell for four days is suing US authorities for $ 20m ( €15m ) . After two days and desperate for food and water , Daniel Chong said he realised he had to stop wondering when he would be let out and start thinking about how to stay alive . Entering what he called “ survival mode , ” and already drinking his own urine , he tried to trigger an overhead fire sprinkler for some water , stacking clothes and a blanket and swinging his cuffed arms in an attempt to set it off . Chong , 23 , a student at the University of California , San Diego , had been picked up in a drug sweep but was never arrested or charged . He spent four days forgotten in the windowless cell before Drug Enforcement Administration agents opened the door . After his release , he spent five days in hospital for dehydration , kidney failure , cramps and a perforated oesophagus . He had lost 15lbs . His lawyers have filed the $ 20m claim against the Drug Enforcement Administration , saying his treatment constitutes torture under US and international law . The top DEA agent in San Diego , William R Sherman , said he was “ deeply troubled ” by what happened to Chong . Sherman said he has personally ordered an extensive review of his office ’ s policies and procedures . The agency declined to say what those were . Chong said no one has contacted him personally to apologise . He was among nine people taken into custody when agents stormed the house he was staying in and netted 18,000 ecstasy pills , other drugs and weapons . Chong was questioned then agents told him he was not a suspect and would be released shortly . He signed some paperwork , was put in handcuffs and sent back to the holding cell . As the hours dragged into days , he said he kicked and screamed as loud as he could . At one point , he ripped a piece of his jacket off with his teeth and shoved it under the door , hoping someone would spot it and free him . Chong said he ingested a white powder that he found in the cell . Agents later identified it as methamphetamine . Chong said he ingested it to survive . The next day , hallucinations started , he said . They included Japanese animation characters who told him to dig into the walls to search for water , which he tried , tearing apart the wall ’ s plastic lining . People can die from dehydration in as little as three to seven days , said Dr Wally Ghurabi at UCLA Medical Centre in Santa Monica . Ghurabi said Chong was wise to drink his own urine to stay hydrated . As the days dragged on , Chong said he accepted that he would die . He considered taking his own life rather than withering away by dehydration . He sat in the dark , his hallucinations deepening , his breath getting shorter and shorter , even the urine running out , and he screamed for the agents to at least let him have a quick death .
+Event	1	left	Occurrence	21	4
+Event	2	suing	Occurrence	91	17
+Event	3	said	Reporting	191	39
+Event	4	realised	I_Action	199	41
+Event	5	Entering	Occurrence	301	62
+Event	6	called	Reporting	319	65
+Event	7	drinking	Occurrence	355	73
+Event	8	tried	I_Action	382	79
+Event	9	stacking	Occurrence	442	90
+Event	10	swinging	Occurrence	477	96
+Event	11	attempt	I_Action	508	102
+Event	12	picked	Occurrence	605	125
+Event	13	sweep	Occurrence	625	130
+Event	14	spent	Occurrence	669	139
+Event	15	opened	Occurrence	764	152
+Event	16	release	Occurrence	791	158
+Event	17	spent	Occurrence	803	161
+Event	18	lost	Occurrence	907	180
+Event	19	filed	I_Action	936	186
+Event	20	saying	Reporting	1002	197
+Event	21	treatment	Occurrence	1013	199
+Event	22	said	Reporting	1126	220
+Event	23	happened	Occurrence	1164	229
+Event	24	said	Reporting	1191	234
+Event	25	ordered	I_Action	1214	238
+Event	26	declined	I_Action	1294	253
+Event	27	said	Reporting	1333	261
+Event	28	taken	Occurrence	1413	276
+Event	29	stormed	Occurrence	1444	281
+Event	30	netted	Occurrence	1484	289
+Event	31	questioned	Occurrence	1548	301
+Event	32	told	Reporting	1571	304
+Event	33	signed	Occurrence	1635	318
+Event	34	put	Occurrence	1662	323
+Event	35	sent	Occurrence	1683	327
+Event	36	said	Reporting	1749	342
+Event	37	kicked	Occurrence	1757	344
+Event	38	screamed	Occurrence	1768	346
+Event	39	ripped	Occurrence	1815	358
+Event	40	shoved	Occurrence	1867	369
+Event	41	said	Reporting	1942	385
+Event	42	ingested	Occurrence	1950	387
+Event	43	found	Occurrence	1982	393
+Event	44	identified	Occurrence	2014	400
+Event	45	said	Reporting	2054	406
+Event	46	ingested	I_Action	2062	408
+Event	47	survive	Occurrence	2077	411
+Event	48	hallucinations	HalfGeneric	2100	417
+Event	49	started	Occurrence	2115	418
+Event	50	said	Reporting	2127	421
+Event	51	told	I_Action	2181	429
+Event	52	dig	I_Action	2193	432
+Event	53	search	Occurrence	2215	437
+Event	54	tried	I_Action	2242	443
+Event	55	tearing	Occurrence	2249	445
+Event	56	said	Reporting	2359	468
+Event	57	said	Reporting	2429	481
+Event	58	drink	I_Action	2452	486
+Event	59	said	Reporting	2520	501
+Event	60	accepted	I_Action	2528	503
+Event	61	considered	I_Action	2559	510
+Event	62	sat	Occurrence	2636	523
+Event	63	hallucinations	HalfGeneric	2657	529
+Event	64	deepening	StateChange	2672	530
+Event	65	getting	StateChange	2694	534
+Event	66	running	Occurrence	2738	542
+Event	67	screamed	I_Action	2758	547
+Relation	63	48	Coref	false	hallucinations	hallucinations
+Relation	23	21	Coref	false	happened	treatment
+Relation	28	12	Coref	false	taken	picked
+Relation	13	12	SuperSub	false	sweep	picked
+Relation	14	5	SuperSub	false	spent	Entering
+Relation	14	7	SuperSub	false	spent	drinking
+Relation	14	9	SuperSub	false	spent	stacking
+Relation	14	10	SuperSub	false	spent	swinging
+Relation	14	15	SuperSub	false	spent	opened
+Relation	14	18	SuperSub	false	spent	lost
+Relation	13	29	SuperSub	false	sweep	stormed
+Relation	13	28	SuperSub	false	sweep	taken
+Relation	13	30	SuperSub	false	sweep	netted
+Relation	14	37	SuperSub	false	spent	kicked
+Relation	14	38	SuperSub	false	spent	screamed
+Relation	14	39	SuperSub	false	spent	ripped
+Relation	14	40	SuperSub	false	spent	shoved
+Relation	14	42	SuperSub	false	spent	ingested
+Relation	14	43	SuperSub	false	spent	found
+Relation	14	47	SuperSub	false	spent	survive
+Relation	14	48	SuperSub	false	spent	hallucinations
+Relation	14	53	SuperSub	false	spent	search
+Relation	14	55	SuperSub	false	spent	tearing
+Relation	14	62	SuperSub	false	spent	sat
+Relation	63	64	SuperSub	false	hallucinations	deepening
+Relation	14	65	SuperSub	false	spent	getting
+Relation	14	66	SuperSub	false	spent	running
+Relation	62	65	SuperSub	false	sat	getting
+Relation	62	66	SuperSub	false	sat	running
+Relation	14	1	SuperSub	false	spent	left
+Relation	21	14	SuperSub	false	treatment	spent
+Relation	48	49	SuperSub	false	hallucinations	started
+Relation	48	53	SuperSub	false	hallucinations	search
+Relation	48	55	SuperSub	false	hallucinations	tearing
+Relation	13	28	SuperSub	true	sweep	taken
+Relation	13	12	SuperSub	true	sweep	picked
+Relation	14	63	SuperSub	true	spent	hallucinations
+Relation	48	64	SuperSub	true	hallucinations	deepening
+Relation	23	14	SuperSub	true	happened	spent
+Relation	63	49	SuperSub	true	hallucinations	started
+Relation	63	53	SuperSub	true	hallucinations	search
+Relation	63	55	SuperSub	true	hallucinations	tearing
+Relation	14	49	SuperSub	true	spent	started
+Relation	21	5	SuperSub	true	treatment	Entering
+Relation	21	7	SuperSub	true	treatment	drinking
+Relation	21	9	SuperSub	true	treatment	stacking
+Relation	21	10	SuperSub	true	treatment	swinging
+Relation	21	15	SuperSub	true	treatment	opened
+Relation	21	18	SuperSub	true	treatment	lost
+Relation	21	37	SuperSub	true	treatment	kicked
+Relation	21	38	SuperSub	true	treatment	screamed
+Relation	21	39	SuperSub	true	treatment	ripped
+Relation	21	40	SuperSub	true	treatment	shoved
+Relation	21	42	SuperSub	true	treatment	ingested
+Relation	21	43	SuperSub	true	treatment	found
+Relation	21	47	SuperSub	true	treatment	survive
+Relation	21	48	SuperSub	true	treatment	hallucinations
+Relation	21	53	SuperSub	true	treatment	search
+Relation	21	55	SuperSub	true	treatment	tearing
+Relation	21	62	SuperSub	true	treatment	sat
+Relation	21	65	SuperSub	true	treatment	getting
+Relation	21	66	SuperSub	true	treatment	running
+Relation	21	1	SuperSub	true	treatment	left
+Relation	14	64	SuperSub	true	spent	deepening
+Relation	23	5	SuperSub	true	happened	Entering
+Relation	23	7	SuperSub	true	happened	drinking
+Relation	23	9	SuperSub	true	happened	stacking
+Relation	23	10	SuperSub	true	happened	swinging
+Relation	23	15	SuperSub	true	happened	opened
+Relation	23	18	SuperSub	true	happened	lost
+Relation	23	37	SuperSub	true	happened	kicked
+Relation	23	38	SuperSub	true	happened	screamed
+Relation	23	39	SuperSub	true	happened	ripped
+Relation	23	40	SuperSub	true	happened	shoved
+Relation	23	42	SuperSub	true	happened	ingested
+Relation	23	43	SuperSub	true	happened	found
+Relation	23	47	SuperSub	true	happened	survive
+Relation	23	48	SuperSub	true	happened	hallucinations
+Relation	23	53	SuperSub	true	happened	search
+Relation	23	55	SuperSub	true	happened	tearing
+Relation	23	62	SuperSub	true	happened	sat
+Relation	23	65	SuperSub	true	happened	getting
+Relation	23	66	SuperSub	true	happened	running
+Relation	23	1	SuperSub	true	happened	left
+Relation	23	49	SuperSub	true	happened	started
+Relation	14	49	SuperSub	true	spent	started
+Relation	21	5	SuperSub	true	treatment	Entering
+Relation	21	7	SuperSub	true	treatment	drinking
+Relation	21	9	SuperSub	true	treatment	stacking
+Relation	21	10	SuperSub	true	treatment	swinging
+Relation	21	15	SuperSub	true	treatment	opened
+Relation	21	18	SuperSub	true	treatment	lost
+Relation	21	37	SuperSub	true	treatment	kicked
+Relation	21	38	SuperSub	true	treatment	screamed
+Relation	21	39	SuperSub	true	treatment	ripped
+Relation	21	40	SuperSub	true	treatment	shoved
+Relation	21	42	SuperSub	true	treatment	ingested
+Relation	21	43	SuperSub	true	treatment	found
+Relation	21	47	SuperSub	true	treatment	survive
+Relation	21	48	SuperSub	true	treatment	hallucinations
+Relation	21	53	SuperSub	true	treatment	search
+Relation	21	55	SuperSub	true	treatment	tearing
+Relation	21	62	SuperSub	true	treatment	sat
+Relation	21	65	SuperSub	true	treatment	getting
+Relation	21	66	SuperSub	true	treatment	running
+Relation	21	1	SuperSub	true	treatment	left
+Relation	14	64	SuperSub	true	spent	deepening
+Relation	23	5	SuperSub	true	happened	Entering
+Relation	23	7	SuperSub	true	happened	drinking
+Relation	23	9	SuperSub	true	happened	stacking
+Relation	23	10	SuperSub	true	happened	swinging
+Relation	23	15	SuperSub	true	happened	opened
+Relation	23	18	SuperSub	true	happened	lost
+Relation	23	37	SuperSub	true	happened	kicked
+Relation	23	38	SuperSub	true	happened	screamed
+Relation	23	39	SuperSub	true	happened	ripped
+Relation	23	40	SuperSub	true	happened	shoved
+Relation	23	42	SuperSub	true	happened	ingested
+Relation	23	43	SuperSub	true	happened	found
+Relation	23	47	SuperSub	true	happened	survive
+Relation	23	48	SuperSub	true	happened	hallucinations
+Relation	23	53	SuperSub	true	happened	search
+Relation	23	55	SuperSub	true	happened	tearing
+Relation	23	62	SuperSub	true	happened	sat
+Relation	23	65	SuperSub	true	happened	getting
+Relation	23	66	SuperSub	true	happened	running
+Relation	23	1	SuperSub	true	happened	left
+Relation	23	49	SuperSub	true	happened	started
+Relation	21	49	SuperSub	true	treatment	started
+Relation	14	49	SuperSub	true	spent	started
+Relation	21	5	SuperSub	true	treatment	Entering
+Relation	21	7	SuperSub	true	treatment	drinking
+Relation	21	9	SuperSub	true	treatment	stacking
+Relation	21	10	SuperSub	true	treatment	swinging
+Relation	21	15	SuperSub	true	treatment	opened
+Relation	21	18	SuperSub	true	treatment	lost
+Relation	21	37	SuperSub	true	treatment	kicked
+Relation	21	38	SuperSub	true	treatment	screamed
+Relation	21	39	SuperSub	true	treatment	ripped
+Relation	21	40	SuperSub	true	treatment	shoved
+Relation	21	42	SuperSub	true	treatment	ingested
+Relation	21	43	SuperSub	true	treatment	found
+Relation	21	47	SuperSub	true	treatment	survive
+Relation	21	48	SuperSub	true	treatment	hallucinations
+Relation	21	53	SuperSub	true	treatment	search
+Relation	21	55	SuperSub	true	treatment	tearing
+Relation	21	62	SuperSub	true	treatment	sat
+Relation	21	65	SuperSub	true	treatment	getting
+Relation	21	66	SuperSub	true	treatment	running
+Relation	21	1	SuperSub	true	treatment	left
+Relation	14	64	SuperSub	true	spent	deepening
+Relation	23	5	SuperSub	true	happened	Entering
+Relation	23	7	SuperSub	true	happened	drinking
+Relation	23	9	SuperSub	true	happened	stacking
+Relation	23	10	SuperSub	true	happened	swinging
+Relation	23	15	SuperSub	true	happened	opened
+Relation	23	18	SuperSub	true	happened	lost
+Relation	23	37	SuperSub	true	happened	kicked
+Relation	23	38	SuperSub	true	happened	screamed
+Relation	23	39	SuperSub	true	happened	ripped
+Relation	23	40	SuperSub	true	happened	shoved
+Relation	23	42	SuperSub	true	happened	ingested
+Relation	23	43	SuperSub	true	happened	found
+Relation	23	47	SuperSub	true	happened	survive
+Relation	23	48	SuperSub	true	happened	hallucinations
+Relation	23	53	SuperSub	true	happened	search
+Relation	23	55	SuperSub	true	happened	tearing
+Relation	23	62	SuperSub	true	happened	sat
+Relation	23	65	SuperSub	true	happened	getting
+Relation	23	66	SuperSub	true	happened	running
+Relation	23	1	SuperSub	true	happened	left
+Relation	23	49	SuperSub	true	happened	started
+Relation	21	49	SuperSub	true	treatment	started

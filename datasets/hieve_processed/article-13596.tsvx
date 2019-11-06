@@ -1,0 +1,37 @@
+Text	Standard abd Poor 's has raised Greece 's credit rating . It is now no longer in default territory , but remains firmly in the junk category with a CCC rating . The upgrade was expected after Athens slashed its debt by about a third with a massive sovereign debt restructuring . But SandP is still warning that a deep recession , unpredictable elections and anti-austerity anger threaten Greece 's efforts to put its finances back on track . `` While the exchange has , in our view , alleviated near-term funding pressures , Greece 's sovereign debt burden remains high , '' S & ; P said in a statement , adding that it expected the debt to stay as high as 160-170 percent of GDP in the next three years . S & ; P assigned Greece 's rating a stable outlook , indicating it was not planning to change the rating again soon , but it warned that risks remained . `` The ratings could be lowered if we believe that there is a likelihood of a distressed exchange on Greece 's remaining stock of commercial debt , '' it said . Fitch assigned Greece a slightly higher B-rating in mid-March , becoming the first major rating agency to upgrade Athens ' rating after the swap cut its debt by about 100 billion euros . Moody 's is the only one of the three major rating agencies to have kept its Greek rating unchanged at the lowest level . It has said it would revise the rating `` in due course '' and that any upgrade would likely be small .
+Event	1	raised	StateChange	27	5
+Event	2	upgrade	StateChange	163	33
+Event	3	slashed	Occurrence	197	38
+Event	4	restructuring	Occurrence	261	50
+Event	5	warning	Reporting	295	56
+Event	6	recession	Occurrence	315	60
+Event	7	elections	Occurrence	340	63
+Event	8	threaten	I_Action	375	67
+Event	9	efforts	I_Action	393	70
+Event	10	exchange	Occurrence	447	82
+Event	11	alleviated	I_Action	474	89
+Event	12	said	Reporting	565	107
+Event	13	adding	Reporting	586	112
+Event	14	assigned	Occurrence	691	137
+Event	15	indicating	Occurrence	734	145
+Event	16	warned	Reporting	805	159
+Event	17	said	Reporting	981	193
+Event	18	assigned	Occurrence	993	196
+Event	19	becoming	StateChange	1050	205
+Event	20	upgrade	StateChange	1092	212
+Event	21	swap	I_Action	1125	218
+Event	22	cut	Occurrence	1130	219
+Event	23	said	Reporting	1298	254
+Relation	1	2	Coref	false	raised	upgrade
+Relation	18	20	Coref	false	assigned	upgrade
+Relation	22	3	Coref	false	cut	slashed
+Relation	10	3	Coref	false	exchange	slashed
+Relation	22	10	Coref	false	cut	exchange
+Relation	4	3	SuperSub	false	restructuring	slashed
+Relation	6	7	SuperSub	false	recession	elections
+Relation	6	4	SuperSub	false	recession	restructuring
+Relation	4	22	SuperSub	true	restructuring	cut
+Relation	4	10	SuperSub	true	restructuring	exchange
+Relation	6	3	SuperSub	true	recession	slashed
+Relation	6	3	SuperSub	true	recession	slashed
+Relation	6	3	SuperSub	true	recession	slashed

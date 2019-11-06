@@ -1,0 +1,59 @@
+Text	Local television showed what appeared to be the plane 's tail with the Sukhoi Superjet-100 's blue and white logo , part of a wing and bits of twisted metal scattered along Mount Salak 's slopes . Thick fog kept helicopters away from the crash site , officials said , delaying potential answers to what caused the crash . Russian and French investigators arrived to join the probe as the difficulties of reaching bodies or the plane 's black box became clear . `` Our six helicopters have been trying to get close to the crash site since this morning , '' said Sunarbowo Sandi , operational chief at Indonesia 's search and rescue agency . `` With poor visibility of less than five metres , it 's difficult for us to evacuate the victims . '' Mr Sandi said he hoped a ground team of 85 rescue workers using ropes to climb the mountain might reach the wreckage . The jet slammed into the volcano on Wednesday at nearly 480mph , raining debris down the slope . He said communications with the ground team were difficult and it was still unclear what the climbers would find , given the possibility that much of the wreckage and possibly bodies had tumbled down the near-vertical slope . Local television station TVOne reported that some rescuers have arrived on the scene and discovered some remnants of the plane but had so far found no survivors . All 45 aboard are feared dead . The Sukhoi Superjet-100 is Russia 's first new model of passenger jet since the fall of the Soviet Union two decades ago and was supposed to kick-start the nation 's efforts to modernise its fleet and resurrect its neglected aerospace industry . The ill-fated Superjet was carrying representatives from local airlines and journalists on what was supposed to be a 50-minute demonstration flight . Just 21 minutes after take-off from a Jakarta airfield , the Russian pilot and co-pilot asked for permission to drop from 10,000ft to 6,000ft . They gave no explanation , disappearing from the radar immediately afterwards . It was not clear why the crew asked to shift course , especially since they were so close to the 7,000ft volcano , or whether they got approval , officials have said . Communication tapes will be reviewed as part of the investigation , but it is unlikely they will be released to the public soon .
+Event	1	showed	Occurrence	20	2
+Event	2	appeared	Perception	32	4
+Event	3	kept	Occurrence	205	39
+Event	4	said	Reporting	258	48
+Event	5	delaying	Occurrence	264	50
+Event	6	caused	I_Action	299	55
+Event	7	crash	Occurrence	310	44
+Event	8	arrived	I_Action	350	63
+Event	9	join	I_Action	361	65
+Event	10	probe	Occurrence	370	67
+Event	11	became	StateChange	440	80
+Event	12	trying	I_Action	485	89
+Event	13	said	Reporting	544	102
+Event	14	said	Reporting	730	139
+Event	15	slammed	Occurrence	847	162
+Event	16	raining	Occurrence	903	172
+Event	17	said	Reporting	937	179
+Event	18	reported	Reporting	1189	220
+Event	19	arrived	Occurrence	1222	225
+Event	20	discovered	Occurrence	1247	230
+Event	21	fall	Occurrence	1430	265
+Event	22	efforts	I_Action	1515	281
+Event	23	carrying	Occurrence	1621	297
+Event	24	flight	Occurrence	1735	313
+Event	26	asked	I_Action	1830	330
+Event	27	disappearing	Occurrence	1911	345
+Event	28	asked	I_Action	1993	359
+Event	29	said	Reporting	2121	383
+Event	30	investigation	Occurrence	2179	394
+Relation	30	10	Coref	false	investigation	probe
+Relation	1	2	SuperSub	false	showed	appeared
+Relation	3	5	SuperSub	false	kept	delaying
+Relation	10	3	SuperSub	false	probe	kept
+Relation	10	11	SuperSub	false	probe	became
+Relation	7	15	SuperSub	false	crash	slammed
+Relation	7	16	SuperSub	false	crash	raining
+Relation	24	23	SuperSub	false	flight	carrying
+Relation	24	7	SuperSub	false	flight	crash
+Relation	10	19	SuperSub	false	probe	arrived
+Relation	10	20	SuperSub	false	probe	discovered
+Relation	24	25	SuperSub	false	flight	take
+Relation	24	27	SuperSub	false	flight	disappearing
+Relation	30	3	SuperSub	true	investigation	kept
+Relation	30	11	SuperSub	true	investigation	became
+Relation	30	19	SuperSub	true	investigation	arrived
+Relation	30	20	SuperSub	true	investigation	discovered
+Relation	10	5	SuperSub	true	probe	delaying
+Relation	24	15	SuperSub	true	flight	slammed
+Relation	24	16	SuperSub	true	flight	raining
+Relation	30	5	SuperSub	true	investigation	delaying
+Relation	10	5	SuperSub	true	probe	delaying
+Relation	24	15	SuperSub	true	flight	slammed
+Relation	24	16	SuperSub	true	flight	raining
+Relation	30	5	SuperSub	true	investigation	delaying
+Relation	10	5	SuperSub	true	probe	delaying
+Relation	24	15	SuperSub	true	flight	slammed
+Relation	24	16	SuperSub	true	flight	raining
+Relation	30	5	SuperSub	true	investigation	delaying

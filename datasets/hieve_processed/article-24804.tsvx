@@ -1,0 +1,73 @@
+Text	At least two people were killed in Beirut in heavy clashes early on Monday between rival Sunni Muslim gunmen , the latest violence fuelled by tensions over the uprising in neighboring Syria . Gunmen firing rocket-propelled grenades and machineguns clashed in the Lebanese capital 's Tariq al-Jadideh district in some of the fiercest battles since sectarian fighting four years ago brought Lebanon back to the brink of civil war . The violence followed the killing of two members of a political alliance opposed to Syrian President Bashar al-Assad on Sunday in the north of Lebanon . Residents in the northern region of Akkar blocked roads and burned tyres to protest against the killing and demonstrations spread south to the main coastal highway and to Beirut , where several roads were cut off . A Reuters cameraman in Tariq al-Jadideh said shooting could be heard from 10 pm ( 1900 GMT ) until nearly 5 am ( 0200 GMT ) on Monday . Security sources said the fighting pitted gunmen from the Future Movement , loyal to anti-Syrian former Prime Minister Saad al-Hariri , against the pro-Syrian Arab Movement Party headed by Shaker Barjawi . The state news agency said two people were killed and 18 wounded . The security sources put the death toll at three - two of Barjawi 's supporters and one from the Future Movement - with nine people wounded . Many of Lebanon 's Sunni Muslims sympathize with Syria 's Sunni-led uprising against Assad , whose father sent forces into Lebanon during its 1975-1990 civil war . The Syrian army finally pulled out in 2005 under international pressure . Prime Minister Najib Mikati said on Sunday : `` The government is determined to continue to shoulder its national responsibilities amid this critical period in Lebanon and the region , and it will take all measures necessary to preserve civil peace . ''
+Event	1	killed	Occurrence	25	5
+Event	2	clashes	Occurrence	51	10
+Event	3	violence	HalfGeneric	121	22
+Event	4	fuelled	I_Action	130	23
+Event	5	uprising	Occurrence	159	28
+Event	6	firing	Occurrence	197	34
+Event	7	clashed	Occurrence	246	39
+Event	8	battles	HalfGeneric	330	53
+Event	9	fighting	Occurrence	354	56
+Event	10	brought	Occurrence	378	60
+Event	11	violence	HalfGeneric	430	71
+Event	12	killing	Occurrence	452	74
+Event	13	blocked	I_Action	620	103
+Event	14	burned	I_Action	638	106
+Event	15	protest	I_Action	654	109
+Event	16	killing	Occurrence	674	112
+Event	17	demonstrations	Occurrence	686	114
+Event	18	spread	StateChange	701	115
+Event	19	cut	Occurrence	782	130
+Event	20	said	Reporting	831	139
+Event	21	shooting	Occurrence	836	140
+Event	22	said	Reporting	939	164
+Event	23	fighting	Occurrence	948	166
+Event	24	pitted	Occurrence	957	167
+Event	25	said	Reporting	1147	198
+Event	26	killed	Occurrence	1168	202
+Event	27	wounded	Occurrence	1182	205
+Event	28	put	Reporting	1212	210
+Event	29	wounded	Occurrence	1322	232
+Event	30	uprising	Occurrence	1397	245
+Event	31	sent	Occurrence	1434	251
+Event	32	war	Occurrence	1486	68
+Event	33	pulled	Occurrence	1515	265
+Event	34	said	Reporting	1592	277
+Relation	2	3	Coref	false	clashes	violence
+Relation	7	2	Coref	false	clashed	clashes
+Relation	8	3	Coref	false	battles	violence
+Relation	11	8	Coref	false	violence	battles
+Relation	16	1	Coref	false	killing	killed
+Relation	21	6	Coref	false	shooting	firing
+Relation	23	7	Coref	false	fighting	clashed
+Relation	26	1	Coref	false	killed	killed
+Relation	27	29	Coref	false	wounded	wounded
+Relation	30	5	Coref	false	uprising	uprising
+Relation	2	1	SuperSub	false	clashes	killed
+Relation	5	3	SuperSub	false	uprising	violence
+Relation	2	6	SuperSub	false	clashes	firing
+Relation	9	10	SuperSub	false	fighting	brought
+Relation	17	18	SuperSub	false	demonstrations	spread
+Relation	17	19	SuperSub	false	demonstrations	cut
+Relation	23	24	SuperSub	false	fighting	pitted
+Relation	23	27	SuperSub	false	fighting	wounded
+Relation	32	31	SuperSub	false	war	sent
+Relation	3	1	SuperSub	true	violence	killed
+Relation	7	1	SuperSub	true	clashed	killed
+Relation	2	16	SuperSub	true	clashes	killing
+Relation	2	26	SuperSub	true	clashes	killed
+Relation	30	3	SuperSub	true	uprising	violence
+Relation	5	2	SuperSub	true	uprising	clashes
+Relation	5	8	SuperSub	true	uprising	battles
+Relation	3	6	SuperSub	true	violence	firing
+Relation	7	6	SuperSub	true	clashed	firing
+Relation	2	21	SuperSub	true	clashes	shooting
+Relation	7	24	SuperSub	true	clashed	pitted
+Relation	7	27	SuperSub	true	clashed	wounded
+Relation	23	29	SuperSub	true	fighting	wounded
+Relation	5	1	SuperSub	true	uprising	killed
+Relation	5	6	SuperSub	true	uprising	firing
+Relation	5	1	SuperSub	true	uprising	killed
+Relation	5	6	SuperSub	true	uprising	firing
+Relation	5	1	SuperSub	true	uprising	killed
+Relation	5	6	SuperSub	true	uprising	firing

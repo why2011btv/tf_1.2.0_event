@@ -1,0 +1,38 @@
+Text	A Premier League superstar was mobbed by fans after he had a 6 inch haircut at an ordinary barbers in a terraced row of shops . Newcastle United hitman Papiss Cisse has scored 10 goals in nine games since he signed from the German Bundesliga , and has fired the Geordies to the verge of European competition next season . But the 7.5m man , believed to earn at least 40,000 a week , has not got too big for his boots since arriving in the North East . Rather than use a sparkling salon , he visited The Barber Shop in Felling , Gateshead , which is run by Iyad Attallah , and parked his white Audi sports car , which has his named monogrammed on the wings , outside . Rather than have the blinds closed and have a quiet cut in peace , the 26-year-old Senegal striker was happy for the shop to remain open . By the time the trim was complete , about 50 young fans had got word of the star striker 's presence and when he left they mobbed him for pictures and autographs , shouting `` We love you Cisse . '' The commotion was caught on mobile phones and fans posted the pictures on YouTube . When manager Alan Pardew was asked about the reaction the player caused , he said : `` That sounds like the North East . I have never had it myself - only one or two turn up when I get my hair cut . Papiss has grown into a bit of a cult figure here in terms of what he has done and the way he has conducted himself .
+Event	1	mobbed	Occurrence	34	5
+Event	2	had	Occurrence	58	10
+Event	3	haircut	Occurrence	71	14
+Event	4	scored	I_Action	171	32
+Event	5	goals	HalfGeneric	181	34
+Event	6	games	Occurrence	195	37
+Event	7	signed	Occurrence	210	40
+Event	8	fired	Occurrence	253	48
+Event	9	arriving	Occurrence	421	83
+Event	10	visited	Occurrence	487	97
+Event	11	parked	Occurrence	569	114
+Event	12	trim	Occurrence	811	163
+Event	13	complete	Occurrence	820	165
+Event	14	got	Occurrence	854	76
+Event	15	left	Occurrence	906	183
+Event	16	mobbed	Occurrence	916	185
+Event	17	shouting	Occurrence	956	192
+Event	18	commotion	Occurrence	990	201
+Event	19	caught	I_Action	1004	203
+Event	20	posted	Reporting	1037	209
+Event	21	asked	I_Action	1098	220
+Event	22	reaction	Occurrence	1114	223
+Event	23	caused	I_Action	1134	226
+Event	24	said	Reporting	1145	229
+Event	25	grown	StateChange	1273	261
+Event	26	done	HalfGeneric	1336	276
+Relation	3	12	Coref	false	haircut	trim
+Relation	16	1	Coref	false	mobbed	mobbed
+Relation	18	16	Coref	false	commotion	mobbed
+Relation	6	5	SuperSub	false	games	goals
+Relation	6	8	SuperSub	false	games	fired
+Relation	12	13	SuperSub	false	trim	complete
+Relation	16	17	SuperSub	false	mobbed	shouting
+Relation	10	11	SuperSub	false	visited	parked
+Relation	3	13	SuperSub	true	haircut	complete
+Relation	18	17	SuperSub	true	commotion	shouting
+Relation	1	17	SuperSub	true	mobbed	shouting

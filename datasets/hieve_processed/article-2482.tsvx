@@ -1,0 +1,44 @@
+Text	Syria 's president has denied he ordered the deadly crackdown on a nearly 9-month-old uprising , claiming he is not in charge of the troops behind the assault . Speaking to ABC 's Barbara Walters in a rare interview that aired Wednesday , President Bashar Assad maintained he did not give a command `` to kill or be brutal . '' `` They 're not my forces , '' Assad responded when asked if Syrian troops had cracked down too hard on protesters . `` They are military forces ( who ) belong to the government . I do n't own them . I 'm president . I do n't own the country . '' In fact , in his role as president , Assad is the commander of Syria 's armed forces . The U.N. estimates more than 4,000 people have been killed in Syria since the uprising began in March . `` Who said the United Nations is a credible institution ? '' Assad said , when Walters asked him about allegations of widespread violence and torture . State Department spokesman Mark Toner said Assad was trying to shirk responsibility . `` I find it ludicrous that he is attempting to hide behind some sort of shell game but also some sort of claim that he does n't exercise authority in his own country , '' Toner said . Assad has responded with once-unthinkable promises of reform in one of the most authoritarian states in the Middle East . But he simultaneously unleashed the military to crush the protests with tanks and snipers . Still , he insisted he still had the support of Syrians . `` If you do n't have the support of the people you can not be in this position , '' he said . `` Syria is not easy ... it is a very difficult country to govern if you do n't have the public support . ''
+Event	1	denied	I_Action	22	4
+Event	2	crackdown	I_Action	51	9
+Event	3	uprising	Occurrence	85	14
+Event	4	claiming	Reporting	95	16
+Event	5	assault	Occurrence	149	27
+Event	6	Speaking	Occurrence	157	29
+Event	7	interview	Occurrence	202	38
+Event	8	aired	Occurrence	217	40
+Event	9	maintained	Reporting	257	46
+Event	10	responded	Reporting	349	70
+Event	11	asked	Occurrence	364	72
+Event	12	cracked	Occurrence	391	77
+Event	13	estimates	Reporting	637	136
+Event	14	killed	Occurrence	680	143
+Event	15	uprising	Occurrence	706	148
+Event	16	began	I_Action	715	149
+Event	17	said	Reporting	794	155
+Event	18	asked	Reporting	813	170
+Event	19	allegations	HalfGeneric	829	173
+Event	20	said	Reporting	915	166
+Event	21	trying	I_Action	930	188
+Event	22	said	Reporting	1134	185
+Event	23	responded	Reporting	1150	233
+Event	24	unleashed	I_Action	1283	254
+Event	25	protests	Occurrence	1319	260
+Event	26	insisted	Reporting	1362	269
+Event	27	said	Reporting	1489	229
+Relation	12	5	Coref	false	cracked	assault
+Relation	15	3	Coref	false	uprising	uprising
+Relation	7	6	SuperSub	false	interview	Speaking
+Relation	7	11	SuperSub	false	interview	asked
+Relation	15	14	SuperSub	false	uprising	killed
+Relation	15	25	SuperSub	false	uprising	protests
+Relation	25	12	SuperSub	false	protests	cracked
+Relation	3	14	SuperSub	true	uprising	killed
+Relation	3	25	SuperSub	true	uprising	protests
+Relation	25	5	SuperSub	true	protests	assault
+Relation	15	12	SuperSub	true	uprising	cracked
+Relation	3	12	SuperSub	true	uprising	cracked
+Relation	15	12	SuperSub	true	uprising	cracked
+Relation	3	12	SuperSub	true	uprising	cracked
+Relation	15	12	SuperSub	true	uprising	cracked
+Relation	3	12	SuperSub	true	uprising	cracked

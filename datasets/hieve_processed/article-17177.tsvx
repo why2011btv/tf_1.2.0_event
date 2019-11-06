@@ -1,0 +1,215 @@
+Text	Fierce clashes between Syrian regime forces and armed rebels in the central city of Rastan on Monday left at least 23 soldiers dead and dozens wounded , the Syrian Observatory for Human Rights said . The Britain-based monitoring group said initial reports indicated that three troop carriers were destroyed in the clashes that began at dawn on the outskirts of the rebel-held city , located in Homs province . A lieutenant who had defected was also killed in the clashes . Regime forces launched an offensive on Rastan at the weekend but met with sharp resistance from rebels seeking the ouster of the regime of President Bashar al-Assad . The Observatory said dozens had been wounded in shelling of the city by Syrian troops . The bombardment by regime forces resumed following the deadly clashes , it added . In Quraya in the eastern province of Deir Ezzor , a 15-year-old boy was killed by machinegun fire as regime forces raided the town , the Observatory said , bringing the total number of people killed on Monday to 25 . The watchdog added that 15 residents of the city were arrested . And in the capital Damascus , regime forces raided the neighborhood of Qaboon , while snipers were stationed on the roofs of some buildings . The watchdog said 45 people — 25 civilians , 15 soldiers and five rebels — were killed in a surge of violence in various flashpoints on Sunday , despite a ceasefire brokered by UN-Arab League peace envoy Kofi Annan that was supposed to take effect on April 12 . Among the dead were a Shiite imam , Sheikh Abbas al-Laham , who leads the prayers in the Ruqayya mosque in Damascus , a revered place of pilgrimage for many religious Iranians . The cleric was assassinated by unidentified gunmen in Damascus , the Observatory said . Iran supports the Damascus regime , which since 15 March 2011 has faced an unprecedented popular revolt . More than 12,000 people , the majority of them civilians , have died since the Syrian uprising began in March 2011 , according to the watchdog , including more than 900 killed since the April 12 truce .
+Event	1	clashes	Occurrence	7	1
+Event	2	left	I_Action	101	17
+Event	3	wounded	Occurrence	143	25
+Event	4	said	Reporting	192	33
+Event	5	said	Reporting	233	39
+Event	6	reports	Reporting	246	41
+Event	7	indicated	I_Action	254	42
+Event	8	destroyed	Occurrence	295	48
+Event	9	clashes	Occurrence	312	51
+Event	10	began	Occurrence	325	53
+Event	11	defected	Occurrence	427	73
+Event	12	killed	Occurrence	445	76
+Event	13	clashes	Occurrence	459	79
+Event	14	launched	I_Action	482	83
+Event	15	offensive	Occurrence	494	85
+Event	16	met	I_Action	533	92
+Event	17	resistance	Occurrence	548	95
+Event	18	seeking	I_Action	571	98
+Event	19	said	Reporting	650	111
+Event	20	wounded	Occurrence	671	115
+Event	21	shelling	Occurrence	682	117
+Event	22	bombardment	Occurrence	725	126
+Event	23	resumed	Occurrence	754	130
+Event	24	clashes	Occurrence	783	134
+Event	25	added	Reporting	795	137
+Event	26	killed	Occurrence	873	153
+Event	27	fire	Occurrence	894	156
+Event	28	raided	Occurrence	916	160
+Event	29	said	Reporting	949	166
+Event	30	killed	Occurrence	991	174
+Event	31	added	Reporting	1028	182
+Event	32	arrested	Occurrence	1069	190
+Event	33	raided	Occurrence	1122	200
+Event	34	stationed	Occurrence	1176	209
+Event	35	said	Reporting	1231	219
+Event	36	killed	Occurrence	1297	233
+Event	37	surge	I_Action	1309	236
+Event	38	violence	Occurrence	1318	238
+Event	39	ceasefire	Occurrence	1371	247
+Event	40	brokered	I_Action	1381	248
+Event	41	assassinated	Occurrence	1666	302
+Event	42	said	Reporting	1731	311
+Event	43	faced	I_Action	1802	325
+Event	44	revolt	Occurrence	1833	329
+Event	45	died	Occurrence	1903	343
+Event	46	uprising	Occurrence	1925	347
+Event	47	began	Occurrence	1934	348
+Event	48	killed	HalfGeneric	2006	362
+Event	49	truce	Occurrence	2032	367
+Relation	9	1	Coref	false	clashes	clashes
+Relation	13	9	Coref	false	clashes	clashes
+Relation	21	22	Coref	false	shelling	bombardment
+Relation	24	13	Coref	false	clashes	clashes
+Relation	13	17	Coref	false	clashes	resistance
+Relation	39	49	Coref	false	ceasefire	truce
+Relation	44	46	Coref	false	revolt	uprising
+Relation	9	10	SuperSub	false	clashes	began
+Relation	1	3	SuperSub	false	clashes	wounded
+Relation	9	8	SuperSub	false	clashes	destroyed
+Relation	13	12	SuperSub	false	clashes	killed
+Relation	21	20	SuperSub	false	shelling	wounded
+Relation	22	23	SuperSub	false	bombardment	resumed
+Relation	15	21	SuperSub	false	offensive	shelling
+Relation	15	13	SuperSub	false	offensive	clashes
+Relation	28	27	SuperSub	false	raided	fire
+Relation	27	26	SuperSub	false	fire	killed
+Relation	28	32	SuperSub	false	raided	arrested
+Relation	33	34	SuperSub	false	raided	stationed
+Relation	38	36	SuperSub	false	violence	killed
+Relation	38	41	SuperSub	false	violence	assassinated
+Relation	46	47	SuperSub	false	uprising	began
+Relation	46	45	SuperSub	false	uprising	died
+Relation	45	48	SuperSub	false	died	killed
+Relation	44	1	SuperSub	false	revolt	clashes
+Relation	44	38	SuperSub	false	revolt	violence
+Relation	44	39	SuperSub	false	revolt	ceasefire
+Relation	44	28	SuperSub	false	revolt	raided
+Relation	48	30	SuperSub	false	killed	killed
+Relation	48	15	SuperSub	false	killed	offensive
+Relation	1	10	SuperSub	true	clashes	began
+Relation	13	10	SuperSub	true	clashes	began
+Relation	9	3	SuperSub	true	clashes	wounded
+Relation	1	8	SuperSub	true	clashes	destroyed
+Relation	13	8	SuperSub	true	clashes	destroyed
+Relation	17	12	SuperSub	true	resistance	killed
+Relation	24	12	SuperSub	true	clashes	killed
+Relation	9	12	SuperSub	true	clashes	killed
+Relation	22	20	SuperSub	true	bombardment	wounded
+Relation	21	23	SuperSub	true	shelling	resumed
+Relation	15	22	SuperSub	true	offensive	bombardment
+Relation	15	17	SuperSub	true	offensive	resistance
+Relation	15	24	SuperSub	true	offensive	clashes
+Relation	15	9	SuperSub	true	offensive	clashes
+Relation	44	47	SuperSub	true	revolt	began
+Relation	44	45	SuperSub	true	revolt	died
+Relation	46	1	SuperSub	true	uprising	clashes
+Relation	44	9	SuperSub	true	revolt	clashes
+Relation	46	38	SuperSub	true	uprising	violence
+Relation	46	39	SuperSub	true	uprising	ceasefire
+Relation	44	49	SuperSub	true	revolt	truce
+Relation	46	28	SuperSub	true	uprising	raided
+Relation	15	20	SuperSub	true	offensive	wounded
+Relation	15	12	SuperSub	true	offensive	killed
+Relation	28	26	SuperSub	true	raided	killed
+Relation	46	48	SuperSub	true	uprising	killed
+Relation	45	30	SuperSub	true	died	killed
+Relation	45	15	SuperSub	true	died	offensive
+Relation	44	3	SuperSub	true	revolt	wounded
+Relation	44	36	SuperSub	true	revolt	killed
+Relation	44	41	SuperSub	true	revolt	assassinated
+Relation	44	27	SuperSub	true	revolt	fire
+Relation	44	32	SuperSub	true	revolt	arrested
+Relation	48	21	SuperSub	true	killed	shelling
+Relation	48	13	SuperSub	true	killed	clashes
+Relation	15	23	SuperSub	true	offensive	resumed
+Relation	15	10	SuperSub	true	offensive	began
+Relation	15	8	SuperSub	true	offensive	destroyed
+Relation	44	48	SuperSub	true	revolt	killed
+Relation	44	30	SuperSub	true	revolt	killed
+Relation	44	15	SuperSub	true	revolt	offensive
+Relation	46	3	SuperSub	true	uprising	wounded
+Relation	44	10	SuperSub	true	revolt	began
+Relation	44	8	SuperSub	true	revolt	destroyed
+Relation	46	36	SuperSub	true	uprising	killed
+Relation	46	41	SuperSub	true	uprising	assassinated
+Relation	46	27	SuperSub	true	uprising	fire
+Relation	46	32	SuperSub	true	uprising	arrested
+Relation	46	26	SuperSub	true	uprising	killed
+Relation	15	20	SuperSub	true	offensive	wounded
+Relation	15	12	SuperSub	true	offensive	killed
+Relation	28	26	SuperSub	true	raided	killed
+Relation	46	48	SuperSub	true	uprising	killed
+Relation	45	30	SuperSub	true	died	killed
+Relation	45	15	SuperSub	true	died	offensive
+Relation	44	3	SuperSub	true	revolt	wounded
+Relation	44	36	SuperSub	true	revolt	killed
+Relation	44	41	SuperSub	true	revolt	assassinated
+Relation	44	27	SuperSub	true	revolt	fire
+Relation	44	32	SuperSub	true	revolt	arrested
+Relation	48	21	SuperSub	true	killed	shelling
+Relation	48	13	SuperSub	true	killed	clashes
+Relation	15	23	SuperSub	true	offensive	resumed
+Relation	15	10	SuperSub	true	offensive	began
+Relation	15	8	SuperSub	true	offensive	destroyed
+Relation	44	48	SuperSub	true	revolt	killed
+Relation	44	30	SuperSub	true	revolt	killed
+Relation	44	15	SuperSub	true	revolt	offensive
+Relation	46	3	SuperSub	true	uprising	wounded
+Relation	44	10	SuperSub	true	revolt	began
+Relation	44	8	SuperSub	true	revolt	destroyed
+Relation	46	36	SuperSub	true	uprising	killed
+Relation	46	41	SuperSub	true	uprising	assassinated
+Relation	46	27	SuperSub	true	uprising	fire
+Relation	46	32	SuperSub	true	uprising	arrested
+Relation	46	26	SuperSub	true	uprising	killed
+Relation	46	30	SuperSub	true	uprising	killed
+Relation	46	15	SuperSub	true	uprising	offensive
+Relation	46	21	SuperSub	true	uprising	shelling
+Relation	46	13	SuperSub	true	uprising	clashes
+Relation	46	20	SuperSub	true	uprising	wounded
+Relation	46	12	SuperSub	true	uprising	killed
+Relation	45	21	SuperSub	true	died	shelling
+Relation	45	13	SuperSub	true	died	clashes
+Relation	44	26	SuperSub	true	revolt	killed
+Relation	48	20	SuperSub	true	killed	wounded
+Relation	44	21	SuperSub	true	revolt	shelling
+Relation	44	13	SuperSub	true	revolt	clashes
+Relation	44	20	SuperSub	true	revolt	wounded
+Relation	44	12	SuperSub	true	revolt	killed
+Relation	45	20	SuperSub	true	died	wounded
+Relation	45	12	SuperSub	true	died	killed
+Relation	15	20	SuperSub	true	offensive	wounded
+Relation	15	12	SuperSub	true	offensive	killed
+Relation	28	26	SuperSub	true	raided	killed
+Relation	46	48	SuperSub	true	uprising	killed
+Relation	45	30	SuperSub	true	died	killed
+Relation	45	15	SuperSub	true	died	offensive
+Relation	44	3	SuperSub	true	revolt	wounded
+Relation	44	36	SuperSub	true	revolt	killed
+Relation	44	41	SuperSub	true	revolt	assassinated
+Relation	44	27	SuperSub	true	revolt	fire
+Relation	44	32	SuperSub	true	revolt	arrested
+Relation	48	21	SuperSub	true	killed	shelling
+Relation	48	13	SuperSub	true	killed	clashes
+Relation	15	23	SuperSub	true	offensive	resumed
+Relation	15	10	SuperSub	true	offensive	began
+Relation	15	8	SuperSub	true	offensive	destroyed
+Relation	44	48	SuperSub	true	revolt	killed
+Relation	44	30	SuperSub	true	revolt	killed
+Relation	44	15	SuperSub	true	revolt	offensive
+Relation	46	3	SuperSub	true	uprising	wounded
+Relation	44	10	SuperSub	true	revolt	began
+Relation	44	8	SuperSub	true	revolt	destroyed
+Relation	46	36	SuperSub	true	uprising	killed
+Relation	46	41	SuperSub	true	uprising	assassinated
+Relation	46	27	SuperSub	true	uprising	fire
+Relation	46	32	SuperSub	true	uprising	arrested
+Relation	46	26	SuperSub	true	uprising	killed
+Relation	46	30	SuperSub	true	uprising	killed
+Relation	46	15	SuperSub	true	uprising	offensive
+Relation	46	21	SuperSub	true	uprising	shelling
+Relation	46	13	SuperSub	true	uprising	clashes
+Relation	46	20	SuperSub	true	uprising	wounded
+Relation	46	12	SuperSub	true	uprising	killed
+Relation	45	21	SuperSub	true	died	shelling
+Relation	45	13	SuperSub	true	died	clashes
+Relation	44	26	SuperSub	true	revolt	killed
+Relation	48	20	SuperSub	true	killed	wounded
+Relation	44	21	SuperSub	true	revolt	shelling
+Relation	44	13	SuperSub	true	revolt	clashes
+Relation	44	20	SuperSub	true	revolt	wounded
+Relation	44	12	SuperSub	true	revolt	killed
+Relation	45	20	SuperSub	true	died	wounded
+Relation	45	12	SuperSub	true	died	killed

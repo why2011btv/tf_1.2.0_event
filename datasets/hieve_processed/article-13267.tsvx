@@ -1,0 +1,46 @@
+Text	Fabrice Muamba will attend the Barclays Premier League match between Bolton and Tottenham at the Reebok Stadium . It will mark the first time the Wanderers midfielder has attended a game since he suffered a cardiac arrest in an FA Cup tie between Bolton and Spurs at White Hart Lane on March 17 . Bolton manager Owen Coyle said : `` We are absolutely delighted that we will be able to welcome Fabrice and his family back to the Reebok , and we are all looking forward to seeing him . '' He added : `` It 's fitting that the match is between these two clubs and that Fabrice is able to come along . `` I know Fabrice is very keen to show his appreciation to both sets of fans for their support . '' The 24-year-old , whose heart stopped beating for 78 minutes following his collapse , spent a month at the London Chest Hospital before being discharged on April 16 . The speed of Muamba 's recovery amazed medical professionals . He started talking two days after his collapse and began walking just over a fortnight later , although it is not yet known if he will play professional football again . Since his discharge the midfielder has continued his rehabilitation at home and on Saturday the former England Under-21 midfielder took to his Twitter account for the first time since the incident . In his message he thanked people for their `` prayers , love and support '' and wished his team-mates well ahead of their match at Sunderland , which they drew 2-2 .
+Event	1	suffered	I_Action	198	33
+Event	2	arrest	Occurrence	217	36
+Event	3	tie	Occurrence	237	41
+Event	4	said	Reporting	324	58
+Event	5	added	Reporting	484	93
+Event	6	beating	Occurrence	719	143
+Event	7	collapse	Occurrence	756	149
+Event	8	spent	Occurrence	766	151
+Event	9	discharged	Occurrence	822	161
+Event	10	recovery	Occurrence	868	171
+Event	11	amazed	StateChange	877	172
+Event	12	talking	Occurrence	918	178
+Event	13	collapse	Occurrence	945	183
+Event	14	walking	Occurrence	964	186
+Event	15	discharge	Occurrence	1085	209
+Event	16	rehabilitation	Occurrence	1128	215
+Event	17	took	Occurrence	1206	226
+Event	18	incident	Occurrence	1263	237
+Event	19	thanked	Reporting	1291	243
+Event	20	wished	Reporting	1349	255
+Event	21	drew	Occurrence	1423	268
+Relation	13	2	Coref	false	collapse	arrest
+Relation	9	15	Coref	false	discharged	discharge
+Relation	18	2	Coref	false	incident	arrest
+Relation	18	13	Coref	false	incident	collapse
+Relation	7	2	Coref	false	collapse	arrest
+Relation	3	2	SuperSub	false	tie	arrest
+Relation	8	9	SuperSub	false	spent	discharged
+Relation	10	11	SuperSub	false	recovery	amazed
+Relation	10	12	SuperSub	false	recovery	talking
+Relation	10	14	SuperSub	false	recovery	walking
+Relation	16	10	SuperSub	false	rehabilitation	recovery
+Relation	3	18	SuperSub	true	tie	incident
+Relation	3	7	SuperSub	true	tie	collapse
+Relation	3	13	SuperSub	true	tie	collapse
+Relation	8	15	SuperSub	true	spent	discharge
+Relation	16	11	SuperSub	true	rehabilitation	amazed
+Relation	16	12	SuperSub	true	rehabilitation	talking
+Relation	16	14	SuperSub	true	rehabilitation	walking
+Relation	16	11	SuperSub	true	rehabilitation	amazed
+Relation	16	12	SuperSub	true	rehabilitation	talking
+Relation	16	14	SuperSub	true	rehabilitation	walking
+Relation	16	11	SuperSub	true	rehabilitation	amazed
+Relation	16	12	SuperSub	true	rehabilitation	talking
+Relation	16	14	SuperSub	true	rehabilitation	walking

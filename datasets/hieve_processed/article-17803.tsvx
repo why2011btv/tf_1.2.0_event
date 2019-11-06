@@ -1,0 +1,71 @@
+Text	Manchester City have apologised to Manchester United boss Sir Alex Ferguson after striker Carlos Tevez held up a banner goading his former manager . Tevez has also expressed his regret after he was pictured with a sign which read `` RIP Fergie '' during City 's celebratory title-winning parade in Manchester . The 28-year-old is thought to have been passed or thrown the banner by a fan as City 's open-top bus made its way through the city centre with the squad and the Barclays Premier League trophy . A City spokeswoman said : `` The creation of the tasteless material is in itself reprehensible and in accepting and brandishing it , Carlos has made a significant error of judgement . `` The club wishes to express its sincerest apologies to Sir Alex Ferguson and Manchester United Football Club for any offence or distress caused . '' The sign may have been a reference to a remark by Ferguson three years ago when asked if United would ever be underdogs against City . `` Not in my lifetime , '' the Scot said . Tevez , who spent two years at Old Trafford before leaving for City in 2009 , said : `` I got carried away in the excitement of the moment and I certainly did n't mean any disrespect to Sir Alex Ferguson , who I admire as a man and a manager . '' City pipped arch rivals United to the title on goal difference after a dramatic last-gasp 3-2 win over QPR on the final day of the season . The incident comes at the end of a controversial campaign for Tevez in which he spent more than three months on authorised leave in Argentina during an extraordinary dispute with the club . He returned in February and went on to play an influential role in the title run-in although , despite making peace with manager Roberto Mancini , he continued to divide opinion among fans . The 28-year-old twice finished as City 's top scorer after quitting United for Eastlands and was the inspiration for last year 's FA Cup win .
+Event	1	apologised	Reporting	21	3
+Event	2	held	Occurrence	103	15
+Event	3	expressed	Reporting	163	27
+Event	4	pictured	Occurrence	197	33
+Event	5	parade	Occurrence	282	48
+Event	6	passed	Occurrence	344	59
+Event	7	thrown	Occurrence	354	61
+Event	8	made	Occurrence	404	72
+Event	9	said	Reporting	515	92
+Event	10	creation	Occurrence	526	96
+Event	11	accepting	Occurrence	595	107
+Event	12	brandishing	Occurrence	609	109
+Event	13	made	I_Action	636	114
+Event	14	error	Occurrence	655	117
+Event	15	remark	Reporting	861	156
+Event	16	asked	Reporting	901	163
+Event	17	said	Reporting	986	182
+Event	18	spent	Occurrence	1003	187
+Event	19	leaving	Occurrence	1042	194
+Event	20	said	Reporting	1068	200
+Event	21	got	I_Action	1077	204
+Event	22	carried	Occurrence	1081	205
+Event	23	pipped	Occurrence	1234	238
+Event	24	win	Occurrence	1323	253
+Event	25	incident	Occurrence	1372	265
+Event	26	comes	I_Action	1381	266
+Event	27	campaign	Occurrence	1417	273
+Event	28	spent	Occurrence	1448	279
+Event	29	leave	Occurrence	1491	286
+Event	30	dispute	Occurrence	1534	292
+Event	31	returned	Occurrence	1560	298
+Event	32	went	I_Action	1585	302
+Event	33	play	Occurrence	1596	305
+Event	35	making	Occurrence	1659	316
+Event	36	finished	Occurrence	1767	334
+Event	37	quitting	Occurrence	1803	341
+Event	38	win	Occurrence	1880	355
+Relation	12	2	Coref	false	brandishing	held
+Relation	25	2	Coref	false	incident	held
+Relation	5	8	SuperSub	false	parade	made
+Relation	8	6	SuperSub	false	made	passed
+Relation	8	7	SuperSub	false	made	thrown
+Relation	8	2	SuperSub	false	made	held
+Relation	8	11	SuperSub	false	made	accepting
+Relation	8	14	SuperSub	false	made	error
+Relation	18	19	SuperSub	false	spent	leaving
+Relation	8	22	SuperSub	false	made	carried
+Relation	24	23	SuperSub	false	win	pipped
+Relation	27	28	SuperSub	false	campaign	spent
+Relation	27	29	SuperSub	false	campaign	leave
+Relation	8	12	SuperSub	true	made	brandishing
+Relation	8	25	SuperSub	true	made	incident
+Relation	5	6	SuperSub	true	parade	passed
+Relation	5	7	SuperSub	true	parade	thrown
+Relation	5	2	SuperSub	true	parade	held
+Relation	5	11	SuperSub	true	parade	accepting
+Relation	5	14	SuperSub	true	parade	error
+Relation	5	22	SuperSub	true	parade	carried
+Relation	5	6	SuperSub	true	parade	passed
+Relation	5	7	SuperSub	true	parade	thrown
+Relation	5	2	SuperSub	true	parade	held
+Relation	5	11	SuperSub	true	parade	accepting
+Relation	5	14	SuperSub	true	parade	error
+Relation	5	22	SuperSub	true	parade	carried
+Relation	5	6	SuperSub	true	parade	passed
+Relation	5	7	SuperSub	true	parade	thrown
+Relation	5	2	SuperSub	true	parade	held
+Relation	5	11	SuperSub	true	parade	accepting
+Relation	5	14	SuperSub	true	parade	error
+Relation	5	22	SuperSub	true	parade	carried

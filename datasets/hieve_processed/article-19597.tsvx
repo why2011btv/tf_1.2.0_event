@@ -1,0 +1,305 @@
+Text	A team of international observers that came under fire in northern Syria was apparently stranded in the area overnight , and United Nations officials said Wednesday they hope to evacuate the group within hours . A roadside bomb struck the team 's vehicles Tuesday during a mission in the northern town of Khan Sheikhoun , but none of the observers was wounded . The attack , which came minutes after witnesses said regime forces gunned down mourners at a funeral procession nearby , dealt a fresh blow to international envoy Kofi Annan 's peace plan . Activists said the violence continued Wednesday with regime forces opening fire from the outskirts of Khan Sheikhoun . Rami Abdul-Rahman , who heads the Britain-based Syrian Observatory for Human Rights activist group , said the heavy machine-gun fire has so far prevented people from holding funerals for some of the 20 mourners who were killed at the funeral a day earlier . The U.N. said rebel forces had given the observers shelter in the town , which has witnessed anti-government protests since an uprising against President Bashar Assad 's regime began in March last year . Maj. Gen. Robert Mood , the Norwegian head of the U.N. team , told reporters Wednesday that he had spoken with the observers in Khan Sheikhoun by telephone and that they `` told us that they are happy and safe where they are . '' Ahmad Fawzi , Annan 's spokesman , said in a statement that the mission will recover the six staff members later Wednesday . `` The U.N. staff members are co-located with opposition elements ... and are reportedly being treated well . '' Fawzi said the observers were caught up in the explosion as they met with the rebel Free Syrian Army . He said three vehicles were damaged . More than 200 U.N. observers have been deployed throughout Syria to monitor a cease-fire agreement that has been repeatedly violated by both sides since it took effect on April 12 . Tuesday 's attack was at least the second time the U.N. observers have been caught up in Syria 's violence . Last week , a roadside bomb struck a Syrian military truck in the south of the country just seconds after Mood rode by in a convoy . It was not clear who was behind the blast and no one claimed responsibility . A video posted by activists online appeared to show the exact moment the U.N. vehicle was struck . The video shows two white vehicles clearly marked `` U.N '' with people milling around it , and two others parked a few meters ( yards ) behind . Slippers apparently left behind by the mourners running away from the shooting earlier are seen strewn about on the ground . The blast blew off the front of the first vehicle and sent up a plume of smoke as people screamed and frantically ran for cover . The four cars are then seen slowly driving away . It was not clear how close the observers were to the funeral shootings , but if confirmed , a regime attack on civilians directly in front of the observer mission could put pressure on them to describe publicly what they are seeing in Syria . They report back to the U.N. but have not publicized their findings . Syria 's state-run TV , meanwhile , reported Wednesday that authorities released 250 people who were involved in the uprising . Assad has issued several pardons releasing thousands of detainees since the crisis began . The Observatory also said Syrian forces opened fire at the Naziheen Palestinian refugee camp in the southern city of Daraa , killing four people . The pro-government TV station Ikhbariyah blamed members of `` an armed terrorist group , '' saying they fired two rocket-propelled grenades at the camp , killing a 4-year-old girl and wounding 15 other people . The Syrian uprising began with mostly peaceful protests calling for change , but a relentless government crackdown led many in the opposition to take up arms . Some soldiers also have switched sides and joined forces with the rebels . The U.N. estimates the conflict has killed more than 9,000 people .
+Event	1	came	I_Action	39	6
+Event	2	fire	Occurrence	50	8
+Event	3	stranded	Occurrence	88	14
+Event	4	said	Reporting	149	24
+Event	5	struck	Occurrence	226	38
+Event	6	mission	Occurrence	270	46
+Event	7	attack	Occurrence	361	64
+Event	8	came	I_Action	375	67
+Event	9	said	Reporting	404	71
+Event	10	gunned	Occurrence	423	74
+Event	11	procession	Occurrence	457	80
+Event	12	dealt	I_Action	476	83
+Event	13	blow	Occurrence	490	86
+Event	14	said	Reporting	553	97
+Event	15	opening	I_Action	610	105
+Event	16	fire	Occurrence	618	106
+Event	17	said	Reporting	760	129
+Event	18	fire	Occurrence	787	133
+Event	19	prevented	I_Action	803	137
+Event	20	killed	Occurrence	879	150
+Event	21	funeral	Occurrence	893	79
+Event	22	said	Reporting	925	160
+Event	23	given	Occurrence	947	164
+Event	24	witnessed	I_Action	998	174
+Event	25	protests	HalfGeneric	1024	176
+Event	26	uprising	Occurrence	1042	179
+Event	27	began	I_Action	1091	186
+Event	28	told	Reporting	1177	205
+Event	29	spoken	Occurrence	1214	211
+Event	30	told	Reporting	1286	224
+Event	31	said	Reporting	1372	244
+Event	32	statement	Occurrence	1382	247
+Event	33	said	Reporting	1575	280
+Event	34	caught	I_Action	1599	284
+Event	35	explosion	Occurrence	1616	288
+Event	36	met	Occurrence	1634	291
+Event	37	said	Reporting	1674	300
+Event	38	damaged	Occurrence	1699	304
+Event	39	deployed	I_Action	1747	313
+Event	40	agreement	Occurrence	1797	320
+Event	41	violated	HalfGeneric	1832	325
+Event	42	took	Occurrence	1864	331
+Event	43	attack	Occurrence	1899	339
+Event	44	caught	Occurrence	1964	351
+Event	45	struck	Occurrence	2022	364
+Event	46	rode	Occurrence	2105	379
+Event	47	blast	Occurrence	2162	393
+Event	48	posted	Occurrence	2211	402
+Event	49	struck	Occurrence	2293	416
+Event	50	milling	Occurrence	2369	431
+Event	51	left	Occurrence	2459	449
+Event	52	running	I_Action	2487	454
+Event	53	shooting	Occurrence	2509	458
+Event	54	blast	Occurrence	2567	469
+Event	55	blew	I_Action	2573	470
+Event	56	sent	Occurrence	2617	479
+Event	57	screamed	Occurrence	2652	487
+Event	58	ran	Occurrence	2677	490
+Event	59	driving	Occurrence	2727	501
+Event	60	shootings	Occurrence	2802	516
+Event	61	reported	Reporting	3083	569
+Event	62	released	Occurrence	3119	573
+Event	63	uprising	Occurrence	3164	581
+Event	64	issued	I_Action	3184	585
+Event	65	pardons	HalfGeneric	3199	587
+Event	66	releasing	Occurrence	3207	588
+Event	67	crisis	Occurrence	3250	594
+Event	68	began	Occurrence	3257	595
+Event	69	said	Reporting	3285	600
+Event	70	opened	I_Action	3304	603
+Event	71	fire	Occurrence	3311	604
+Event	72	killing	Occurrence	3388	618
+Event	73	blamed	Occurrence	3450	627
+Event	74	saying	Reporting	3496	637
+Event	75	fired	Occurrence	3508	639
+Event	76	killing	Occurrence	3557	647
+Event	77	wounding	Occurrence	3587	652
+Event	78	uprising	Occurrence	3624	659
+Event	79	began	I_Action	3633	660
+Event	80	protests	HalfGeneric	3660	664
+Event	81	calling	I_Action	3669	665
+Event	82	crackdown	Occurrence	3717	673
+Event	83	led	I_Action	3727	674
+Event	84	take	Occurrence	3757	680
+Event	85	switched	Occurrence	3795	688
+Event	86	joined	Occurrence	3814	691
+Event	87	conflict	Occurrence	3868	701
+Event	88	killed	Occurrence	3881	703
+Relation	2	5	Coref	false	fire	struck
+Relation	20	10	Coref	false	killed	gunned
+Relation	18	16	Coref	false	fire	fire
+Relation	35	5	Coref	false	explosion	struck
+Relation	43	7	Coref	false	attack	attack
+Relation	47	45	Coref	false	blast	struck
+Relation	49	35	Coref	false	struck	explosion
+Relation	51	10	Coref	false	left	gunned
+Relation	54	49	Coref	false	blast	struck
+Relation	60	53	Coref	false	shootings	shooting
+Relation	63	26	Coref	false	uprising	uprising
+Relation	67	63	Coref	false	crisis	uprising
+Relation	78	63	Coref	false	uprising	uprising
+Relation	85	86	Coref	false	switched	joined
+Relation	87	78	Coref	false	conflict	uprising
+Relation	7	5	SuperSub	false	attack	struck
+Relation	6	7	SuperSub	false	mission	attack
+Relation	11	10	SuperSub	false	procession	gunned
+Relation	7	13	SuperSub	false	attack	blow
+Relation	6	3	SuperSub	false	mission	stranded
+Relation	21	11	SuperSub	false	funeral	procession
+Relation	3	23	SuperSub	false	stranded	given
+Relation	26	25	SuperSub	false	uprising	protests
+Relation	26	6	SuperSub	false	uprising	mission
+Relation	26	29	SuperSub	false	uprising	spoken
+Relation	26	32	SuperSub	false	uprising	statement
+Relation	35	38	SuperSub	false	explosion	damaged
+Relation	6	36	SuperSub	false	mission	met
+Relation	40	42	SuperSub	false	agreement	took
+Relation	40	41	SuperSub	false	agreement	violated
+Relation	41	43	SuperSub	false	violated	attack
+Relation	43	44	SuperSub	false	attack	caught
+Relation	41	45	SuperSub	false	violated	struck
+Relation	6	50	SuperSub	false	mission	milling
+Relation	53	51	SuperSub	false	shooting	left
+Relation	54	56	SuperSub	false	blast	sent
+Relation	43	57	SuperSub	false	attack	screamed
+Relation	43	58	SuperSub	false	attack	ran
+Relation	43	59	SuperSub	false	attack	driving
+Relation	67	68	SuperSub	false	crisis	began
+Relation	65	62	SuperSub	false	pardons	released
+Relation	63	65	SuperSub	false	uprising	pardons
+Relation	71	72	SuperSub	false	fire	killing
+Relation	75	76	SuperSub	false	fired	killing
+Relation	75	77	SuperSub	false	fired	wounding
+Relation	78	82	SuperSub	false	uprising	crackdown
+Relation	78	85	SuperSub	false	uprising	switched
+Relation	87	88	SuperSub	false	conflict	killed
+Relation	25	80	SuperSub	false	protests	protests
+Relation	82	84	SuperSub	false	crackdown	take
+Relation	41	71	SuperSub	false	violated	fire
+Relation	43	5	SuperSub	true	attack	struck
+Relation	7	35	SuperSub	true	attack	explosion
+Relation	7	2	SuperSub	true	attack	fire
+Relation	6	43	SuperSub	true	mission	attack
+Relation	11	51	SuperSub	true	procession	left
+Relation	11	20	SuperSub	true	procession	killed
+Relation	43	13	SuperSub	true	attack	blow
+Relation	63	25	SuperSub	true	uprising	protests
+Relation	63	6	SuperSub	true	uprising	mission
+Relation	63	29	SuperSub	true	uprising	spoken
+Relation	63	32	SuperSub	true	uprising	statement
+Relation	49	38	SuperSub	true	struck	damaged
+Relation	5	38	SuperSub	true	struck	damaged
+Relation	41	7	SuperSub	true	violated	attack
+Relation	7	44	SuperSub	true	attack	caught
+Relation	41	47	SuperSub	true	violated	blast
+Relation	60	51	SuperSub	true	shootings	left
+Relation	53	10	SuperSub	true	shooting	gunned
+Relation	49	56	SuperSub	true	struck	sent
+Relation	7	57	SuperSub	true	attack	screamed
+Relation	7	58	SuperSub	true	attack	ran
+Relation	7	59	SuperSub	true	attack	driving
+Relation	63	68	SuperSub	true	uprising	began
+Relation	67	65	SuperSub	true	crisis	pardons
+Relation	78	65	SuperSub	true	uprising	pardons
+Relation	26	65	SuperSub	true	uprising	pardons
+Relation	63	82	SuperSub	true	uprising	crackdown
+Relation	87	82	SuperSub	true	conflict	crackdown
+Relation	63	85	SuperSub	true	uprising	switched
+Relation	87	85	SuperSub	true	conflict	switched
+Relation	78	86	SuperSub	true	uprising	joined
+Relation	78	88	SuperSub	true	uprising	killed
+Relation	6	5	SuperSub	true	mission	struck
+Relation	6	13	SuperSub	true	mission	blow
+Relation	6	23	SuperSub	true	mission	given
+Relation	21	10	SuperSub	true	funeral	gunned
+Relation	26	80	SuperSub	true	uprising	protests
+Relation	26	7	SuperSub	true	uprising	attack
+Relation	26	3	SuperSub	true	uprising	stranded
+Relation	26	36	SuperSub	true	uprising	met
+Relation	26	50	SuperSub	true	uprising	milling
+Relation	40	43	SuperSub	true	agreement	attack
+Relation	40	45	SuperSub	true	agreement	struck
+Relation	40	71	SuperSub	true	agreement	fire
+Relation	41	44	SuperSub	true	violated	caught
+Relation	41	57	SuperSub	true	violated	screamed
+Relation	41	58	SuperSub	true	violated	ran
+Relation	41	59	SuperSub	true	violated	driving
+Relation	63	62	SuperSub	true	uprising	released
+Relation	78	84	SuperSub	true	uprising	take
+Relation	41	72	SuperSub	true	violated	killing
+Relation	7	38	SuperSub	true	attack	damaged
+Relation	6	44	SuperSub	true	mission	caught
+Relation	6	57	SuperSub	true	mission	screamed
+Relation	6	58	SuperSub	true	mission	ran
+Relation	6	59	SuperSub	true	mission	driving
+Relation	63	80	SuperSub	true	uprising	protests
+Relation	63	7	SuperSub	true	uprising	attack
+Relation	63	3	SuperSub	true	uprising	stranded
+Relation	63	36	SuperSub	true	uprising	met
+Relation	63	50	SuperSub	true	uprising	milling
+Relation	63	5	SuperSub	true	uprising	struck
+Relation	63	13	SuperSub	true	uprising	blow
+Relation	63	23	SuperSub	true	uprising	given
+Relation	41	5	SuperSub	true	violated	struck
+Relation	41	13	SuperSub	true	violated	blow
+Relation	67	62	SuperSub	true	crisis	released
+Relation	78	62	SuperSub	true	uprising	released
+Relation	26	62	SuperSub	true	uprising	released
+Relation	63	84	SuperSub	true	uprising	take
+Relation	87	84	SuperSub	true	conflict	take
+Relation	6	5	SuperSub	true	mission	struck
+Relation	6	13	SuperSub	true	mission	blow
+Relation	6	23	SuperSub	true	mission	given
+Relation	21	10	SuperSub	true	funeral	gunned
+Relation	26	80	SuperSub	true	uprising	protests
+Relation	26	7	SuperSub	true	uprising	attack
+Relation	26	3	SuperSub	true	uprising	stranded
+Relation	26	36	SuperSub	true	uprising	met
+Relation	26	50	SuperSub	true	uprising	milling
+Relation	40	43	SuperSub	true	agreement	attack
+Relation	40	45	SuperSub	true	agreement	struck
+Relation	40	71	SuperSub	true	agreement	fire
+Relation	41	44	SuperSub	true	violated	caught
+Relation	41	57	SuperSub	true	violated	screamed
+Relation	41	58	SuperSub	true	violated	ran
+Relation	41	59	SuperSub	true	violated	driving
+Relation	63	62	SuperSub	true	uprising	released
+Relation	78	84	SuperSub	true	uprising	take
+Relation	41	72	SuperSub	true	violated	killing
+Relation	7	38	SuperSub	true	attack	damaged
+Relation	6	44	SuperSub	true	mission	caught
+Relation	6	57	SuperSub	true	mission	screamed
+Relation	6	58	SuperSub	true	mission	ran
+Relation	6	59	SuperSub	true	mission	driving
+Relation	63	80	SuperSub	true	uprising	protests
+Relation	63	7	SuperSub	true	uprising	attack
+Relation	63	3	SuperSub	true	uprising	stranded
+Relation	63	36	SuperSub	true	uprising	met
+Relation	63	50	SuperSub	true	uprising	milling
+Relation	63	5	SuperSub	true	uprising	struck
+Relation	63	13	SuperSub	true	uprising	blow
+Relation	63	23	SuperSub	true	uprising	given
+Relation	41	5	SuperSub	true	violated	struck
+Relation	41	13	SuperSub	true	violated	blow
+Relation	67	62	SuperSub	true	crisis	released
+Relation	78	62	SuperSub	true	uprising	released
+Relation	26	62	SuperSub	true	uprising	released
+Relation	63	84	SuperSub	true	uprising	take
+Relation	87	84	SuperSub	true	conflict	take
+Relation	26	5	SuperSub	true	uprising	struck
+Relation	26	13	SuperSub	true	uprising	blow
+Relation	26	23	SuperSub	true	uprising	given
+Relation	40	44	SuperSub	true	agreement	caught
+Relation	40	57	SuperSub	true	agreement	screamed
+Relation	40	58	SuperSub	true	agreement	ran
+Relation	40	59	SuperSub	true	agreement	driving
+Relation	40	72	SuperSub	true	agreement	killing
+Relation	6	5	SuperSub	true	mission	struck
+Relation	6	13	SuperSub	true	mission	blow
+Relation	6	23	SuperSub	true	mission	given
+Relation	21	10	SuperSub	true	funeral	gunned
+Relation	26	80	SuperSub	true	uprising	protests
+Relation	26	7	SuperSub	true	uprising	attack
+Relation	26	3	SuperSub	true	uprising	stranded
+Relation	26	36	SuperSub	true	uprising	met
+Relation	26	50	SuperSub	true	uprising	milling
+Relation	40	43	SuperSub	true	agreement	attack
+Relation	40	45	SuperSub	true	agreement	struck
+Relation	40	71	SuperSub	true	agreement	fire
+Relation	41	44	SuperSub	true	violated	caught
+Relation	41	57	SuperSub	true	violated	screamed
+Relation	41	58	SuperSub	true	violated	ran
+Relation	41	59	SuperSub	true	violated	driving
+Relation	63	62	SuperSub	true	uprising	released
+Relation	78	84	SuperSub	true	uprising	take
+Relation	41	72	SuperSub	true	violated	killing
+Relation	7	38	SuperSub	true	attack	damaged
+Relation	6	44	SuperSub	true	mission	caught
+Relation	6	57	SuperSub	true	mission	screamed
+Relation	6	58	SuperSub	true	mission	ran
+Relation	6	59	SuperSub	true	mission	driving
+Relation	63	80	SuperSub	true	uprising	protests
+Relation	63	7	SuperSub	true	uprising	attack
+Relation	63	3	SuperSub	true	uprising	stranded
+Relation	63	36	SuperSub	true	uprising	met
+Relation	63	50	SuperSub	true	uprising	milling
+Relation	63	5	SuperSub	true	uprising	struck
+Relation	63	13	SuperSub	true	uprising	blow
+Relation	63	23	SuperSub	true	uprising	given
+Relation	41	5	SuperSub	true	violated	struck
+Relation	41	13	SuperSub	true	violated	blow
+Relation	67	62	SuperSub	true	crisis	released
+Relation	78	62	SuperSub	true	uprising	released
+Relation	26	62	SuperSub	true	uprising	released
+Relation	63	84	SuperSub	true	uprising	take
+Relation	87	84	SuperSub	true	conflict	take
+Relation	26	5	SuperSub	true	uprising	struck
+Relation	26	13	SuperSub	true	uprising	blow
+Relation	26	23	SuperSub	true	uprising	given
+Relation	40	44	SuperSub	true	agreement	caught
+Relation	40	57	SuperSub	true	agreement	screamed
+Relation	40	58	SuperSub	true	agreement	ran
+Relation	40	59	SuperSub	true	agreement	driving
+Relation	40	72	SuperSub	true	agreement	killing

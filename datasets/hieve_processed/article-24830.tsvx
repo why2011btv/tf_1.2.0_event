@@ -1,0 +1,30 @@
+Text	Three climbers returning from the summit of Mount Everest have died and two others are missing , a Nepalese official said . Gyanendra Shrestha , of the Mountaineering Department , said a German , a Nepal-born Canadian and a Korean died on Saturday while descending from the 29,035ft ( 8,850m ) summit . Mr Shrestha said the weather was favourable on Friday and Saturday morning but a wind storm swept the mountain later on Saturday . Mr Shrestha , stationed at Everest base camp , said he was waiting for details . German doctor Eberhard Schaaf , 61 , is believed to have suffered high altitude cerebral oedema . The Nepalese-Canadian climber was Shriya Shah , while the Korean mountaineer 's name has yet to be confirmed .
+Event	1	returning	Occurrence	15	2
+Event	2	died	Occurrence	63	10
+Event	3	said	Reporting	116	20
+Event	4	said	Reporting	176	30
+Event	5	died	Occurrence	226	40
+Event	6	descending	Occurrence	249	44
+Event	7	said	Reporting	307	55
+Event	8	swept	Occurrence	387	69
+Event	9	said	Reporting	470	85
+Event	10	suffered	Occurrence	558	103
+Relation	1	6	Coref	false	returning	descending
+Relation	2	5	Coref	false	died	died
+Relation	8	1	SuperSub	false	swept	returning
+Relation	10	5	SuperSub	false	suffered	died
+Relation	6	10	SuperSub	false	descending	suffered
+Relation	8	6	SuperSub	true	swept	descending
+Relation	10	2	SuperSub	true	suffered	died
+Relation	1	10	SuperSub	true	returning	suffered
+Relation	6	5	SuperSub	true	descending	died
+Relation	8	10	SuperSub	true	swept	suffered
+Relation	1	5	SuperSub	true	returning	died
+Relation	6	5	SuperSub	true	descending	died
+Relation	8	10	SuperSub	true	swept	suffered
+Relation	1	5	SuperSub	true	returning	died
+Relation	8	5	SuperSub	true	swept	died
+Relation	6	5	SuperSub	true	descending	died
+Relation	8	10	SuperSub	true	swept	suffered
+Relation	1	5	SuperSub	true	returning	died
+Relation	8	5	SuperSub	true	swept	died

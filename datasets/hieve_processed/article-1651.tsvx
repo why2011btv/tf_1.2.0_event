@@ -1,0 +1,79 @@
+Text	At least 34 people have been abducted and killed by pro-government militiamen in the city of Homs , activists say . The UK-based Syrian Observatory for Human Rights quoted witnesses as saying the bodies had been found dumped in a square in the restive city on Monday . The claim has not been independently verified , as most foreign media are banned from entering Syria . Meanwhile , Damascus says it responded `` positively '' to an Arab League plan aimed at ending months of unrest . Foreign ministry spokesman Jihad al-Makdisi told reporters a letter by President Bashar al-Assad 's government had been sent to the Cairo-based Arab League , adding that he expected a deal to be signed soon . He spoke after the expiry of the organisation 's latest deadline for Damascus to agree to its peace plan and allow in observers to monitor it or face the imposition of further sanctions approved last week . The Arab League secretary general , Nabil al-Arabi , confirmed receipt of the letter , but noted that it contained new elements which were now being studied by Arab foreign ministers . Syria is under pressure to end its crackdown on an uprising the UN says has left more than 4,000 people dead since the unrest began in March . Later on Monday , the Syrian Observatory for Human Rights quoted witnesses as saying that the bodies of at least 34 civilians had been seen by an activist in the pro-government district of al-Zahra . It said the victims had been seized on Monday by armed regime supporters , known locally as `` shabiha '' , from districts opposed to the government . Government forces have laid siege to Homs for the past two months . The Observatory also reported that shabiha had abducted a bus driver and his 13 passengers in Homs province on Monday . The Local Co-ordination Committee , an activist group that documents and organises protests , also said at least 17 people had been killed on Monday , including 14 in Homs . Last week , UN Human Rights Council strongly condemned the `` gross and systematic '' violations by Syrian forces , and said it was appointing a special investigator to report on the ongoing crackdown . The Syrian government says it is fighting armed terrorist gangs . The BBC 's Paul Wood , who was smuggled into Syria , reports on the increasing numbers of soldiers defecting to the opposition .
+Event	1	abducted	Occurrence	29	6
+Event	2	killed	Occurrence	42	8
+Event	3	say	Reporting	109	19
+Event	4	quoted	Reporting	163	28
+Event	5	found	Occurrence	210	36
+Event	6	says	Reporting	387	69
+Event	7	responded	Occurrence	395	71
+Event	8	told	Reporting	519	92
+Event	9	sent	Occurrence	594	104
+Event	10	adding	Reporting	631	111
+Event	11	spoke	Occurrence	684	123
+Event	12	expiry	Occurrence	700	126
+Event	13	approved	I_Action	866	155
+Event	14	confirmed	I_Action	937	168
+Event	15	receipt	Occurrence	947	169
+Event	16	noted	Reporting	974	175
+Event	17	studied	HalfGeneric	1032	185
+Event	18	crackdown	Occurrence	1102	198
+Event	19	uprising	Occurrence	1118	201
+Event	20	says	Reporting	1134	204
+Event	21	left	Occurrence	1143	206
+Event	22	unrest	Occurrence	1186	85
+Event	23	began	I_Action	1193	215
+Event	24	quoted	Reporting	1266	229
+Event	25	seen	Perception	1343	243
+Event	26	said	Reporting	1410	255
+Event	27	seized	Occurrence	1436	260
+Event	28	laid	I_Action	1574	285
+Event	29	siege	Occurrence	1579	286
+Event	30	reported	Reporting	1639	298
+Event	31	abducted	Occurrence	1665	302
+Event	32	said	Reporting	1834	331
+Event	33	killed	Occurrence	1867	338
+Event	34	condemned	Occurrence	1951	355
+Event	35	violations	HalfGeneric	1988	362
+Event	36	said	Reporting	2021	368
+Event	37	appointing	I_Action	2033	371
+Event	38	crackdown	Occurrence	2092	380
+Event	39	says	Reporting	2125	385
+Event	40	fighting	Occurrence	2136	388
+Event	41	smuggled	Occurrence	2197	401
+Event	42	reports	Reporting	2218	405
+Event	43	defecting	HalfGeneric	2264	412
+Relation	19	22	Coref	false	uprising	unrest
+Relation	25	5	Coref	false	seen	found
+Relation	27	1	Coref	false	seized	abducted
+Relation	29	18	Coref	false	siege	crackdown
+Relation	38	29	Coref	false	crackdown	siege
+Relation	40	38	Coref	false	fighting	crackdown
+Relation	1	2	SuperSub	false	abducted	killed
+Relation	19	18	SuperSub	false	uprising	crackdown
+Relation	19	21	SuperSub	false	uprising	left
+Relation	19	7	SuperSub	false	uprising	responded
+Relation	19	1	SuperSub	false	uprising	abducted
+Relation	19	5	SuperSub	false	uprising	found
+Relation	19	31	SuperSub	false	uprising	abducted
+Relation	19	33	SuperSub	false	uprising	killed
+Relation	19	35	SuperSub	false	uprising	violations
+Relation	19	43	SuperSub	false	uprising	defecting
+Relation	27	2	SuperSub	true	seized	killed
+Relation	22	18	SuperSub	true	unrest	crackdown
+Relation	19	29	SuperSub	true	uprising	siege
+Relation	22	21	SuperSub	true	unrest	left
+Relation	22	7	SuperSub	true	unrest	responded
+Relation	22	1	SuperSub	true	unrest	abducted
+Relation	19	27	SuperSub	true	uprising	seized
+Relation	22	5	SuperSub	true	unrest	found
+Relation	19	25	SuperSub	true	uprising	seen
+Relation	22	31	SuperSub	true	unrest	abducted
+Relation	22	33	SuperSub	true	unrest	killed
+Relation	22	35	SuperSub	true	unrest	violations
+Relation	22	43	SuperSub	true	unrest	defecting
+Relation	19	2	SuperSub	true	uprising	killed
+Relation	22	2	SuperSub	true	unrest	killed
+Relation	19	2	SuperSub	true	uprising	killed
+Relation	22	2	SuperSub	true	unrest	killed
+Relation	19	2	SuperSub	true	uprising	killed
+Relation	22	2	SuperSub	true	unrest	killed

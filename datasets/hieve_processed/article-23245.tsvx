@@ -1,0 +1,63 @@
+Text	A rider has been killed at Northern Ireland 's top motorcycle race , the North West 200 . He was named as Mark Buckley , a 35-year-old competitor from Lough Lowland in Scotland . The married man died from his injuries in hospital after an incident near York Corner , outside Portstewart , Co Derry , said organisers . The motorcyclist had been taking part in the third race , the Superstock race , on Saturday afternoon . It was the last day of the international race series . Organisers have not fully established the cause of the crash yet , and are investigating the circumstances along with the Motorcycle Union of Ireland ( MCUI ) . Mervyn Whyte , North West 200 event director , said everybody was devastated by Mr Buckley 's death . `` Our thoughts and prayers are with his wife Jayne and we extend our deepest sympathies to the entire family circle , '' he said . `` There were no other riders involved in the incident . '' The annual event is reputed to be one of the fastest motorcycle road races in the world . A number of competitors have been killed during its more than 80-year history . Mr Buckley was a regular competitor at the North West 200 and was expecting to compete at the TT races in the Isle of man in June .
+Event	1	killed	Occurrence	17	4
+Event	2	race	Occurrence	61	11
+Event	3	died	Occurrence	190	37
+Event	4	incident	Occurrence	234	45
+Event	5	said	Reporting	292	56
+Event	6	taking	Occurrence	335	63
+Event	7	race	Occurrence	360	68
+Event	8	race	Occurrence	381	72
+Event	9	series	Occurrence	456	87
+Event	10	crash	Occurrence	519	98
+Event	11	investigating	Occurrence	538	103
+Event	12	said	Reporting	666	126
+Event	13	devastated	StateChange	685	129
+Event	14	death	Occurrence	712	134
+Event	15	said	Reporting	839	160
+Event	16	incident	Occurrence	889	171
+Event	17	killed	HalfGeneric	1023	198
+Relation	7	8	Coref	false	race	race
+Relation	1	3	Coref	true	killed	died
+Relation	4	10	Coref	false	incident	crash
+Relation	14	3	Coref	false	death	died
+Relation	16	10	Coref	false	incident	crash
+Relation	2	7	SuperSub	false	race	race
+Relation	7	6	SuperSub	false	race	taking
+Relation	6	4	SuperSub	false	taking	incident
+Relation	4	1	SuperSub	true	incident	killed
+Relation	9	2	SuperSub	false	series	race
+Relation	2	8	SuperSub	true	race	race
+Relation	8	6	SuperSub	true	race	taking
+Relation	6	10	SuperSub	true	taking	crash
+Relation	10	1	SuperSub	true	crash	killed
+Relation	4	3	SuperSub	true	incident	died
+Relation	2	6	SuperSub	true	race	taking
+Relation	7	4	SuperSub	true	race	incident
+Relation	6	1	SuperSub	true	taking	killed
+Relation	9	7	SuperSub	true	series	race
+Relation	8	4	SuperSub	true	race	incident
+Relation	8	1	SuperSub	true	race	killed
+Relation	2	6	SuperSub	true	race	taking
+Relation	7	4	SuperSub	true	race	incident
+Relation	6	1	SuperSub	true	taking	killed
+Relation	9	7	SuperSub	true	series	race
+Relation	8	4	SuperSub	true	race	incident
+Relation	8	1	SuperSub	true	race	killed
+Relation	2	4	SuperSub	true	race	incident
+Relation	7	1	SuperSub	true	race	killed
+Relation	9	6	SuperSub	true	series	taking
+Relation	9	4	SuperSub	true	series	incident
+Relation	2	1	SuperSub	true	race	killed
+Relation	9	1	SuperSub	true	series	killed
+Relation	2	6	SuperSub	true	race	taking
+Relation	7	4	SuperSub	true	race	incident
+Relation	6	1	SuperSub	true	taking	killed
+Relation	9	7	SuperSub	true	series	race
+Relation	8	4	SuperSub	true	race	incident
+Relation	8	1	SuperSub	true	race	killed
+Relation	2	4	SuperSub	true	race	incident
+Relation	7	1	SuperSub	true	race	killed
+Relation	9	6	SuperSub	true	series	taking
+Relation	9	4	SuperSub	true	series	incident
+Relation	2	1	SuperSub	true	race	killed
+Relation	9	1	SuperSub	true	series	killed

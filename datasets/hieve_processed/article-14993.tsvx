@@ -1,0 +1,26 @@
+Text	Police in Northern Ireland say they have ended an overnight search of Belfast Lough after a woman 's claim that her baby fell from a ferry into the water proved to be false . The story that a 37-year-old woman and her infant plunged together into the harbor — but only the mother was rescued — made headlines Thursday across Britain and Ireland . But police said officers have concluded the woman fell alone . She spent 15 minutes in the water and was treated for hypothermia in a Belfast hospital . Police say other passengers on the ferry from Scotland reported seeing a baby with the woman , but after interviewing her family , they now believe she had no child with her . The search lasted 18 hours and involved a police helicopter and several vessels .
+Event	1	say	Reporting	27	4
+Event	2	ended	I_Action	41	7
+Event	3	search	Occurrence	60	10
+Event	4	fell	Occurrence	120	22
+Event	5	proved	Occurrence	153	29
+Event	6	plunged	Occurrence	223	43
+Event	7	rescued	Occurrence	282	54
+Event	8	made	Occurrence	292	56
+Event	9	said	Reporting	355	66
+Event	10	concluded	Occurrence	374	69
+Event	11	fell	Occurrence	394	72
+Event	12	spent	Occurrence	410	76
+Event	13	treated	Occurrence	448	84
+Event	14	say	Reporting	502	93
+Event	15	reported	I_Action	550	101
+Event	16	seeing	Perception	559	102
+Event	17	interviewing	Occurrence	599	111
+Event	18	search	Occurrence	672	126
+Relation	6	4	Coref	false	plunged	fell
+Relation	18	3	Coref	false	search	search
+Relation	11	6	Coref	false	fell	plunged
+Relation	10	5	Coref	false	concluded	proved
+Relation	3	5	SuperSub	false	search	proved
+Relation	18	5	SuperSub	true	search	proved
+Relation	3	10	SuperSub	true	search	concluded

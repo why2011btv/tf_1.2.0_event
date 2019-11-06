@@ -1,0 +1,81 @@
+Text	Gunfire rang out in Mali 's capital Bamako on Wednesday in the third day of clashes between the military junta and soldiers loyal to the ousted president , forcing residents to flee . A Malian security source told Reuters the junta 's troops were asking people to leave their buildings as they searched for loyalist fighters , including suspected foreign mercenaries , who had mounted a counter-coup attempt . `` We 're looking for red berets , '' yelled one junta soldier , before firing his rifle into the air . Shooting was also heard from the direction of the state broadcaster building , scene of some of the heaviest fighting since Monday but which has remained under the junta 's control . `` The evacuation is meant to help the work of the soldiers who are in the process of sweeping the city in search of mercenaries that have infiltrated the population , '' the security source said , asking not to be named . A Reuters witness said firing also broke out in downtown Bamako , where administrative buildings were being evacuated and residents were fleeing on foot and by car . Members of the red beret presidential guard unit attacked important sites in and around Bamako late on Monday in an apparent attempt to unseat the military junta that has been in power since a coup on March 22 . Residents said heavy and automatic weapons fire was heard coming from the red berets training camp in the Sebenicoro neighbourhood , west of Bamako , after a column of junta tanks and armored cars moved to seize the camp . `` We hear gunfire everywhere , I have just heard heavy weapons . They carrying out a mopping-up operation in the last pocket of the red berets resistance , '' said a resident of the neighbourhood .
+Event	2	rang	I_Action	8	1
+Event	3	clashes	Occurrence	75	15
+Event	4	forcing	I_Action	154	28
+Event	5	flee	Occurrence	175	31
+Event	6	told	Reporting	206	37
+Event	7	asking	I_Action	243	44
+Event	8	searched	Occurrence	290	52
+Event	9	mounted	I_Action	371	64
+Event	10	attempt	Occurrence	394	67
+Event	11	yelled	Reporting	435	78
+Event	12	firing	Occurrence	468	84
+Event	13	Shooting	Occurrence	498	91
+Event	14	heard	Perception	517	94
+Event	15	fighting	HalfGeneric	607	110
+Event	16	evacuation	Occurrence	684	125
+Event	17	sweeping	I_Action	763	141
+Event	18	search	Occurrence	784	145
+Event	19	infiltrated	Occurrence	816	150
+Event	20	said	Reporting	865	158
+Event	21	asking	I_Action	871	160
+Event	22	said	Reporting	913	169
+Event	23	firing	Occurrence	918	170
+Event	24	broke	I_Action	930	172
+Event	25	evacuated	Occurrence	1002	183
+Event	26	fleeing	Occurrence	1031	187
+Event	27	attacked	Occurrence	1108	202
+Event	28	attempt	I_Action	1184	215
+Event	29	coup	Occurrence	1252	228
+Event	30	said	Reporting	1280	234
+Event	31	fire	Occurrence	1313	239
+Event	32	heard	Perception	1322	241
+Event	33	moved	I_Action	1465	267
+Event	34	hear	Perception	1494	275
+Event	35	gunfire	Occurrence	1499	276
+Event	36	heard	Perception	1531	282
+Event	37	carrying	I_Action	1557	287
+Event	38	operation	Occurrence	1583	291
+Event	39	said	Reporting	1643	303
+Relation	5	16	Coref	false	flee	evacuation
+Relation	18	8	Coref	false	search	searched
+Relation	27	10	Coref	false	attacked	attempt
+Relation	34	32	Coref	false	hear	heard
+Relation	35	31	Coref	false	gunfire	fire
+Relation	3	5	SuperSub	false	clashes	flee
+Relation	3	8	SuperSub	false	clashes	searched
+Relation	8	12	SuperSub	false	searched	firing
+Relation	3	13	SuperSub	false	clashes	Shooting
+Relation	3	15	SuperSub	false	clashes	fighting
+Relation	25	26	SuperSub	false	evacuated	fleeing
+Relation	3	31	SuperSub	false	clashes	fire
+Relation	3	1	SuperSub	false	clashes	unfire
+Relation	16	25	SuperSub	false	evacuation	evacuated
+Relation	34	36	SuperSub	false	hear	heard
+Relation	38	35	SuperSub	false	operation	gunfire
+Relation	38	34	SuperSub	false	operation	hear
+Relation	3	16	SuperSub	true	clashes	evacuation
+Relation	3	18	SuperSub	true	clashes	search
+Relation	18	12	SuperSub	true	search	firing
+Relation	3	35	SuperSub	true	clashes	gunfire
+Relation	5	25	SuperSub	true	flee	evacuated
+Relation	32	36	SuperSub	true	heard	heard
+Relation	38	31	SuperSub	true	operation	fire
+Relation	38	32	SuperSub	true	operation	heard
+Relation	3	12	SuperSub	true	clashes	firing
+Relation	16	26	SuperSub	true	evacuation	fleeing
+Relation	38	36	SuperSub	true	operation	heard
+Relation	3	25	SuperSub	true	clashes	evacuated
+Relation	5	26	SuperSub	true	flee	fleeing
+Relation	3	12	SuperSub	true	clashes	firing
+Relation	16	26	SuperSub	true	evacuation	fleeing
+Relation	38	36	SuperSub	true	operation	heard
+Relation	3	25	SuperSub	true	clashes	evacuated
+Relation	5	26	SuperSub	true	flee	fleeing
+Relation	3	26	SuperSub	true	clashes	fleeing
+Relation	3	12	SuperSub	true	clashes	firing
+Relation	16	26	SuperSub	true	evacuation	fleeing
+Relation	38	36	SuperSub	true	operation	heard
+Relation	3	25	SuperSub	true	clashes	evacuated
+Relation	5	26	SuperSub	true	flee	fleeing
+Relation	3	26	SuperSub	true	clashes	fleeing

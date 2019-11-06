@@ -1,0 +1,89 @@
+Text	Britain 's Prince Charles on a trip to Scotland took on a role that is not normally part of the heir to the throne 's strict duties . The royal visit to the BBC 's Glasgow office was standard enough . For Scottish lunchtime viewers , a gloomy weather forecast would have been no surprise . The stand-in weatherman however might have come as a shock . `` Well it is an unsettled picture as we head towards the end of the week , '' said the prince as he went live on air after being introduced by the news presenter . `` This afternoon will be cold , wet and windy across most of Scotland . We are under the influence of low pressure and this weather front pushing northwards is bringing cloud and outbreaks of rain . '' As the weather chart went through its animation process behind him , there were hints that the script had been slightly adapted for the royal occasion . `` In the west the rain will be lighter and patchier , there may be a few drier interludes over Dumfries House in Ayrshire ... ah ha ! ... there will be snow for the higher ground of the Highlands and Aberdeenshire . The potential for a few flurries over Balmoral ... who the hell wrote this script ? '' exclaimed Charles to laughter . Scotland 's royal residences also featured as the Duchess of Cornwall later tried her hand as a weather girl . The royal couple were visiting Scotland as part of their annual Holyrood week .
+Event	1	trip	Occurrence	30	6
+Event	2	took	Occurrence	47	9
+Event	3	visit	Occurrence	141	30
+Event	4	said	Reporting	417	85
+Event	5	went	Occurrence	439	90
+Event	6	introduced	Occurrence	468	96
+Event	7	pushing	Occurrence	637	129
+Event	8	bringing	Occurrence	659	132
+Event	9	went	I_Action	719	144
+Event	10	process	Occurrence	746	148
+Event	11	hints	HalfGeneric	777	154
+Event	12	adapted	I_Action	817	161
+Event	13	occasion	Occurrence	839	165
+Event	14	exclaimed	I_Action	1142	227
+Event	15	laughter	Occurrence	1163	230
+Event	16	featured	Occurrence	1206	237
+Event	17	tried	Occurrence	1248	244
+Event	18	visiting	Occurrence	1304	256
+Relation	1	18	Coref	false	trip	visiting
+Relation	13	2	Coref	false	occasion	took
+Relation	1	3	SuperSub	false	trip	visit
+Relation	3	2	SuperSub	false	visit	took
+Relation	2	5	SuperSub	false	took	went
+Relation	2	6	SuperSub	false	took	introduced
+Relation	7	8	SuperSub	false	pushing	bringing
+Relation	2	10	SuperSub	false	took	process
+Relation	10	11	SuperSub	false	process	hints
+Relation	10	15	SuperSub	false	process	laughter
+Relation	16	17	SuperSub	false	featured	tried
+Relation	18	3	SuperSub	true	visiting	visit
+Relation	3	13	SuperSub	true	visit	occasion
+Relation	13	5	SuperSub	true	occasion	went
+Relation	13	6	SuperSub	true	occasion	introduced
+Relation	13	10	SuperSub	true	occasion	process
+Relation	1	2	SuperSub	true	trip	took
+Relation	3	5	SuperSub	true	visit	went
+Relation	3	6	SuperSub	true	visit	introduced
+Relation	3	10	SuperSub	true	visit	process
+Relation	2	11	SuperSub	true	took	hints
+Relation	2	15	SuperSub	true	took	laughter
+Relation	18	2	SuperSub	true	visiting	took
+Relation	18	5	SuperSub	true	visiting	went
+Relation	18	6	SuperSub	true	visiting	introduced
+Relation	18	10	SuperSub	true	visiting	process
+Relation	13	11	SuperSub	true	occasion	hints
+Relation	13	15	SuperSub	true	occasion	laughter
+Relation	1	2	SuperSub	true	trip	took
+Relation	3	5	SuperSub	true	visit	went
+Relation	3	6	SuperSub	true	visit	introduced
+Relation	3	10	SuperSub	true	visit	process
+Relation	2	11	SuperSub	true	took	hints
+Relation	2	15	SuperSub	true	took	laughter
+Relation	18	2	SuperSub	true	visiting	took
+Relation	18	5	SuperSub	true	visiting	went
+Relation	18	6	SuperSub	true	visiting	introduced
+Relation	18	10	SuperSub	true	visiting	process
+Relation	13	11	SuperSub	true	occasion	hints
+Relation	13	15	SuperSub	true	occasion	laughter
+Relation	1	5	SuperSub	true	trip	went
+Relation	1	6	SuperSub	true	trip	introduced
+Relation	1	10	SuperSub	true	trip	process
+Relation	1	11	SuperSub	true	trip	hints
+Relation	1	15	SuperSub	true	trip	laughter
+Relation	3	11	SuperSub	true	visit	hints
+Relation	3	15	SuperSub	true	visit	laughter
+Relation	18	11	SuperSub	true	visiting	hints
+Relation	18	15	SuperSub	true	visiting	laughter
+Relation	1	2	SuperSub	true	trip	took
+Relation	3	5	SuperSub	true	visit	went
+Relation	3	6	SuperSub	true	visit	introduced
+Relation	3	10	SuperSub	true	visit	process
+Relation	2	11	SuperSub	true	took	hints
+Relation	2	15	SuperSub	true	took	laughter
+Relation	18	2	SuperSub	true	visiting	took
+Relation	18	5	SuperSub	true	visiting	went
+Relation	18	6	SuperSub	true	visiting	introduced
+Relation	18	10	SuperSub	true	visiting	process
+Relation	13	11	SuperSub	true	occasion	hints
+Relation	13	15	SuperSub	true	occasion	laughter
+Relation	1	5	SuperSub	true	trip	went
+Relation	1	6	SuperSub	true	trip	introduced
+Relation	1	10	SuperSub	true	trip	process
+Relation	1	11	SuperSub	true	trip	hints
+Relation	1	15	SuperSub	true	trip	laughter
+Relation	3	11	SuperSub	true	visit	hints
+Relation	3	15	SuperSub	true	visit	laughter
+Relation	18	11	SuperSub	true	visiting	hints
+Relation	18	15	SuperSub	true	visiting	laughter

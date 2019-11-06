@@ -1,0 +1,44 @@
+Text	The extreme climber known to some as Spiderman has struck again : this time , on France ’ s new tallest building . Alain Robert scaled the recently heightened First Tower in the La Defense business district west of Paris today . Hundreds of onlookers peered out of its windows or craned their necks as he went up . The Frenchman has ascended more than 100 skyscrapers and monuments over his 15-year career of daredevil climbs using no support equipment . Often his climbs are illegal , but not this time : today ’ s feat up the 758ft ( 231m ) building was given the go-ahead by its owner . Robert said he does not battle fear on the way up because “ I really don ’ t have time to be afraid , I really have other things to do . ''
+Event	1	struck	Occurrence	51	9
+Event	2	scaled	Occurrence	123	25
+Event	3	peered	Occurrence	245	45
+Event	4	craned	Occurrence	274	51
+Event	5	went	Occurrence	299	56
+Event	6	ascended	HalfGeneric	326	62
+Event	7	climbs	HalfGeneric	412	75
+Event	8	climbs	HalfGeneric	457	83
+Event	9	feat	Occurrence	504	95
+Event	10	given	Occurrence	542	104
+Event	11	said	Reporting	582	112
+Relation	2	5	Coref	false	scaled	went
+Relation	7	6	Coref	false	climbs	ascended
+Relation	9	2	Coref	false	feat	scaled
+Relation	9	5	Coref	false	feat	went
+Relation	1	2	Coref	false	struck	scaled
+Relation	2	3	SuperSub	false	scaled	peered
+Relation	2	4	SuperSub	false	scaled	craned
+Relation	7	8	SuperSub	false	climbs	climbs
+Relation	6	2	SuperSub	false	ascended	scaled
+Relation	5	3	SuperSub	true	went	peered
+Relation	1	3	SuperSub	true	struck	peered
+Relation	9	3	SuperSub	true	feat	peered
+Relation	5	4	SuperSub	true	went	craned
+Relation	1	4	SuperSub	true	struck	craned
+Relation	9	4	SuperSub	true	feat	craned
+Relation	6	8	SuperSub	true	ascended	climbs
+Relation	7	2	SuperSub	true	climbs	scaled
+Relation	6	5	SuperSub	true	ascended	went
+Relation	6	1	SuperSub	true	ascended	struck
+Relation	6	9	SuperSub	true	ascended	feat
+Relation	6	3	SuperSub	true	ascended	peered
+Relation	6	4	SuperSub	true	ascended	craned
+Relation	7	3	SuperSub	true	climbs	peered
+Relation	7	4	SuperSub	true	climbs	craned
+Relation	6	3	SuperSub	true	ascended	peered
+Relation	6	4	SuperSub	true	ascended	craned
+Relation	7	3	SuperSub	true	climbs	peered
+Relation	7	4	SuperSub	true	climbs	craned
+Relation	6	3	SuperSub	true	ascended	peered
+Relation	6	4	SuperSub	true	ascended	craned
+Relation	7	3	SuperSub	true	climbs	peered
+Relation	7	4	SuperSub	true	climbs	craned

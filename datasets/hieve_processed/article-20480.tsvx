@@ -1,0 +1,39 @@
+Text	A Malaysian court has convicted three Mexican brothers and two other people and sentenced them to be hanged for drug trafficking . The Mexicans are from Sinaloa state , the cradle of their country 's drug trade , but have no criminal record at home . They were arrested at a secluded drug-making factory in 2008 and claimed they had been cleaning the place , not making drugs . Kuala Lumpur High Court Judge Mohamad Zawawi Salleh ruled the prosecution had proven its case beyond reasonable doubt and imposed the death sentence , the mandatory penalty for drug trafficking in Malaysia . The other defendants are a Singaporean and a Malaysian . `` The court finds all five accused are aware and are involved in the activity of drug-making , '' Mohamad Zawawi said , adding that the verdict should be a warning to potential drug offenders . `` We are very sad . We thought we would be acquitted , '' said the eldest brother , Luis Alfonso Gonzales . The court had previously rejected the defence 's contention that some evidence discrepancies amounted to tampering after a chemist testified that seven items he received for analysis looked different from what he had seen at the factory . The prosecution denied there was any manipulation that undermined the trial . At the factory where the men were arrested , police found more than 29 kilograms of methamphetamine worth 44 million ringgit ( 15 million US dollars ) . Judge Mohamed Zawawi said it was clear the men were arrested at an illegal drug laboratory . Traces of drug chemicals were on their clothes , and their claim to have been cleaning the place was not logical because stains were also found on their underwear , he said .
+Event	1	convicted	Occurrence	23	4
+Event	2	sentenced	I_Action	81	13
+Event	3	trafficking	Occurrence	118	20
+Event	4	arrested	Occurrence	257	48
+Event	5	claimed	Reporting	312	57
+Event	6	ruled	I_Action	424	77
+Event	7	imposed	I_Action	494	88
+Event	8	finds	Occurrence	645	115
+Event	9	accused	Occurrence	660	118
+Event	10	said	Reporting	743	133
+Event	11	adding	Reporting	749	135
+Event	12	said	Reporting	875	162
+Event	13	rejected	Occurrence	948	175
+Event	14	contention	Occurrence	971	179
+Event	15	testified	Reporting	1053	190
+Event	16	received	I_Action	1083	195
+Event	17	looked	Perception	1105	198
+Event	18	seen	Perception	1139	204
+Event	19	denied	Reporting	1176	211
+Event	20	trial	Occurrence	1230	219
+Event	21	arrested	Occurrence	1271	228
+Event	22	found	Occurrence	1288	231
+Event	23	said	Reporting	1407	252
+Event	24	arrested	Occurrence	1438	259
+Event	25	claim	I_Action	1536	277
+Event	26	found	Occurrence	1615	291
+Event	27	said	Reporting	1644	297
+Relation	21	4	Coref	false	arrested	arrested
+Relation	24	21	Coref	false	arrested	arrested
+Relation	3	4	SuperSub	false	trafficking	arrested
+Relation	14	13	SuperSub	false	contention	rejected
+Relation	20	14	SuperSub	false	trial	contention
+Relation	20	8	SuperSub	false	trial	finds
+Relation	20	1	SuperSub	false	trial	convicted
+Relation	3	21	SuperSub	true	trafficking	arrested
+Relation	20	13	SuperSub	true	trial	rejected
+Relation	20	13	SuperSub	true	trial	rejected
+Relation	20	13	SuperSub	true	trial	rejected

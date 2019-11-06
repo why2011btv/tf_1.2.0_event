@@ -1,0 +1,21 @@
+Text	Greek state television says radical left SYRIZA party leader Alexis Tsipras is refusing to attend the next round of coalition talks on Monday , convened by the country 's president . Tsipras insists he won ’ t join any coalition government seeking to push ahead with an international bailout deal . The continued political deadlock is bringing the prospect of an election re-run ever closer . The discussions continue ... but without agreement , and apparently , with little compromise . Leftists leader Alexis Tsipras on Sunday met with President Karolos Papoulias , along with the leaders of Greece ’ s two other main parties - the conservative `` New Democracy '' and the socialist `` PASOK '' . THEY ’ RE both accusing Tsipras ’ s SYRIZA party of shirking its social responsibility , by refusing to participate in a unity government . But speaking afterwards , Tsipras reiterated that his party was bound by its election promise - to DITCH the country ’ s EU-IMF-backed bailout agreement . Tsipras said , `` We take our responsibilities seriously . And the biggest responsibility we have is to not let the people , or our supporters , lose hope . We must not backtrack on what we promised before the election . And we won ’ t. `` There remains the small possibility of a coalition that excludes SYRIZA . The smaller Democratic Left party could provide enough seats to form a majority government with New Democracy and PASOK . But they ’ ve so far refused to consider such a deal - unless the coalition also includes SYRIZA . The president ’ s mediation process could potentially run until May 17th , the scheduled opening date for the new parliament . If no agreement is reached , Greece will have to hold new elections next month , most likely on June 10th or 17th .
+Event	1	says	Reporting	23	3
+Event	2	refusing	I_Action	79	12
+Event	3	convened	Occurrence	143	24
+Event	4	insists	Reporting	188	32
+Event	5	deadlock	Occurrence	317	54
+Event	6	bringing	I_Action	329	56
+Event	7	met	Occurrence	518	87
+Event	8	accusing	I_Action	689	123
+Event	9	refusing	I_Action	763	136
+Event	10	speaking	Occurrence	814	145
+Event	11	reiterated	Reporting	843	149
+Event	12	promise	Occurrence	895	158
+Event	13	said	Reporting	969	171
+Event	14	promised	Occurrence	1144	207
+Event	15	election	Occurrence	1164	61
+Event	16	refused	I_Action	1403	256
+Relation	12	14	Coref	false	promise	promised
+Relation	5	3	SuperSub	false	deadlock	convened
+Relation	5	7	SuperSub	false	deadlock	met
+Relation	5	10	SuperSub	false	deadlock	speaking

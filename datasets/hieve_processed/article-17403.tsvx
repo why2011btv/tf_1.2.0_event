@@ -1,0 +1,39 @@
+Text	Fierce clashes overnight shook the northern port city and sporadic fighting continued on Monday . Machineguns and rocket propelled grenades were used . Tension between the Alawite and Sunni communities in Tripoli has been fuelled by the unrest in neighboring Syria , where Assad is seeking to crush a 14-month-old uprising which began with largely peaceful protests against his rule but has become increasingly militarized . Read the full story . A Sunni Muslim gunman carries a machinegun during clashes at the Sunni Muslim Bab al-Tebbaneh neighbourhood in Tripoli , northern Lebanon , on May 14 . Two men were killed and at least 20 were wounded in clashes between Alawite supporters of Syrian President Bashar al-Assad and Sunni Muslim fighters in the Lebanese city of Tripoli , medical sources said on Monday . Fierce clashes overnight shook the northern port city and sporadic fighting continued on Monday morning , with fighters firing machineguns and rocket propelled grenades .
+Event	1	clashes	Occurrence	7	1
+Event	2	shook	I_Action	25	3
+Event	3	fighting	Occurrence	68	10
+Event	4	used	Occurrence	146	21
+Event	5	seeking	I_Action	283	45
+Event	6	uprising	Occurrence	315	50
+Event	7	began	I_Action	330	52
+Event	8	protests	Occurrence	359	56
+Event	9	become	StateChange	393	62
+Event	10	carries	Occurrence	469	75
+Event	11	clashes	Occurrence	497	79
+Event	12	killed	Occurrence	609	100
+Event	13	wounded	Occurrence	637	106
+Event	14	clashes	Occurrence	648	108
+Event	15	said	Reporting	794	130
+Event	16	clashes	Occurrence	817	135
+Event	17	shook	I_Action	835	137
+Event	18	fighting	Occurrence	877	144
+Event	19	firing	Occurrence	929	152
+Relation	14	11	Coref	false	clashes	clashes
+Relation	16	14	Coref	false	clashes	clashes
+Relation	3	18	Coref	false	fighting	fighting
+Relation	19	4	Coref	false	firing	used
+Relation	1	11	Coref	false	clashes	clashes
+Relation	6	8	SuperSub	false	uprising	protests
+Relation	6	9	SuperSub	false	uprising	become
+Relation	11	10	SuperSub	false	clashes	carries
+Relation	14	13	SuperSub	false	clashes	wounded
+Relation	14	12	SuperSub	false	clashes	killed
+Relation	1	4	SuperSub	false	clashes	used
+Relation	14	10	SuperSub	true	clashes	carries
+Relation	1	10	SuperSub	true	clashes	carries
+Relation	11	13	SuperSub	true	clashes	wounded
+Relation	16	13	SuperSub	true	clashes	wounded
+Relation	11	12	SuperSub	true	clashes	killed
+Relation	16	12	SuperSub	true	clashes	killed
+Relation	11	4	SuperSub	true	clashes	used
+Relation	1	19	SuperSub	true	clashes	firing

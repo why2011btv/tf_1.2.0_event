@@ -1,0 +1,47 @@
+Text	A senior official at the Indonesian Disaster Victim Identification Agency ( DVI ) said Friday that ten foreigners were among the victims of crashed Sukhoi Superjet 100 plane in Indonesia 's West Java province . `` Those ten foreigners were eight from Russia , one from the United States and another one from France , '' DVI Executive Director Anton Castilani said here . He said that five people among the 50 listed in the initial passengers manifest had reported to DVI about their safety . They cancelled to board the plane in last minutes before the plane took off from Halim Perdanakusumah airport for a demonstration flight . `` It means that there were 45 people onboard the plane . Identification of 35 Indonesian nationals had been reported by their families to DVI . Families of the French and the U.S. nationals onboard the plane have also reported identification of their relatives , '' Anton said . He added that the data recorded by the agency fit to the manifest data recorded from the ill-fated Sukhoi plane . Debris of the crashed plane were mostly found scattered in Cipelang hamlet , Cijeruk subdictrict in Bogor regency in West Java province . The plane hit the wall of Mount Salak located in Bogor regency on Wednesday afternoon after its pilot contacted the Air Traffic Control ( ATC ) officials in Halim Perdanakusumah airport , asking permission to descent to 6,000 feet from a height of 10,000 feet . The Indonesian rescuer team and the army engage helicopters to evacuate the remains of the killed passengers from the crash site in several sorties . Indonesian and Russian teams have prepared a joint team to identify the remains of those perished in the plane crash . The fatal crash was the first in the world to involve Russia 's iconic Sukhoi Superjet 100 passenger plane . Indonesian president Susilo Bambang Yudhoyono has issued an instruction to undertake a thorough investigation into the crash .
+Event	1	said	Reporting	80	13
+Event	2	crashed	Occurrence	138	23
+Event	3	said	Reporting	349	61
+Event	4	said	Reporting	363	65
+Event	5	reported	Occurrence	444	79
+Event	6	cancelled	I_Action	485	87
+Event	7	took	Occurrence	547	98
+Event	8	flight	Occurrence	610	107
+Event	9	Identification	Occurrence	673	8
+Event	10	reported	I_Action	724	128
+Event	11	reported	I_Action	833	148
+Event	12	identification	Occurrence	842	149
+Event	13	said	Reporting	884	156
+Event	14	added	Reporting	893	159
+Event	15	recorded	Occurrence	913	163
+Event	16	recorded	Occurrence	961	172
+Event	17	crashed	Occurrence	1017	182
+Event	18	found	Occurrence	1043	186
+Event	19	hit	Occurrence	1149	204
+Event	20	contacted	Occurrence	1241	220
+Event	21	asking	I_Action	1324	234
+Event	22	engage	I_Action	1438	255
+Event	23	prepared	I_Action	1580	278
+Event	24	perished	Occurrence	1635	288
+Event	25	crash	Occurrence	1657	267
+Event	26	crash	Occurrence	1674	292
+Event	27	issued	I_Action	1821	320
+Event	28	crash	Occurrence	1890	296
+Relation	17	2	Coref	false	crashed	crashed
+Relation	25	17	Coref	false	crash	crashed
+Relation	26	25	Coref	false	crash	crash
+Relation	28	26	Coref	false	crash	crash
+Relation	8	7	SuperSub	false	flight	took
+Relation	8	2	SuperSub	false	flight	crashed
+Relation	8	16	SuperSub	false	flight	recorded
+Relation	17	19	SuperSub	false	crashed	hit
+Relation	8	20	SuperSub	false	flight	contacted
+Relation	25	24	SuperSub	false	crash	perished
+Relation	8	17	SuperSub	true	flight	crashed
+Relation	25	19	SuperSub	true	crash	hit
+Relation	2	19	SuperSub	true	crashed	hit
+Relation	17	24	SuperSub	true	crashed	perished
+Relation	26	24	SuperSub	true	crash	perished
+Relation	8	19	SuperSub	true	flight	hit
+Relation	8	19	SuperSub	true	flight	hit
+Relation	8	19	SuperSub	true	flight	hit

@@ -1,0 +1,42 @@
+Text	AFP - An Israeli air strike against a car in Gaza City on Thursday killed at least two Palestinians and wounded two others , Palestinian medical and security sources said . The Israeli army had no immediate comment on the reported strike , which Palestinian security sources said was carried out by an Israeli drone . `` The remains of two Palestinians were brought to Shifa hospital in Gaza City and two others were injured in the raid , which targeted a civilian car , '' medical sources told AFP . The strike came a day after Israeli warplanes carried out twin raids targeting what the military said was a Palestinian militant cell planning to launch rockets into Israel . The strikes killed one Palestinian militant and wounded two others in an area east of the Zeitun neighbourhood , the Islamic Jihad movement said . Israel frequently targets militants it says are about to launch rockets into the Jewish state , or bombs Gaza in response to such rocket fire , but it also carries out targeted attacks against members of Gaza militant groups . On September 7 , an Israeli air strike against a car travelling near Deir al-Balah in central Gaza killed a member of the Quds Bridge , Islamic Jihad 's military wing .
+Event	1	strike	Occurrence	21	5
+Event	2	killed	Occurrence	67	14
+Event	3	wounded	Occurrence	104	20
+Event	4	said	Reporting	165	29
+Event	5	strike	Occurrence	229	41
+Event	6	said	Reporting	272	47
+Event	7	carried	I_Action	281	49
+Event	8	brought	Occurrence	352	63
+Event	9	injured	Occurrence	411	74
+Event	10	raid	Occurrence	426	77
+Event	11	told	Reporting	480	88
+Event	12	strike	Occurrence	494	92
+Event	13	carried	I_Action	536	99
+Event	14	raids	Occurrence	553	102
+Event	15	said	Reporting	587	107
+Event	16	strikes	Occurrence	668	121
+Event	17	killed	Occurrence	676	122
+Event	18	wounded	Occurrence	712	127
+Event	19	said	Reporting	803	143
+Event	20	strike	Occurrence	1064	192
+Event	21	travelling	Occurrence	1085	196
+Event	22	killed	Occurrence	1131	203
+Relation	1	5	Coref	false	strike	strike
+Relation	3	9	Coref	false	wounded	injured
+Relation	10	5	Coref	false	raid	strike
+Relation	10	12	Coref	false	raid	strike
+Relation	14	16	Coref	false	raids	strikes
+Relation	1	2	SuperSub	false	strike	killed
+Relation	1	3	SuperSub	false	strike	wounded
+Relation	16	17	SuperSub	false	strikes	killed
+Relation	16	18	SuperSub	false	strikes	wounded
+Relation	21	20	SuperSub	false	travelling	strike
+Relation	20	22	SuperSub	false	strike	killed
+Relation	5	2	SuperSub	true	strike	killed
+Relation	5	3	SuperSub	true	strike	wounded
+Relation	1	9	SuperSub	true	strike	injured
+Relation	14	17	SuperSub	true	raids	killed
+Relation	14	18	SuperSub	true	raids	wounded
+Relation	21	22	SuperSub	true	travelling	killed
+Relation	21	22	SuperSub	true	travelling	killed
+Relation	21	22	SuperSub	true	travelling	killed

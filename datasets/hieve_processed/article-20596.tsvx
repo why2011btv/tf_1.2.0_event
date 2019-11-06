@@ -1,0 +1,63 @@
+Text	A group of suicide attackers stormed a government compound in western Afghanistan today , killing at least seven people , officials said . The militants were armed with explosive-laden vests , automatic weapons and rocket propelled grenades for the assault on the governor ’ s complex in Farah province . One attacker blew himself up at the gate of the compound , then three others fought their way inside , said Raouf Ahmadi , the regional police spokesman . A two-hour gun battle with police left all the attackers dead , Mr Ahmadi said . He added that six policemen and one civilian were also killed in the attack , while another 12 people were wounded . Government offices are a common target for militants in Afghanistan . Last month two Taliban fighters smuggled guns into the governor ’ s compound in Kandahar , sparking a gun battle in which two guards and both attackers were killed . Elsewhere , Taliban militants attacked a Nato supply convoy overnight in Herat province . Provincial police spokesman Raouf Ahmadi said one police officer , two security guards and a militant were killed in the fighting .
+Event	1	stormed	Occurrence	29	5
+Event	2	killing	Occurrence	89	14
+Event	3	said	Reporting	130	21
+Event	4	assault	Occurrence	245	39
+Event	5	blew	Occurrence	311	52
+Event	6	fought	Occurrence	374	65
+Event	7	said	Reporting	399	70
+Event	8	battle	Occurrence	464	82
+Event	9	left	I_Action	483	85
+Event	10	dead	Occurrence	506	89
+Event	11	said	Reporting	522	93
+Event	12	added	Reporting	531	96
+Event	13	killed	Occurrence	583	105
+Event	14	attack	Occurrence	597	108
+Event	15	wounded	Occurrence	634	115
+Event	16	smuggled	Occurrence	744	133
+Event	17	sparking	I_Action	800	144
+Event	18	battle	Occurrence	815	147
+Event	19	killed	Occurrence	866	156
+Event	20	attacked	Occurrence	903	162
+Event	21	said	Reporting	1003	177
+Event	22	killed	Occurrence	1068	189
+Event	23	fighting	Occurrence	1082	192
+Relation	14	4	Coref	false	attack	assault
+Relation	2	13	Coref	false	killing	killed
+Relation	4	1	SuperSub	false	assault	stormed
+Relation	20	23	SuperSub	false	attacked	fighting
+Relation	23	22	SuperSub	false	fighting	killed
+Relation	18	19	SuperSub	false	battle	killed
+Relation	18	16	SuperSub	true	battle	smuggled
+Relation	14	8	SuperSub	false	attack	battle
+Relation	8	13	SuperSub	false	battle	killed
+Relation	8	10	SuperSub	false	battle	dead
+Relation	8	15	SuperSub	false	battle	wounded
+Relation	4	5	SuperSub	false	assault	blew
+Relation	4	6	SuperSub	false	assault	fought
+Relation	14	1	SuperSub	true	attack	stormed
+Relation	4	8	SuperSub	true	assault	battle
+Relation	8	2	SuperSub	true	battle	killing
+Relation	14	5	SuperSub	true	attack	blew
+Relation	14	6	SuperSub	true	attack	fought
+Relation	20	22	SuperSub	true	attacked	killed
+Relation	14	13	SuperSub	true	attack	killed
+Relation	14	10	SuperSub	true	attack	dead
+Relation	14	15	SuperSub	true	attack	wounded
+Relation	4	13	SuperSub	true	assault	killed
+Relation	4	10	SuperSub	true	assault	dead
+Relation	4	15	SuperSub	true	assault	wounded
+Relation	20	22	SuperSub	true	attacked	killed
+Relation	14	13	SuperSub	true	attack	killed
+Relation	14	10	SuperSub	true	attack	dead
+Relation	14	15	SuperSub	true	attack	wounded
+Relation	4	13	SuperSub	true	assault	killed
+Relation	4	10	SuperSub	true	assault	dead
+Relation	4	15	SuperSub	true	assault	wounded
+Relation	20	22	SuperSub	true	attacked	killed
+Relation	14	13	SuperSub	true	attack	killed
+Relation	14	10	SuperSub	true	attack	dead
+Relation	14	15	SuperSub	true	attack	wounded
+Relation	4	13	SuperSub	true	assault	killed
+Relation	4	10	SuperSub	true	assault	dead
+Relation	4	15	SuperSub	true	assault	wounded

@@ -1,0 +1,133 @@
+Text	Independent monitors called for tighter oversight of Egypt 's parliamentary election on Tuesday as Egyptians voted in staggered run-offs hotly contested by rival Islamist groups seeking to extend their early gains . Hardline Salafis were the surprise runners-up behind the well-established Muslim Brotherhood 's party in last week 's opening stage , the biggest test of the public mood since street protests ended Hosni Mubarak 's three-decade rule in February . The three-phase vote ending in January could give Islamists a popular mandate to challenge the ruling army council , which has already been pushed by protesters to hand power to civilians in mid-2012 , sooner than it had envisaged . But Islamists are not united and may not line up to form a majority bloc in parliament , giving liberals scope to take part in a post-election government and shape the future constitution . The Salafi al-Nour Party and the Brotherhood 's Freedom and Justice Party ( FJP ) are contesting about half of the 52 seats up for grabs in Monday and Tuesday 's run-off votes for seats where no candidate won more than 50 percent in the first round . There have been none of the long queues of voters that accompanied the first round vote . But , as before , party supporters have rallied voters outside polling stations and campaigned on the streets in violation of election rules . `` ; Until now we have n't seen a positive move to limit this phenomenon . It was widespread in the first stage and should have vanished in the run-offs , but it remains visible in front of the polling stations , '' said Tarek Zaghloul , executive manager at the Egyptian Organisation for Human Rights , involved in monitoring . He also noted that parties were using religious slogans , also banned , in their campaigning and bussing voters in . The election committee has noted violations and vowed to act but said irregularities did not undermine the election 's legitimacy , echoing an assessment made by independent monitors . But the committee raised eyebrows by revising its original first-round turnout figure of 62 percent down to 52 percent . A court also ruled results for one of four constituencies in Cairo were void after ballot boxes were damaged or went missing . Islamist rivalry Monitors Without Borders , another independent group watching the poll , urged the committee to `` ; swiftly address administrative and organisational mistakes in the election process for the second day of the run-offs and take urgent steps to provide the appropriate climate for the counting process '' . The committee has said it wants votes to be counted at polling stations not at a central location to avoid mishandling . Results could be announced as early as late on Tuesday . Some of the fiercest run-offs are in the Mediterranean port city of Alexandria , an Islamist stronghold . `` ; There were attempts to unite , but Salafis are very difficult , '' said Mohamed Hussein , 20 , as he distributed leaflets for the Brotherhood 's Freedom and Justice Party ( FJP ) in front of a polling station on Monday in Alexandria . `` ; We may agree on certain things but we are different in vision and strategy , '' he said . `` ; It is easier for me to talk with a liberal or a socialist than a Salafi . '' After the first round , the FJP 's party list won 36.6 percent of valid votes , with al-Nour 's list winning 24.4 percent and a liberal Egyptian Bloc on 13.4 percent , based on figures published by the election committee before it revised turnout . Work on the constitution could be a major battleground among the new parliamentarians and between the assembly and the army , which angered politicians when its cabinet made proposals before the vote to shield the army from civilian oversight . Though Islamists dominate , they range from hardline Salafis - who want to stop visitors wearing bikinis on beaches and ban alcohol - to centrists . Liberals will also have a significant voice . Alongside the Egyptian Bloc and other groups that fielded separate lists , one fifth of the FJP 's list is made up of a variety of smaller parties that include the liberal al-Ghad ( Tomorrow ) party and the left-leaning Karama ( Dignity ) . Under a complex system , two-thirds of the 498 elected lower house seats go proportionately to party lists , with the rest going to individual candidates .
+Event	1	called	I_Action	21	2
+Event	2	election	Occurrence	75	10
+Event	3	voted	Occurrence	108	15
+Event	4	contested	Occurrence	142	20
+Event	5	seeking	I_Action	177	25
+Event	6	protests	HalfGeneric	394	61
+Event	7	ended	I_Action	403	62
+Event	8	vote	Occurrence	472	73
+Event	9	pushed	I_Action	595	94
+Event	10	contesting	Occurrence	957	161
+Event	11	votes	Occurrence	1040	177
+Event	12	round	Occurrence	1113	191
+Event	13	vote	Occurrence	1203	208
+Event	14	rallied	Occurrence	1247	218
+Event	15	campaigned	Occurrence	1291	224
+Event	16	stage	Occurrence	1450	50
+Event	18	said	Reporting	1556	277
+Event	19	noted	Reporting	1674	297
+Event	20	using	Occurrence	1698	301
+Event	21	banned	Occurrence	1728	306
+Event	22	campaigning	HalfGeneric	1745	310
+Event	23	bussing	HalfGeneric	1761	312
+Event	24	noted	Reporting	1807	320
+Event	25	violations	HalfGeneric	1813	321
+Event	26	vowed	I_Action	1828	323
+Event	27	said	Reporting	1845	327
+Event	28	election	Occurrence	1887	231
+Event	29	echoing	I_Action	1910	337
+Event	30	assessment	Occurrence	1921	339
+Event	31	made	I_Action	1932	340
+Event	32	raised	Occurrence	1980	348
+Event	33	revising	Occurrence	1999	351
+Event	34	ruled	I_Action	2095	368
+Event	35	void	Occurrence	2154	378
+Event	36	damaged	Occurrence	2183	383
+Event	37	went	Occurrence	2194	385
+Event	38	watching	I_Action	2277	397
+Event	39	poll	Occurrence	2290	399
+Event	40	urged	I_Action	2296	401
+Event	41	run	Occurrence	2430	401
+Event	42	said	Reporting	2541	442
+Event	43	run	HalfGeneric	2721	442
+Event	44	attempts	I_Action	2817	494
+Event	45	said	Reporting	2869	505
+Event	46	distributed	Occurrence	2901	513
+Event	47	said	Reporting	3114	556
+Event	48	round	Occurrence	3212	207
+Event	49	won	Occurrence	3240	183
+Event	50	winning	Occurrence	3293	599
+Event	51	published	Occurrence	3376	614
+Event	52	revised	Occurrence	3422	621
+Event	53	angered	StateChange	3570	646
+Event	54	made	I_Action	3607	651
+Event	55	proposals	I_Action	3612	652
+Event	56	fielded	Occurrence	3924	706
+Relation	16	13	Coref	false	stage	vote
+Relation	12	13	Coref	false	round	vote
+Relation	10	4	Coref	false	contesting	contested
+Relation	11	3	Coref	false	votes	voted
+Relation	17	11	Coref	false	run	votes
+Relation	22	15	Coref	false	campaigning	campaigned
+Relation	28	2	Coref	false	election	election
+Relation	41	11	Coref	false	run	votes
+Relation	39	41	Coref	false	poll	run
+Relation	48	16	Coref	false	round	stage
+Relation	52	33	Coref	false	revised	revising
+Relation	2	8	SuperSub	false	election	vote
+Relation	8	3	SuperSub	false	vote	voted
+Relation	3	4	SuperSub	false	voted	contested
+Relation	8	13	SuperSub	false	vote	vote
+Relation	25	20	SuperSub	false	violations	using
+Relation	25	22	SuperSub	false	violations	campaigning
+Relation	25	23	SuperSub	false	violations	bussing
+Relation	33	32	SuperSub	false	revising	raised
+Relation	33	35	SuperSub	false	revising	void
+Relation	28	36	SuperSub	false	election	damaged
+Relation	28	37	SuperSub	false	election	went
+Relation	28	30	SuperSub	false	election	assessment
+Relation	25	14	SuperSub	false	violations	rallied
+Relation	41	43	SuperSub	false	run	run
+Relation	43	46	SuperSub	false	run	distributed
+Relation	48	49	SuperSub	false	round	won
+Relation	28	51	SuperSub	false	election	published
+Relation	48	50	SuperSub	false	round	winning
+Relation	28	56	SuperSub	false	election	fielded
+Relation	28	8	SuperSub	true	election	vote
+Relation	8	11	SuperSub	true	vote	votes
+Relation	11	4	SuperSub	true	votes	contested
+Relation	3	10	SuperSub	true	voted	contesting
+Relation	8	12	SuperSub	true	vote	round
+Relation	8	16	SuperSub	true	vote	stage
+Relation	25	15	SuperSub	true	violations	campaigned
+Relation	52	32	SuperSub	true	revised	raised
+Relation	52	35	SuperSub	true	revised	void
+Relation	2	36	SuperSub	true	election	damaged
+Relation	2	37	SuperSub	true	election	went
+Relation	2	30	SuperSub	true	election	assessment
+Relation	11	43	SuperSub	true	votes	run
+Relation	39	43	SuperSub	true	poll	run
+Relation	16	49	SuperSub	true	stage	won
+Relation	2	51	SuperSub	true	election	published
+Relation	16	50	SuperSub	true	stage	winning
+Relation	2	56	SuperSub	true	election	fielded
+Relation	2	3	SuperSub	true	election	voted
+Relation	2	13	SuperSub	true	election	vote
+Relation	8	4	SuperSub	true	vote	contested
+Relation	41	46	SuperSub	true	run	distributed
+Relation	28	3	SuperSub	true	election	voted
+Relation	28	13	SuperSub	true	election	vote
+Relation	28	4	SuperSub	true	election	contested
+Relation	11	46	SuperSub	true	votes	distributed
+Relation	39	46	SuperSub	true	poll	distributed
+Relation	2	3	SuperSub	true	election	voted
+Relation	2	13	SuperSub	true	election	vote
+Relation	8	4	SuperSub	true	vote	contested
+Relation	41	46	SuperSub	true	run	distributed
+Relation	28	3	SuperSub	true	election	voted
+Relation	28	13	SuperSub	true	election	vote
+Relation	28	4	SuperSub	true	election	contested
+Relation	11	46	SuperSub	true	votes	distributed
+Relation	39	46	SuperSub	true	poll	distributed
+Relation	2	4	SuperSub	true	election	contested
+Relation	2	3	SuperSub	true	election	voted
+Relation	2	13	SuperSub	true	election	vote
+Relation	8	4	SuperSub	true	vote	contested
+Relation	41	46	SuperSub	true	run	distributed
+Relation	28	3	SuperSub	true	election	voted
+Relation	28	13	SuperSub	true	election	vote
+Relation	28	4	SuperSub	true	election	contested
+Relation	11	46	SuperSub	true	votes	distributed
+Relation	39	46	SuperSub	true	poll	distributed
+Relation	2	4	SuperSub	true	election	contested

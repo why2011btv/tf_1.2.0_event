@@ -1,0 +1,26 @@
+Text	The coincident index was up 0.2 percent last month , after an unrevised gain of 0.2 percent in February , suggesting that current conditions continue to improve . The lagging index increased 0.3 percent , after a revised 0.1 percent advance first reported as 0.2 percent . Earlier Thursday , the U.S. Labor Department reported more Americans than expected filed for unemployment benefit in the week ended April 14 , which also happens to coincide with the April payroll employment survey week , echoing the International Monetary Fund 's view that job creation this year and next will be modest at best . Applications for unemployment insurance payments decreased by 2,000 from the previous week 's upwardly revised figure of 388,000 , to 386,000 , according to data from the Labor Department issued Thursday in Washington . However , the level of claims was above market expectations for a 370,000 reading . The four-week moving average , which normally provides a better indication of the underlying trend in labor markets , was 374,750 , an increase of 5,500 from the previous week 's upwardly revised average of 369,250 for first-time benefit applicants . The number of people filing for benefits after an initial week of aid increased by 26,000 , to 3.30 million in the week ended April 7 . The continuing claims figure does n't include the number of Americans receiving extended benefits under federal programs . The four-week moving average for the week ended April 7 fell 21,500 to 3.32 million from the preceding week 's revised average of 3.34 million .
+Event	1	gain	StateChange	71	13
+Event	2	improve	StateChange	151	26
+Event	3	increased	StateChange	178	31
+Event	4	advance	Occurrence	229	40
+Event	5	reported	Reporting	243	42
+Event	6	reported	Reporting	312	54
+Event	7	filed	Occurrence	350	59
+Event	8	echoing	Occurrence	487	83
+Event	9	decreased	StateChange	644	108
+Event	10	issued	Reporting	780	132
+Event	11	claims	HalfGeneric	833	142
+Event	12	increase	StateChange	1025	175
+Event	13	filing	Occurrence	1160	197
+Event	14	increased	StateChange	1209	206
+Event	15	fell	StateChange	1450	248
+Relation	11	13	Coref	false	claims	filing
+Relation	2	1	SuperSub	false	improve	gain
+Relation	13	14	SuperSub	false	filing	increased
+Relation	11	9	SuperSub	false	claims	decreased
+Relation	13	15	SuperSub	false	filing	fell
+Relation	2	3	SuperSub	false	improve	increased
+Relation	2	4	SuperSub	false	improve	advance
+Relation	11	14	SuperSub	true	claims	increased
+Relation	13	9	SuperSub	true	filing	decreased
+Relation	11	15	SuperSub	true	claims	fell

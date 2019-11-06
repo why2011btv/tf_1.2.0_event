@@ -1,0 +1,92 @@
+Text	A mother was shot to death and her newborn son snatched from her outside a suburban Texas pediatric center , but the 3-day-old boy was found safe about six hours later . Kala Marie Golden 's mother said her daughter `` died trying to save her baby . '' Golden was leaving a checkup with her son , Keegan , at the Northwoods Pediatric Center in Spring , a suburb north of Houston . In the parking lot , she got into a verbal altercation with a woman in a Lexus parked next to her pickup truck , Montgomery County sheriff 's Lt. Dan Norris said . Witnesses said the woman repeatedly shot Golden , took the infant and sped away , hitting the dying mother as she screamed , `` My baby ! '' and tried to reach into the Lexus , Norris said . Witnesses also reported hearing as many as seven gunshots and said a man also wa in the sky blue or light green Lexus , which was blood-stained on the driver 's side , Norris said . The boy was found safe around 8 p.m. Tuesday , after his mother , District Attorney Brett Ligon said . Ligon said the child was `` healthy '' and that a person of interest had been detained , although no charges had bee filed . He would not provide any details about the person . Golden 's mother , Linda Golden , told the AP later Tuesday that she had been baby-sitting one of her daughter 's other sons when she was alerted to the incident by someone at the scene who called her using her daughter 's cellphone . She rushed to the clini but was unable to see her daughter because paramedics were trying to save her . `` I wanted to kiss her before they put her in the ambulance , '' Linda Golden said . Ligon would n't say where the infant was found , but he said it was n't at a nearby apartment complex where officers wielding guns and riot shieldssearched earlier Tuesday evening . Investigators were processing evidence Tuesday night at one apartment in the complex that was searched , and they took away a vehicle that was parked in front . Photographs taken by news media at the scene show the vehicle was a light-colored Lexus . Joshua Jesson said he wa in the clinic with his girlfriend when he heard gunshots . He said he saw a Lexus next to the pickup truck , then later looked back and saw the car was gone and a woman lying in the spot where the Lexus had been parked . `` I thought she just passed out . Then somebody ran in here and said , 'Somebody got shot , '' ' e said . Police quickly surrounded the clinic and much of the parking lot with crime-scene tape , and yellow markers were placed next to a purse and pair of brown sandals near a red pickup truck . Spent ammunition also was nearby . Authorities late Tuesday were doing background checks on family members with te hope of returning Keegan to them on Wednesday . Linda Golden described her daughter as sweet-natured and kind . She said she had no idea what could have sparked the slaying and abduction .
+Event	1	shot	Occurrence	13	3
+Event	2	death	Occurrence	21	5
+Event	3	snatched	Occurrence	47	10
+Event	4	found	Occurrence	134	25
+Event	5	said	Reporting	195	37
+Event	6	died	Occurrence	214	41
+Event	7	trying	I_Action	219	42
+Event	8	leaving	I_Action	256	51
+Event	9	checkup	Occurrence	266	53
+Event	10	got	I_Action	393	80
+Event	11	altercation	Occurrence	411	84
+Event	12	said	Reporting	523	105
+Event	13	said	Reporting	539	108
+Event	14	shot	Occurrence	565	112
+Event	15	took	Occurrence	578	115
+Event	16	sped	Occurrence	598	119
+Event	17	hitting	Occurrence	609	122
+Event	18	screamed	Occurrence	641	128
+Event	19	tried	I_Action	666	136
+Event	20	said	Reporting	704	144
+Event	21	reported	Reporting	725	148
+Event	22	hearing	Perception	734	149
+Event	23	gunshots	Occurrence	759	154
+Event	24	said	Reporting	772	156
+Event	25	said	Reporting	882	180
+Event	26	found	Occurrence	900	185
+Event	27	said	Reporting	982	200
+Event	28	said	Reporting	994	203
+Event	29	detained	Occurrence	1062	218
+Event	30	told	Reporting	1189	244
+Event	32	alerted	I_Action	1292	264
+Event	33	incident	Occurrence	1307	267
+Event	34	called	Occurrence	1344	274
+Event	35	rushed	Occurrence	1391	283
+Event	36	trying	I_Action	1470	297
+Event	37	said	Reporting	1564	319
+Event	38	found	Occurrence	1610	329
+Event	39	said	Reporting	1624	333
+Event	40	shieldssearched	Occurrence	1707	348
+Event	41	processing	Occurrence	1767	355
+Event	42	searched	Occurrence	1842	367
+Event	43	took	Occurrence	1861	371
+Event	44	taken	Occurrence	1919	382
+Event	45	said	Reporting	2010	399
+Event	46	heard	I_Action	2063	410
+Event	47	gunshots	Occurrence	2069	411
+Event	48	said	Reporting	2082	414
+Event	49	saw	Perception	2090	416
+Event	50	looked	Occurrence	2139	427
+Event	51	saw	Perception	2155	430
+Event	52	ran	Occurrence	2285	459
+Event	53	said	Reporting	2301	463
+Event	54	shot	Occurrence	2321	467
+Event	55	said	Reporting	2331	472
+Event	56	surrounded	Occurrence	2352	476
+Event	57	placed	Occurrence	2449	493
+Event	58	doing	I_Action	2587	519
+Event	59	checks	Occurrence	2604	521
+Event	60	described	Reporting	2697	538
+Event	61	said	Reporting	2751	547
+Event	62	slaying	Occurrence	2800	557
+Event	63	abduction	Occurrence	2812	559
+Relation	6	2	Coref	false	died	death
+Relation	23	14	Coref	false	gunshots	shot
+Relation	54	23	Coref	false	shot	gunshots
+Relation	4	26	Coref	false	found	found
+Relation	15	3	Coref	false	took	snatched
+Relation	26	38	Coref	false	found	found
+Relation	47	23	Coref	false	gunshots	gunshots
+Relation	54	47	Coref	false	shot	gunshots
+Relation	63	15	Coref	false	abduction	took
+Relation	50	51	Coref	false	looked	saw
+Relation	62	54	Coref	false	slaying	shot
+Relation	16	17	SuperSub	false	sped	hitting
+Relation	31	34	SuperSub	false	sitting	called
+Relation	41	43	SuperSub	false	processing	took
+Relation	11	14	SuperSub	false	altercation	shot
+Relation	33	11	SuperSub	false	incident	altercation
+Relation	33	15	SuperSub	false	incident	took
+Relation	33	62	SuperSub	false	incident	slaying
+Relation	33	63	SuperSub	false	incident	abduction
+Relation	33	6	SuperSub	false	incident	died
+Relation	11	23	SuperSub	true	altercation	gunshots
+Relation	33	63	SuperSub	true	incident	abduction
+Relation	33	3	SuperSub	true	incident	snatched
+Relation	33	54	SuperSub	true	incident	shot
+Relation	33	15	SuperSub	true	incident	took
+Relation	33	2	SuperSub	true	incident	death
+Relation	33	14	SuperSub	true	incident	shot
+Relation	33	14	SuperSub	true	incident	shot
+Relation	33	14	SuperSub	true	incident	shot

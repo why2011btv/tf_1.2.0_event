@@ -1,0 +1,95 @@
+Text	More than 20 NATO supply trucks have been destroyed in an attack in southern Pakistan . Insurgents armed with rockets and automatic weapons opened fire on a transport terminal in the south western city of Quetta . Several oil tankers exploded before fire spread to other trucks parked nearby . Firefighters and ambulance crews were called to the scene . Paramilitary soldiers cordoned off the site as firefighters battled the massive blaze , with flames shooting high into the night sky and thick black smoke billowing from the burning trucks . Senior police official Malik Arshad said gunmen fired bullets and a rocket at the oil tankers . `` Flames were rising from more than 20 vehicles . We do not know about any casualties yet because the blaze is still so huge , '' he said , adding that 10 vehicles were safely evacuated from the terminal . `` First the fire started in two oil tankers and the fuel started leaking which spread the fire to other vehicles . '' The NATO supply trucks were queued at one of three temporary terminals in the region because of a blockade imposed by Pakistani officials . Border crossing points to Afghanistan were closed last month in protest against a NATO raid that killed 24 Pakistani soldiers .
+Event	1	destroyed	Occurrence	43	8
+Event	2	attack	Occurrence	59	11
+Event	3	opened	I_Action	140	23
+Event	4	fire	Occurrence	147	24
+Event	5	exploded	Occurrence	233	40
+Event	6	fire	Occurrence	249	42
+Event	7	spread	Occurrence	254	43
+Event	8	called	Occurrence	330	55
+Event	9	cordoned	Occurrence	373	62
+Event	10	battled	Occurrence	411	68
+Event	11	blaze	Occurrence	431	71
+Event	12	shooting	Occurrence	450	75
+Event	13	billowing	Occurrence	505	85
+Event	14	burning	Occurrence	524	88
+Event	15	said	Reporting	576	96
+Event	16	fired	Occurrence	588	98
+Event	17	rising	Occurrence	648	111
+Event	18	blaze	Occurrence	735	128
+Event	19	said	Reporting	763	136
+Event	20	adding	Reporting	769	138
+Event	21	evacuated	Occurrence	805	144
+Event	22	fire	Occurrence	845	152
+Event	23	started	Occurrence	850	153
+Event	24	leaking	Occurrence	898	162
+Event	25	spread	I_Action	912	164
+Event	26	fire	Occurrence	923	166
+Event	27	blockade	Occurrence	1046	190
+Event	28	imposed	I_Action	1055	191
+Event	29	closed	Occurrence	1130	202
+Event	30	raid	Occurrence	1174	210
+Event	31	killed	Occurrence	1184	212
+Relation	4	16	Coref	false	fire	fired
+Relation	18	11	Coref	false	blaze	blaze
+Relation	22	6	Coref	false	fire	fire
+Relation	22	26	Coref	false	fire	fire
+Relation	2	1	SuperSub	false	attack	destroyed
+Relation	2	4	SuperSub	false	attack	fire
+Relation	2	5	SuperSub	false	attack	exploded
+Relation	2	6	SuperSub	false	attack	fire
+Relation	6	7	SuperSub	false	fire	spread
+Relation	10	9	SuperSub	false	battled	cordoned
+Relation	11	10	SuperSub	false	blaze	battled
+Relation	11	12	SuperSub	false	blaze	shooting
+Relation	11	13	SuperSub	false	blaze	billowing
+Relation	11	14	SuperSub	false	blaze	burning
+Relation	11	17	SuperSub	false	blaze	rising
+Relation	18	21	SuperSub	false	blaze	evacuated
+Relation	22	23	SuperSub	false	fire	started
+Relation	22	24	SuperSub	false	fire	leaking
+Relation	27	29	SuperSub	false	blockade	closed
+Relation	30	31	SuperSub	false	raid	killed
+Relation	27	2	SuperSub	false	blockade	attack
+Relation	2	16	SuperSub	true	attack	fired
+Relation	2	22	SuperSub	true	attack	fire
+Relation	22	7	SuperSub	true	fire	spread
+Relation	18	10	SuperSub	true	blaze	battled
+Relation	18	12	SuperSub	true	blaze	shooting
+Relation	18	13	SuperSub	true	blaze	billowing
+Relation	18	14	SuperSub	true	blaze	burning
+Relation	18	17	SuperSub	true	blaze	rising
+Relation	11	21	SuperSub	true	blaze	evacuated
+Relation	6	23	SuperSub	true	fire	started
+Relation	26	23	SuperSub	true	fire	started
+Relation	6	24	SuperSub	true	fire	leaking
+Relation	26	24	SuperSub	true	fire	leaking
+Relation	2	7	SuperSub	true	attack	spread
+Relation	11	9	SuperSub	true	blaze	cordoned
+Relation	27	1	SuperSub	true	blockade	destroyed
+Relation	27	4	SuperSub	true	blockade	fire
+Relation	27	5	SuperSub	true	blockade	exploded
+Relation	27	6	SuperSub	true	blockade	fire
+Relation	2	23	SuperSub	true	attack	started
+Relation	2	24	SuperSub	true	attack	leaking
+Relation	18	9	SuperSub	true	blaze	cordoned
+Relation	2	7	SuperSub	true	attack	spread
+Relation	11	9	SuperSub	true	blaze	cordoned
+Relation	27	1	SuperSub	true	blockade	destroyed
+Relation	27	4	SuperSub	true	blockade	fire
+Relation	27	5	SuperSub	true	blockade	exploded
+Relation	27	6	SuperSub	true	blockade	fire
+Relation	2	23	SuperSub	true	attack	started
+Relation	2	24	SuperSub	true	attack	leaking
+Relation	18	9	SuperSub	true	blaze	cordoned
+Relation	27	7	SuperSub	true	blockade	spread
+Relation	2	7	SuperSub	true	attack	spread
+Relation	11	9	SuperSub	true	blaze	cordoned
+Relation	27	1	SuperSub	true	blockade	destroyed
+Relation	27	4	SuperSub	true	blockade	fire
+Relation	27	5	SuperSub	true	blockade	exploded
+Relation	27	6	SuperSub	true	blockade	fire
+Relation	2	23	SuperSub	true	attack	started
+Relation	2	24	SuperSub	true	attack	leaking
+Relation	18	9	SuperSub	true	blaze	cordoned
+Relation	27	7	SuperSub	true	blockade	spread

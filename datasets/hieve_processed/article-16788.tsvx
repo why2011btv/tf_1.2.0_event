@@ -1,0 +1,38 @@
+Text	No one has been arrested over Sunday ’ s attack in Kabul and the Taliban have denied any involvement . The shooting has been strongly condemned by the government . Afghan presidential spokesman Aimal Faizi said , `` This is shocking news for the Afghan people , for the government of Afghanistan and for the president . The Afghan government strongly condemns this attack . Arsala Rahmani has been killed by enemies of Afghanistan . The killers are enemies of peace and stability . '' Both NATO and the US embassy in Kabul have also condemned the assassination . Rahmani was one of about 70 influential Afghans and former Taliban members appointed to the High Peace Council . Its aim is to convince insurgent leaders to reconcile with the government . But the Taliban have so far refused direct contact with the council , which they see as being too close to Hamid Karzai ’ s government . With the war now in its 11th year , the council appears to be making little progress . The killing strikes yet another blow to efforts to find a political resolution .
+Event	1	attack	Occurrence	39	9
+Event	2	denied	I_Action	76	16
+Event	3	shooting	Occurrence	104	21
+Event	4	condemned	I_Action	131	25
+Event	5	said	Reporting	202	35
+Event	6	condemns	I_Action	342	61
+Event	7	attack	Occurrence	356	63
+Event	8	killed	Occurrence	388	69
+Event	9	condemned	I_Action	519	95
+Event	10	assassination	Occurrence	533	97
+Event	11	appointed	Occurrence	623	111
+Event	12	refused	I_Action	763	137
+Event	13	see	Perception	815	146
+Event	14	war	Occurrence	877	160
+Event	15	killing	Occurrence	957	177
+Event	16	strikes	I_Action	965	178
+Relation	7	1	Coref	false	attack	attack
+Relation	10	8	Coref	false	assassination	killed
+Relation	15	10	Coref	false	killing	assassination
+Relation	1	3	SuperSub	false	attack	shooting
+Relation	3	8	SuperSub	false	shooting	killed
+Relation	14	11	SuperSub	false	war	appointed
+Relation	14	7	SuperSub	false	war	attack
+Relation	7	3	SuperSub	true	attack	shooting
+Relation	3	10	SuperSub	true	shooting	assassination
+Relation	14	1	SuperSub	true	war	attack
+Relation	1	8	SuperSub	true	attack	killed
+Relation	7	8	SuperSub	true	attack	killed
+Relation	14	3	SuperSub	true	war	shooting
+Relation	1	8	SuperSub	true	attack	killed
+Relation	7	8	SuperSub	true	attack	killed
+Relation	14	3	SuperSub	true	war	shooting
+Relation	14	8	SuperSub	true	war	killed
+Relation	1	8	SuperSub	true	attack	killed
+Relation	7	8	SuperSub	true	attack	killed
+Relation	14	3	SuperSub	true	war	shooting
+Relation	14	8	SuperSub	true	war	killed

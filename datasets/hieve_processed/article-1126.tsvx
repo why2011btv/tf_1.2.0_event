@@ -1,0 +1,48 @@
+Text	A bus carrying Turkish pilgrims has come under attack in northern Syria , Turkish media and officials say . At least two people , one of them the bus driver , were injured in the attack near the flashpoint city of Homs , reports say . The passengers were returning from the Hajj - the annual Muslim pilgrimage to Mecca , Saudi Arabia - reports say . Private news agency Dogan showed images of the bus with one of its side windows broken inside Turkey . `` We confirm that an attack took place in Syria , '' a foreign ministry official told AFP news agency , without giving any further information , but reiterated Turkey 's warning to its citizens not to visit Syria . Tensions have been running high between Syria and Turkey as Ankara has become increasingly vocal in its criticism of President Bashar al-Assad 's crackdown on anti-government protests in his country . Clashes again erupt in Cairo as Egypt 's health ministry confirms at least 20 people have died and 1,750 have been wounded in a weekend of violence .
+Event	1	carrying	Occurrence	6	2
+Event	2	come	I_Action	36	6
+Event	3	attack	Occurrence	47	8
+Event	4	say	Reporting	101	17
+Event	5	injured	Occurrence	160	32
+Event	6	attack	Occurrence	175	35
+Event	7	reports	Reporting	216	43
+Event	8	say	Reporting	224	44
+Event	9	returning	Occurrence	249	49
+Event	10	reports	Reporting	329	64
+Event	11	say	Reporting	337	65
+Event	12	showed	Reporting	368	71
+Event	13	broken	Occurrence	422	82
+Event	14	confirm	Reporting	448	88
+Event	15	attack	Occurrence	464	91
+Event	16	took	I_Action	471	92
+Event	17	told	Reporting	521	102
+Event	18	reiterated	Reporting	587	114
+Event	19	warning	Occurrence	607	117
+Event	20	become	StateChange	722	138
+Event	21	crackdown	I_Action	796	149
+Event	22	protests	HalfGeneric	825	152
+Event	23	Clashes	Occurrence	849	157
+Event	24	erupt	I_Action	864	159
+Event	25	confirms	Reporting	906	167
+Event	26	died	Occurrence	939	173
+Event	27	wounded	Occurrence	964	178
+Relation	6	3	Coref	false	attack	attack
+Relation	15	6	Coref	false	attack	attack
+Relation	9	1	Coref	false	returning	carrying
+Relation	1	3	SuperSub	false	carrying	attack
+Relation	6	5	SuperSub	false	attack	injured
+Relation	6	13	SuperSub	false	attack	broken
+Relation	23	26	SuperSub	false	Clashes	died
+Relation	23	27	SuperSub	false	Clashes	wounded
+Relation	9	3	SuperSub	true	returning	attack
+Relation	1	6	SuperSub	true	carrying	attack
+Relation	15	5	SuperSub	true	attack	injured
+Relation	3	5	SuperSub	true	attack	injured
+Relation	15	13	SuperSub	true	attack	broken
+Relation	3	13	SuperSub	true	attack	broken
+Relation	1	5	SuperSub	true	carrying	injured
+Relation	1	13	SuperSub	true	carrying	broken
+Relation	1	5	SuperSub	true	carrying	injured
+Relation	1	13	SuperSub	true	carrying	broken
+Relation	1	5	SuperSub	true	carrying	injured
+Relation	1	13	SuperSub	true	carrying	broken

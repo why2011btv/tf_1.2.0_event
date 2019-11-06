@@ -1,0 +1,76 @@
+Text	QPR captain Joey Barton has accepted a charge of violent conduct against Manchester City 's Sergio Aguero but denied the same charge for his confrontation with Vincent Kompany . The 29-year-old 's future at QPR is in doubt after he elbowed Carlos Tevez , kicked Aguero and appeared to headbutt Kompany during Rangers ' 3-2 defeat at the Etihad Stadium on Sunday . Barton was given extra time to respond to the charges levelled against him and the Football Association revealed on Wednesday evening that he has accepted only one of the violent conduct charges . `` Joey Barton has accepted an FA charge against him for violent conduct against Manchester City 's Sergio Aguero , '' the FA statement read . `` The Queens Park Rangers player has denied a second charge of alleged violent conduct against Manchester City 's Vincent Kompany . '' It continued : `` The player has requested a personal hearing , the date of which has yet to be set . `` Both charges against Barton are in relation to Sunday 's match against Manchester City at the Etihad Stadium . `` Following the player 's dismissal in the 54th minute of the fixture , there followed two incidents involving Aguero and Kompany . `` As Barton had already been dismissed , both of these incidents fell outside of the jurisdiction of the referee . ''
+Event	1	accepted	Occurrence	28	5
+Event	2	denied	Occurrence	109	18
+Event	3	confrontation	Occurrence	140	24
+Event	4	elbowed	Occurrence	229	40
+Event	5	kicked	Occurrence	251	44
+Event	6	appeared	I_Action	269	47
+Event	7	headbutt	Occurrence	281	49
+Event	8	defeat	Occurrence	318	55
+Event	9	given	I_Action	369	65
+Event	10	respond	Occurrence	389	69
+Event	11	levelled	Occurrence	412	73
+Event	12	revealed	Occurrence	462	80
+Event	13	accepted	Occurrence	504	87
+Event	14	accepted	Occurrence	571	100
+Event	15	read	Reporting	684	120
+Event	16	denied	Occurrence	726	129
+Event	17	requested	I_Action	850	152
+Event	18	match	Occurrence	974	178
+Event	19	dismissal	Occurrence	1051	192
+Event	20	fixture	Occurrence	1087	199
+Event	21	followed	I_Action	1102	202
+Event	22	incidents	Occurrence	1115	204
+Event	23	dismissed	Occurrence	1183	216
+Event	24	incidents	Occurrence	1208	221
+Event	25	fell	Occurrence	1218	222
+Relation	13	1	Coref	false	accepted	accepted
+Relation	14	13	Coref	false	accepted	accepted
+Relation	16	2	Coref	false	denied	denied
+Relation	18	8	Coref	false	match	defeat
+Relation	20	18	Coref	false	fixture	match
+Relation	24	22	Coref	false	incidents	incidents
+Relation	10	1	SuperSub	false	respond	accepted
+Relation	10	2	SuperSub	false	respond	denied
+Relation	8	4	SuperSub	false	defeat	elbowed
+Relation	18	19	SuperSub	false	match	dismissal
+Relation	20	22	SuperSub	false	fixture	incidents
+Relation	22	5	SuperSub	false	incidents	kicked
+Relation	3	7	SuperSub	false	confrontation	headbutt
+Relation	22	3	SuperSub	false	incidents	confrontation
+Relation	20	23	SuperSub	false	fixture	dismissed
+Relation	20	25	SuperSub	false	fixture	fell
+Relation	10	13	SuperSub	true	respond	accepted
+Relation	10	16	SuperSub	true	respond	denied
+Relation	18	4	SuperSub	true	match	elbowed
+Relation	20	19	SuperSub	true	fixture	dismissal
+Relation	8	19	SuperSub	true	defeat	dismissal
+Relation	18	22	SuperSub	true	match	incidents
+Relation	20	24	SuperSub	true	fixture	incidents
+Relation	24	5	SuperSub	true	incidents	kicked
+Relation	24	3	SuperSub	true	incidents	confrontation
+Relation	18	23	SuperSub	true	match	dismissed
+Relation	18	25	SuperSub	true	match	fell
+Relation	20	5	SuperSub	true	fixture	kicked
+Relation	20	3	SuperSub	true	fixture	confrontation
+Relation	22	7	SuperSub	true	incidents	headbutt
+Relation	18	5	SuperSub	true	match	kicked
+Relation	18	3	SuperSub	true	match	confrontation
+Relation	18	7	SuperSub	true	match	headbutt
+Relation	24	7	SuperSub	true	incidents	headbutt
+Relation	20	5	SuperSub	true	fixture	kicked
+Relation	20	3	SuperSub	true	fixture	confrontation
+Relation	22	7	SuperSub	true	incidents	headbutt
+Relation	18	5	SuperSub	true	match	kicked
+Relation	18	3	SuperSub	true	match	confrontation
+Relation	18	7	SuperSub	true	match	headbutt
+Relation	24	7	SuperSub	true	incidents	headbutt
+Relation	20	7	SuperSub	true	fixture	headbutt
+Relation	20	5	SuperSub	true	fixture	kicked
+Relation	20	3	SuperSub	true	fixture	confrontation
+Relation	22	7	SuperSub	true	incidents	headbutt
+Relation	18	5	SuperSub	true	match	kicked
+Relation	18	3	SuperSub	true	match	confrontation
+Relation	18	7	SuperSub	true	match	headbutt
+Relation	24	7	SuperSub	true	incidents	headbutt
+Relation	20	7	SuperSub	true	fixture	headbutt

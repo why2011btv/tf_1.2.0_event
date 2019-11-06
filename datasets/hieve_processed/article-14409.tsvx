@@ -1,0 +1,133 @@
+Text	Syrian security forces stormed student dorms at a northwestern university to break up anti-government protests there , killing at least four students and wounding several others with tear gas and live ammunition , activists and opposition groups said Thursday . Around 1,500 students had been protesting in student quarters next to Aleppo University 's main campus late Wednesday when security forces and pro-regime gunmen swept into their residences , firing tear gas at first , then live ammunition to disperse them . Student activist Thaer al-Ahmed said panic and chaos ensued as students tried to flee . `` Some students ran to their rooms to take cover but they were followed to their rooms , beaten up and arrested , '' he said . `` Others suffered cuts and broken bones as they tried to flee . '' Raids and intermittent gunfire continued for about five hours through early Thursday , he said , adding that dozens of people were wounded , some critically , and around 50 students were arrested . Aleppo , Syria 's largest city and economic hub , has a population that has remained largely loyal to President Bashar Assad and has been largely spared from the violence that has plagued other Syrian cities . But university students have been staging almost daily protests calling for the fall of Assad 's regime . Al-Thaer , a law student , said the campus and dormitories have been raided before , but Thursday 's raid was the most violent . The student quarters — known as the University City — comprise 20 dormitories next to the university campus . Students there often shouted out anti-Assad slogans from their rooms at night , al-Thaer said . An amateur video showed a large number of security forces apparently storming the dorms Wednesday night . Another showed a students protest earlier Wednesday , during which protesters shouted : `` We do n't want you , Bashar ! '' The authenticity of the videos could not be confirmed . The Local Coordination Committees activist group said five students were killed and some 200 arrested in the raids , while the British-based Syrian Observatory for Human Rights put the death toll at four . The Syrian government has prevented independent reporting in the country , making it impossible to independently verify casualty figures . `` Regime forces demanded through loudspeakers that the dorms be evacuated , then began detaining the students , '' the LCC said in a statement . Syria 's persistent bloodshed has tarnished efforts by a U.N. team of observers to salvage a truce brokered by U.N. special envoy Kofi Annan that started to unravel almost as soon as it was supposed to begin on April 12 . The two sides have blamed each other for thwarting the truce , with Assad 's forces trying to repress demonstrators calling for him to step down and an armed rebellion that has sprung up as peaceful protests have proved ineffective against his forces . The U.N. says 9,000 people have died since the uprising began in March 2011 . Despite the violence , the international community still sees the peace plan as the last chance to prevent Syria from falling into civil war — in part because no country wants to intervene militarily . The head of the U.N. observers , Norwegian Maj. Gen. Robert Mood , visited the central cities of Homs and Hama , where anti-regime sentiment runs high , on Thursday .
+Event	1	stormed	I_Action	23	3
+Event	2	break	I_Action	77	11
+Event	3	protests	Occurrence	102	14
+Event	4	killing	Occurrence	118	17
+Event	5	wounding	Occurrence	153	23
+Event	6	said	Reporting	244	37
+Event	7	protesting	Occurrence	290	45
+Event	8	swept	Occurrence	419	64
+Event	9	firing	I_Action	448	69
+Event	10	disperse	Occurrence	498	79
+Event	11	said	Reporting	545	86
+Event	12	chaos	Occurrence	560	89
+Event	13	ensued	Occurrence	566	90
+Event	14	tried	I_Action	585	93
+Event	15	ran	I_Action	615	100
+Event	16	followed	Occurrence	662	110
+Event	17	beaten	Occurrence	687	115
+Event	18	arrested	Occurrence	701	118
+Event	19	said	Reporting	715	122
+Event	20	suffered	I_Action	729	126
+Event	21	cuts	Occurrence	738	127
+Event	22	broken	Occurrence	747	129
+Event	23	tried	I_Action	768	133
+Event	24	Raids	HalfGeneric	783	138
+Event	25	gunfire	HalfGeneric	807	141
+Event	26	said	Reporting	873	152
+Event	27	adding	Reporting	879	154
+Event	28	wounded	Occurrence	913	160
+Event	29	arrested	Occurrence	967	170
+Event	30	staging	I_Action	1217	214
+Event	31	protests	I_Action	1238	217
+Event	32	calling	I_Action	1247	218
+Event	33	said	Reporting	1312	233
+Event	34	raided	HalfGeneric	1354	240
+Event	35	raid	Occurrence	1384	246
+Event	36	shouted	HalfGeneric	1541	274
+Event	37	said	Reporting	1608	285
+Event	38	showed	Occurrence	1631	290
+Event	39	storming	Occurrence	1683	298
+Event	40	showed	Occurrence	1727	305
+Event	41	protest	Occurrence	1745	308
+Event	42	shouted	Occurrence	1796	315
+Event	43	said	Reporting	1938	343
+Event	44	killed	Occurrence	1962	347
+Event	45	arrested	Occurrence	1982	351
+Event	46	raids	Occurrence	1998	354
+Event	47	put	Reporting	2065	364
+Event	48	prevented	I_Action	2119	375
+Event	49	making	I_Action	2167	382
+Event	50	demanded	I_Action	2245	394
+Event	51	detaining	Occurrence	2315	405
+Event	52	said	Reporting	2348	412
+Event	53	bloodshed	I_Action	2388	420
+Event	54	tarnished	I_Action	2402	422
+Event	55	efforts	I_Action	2412	423
+Event	56	truce	I_Action	2461	433
+Event	57	brokered	Occurrence	2467	434
+Event	58	started	I_Action	2514	442
+Event	59	unravel	Occurrence	2525	444
+Event	60	blamed	Occurrence	2608	462
+Event	61	thwarting	I_Action	2630	466
+Event	62	truce	Occurrence	2644	468
+Event	63	trying	I_Action	2671	474
+Event	64	calling	I_Action	2703	478
+Event	65	rebellion	Occurrence	2745	487
+Event	66	sprung	I_Action	2764	490
+Event	67	protests	HalfGeneric	2786	494
+Event	68	says	Reporting	2848	504
+Event	69	died	Occurrence	2871	508
+Event	70	uprising	Occurrence	2886	511
+Event	71	began	I_Action	2895	404
+Event	72	violence	Occurrence	2928	201
+Event	73	sees	Perception	2972	525
+Event	74	visited	Occurrence	3181	565
+Relation	7	3	Coref	false	protesting	protests
+Relation	39	8	Coref	false	storming	swept
+Relation	44	4	Coref	false	killed	killing
+Relation	45	29	Coref	false	arrested	arrested
+Relation	46	35	Coref	false	raids	raid
+Relation	29	18	Coref	false	arrested	arrested
+Relation	51	45	Coref	false	detaining	arrested
+Relation	35	4	SuperSub	false	raid	killing
+Relation	35	5	SuperSub	false	raid	wounding
+Relation	35	8	SuperSub	false	raid	swept
+Relation	35	10	SuperSub	false	raid	disperse
+Relation	35	12	SuperSub	false	raid	chaos
+Relation	35	16	SuperSub	false	raid	followed
+Relation	35	17	SuperSub	false	raid	beaten
+Relation	35	18	SuperSub	false	raid	arrested
+Relation	35	21	SuperSub	false	raid	cuts
+Relation	35	22	SuperSub	false	raid	broken
+Relation	35	24	SuperSub	false	raid	Raids
+Relation	35	25	SuperSub	false	raid	gunfire
+Relation	35	28	SuperSub	false	raid	wounded
+Relation	35	29	SuperSub	false	raid	arrested
+Relation	41	42	SuperSub	false	protest	shouted
+Relation	70	69	SuperSub	false	uprising	died
+Relation	70	72	SuperSub	false	uprising	violence
+Relation	65	72	SuperSub	false	rebellion	violence
+Relation	12	16	SuperSub	false	chaos	followed
+Relation	12	18	SuperSub	false	chaos	arrested
+Relation	12	28	SuperSub	false	chaos	wounded
+Relation	67	3	SuperSub	false	protests	protests
+Relation	70	67	SuperSub	false	uprising	protests
+Relation	70	62	SuperSub	false	uprising	truce
+Relation	70	65	SuperSub	false	uprising	rebellion
+Relation	70	57	SuperSub	false	uprising	brokered
+Relation	70	74	SuperSub	false	uprising	visited
+Relation	46	4	SuperSub	true	raids	killing
+Relation	35	44	SuperSub	true	raid	killed
+Relation	46	5	SuperSub	true	raids	wounding
+Relation	46	8	SuperSub	true	raids	swept
+Relation	35	39	SuperSub	true	raid	storming
+Relation	46	10	SuperSub	true	raids	disperse
+Relation	46	12	SuperSub	true	raids	chaos
+Relation	46	16	SuperSub	true	raids	followed
+Relation	46	17	SuperSub	true	raids	beaten
+Relation	46	18	SuperSub	true	raids	arrested
+Relation	35	29	SuperSub	true	raid	arrested
+Relation	46	21	SuperSub	true	raids	cuts
+Relation	46	22	SuperSub	true	raids	broken
+Relation	46	24	SuperSub	true	raids	Raids
+Relation	46	25	SuperSub	true	raids	gunfire
+Relation	46	28	SuperSub	true	raids	wounded
+Relation	46	29	SuperSub	true	raids	arrested
+Relation	35	18	SuperSub	true	raid	arrested
+Relation	35	45	SuperSub	true	raid	arrested
+Relation	12	29	SuperSub	true	chaos	arrested
+Relation	67	7	SuperSub	true	protests	protesting
+Relation	70	3	SuperSub	true	uprising	protests
+Relation	70	3	SuperSub	true	uprising	protests
+Relation	70	3	SuperSub	true	uprising	protests

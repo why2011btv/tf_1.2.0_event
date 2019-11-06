@@ -1,0 +1,57 @@
+Text	Simultaneous raids were also conducted on South West Mining Company 's offices in Tornagal in Bellary district . The company had made payments of Rs 20 crore to Yeddyurappa 's family run concerns in lieu of sanction of mining licences . The CBI had filed FIRs against Yeddyurappa , his sons B Y Raghavendra , B Y Vijayendra and son-in-law R Sohan Kumar on Tuesday . A nine-member team headed by Inspector General of CBI Lakshminarayana commenced the raids at Yeddyurappa 's residences in Dollars Colony and Race Course Road here besides a firm owned by one of his sons , the sources said . The CBI has been asked to submit its preliminary report by August 3 . The raids come in the wake of the CBI registering a case against Yeddyurappa and others in line with the May 11 Supreme Court directive ordering a probe by the central agency into alleged undue favours shown by him to firms involved in illegal mining in lieu of donations to a charitable trust run by his kin when he was the chief minister . The raids began at 6.15am and would continue throughout the day , the sources said . The CBI action comes at a time when Yeddyurappa is facing the heat of internal turmoil in the BJP triggered by a revolt by his loyalists gunning for a change of leadership of D V Sadananda Gowda with nine ministers and many MLAs submitting their resignations to him . After aggressive postures that pushed the BJP 's first ever government in the south to the brink , Yeddyurappa on Monday said he had decided to quit the party but was putting it off heeding the advise of party senior leader Arun Jaitely and others . Yeddyurappa , who was forced to quit last year after the Lokayukta report indictment on illegal mining , is also battling a spate of cases for alleged irregularities in land denotification .
+Event	1	raids	Occurrence	13	1
+Event	2	conducted	I_Action	29	4
+Event	3	made	I_Action	127	21
+Event	4	payments	HalfGeneric	132	22
+Event	5	sanction	HalfGeneric	204	36
+Event	6	filed	Occurrence	245	44
+Event	7	commenced	I_Action	430	76
+Event	8	raids	Occurrence	444	78
+Event	9	said	Reporting	575	103
+Event	10	asked	I_Action	599	109
+Event	11	raids	Occurrence	656	120
+Event	12	come	I_Action	662	121
+Event	13	registering	Occurrence	690	128
+Event	14	ordering	I_Action	789	144
+Event	15	donations	HalfGeneric	915	167
+Event	16	raids	Occurrence	999	184
+Event	17	began	I_Action	1005	185
+Event	18	said	Reporting	1072	197
+Event	19	action	Occurrence	1087	201
+Event	20	comes	Occurrence	1094	202
+Event	21	turmoil	HalfGeneric	1158	214
+Event	22	triggered	I_Action	1178	218
+Event	23	revolt	Occurrence	1193	221
+Event	24	gunning	I_Action	1217	225
+Event	25	submitting	I_Action	1309	242
+Event	26	resignations	HalfGeneric	1326	244
+Event	27	pushed	StateChange	1379	252
+Event	28	said	Reporting	1467	269
+Event	29	decided	I_Action	1479	272
+Event	30	heeding	Occurrence	1528	282
+Event	31	advise	Reporting	1540	284
+Event	32	forced	I_Action	1617	298
+Event	33	quit	Occurrence	1627	274
+Event	34	indictment	Occurrence	1669	307
+Event	35	mining	HalfGeneric	1691	38
+Event	36	battling	I_Action	1707	314
+Relation	1	8	Coref	false	raids	raids
+Relation	11	8	Coref	false	raids	raids
+Relation	6	13	Coref	false	filed	registering
+Relation	15	4	Coref	false	donations	payments
+Relation	16	11	Coref	false	raids	raids
+Relation	34	5	Coref	false	indictment	sanction
+Relation	19	16	SuperSub	false	action	raids
+Relation	19	13	SuperSub	false	action	registering
+Relation	21	19	SuperSub	false	turmoil	action
+Relation	21	23	SuperSub	false	turmoil	revolt
+Relation	21	26	SuperSub	false	turmoil	resignations
+Relation	21	27	SuperSub	false	turmoil	pushed
+Relation	19	11	SuperSub	true	action	raids
+Relation	19	6	SuperSub	true	action	filed
+Relation	21	16	SuperSub	true	turmoil	raids
+Relation	21	13	SuperSub	true	turmoil	registering
+Relation	21	16	SuperSub	true	turmoil	raids
+Relation	21	13	SuperSub	true	turmoil	registering
+Relation	21	16	SuperSub	true	turmoil	raids
+Relation	21	13	SuperSub	true	turmoil	registering

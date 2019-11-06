@@ -1,0 +1,130 @@
+Text	Two Italian marines accused of killing two Indian fishermen will be tried according to Indian law , deputy foreign minister Preneet Kaur has said . She spoke after talks with her Italian counterpart Steffan de Mistura . The two marines were on board an Italian oil tanker off southern India . Italy says as the incident took place in international waters the men should be tried in Italy . Officials say the fishing boat was behaving aggressively and was mistaken for a pirate vessel . Italian officials have asked the High Court in the state of Kerala to throw out the murder charges against the two marines . The marines were detained on Sunday and remanded in custody for two weeks as the murder investigation against them continues . `` As far as the law point is concerned , '' Ms Kaur said , `` they have their interpretations and we have our interpretations . `` As of today , the two people [ Italian marines ] are on Indian soil and tomorrow the Indian court is going to decide what steps are to be taken further , '' she said . `` So far as we are concerned in India , we certainly will go by our law . '' Mr Mistura expressed his regret over the two Indian fishermen 's deaths , but said there were legal points that needed to be clarified , including the exact position of the ship when the two men died . `` We do acknowledge that two Indian citizens died ... and we are terribly sad . The second one is that is that the incident took place in international waters and at the same time the investigations will assert the exact position , '' he said . `` We all want the truth , '' he added . Italy 's defence ministry has said the fishing boat was behaving aggressively and ignored warning shots fired from the Italian oil tanker . They said they opened fire after mistaking the fishermen for pirates . India said the fishermen were unarmed . The incident took place off the coast of Kerala last Wednesday . It sparked a major diplomatic row between the two countries . The Italian foreign ministry has said Foreign Minister Giulio Terzi will also visit Delhi next week to discuss the issue . A delegation of experts from Italy 's foreign , defence and justice ministries has already visited Delhi to discuss the case with Indian officials , but the two sides have so far been unable to resolve their differences . The Italian foreign ministry also said that Indian police had taken `` coercive '' and `` unilateral '' action on Sunday when they escorted the two marines off the oil tanker where they were deployed as security guards and arrested them , news agency AFP reported . Italy insists that its personnel can not be charged under Indian law . It says the marines have immunity as the tanker was flying an Italian flag and was in international waters when the incident happened . The marines have been identified as Massimiliano Latorre and Salvatore Girone . The Enrica Lexie was on its way from Singapore to Egypt , with a crew of 34 , including 19 Indians .
+Event	1	accused	I_Action	21	3
+Event	2	killing	Occurrence	32	5
+Event	3	said	Reporting	141	23
+Event	4	spoke	Reporting	151	26
+Event	5	talks	Occurrence	163	28
+Event	6	says	Reporting	296	52
+Event	7	incident	Occurrence	308	55
+Event	8	took	I_Action	317	56
+Event	9	say	Reporting	396	70
+Event	10	behaving	Occurrence	421	75
+Event	11	mistaken	Occurrence	451	79
+Event	12	asked	I_Action	504	88
+Event	13	detained	Occurrence	622	111
+Event	14	remanded	Occurrence	645	115
+Event	15	investigation	Occurrence	693	124
+Event	16	said	Reporting	779	142
+Event	17	said	Reporting	1007	190
+Event	18	expressed	Reporting	1096	213
+Event	19	deaths	Occurrence	1149	222
+Event	20	said	Reporting	1161	225
+Event	21	died	Occurrence	1277	247
+Event	22	acknowledge	Occurrence	1290	252
+Event	23	died	Occurrence	1327	257
+Event	24	incident	Occurrence	1395	273
+Event	25	took	I_Action	1404	274
+Event	26	investigations	Occurrence	1464	285
+Event	27	said	Reporting	1515	294
+Event	28	added	Reporting	1549	305
+Event	29	said	Reporting	1585	312
+Event	30	behaving	Occurrence	1611	317
+Event	31	ignored	I_Action	1637	320
+Event	32	fired	I_Action	1659	323
+Event	33	said	Reporting	1699	331
+Event	34	opened	I_Action	1709	333
+Event	35	fire	Occurrence	1716	334
+Event	36	mistaking	Occurrence	1727	336
+Event	37	said	Reporting	1770	343
+Event	38	incident	Occurrence	1807	350
+Event	39	took	Occurrence	1816	351
+Event	40	sparked	I_Action	1870	362
+Event	41	row	Occurrence	1897	366
+Event	42	said	Reporting	1961	377
+Event	43	visited	I_Action	2139	408
+Event	44	discuss	Occurrence	2156	389
+Event	45	said	Reporting	2302	437
+Event	46	taken	I_Action	2330	185
+Event	47	action	Occurrence	2364	450
+Event	48	escorted	Occurrence	2391	455
+Event	49	deployed	Occurrence	2451	466
+Event	50	arrested	Occurrence	2483	471
+Event	51	reported	Reporting	2514	477
+Event	52	insists	Reporting	2530	480
+Event	53	says	Reporting	2596	493
+Event	54	flying	Occurrence	2645	502
+Event	55	incident	Occurrence	2709	513
+Event	56	happened	I_Action	2718	514
+Relation	19	2	Coref	false	deaths	killing
+Relation	21	19	Coref	false	died	deaths
+Relation	23	21	Coref	false	died	died
+Relation	24	7	Coref	false	incident	incident
+Relation	26	15	Coref	false	investigations	investigation
+Relation	30	10	Coref	false	behaving	behaving
+Relation	36	11	Coref	false	mistaking	mistaken
+Relation	38	24	Coref	false	incident	incident
+Relation	50	13	Coref	false	arrested	detained
+Relation	55	38	Coref	false	incident	incident
+Relation	7	10	SuperSub	false	incident	behaving
+Relation	10	11	SuperSub	false	behaving	mistaken
+Relation	15	14	SuperSub	false	investigation	remanded
+Relation	36	35	SuperSub	false	mistaking	fire
+Relation	35	23	SuperSub	false	fire	died
+Relation	41	22	SuperSub	false	row	acknowledge
+Relation	41	44	SuperSub	false	row	discuss
+Relation	41	26	SuperSub	false	row	investigations
+Relation	47	48	SuperSub	false	action	escorted
+Relation	48	50	SuperSub	false	escorted	arrested
+Relation	15	47	SuperSub	false	investigation	action
+Relation	41	5	SuperSub	false	row	talks
+Relation	24	10	SuperSub	true	incident	behaving
+Relation	7	30	SuperSub	true	incident	behaving
+Relation	30	11	SuperSub	true	behaving	mistaken
+Relation	10	36	SuperSub	true	behaving	mistaking
+Relation	26	14	SuperSub	true	investigations	remanded
+Relation	11	35	SuperSub	true	mistaken	fire
+Relation	35	21	SuperSub	true	fire	died
+Relation	41	15	SuperSub	true	row	investigation
+Relation	48	13	SuperSub	true	escorted	detained
+Relation	26	47	SuperSub	true	investigations	action
+Relation	7	11	SuperSub	true	incident	mistaken
+Relation	36	23	SuperSub	true	mistaking	died
+Relation	47	50	SuperSub	true	action	arrested
+Relation	15	48	SuperSub	true	investigation	escorted
+Relation	24	11	SuperSub	true	incident	mistaken
+Relation	10	35	SuperSub	true	behaving	fire
+Relation	11	23	SuperSub	true	mistaken	died
+Relation	41	14	SuperSub	true	row	remanded
+Relation	41	47	SuperSub	true	row	action
+Relation	26	48	SuperSub	true	investigations	escorted
+Relation	26	50	SuperSub	true	investigations	arrested
+Relation	7	11	SuperSub	true	incident	mistaken
+Relation	36	23	SuperSub	true	mistaking	died
+Relation	47	50	SuperSub	true	action	arrested
+Relation	15	48	SuperSub	true	investigation	escorted
+Relation	24	11	SuperSub	true	incident	mistaken
+Relation	10	35	SuperSub	true	behaving	fire
+Relation	11	23	SuperSub	true	mistaken	died
+Relation	41	14	SuperSub	true	row	remanded
+Relation	41	47	SuperSub	true	row	action
+Relation	26	48	SuperSub	true	investigations	escorted
+Relation	26	50	SuperSub	true	investigations	arrested
+Relation	15	50	SuperSub	true	investigation	arrested
+Relation	10	23	SuperSub	true	behaving	died
+Relation	41	48	SuperSub	true	row	escorted
+Relation	41	50	SuperSub	true	row	arrested
+Relation	7	11	SuperSub	true	incident	mistaken
+Relation	36	23	SuperSub	true	mistaking	died
+Relation	47	50	SuperSub	true	action	arrested
+Relation	15	48	SuperSub	true	investigation	escorted
+Relation	24	11	SuperSub	true	incident	mistaken
+Relation	10	35	SuperSub	true	behaving	fire
+Relation	11	23	SuperSub	true	mistaken	died
+Relation	41	14	SuperSub	true	row	remanded
+Relation	41	47	SuperSub	true	row	action
+Relation	26	48	SuperSub	true	investigations	escorted
+Relation	26	50	SuperSub	true	investigations	arrested
+Relation	15	50	SuperSub	true	investigation	arrested
+Relation	10	23	SuperSub	true	behaving	died
+Relation	41	48	SuperSub	true	row	escorted
+Relation	41	50	SuperSub	true	row	arrested

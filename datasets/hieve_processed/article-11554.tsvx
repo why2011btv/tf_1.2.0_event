@@ -1,0 +1,70 @@
+Text	A strong magnitude-6.7 earthquake shook central Chile late Monday , prompting authorities to order the evacuation of a stretch of coastline and causing hundreds of people in the capital to flee buildings in panic . There were no reports of major damage , but authorities in the port city of Valparaiso said a 72-year-old man died of a heart attack during the quake . The earthquake was felt for almost a minute in Valparaiso and the capital , Santiago . The US Geological Survey initially put the quake 's magnitude at 6.5 but later raised it to 6.7 . Its epicenter was 26 miles northeast of Valparaiso , and it had a depth of 23 miles . It struck just minutes before midnight local time Monday . The Chilean navy 's hydrographic and oceanographic service discounted the possibility of a tsunami , but authorities maintained an order for people to move to higher ground along a roughly 500-mile stretch of coastline running from the city of Constitucion to Tongoy , north of the capital . Thousands of people were later allowed to return home , said Deputy Interior Secretary Rodrigo Ubilla . The quake knocked out power and telephone service in various parts of Santiago , but the National Emergency Office of the Interior Ministry said that it had received no reports of major damage or injuries so far . There were reports of rockslides on a highway outside of Santiago , and residents of Valparaiso said the facades of some old buildings had fallen . Public Works Minister Laurence Golbourne said that that Chile 's airports and roadways appeared undamaged . Chile is highly earthquake-prone . A magnitude-7.1 earthquake struck central Chile on March 25 , the strongest and longest that many people said they had felt since a huge quake devastated that region two years ago . In 2010 , the 8.8-magnitude quake caused a tsunami that obliterated much of the coastal downtown of the central Chilean city
+Event	1	earthquake	Occurrence	23	3
+Event	2	shook	Occurrence	34	4
+Event	3	prompting	I_Action	67	10
+Event	4	order	I_Action	92	13
+Event	5	evacuation	Occurrence	102	15
+Event	6	causing	I_Action	143	22
+Event	7	flee	Occurrence	188	30
+Event	8	said	Reporting	299	51
+Event	9	died	Occurrence	322	55
+Event	10	attack	Occurrence	338	59
+Event	11	quake	Occurrence	356	62
+Event	12	earthquake	Occurrence	367	65
+Event	13	felt	Perception	382	67
+Event	14	put	Occurrence	483	85
+Event	15	quake	Occurrence	491	87
+Event	16	raised	Occurrence	526	94
+Event	17	struck	Occurrence	631	118
+Event	18	discounted	Occurrence	744	135
+Event	19	maintained	I_Action	801	144
+Event	20	allowed	I_Action	1005	180
+Event	21	return	Occurrence	1016	182
+Event	22	said	Reporting	1029	185
+Event	23	quake	Occurrence	1080	193
+Event	24	knocked	Occurrence	1086	194
+Event	25	said	Reporting	1215	215
+Event	26	reports	I_Action	1299	38
+Event	27	rockslides	HalfGeneric	1310	234
+Event	28	said	Reporting	1383	246
+Event	29	fallen	Occurrence	1426	254
+Event	30	said	Reporting	1475	261
+Event	31	appeared	Perception	1520	269
+Event	32	earthquake	Occurrence	1590	279
+Event	33	struck	Occurrence	1601	280
+Event	34	said	Reporting	1678	294
+Event	35	felt	Perception	1692	297
+Event	36	quake	I_Action	1710	301
+Event	37	devastated	Occurrence	1716	302
+Event	38	quake	Occurrence	1781	314
+Event	39	caused	I_Action	1787	315
+Event	40	tsunami	I_Action	1796	140
+Event	41	obliterated	Occurrence	1809	319
+Relation	1	2	Coref	false	earthquake	shook
+Relation	11	1	Coref	false	quake	earthquake
+Relation	12	11	Coref	false	earthquake	quake
+Relation	17	15	Coref	false	struck	quake
+Relation	23	15	Coref	false	quake	quake
+Relation	32	33	Coref	false	earthquake	struck
+Relation	17	23	Coref	false	struck	quake
+Relation	2	11	Coref	false	shook	quake
+Relation	11	10	SuperSub	false	quake	attack
+Relation	12	13	SuperSub	false	earthquake	felt
+Relation	23	24	SuperSub	false	quake	knocked
+Relation	23	27	SuperSub	false	quake	rockslides
+Relation	23	29	SuperSub	false	quake	fallen
+Relation	11	9	SuperSub	false	quake	died
+Relation	37	41	SuperSub	false	devastated	obliterated
+Relation	12	10	SuperSub	true	earthquake	attack
+Relation	1	10	SuperSub	true	earthquake	attack
+Relation	2	10	SuperSub	true	shook	attack
+Relation	11	13	SuperSub	true	quake	felt
+Relation	17	24	SuperSub	true	struck	knocked
+Relation	15	24	SuperSub	true	quake	knocked
+Relation	17	27	SuperSub	true	struck	rockslides
+Relation	15	27	SuperSub	true	quake	rockslides
+Relation	17	29	SuperSub	true	struck	fallen
+Relation	15	29	SuperSub	true	quake	fallen
+Relation	12	9	SuperSub	true	earthquake	died
+Relation	1	9	SuperSub	true	earthquake	died
+Relation	2	9	SuperSub	true	shook	died

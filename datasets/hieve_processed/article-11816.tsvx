@@ -1,0 +1,186 @@
+Text	Thousands of Palestinians marked on Tuesday the Prisoner 's Day in solidarity with 1,500 Palestinian prisoners , who went on an open-ended hunger strike in Israeli jails , until the Israeli prison services meet the demands of improving their living conditions . Palestinian President Mahmoud Abbas addressed a written letter to mark the day , calling for implementing the Fourth Geneva Convention related to protecting civilians in times of war in the Palestinian territories , treating the Palestinian prisoners as prisoners of war and enabling them to gain their basic rights . The cabinet of the caretaker Palestinian government in the West Bank , which held its weekly meeting in Ramallah , called on the United Nations for immediate and serious intervention and pressure on Israel to release all the Palestinian prisoners in Israeli jails . Hundreds of Palestinians rallied or joined demonstrations held in several West Bank and Gaza Strip cities . They marked the Palestinian Prisoner 's Day , the day when the first Palestinian prisoner was freed in a first ever prisoners ' swap deal reached between Palestinians militants and Israel in 1974 . Among the demonstrators , there was a group of children , who wore the uniform of the prisoners in Israeli jails while their hands and legs were tied by chains of iron . A former Jordanian prisoner who was released in a Hamas-Israel prisoners swap deal on Oct. 18 also attended the demonstration . The crowd waved Palestinian flags as well as flags of various Palestinian Islamic and national factions , carried pictures of the old prisoners and chanted slogans against Israel 's policy against the prisoners . Civil Palestinian servants also went on a strike for several hours . Abdel Rahim Mallouh , a member of Palestine Liberation Organization ( PLO ) , told a rally in Ramallah that the prisoners `` are the address of the first central issue the Palestinian people stand around , '' calling for the immediate reconciliation and ending the division . Qadoura Fares of the Palestinian Prisoner 's Club said that about 1,500 detainees started the strike Tuesday . He noted that the strikers represent all factions in all Israeli detention facilities and prisons . He added that more prisoners will join the strike if their demands were not met . Meanwhile , the cities of Nablus , Hebron and Jenin in the West Bank had witnessed similar demonstrations in solidarity with the Palestinian prisoners . Speakers in the rallies agreed to keep supporting the prisoners ' issue and said that Israel must respond to their demands of improving their living conditions and free them . The rally in Hebron was distinctive with a significant participation of leaders from both Fatah Party and Islamic Hamas movement amid calls for keeping the unity of the prisoners ' movement in Israeli jails , as not all the 4,700 prisoners went on the hunger strike . The prisoners were all supposed to join the hunger strike , but deep disputes between the two rival groups had led to a division among the prisoners . Most of the prisoners were waiting for the results of the negotiations with the Israeli prisons ' services . The hunger striking prisoners are demanding the Israeli authorities to stop the administrative detention ( a detention with no trial ) , end the policy of isolating prisoners in solitary sells , allowing prisoners families from Gaza to visit their sons in Israeli jails and improving their living conditions . Clashes broke out near the Israeli jail of Ofer near Ramallah between Palestinian demonstrators and Israeli soldiers . The soldiers dispersed the demonstrators with tear gas and rubber bullets after they threw stones at the them . Several Palestinians were injured , according to medics . Ahmed Bahar , Deputy Speaker of the Hamas-dominated parliament , called for a third popular uprising , or Intifada in the Palestinian territories and various Arab countries in support for the prisoners , adding `` armed resistance is the only method to free prisoners . '' Speakers of various factions , mainly rival Fatah and Hamas also spoke to demonstrators in Gaza , who called for a broader Arab and international move to protect the prisoners and release them from the Israeli jails .
+Event	1	marked	Occurrence	26	3
+Event	2	went	I_Action	115	18
+Event	3	strike	Occurrence	144	23
+Event	4	addressed	I_Action	294	46
+Event	5	mark	Occurrence	324	51
+Event	6	calling	I_Action	338	55
+Event	7	held	I_Action	649	105
+Event	8	meeting	Occurrence	665	108
+Event	9	called	I_Action	686	112
+Event	10	rallied	Occurrence	861	139
+Event	11	joined	I_Action	872	141
+Event	12	demonstrations	Occurrence	879	142
+Event	13	held	I_Action	894	143
+Event	14	marked	Occurrence	948	154
+Event	15	freed	Occurrence	1035	169
+Event	16	deal	Occurrence	1073	177
+Event	17	reached	I_Action	1078	178
+Event	18	released	Occurrence	1340	226
+Event	19	deal	Occurrence	1382	232
+Event	20	attended	I_Action	1403	237
+Event	21	demonstration	Occurrence	1416	239
+Event	22	waved	Occurrence	1441	243
+Event	23	carried	Occurrence	1536	258
+Event	24	chanted	Occurrence	1578	265
+Event	25	went	I_Action	1673	279
+Event	26	strike	Occurrence	1683	282
+Event	27	told	Reporting	1783	301
+Event	28	rally	Occurrence	1790	303
+Event	29	calling	I_Action	1910	325
+Event	30	said	Reporting	2025	343
+Event	31	started	I_Action	2057	348
+Event	32	strike	Occurrence	2069	350
+Event	33	noted	Reporting	2088	354
+Event	34	added	Reporting	2187	370
+Event	35	strike	Occurrence	2227	377
+Event	36	witnessed	I_Action	2336	400
+Event	37	demonstrations	HalfGeneric	2354	402
+Event	38	rallies	HalfGeneric	2431	413
+Event	39	agreed	I_Action	2439	414
+Event	40	said	Reporting	2490	423
+Event	41	rally	Occurrence	2593	441
+Event	42	went	I_Action	2827	481
+Event	43	strike	Occurrence	2846	485
+Event	44	strike	Occurrence	2905	496
+Event	45	led	I_Action	2964	507
+Event	46	division	Occurrence	2973	333
+Event	47	negotiations	Occurrence	3061	526
+Event	48	demanding	I_Action	3144	539
+Event	49	Clashes	Occurrence	3414	584
+Event	50	broke	I_Action	3423	585
+Event	51	dispersed	Occurrence	3546	604
+Event	52	threw	Occurrence	3618	615
+Event	53	injured	Occurrence	3670	624
+Event	54	called	I_Action	3763	640
+Event	55	adding	Reporting	3900	663
+Event	56	spoke	Occurrence	4028	687
+Event	57	called	I_Action	4064	694
+Relation	14	1	Coref	false	marked	marked
+Relation	3	32	Coref	false	strike	strike
+Relation	35	32	Coref	false	strike	strike
+Relation	43	35	Coref	false	strike	strike
+Relation	44	43	Coref	false	strike	strike
+Relation	38	10	Coref	false	rallies	rallied
+Relation	37	12	Coref	false	demonstrations	demonstrations
+Relation	1	5	SuperSub	false	marked	mark
+Relation	1	10	SuperSub	false	marked	rallied
+Relation	1	12	SuperSub	false	marked	demonstrations
+Relation	16	15	SuperSub	false	deal	freed
+Relation	19	18	SuperSub	false	deal	released
+Relation	12	21	SuperSub	false	demonstrations	demonstration
+Relation	21	22	SuperSub	false	demonstration	waved
+Relation	21	23	SuperSub	false	demonstration	carried
+Relation	21	24	SuperSub	false	demonstration	chanted
+Relation	14	26	SuperSub	false	marked	strike
+Relation	10	28	SuperSub	false	rallied	rally
+Relation	38	41	SuperSub	false	rallies	rally
+Relation	49	51	SuperSub	false	Clashes	dispersed
+Relation	49	52	SuperSub	false	Clashes	threw
+Relation	49	53	SuperSub	false	Clashes	injured
+Relation	12	56	SuperSub	false	demonstrations	spoke
+Relation	12	49	SuperSub	false	demonstrations	Clashes
+Relation	14	5	SuperSub	true	marked	mark
+Relation	14	10	SuperSub	true	marked	rallied
+Relation	1	38	SuperSub	true	marked	rallies
+Relation	14	12	SuperSub	true	marked	demonstrations
+Relation	1	37	SuperSub	true	marked	demonstrations
+Relation	37	21	SuperSub	true	demonstrations	demonstration
+Relation	1	26	SuperSub	true	marked	strike
+Relation	38	28	SuperSub	true	rallies	rally
+Relation	10	41	SuperSub	true	rallied	rally
+Relation	37	56	SuperSub	true	demonstrations	spoke
+Relation	37	49	SuperSub	true	demonstrations	Clashes
+Relation	1	28	SuperSub	true	marked	rally
+Relation	1	21	SuperSub	true	marked	demonstration
+Relation	1	56	SuperSub	true	marked	spoke
+Relation	1	49	SuperSub	true	marked	Clashes
+Relation	12	22	SuperSub	true	demonstrations	waved
+Relation	12	23	SuperSub	true	demonstrations	carried
+Relation	12	24	SuperSub	true	demonstrations	chanted
+Relation	12	51	SuperSub	true	demonstrations	dispersed
+Relation	12	52	SuperSub	true	demonstrations	threw
+Relation	12	53	SuperSub	true	demonstrations	injured
+Relation	14	28	SuperSub	true	marked	rally
+Relation	1	41	SuperSub	true	marked	rally
+Relation	14	21	SuperSub	true	marked	demonstration
+Relation	14	56	SuperSub	true	marked	spoke
+Relation	14	49	SuperSub	true	marked	Clashes
+Relation	14	22	SuperSub	true	marked	waved
+Relation	14	23	SuperSub	true	marked	carried
+Relation	14	24	SuperSub	true	marked	chanted
+Relation	14	51	SuperSub	true	marked	dispersed
+Relation	14	52	SuperSub	true	marked	threw
+Relation	14	53	SuperSub	true	marked	injured
+Relation	37	22	SuperSub	true	demonstrations	waved
+Relation	37	23	SuperSub	true	demonstrations	carried
+Relation	37	24	SuperSub	true	demonstrations	chanted
+Relation	37	51	SuperSub	true	demonstrations	dispersed
+Relation	37	52	SuperSub	true	demonstrations	threw
+Relation	37	53	SuperSub	true	demonstrations	injured
+Relation	1	28	SuperSub	true	marked	rally
+Relation	1	21	SuperSub	true	marked	demonstration
+Relation	1	56	SuperSub	true	marked	spoke
+Relation	1	49	SuperSub	true	marked	Clashes
+Relation	12	22	SuperSub	true	demonstrations	waved
+Relation	12	23	SuperSub	true	demonstrations	carried
+Relation	12	24	SuperSub	true	demonstrations	chanted
+Relation	12	51	SuperSub	true	demonstrations	dispersed
+Relation	12	52	SuperSub	true	demonstrations	threw
+Relation	12	53	SuperSub	true	demonstrations	injured
+Relation	14	28	SuperSub	true	marked	rally
+Relation	1	41	SuperSub	true	marked	rally
+Relation	14	21	SuperSub	true	marked	demonstration
+Relation	14	56	SuperSub	true	marked	spoke
+Relation	14	49	SuperSub	true	marked	Clashes
+Relation	14	22	SuperSub	true	marked	waved
+Relation	14	23	SuperSub	true	marked	carried
+Relation	14	24	SuperSub	true	marked	chanted
+Relation	14	51	SuperSub	true	marked	dispersed
+Relation	14	52	SuperSub	true	marked	threw
+Relation	14	53	SuperSub	true	marked	injured
+Relation	37	22	SuperSub	true	demonstrations	waved
+Relation	37	23	SuperSub	true	demonstrations	carried
+Relation	37	24	SuperSub	true	demonstrations	chanted
+Relation	37	51	SuperSub	true	demonstrations	dispersed
+Relation	37	52	SuperSub	true	demonstrations	threw
+Relation	37	53	SuperSub	true	demonstrations	injured
+Relation	1	22	SuperSub	true	marked	waved
+Relation	1	23	SuperSub	true	marked	carried
+Relation	1	24	SuperSub	true	marked	chanted
+Relation	1	51	SuperSub	true	marked	dispersed
+Relation	1	52	SuperSub	true	marked	threw
+Relation	1	53	SuperSub	true	marked	injured
+Relation	1	28	SuperSub	true	marked	rally
+Relation	1	21	SuperSub	true	marked	demonstration
+Relation	1	56	SuperSub	true	marked	spoke
+Relation	1	49	SuperSub	true	marked	Clashes
+Relation	12	22	SuperSub	true	demonstrations	waved
+Relation	12	23	SuperSub	true	demonstrations	carried
+Relation	12	24	SuperSub	true	demonstrations	chanted
+Relation	12	51	SuperSub	true	demonstrations	dispersed
+Relation	12	52	SuperSub	true	demonstrations	threw
+Relation	12	53	SuperSub	true	demonstrations	injured
+Relation	14	28	SuperSub	true	marked	rally
+Relation	1	41	SuperSub	true	marked	rally
+Relation	14	21	SuperSub	true	marked	demonstration
+Relation	14	56	SuperSub	true	marked	spoke
+Relation	14	49	SuperSub	true	marked	Clashes
+Relation	14	22	SuperSub	true	marked	waved
+Relation	14	23	SuperSub	true	marked	carried
+Relation	14	24	SuperSub	true	marked	chanted
+Relation	14	51	SuperSub	true	marked	dispersed
+Relation	14	52	SuperSub	true	marked	threw
+Relation	14	53	SuperSub	true	marked	injured
+Relation	37	22	SuperSub	true	demonstrations	waved
+Relation	37	23	SuperSub	true	demonstrations	carried
+Relation	37	24	SuperSub	true	demonstrations	chanted
+Relation	37	51	SuperSub	true	demonstrations	dispersed
+Relation	37	52	SuperSub	true	demonstrations	threw
+Relation	37	53	SuperSub	true	demonstrations	injured
+Relation	1	22	SuperSub	true	marked	waved
+Relation	1	23	SuperSub	true	marked	carried
+Relation	1	24	SuperSub	true	marked	chanted
+Relation	1	51	SuperSub	true	marked	dispersed
+Relation	1	52	SuperSub	true	marked	threw
+Relation	1	53	SuperSub	true	marked	injured

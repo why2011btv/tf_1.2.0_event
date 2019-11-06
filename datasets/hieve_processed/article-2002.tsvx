@@ -1,0 +1,30 @@
+Text	A suicide bomber sent back to his car to disarm the device by Somali police detonated it instead and killed four people.The blast was near the former Egyptian Embassy in Mogadishu.Officer Abdi Hassan said a would-be suicide car bomb was intercepted hours before the blast and the bomber arrested.But Hassan police returned him to his vehicle under orders that he disarm the explosives . Instead , he was able to trigger the bomb.Police commanders did not answer phone calls seeking comment after the blast . One police official said that supervisors told them no one was to talk to journalists about the explosion.Al-Shabab militants have stepped up a campaign of roadside bombs and suicide car bomb attacks in Mogadishu in recent weeks . The militants were almost entirely pushed out of the Somali capital earlier this year in an offensive by African Union forces .
+Event	1	sent	I_Action	18	3
+Event	2	detonated	Occurrence	77	15
+Event	3	killed	Occurrence	102	19
+Event	4	blast	Occurrence	125	22
+Event	5	said	Reporting	201	33
+Event	6	intercepted	Occurrence	238	40
+Event	7	blast	Occurrence	267	44
+Event	9	returned	Occurrence	315	51
+Event	10	trigger	Occurrence	411	70
+Event	11	calls	Occurrence	467	78
+Event	12	blast	Occurrence	499	83
+Event	13	said	Reporting	526	88
+Event	14	told	Reporting	548	91
+Event	16	stepped	StateChange	637	105
+Event	17	attacks	HalfGeneric	698	116
+Event	18	pushed	Occurrence	771	128
+Event	19	offensive	Occurrence	828	139
+Relation	2	4	Coref	false	detonated	blast
+Relation	7	4	Coref	false	blast	blast
+Relation	10	7	Coref	false	trigger	blast
+Relation	12	10	Coref	false	blast	trigger
+Relation	15	12	Coref	false	explosion	blast
+Relation	4	3	SuperSub	false	blast	killed
+Relation	19	18	SuperSub	false	offensive	pushed
+Relation	17	16	SuperSub	false	attacks	stepped
+Relation	17	15	SuperSub	false	attacks	explosion
+Relation	7	3	SuperSub	true	blast	killed
+Relation	2	3	SuperSub	true	detonated	killed
+Relation	17	12	SuperSub	true	attacks	blast

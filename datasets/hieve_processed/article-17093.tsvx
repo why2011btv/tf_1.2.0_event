@@ -1,0 +1,10 @@
+Text	Suspected Islamist militants blew up a gas pipeline in eastern Yemen on Monday for the third time in recent months as the government ratcheted up its campaign against al Qaeda linked insurgents in the south . The latest attack will likely delay plans to resume LNG output which had been halted by another attack in April claimed by Islamist militants . The & # 036 ; 4.5 billion Yemen LNG project has two production trains with a combined capacity of 6.7 million tonnes per year , supplying mainly to Asia , and then to Europe and Americas .
+Event	1	blew	Occurrence	29	3
+Event	2	ratcheted	I_Action	133	23
+Event	3	campaign	Occurrence	150	26
+Event	4	attack	Occurrence	220	38
+Event	5	halted	Occurrence	287	50
+Event	6	attack	Occurrence	305	53
+Event	7	claimed	I_Action	321	56
+Relation	4	1	Coref	false	attack	blew
+Relation	6	5	SuperSub	false	attack	halted

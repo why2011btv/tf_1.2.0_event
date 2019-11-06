@@ -1,0 +1,8 @@
+Text	A US drone attack over the weekend , which killed al-Qaida operative Fahd al-Quso , is thought to have been a direct result of information from the agent , according to the Guardian . MI6 and MI5 agents are banned from missions leading to assassinations . Associated Press was made aware of the underwear plot last week but did not publish details until Monday at the request of the White House over operational security . The Foreign Office declined to confirm or deny the involvement of British intelligence .
+Event	1	attack	Occurrence	11	3
+Event	2	killed	Occurrence	42	9
+Event	3	banned	Occurrence	203	39
+Event	4	made	StateChange	272	49
+Event	5	plot	Occurrence	300	54
+Event	6	declined	I_Action	436	78
+Relation	1	2	SuperSub	false	attack	killed

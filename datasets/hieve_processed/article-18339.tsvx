@@ -1,0 +1,12 @@
+Text	Police in Derry have seized a stash of cannabis resin with an estimated street value of & # 163 ; 800,000 ( E1 million ) . The drugs were found concealed in kitchen units in a van stopped by officers on the Glengalliagh Road shortly after 7pm last night . A man ( 33 ) has been arrested and is being questioned at Strabane police station . `` We have seized a substantial quantity of cannabis - drugs which will no longer pose a threat to our community and , in particular , to our young people , '' a PSNI spokesman said . `` Police are committed to reducing the harm posed to people by the scourge of drugs . We will continue to do this by working with groups and individuals through the criminal justice system to ensure drugs are taken off our streets and those involved in this evil and dangerous trade are brought before the courts . ''
+Event	1	seized	Occurrence	21	4
+Event	2	found	Occurrence	132	29
+Event	3	stopped	Occurrence	174	37
+Event	4	arrested	Occurrence	269	57
+Event	5	questioned	Occurrence	291	61
+Event	6	seized	Occurrence	339	70
+Event	7	said	Reporting	499	102
+Relation	6	1	Coref	false	seized	seized
+Relation	4	5	SuperSub	false	arrested	questioned
+Relation	1	2	SuperSub	true	seized	found
+Relation	6	2	SuperSub	true	seized	found

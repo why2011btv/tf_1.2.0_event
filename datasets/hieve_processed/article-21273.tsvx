@@ -1,0 +1,132 @@
+Text	Medical examiners found evidence of marijuana in Trayvon Martin 's system after he was fatally shot by a neighborhood watch volunteer , an autopsy report released Thursday shows . Also included in a massive release of evidence was an investigator 's recommendation to prosecutors that suspect George Zimmerman be arrested on manslaughter charges . The investigator , who was on the scene after the shooting , wrote on March 13 that the confrontation should have been avoided . That report came nearly a month before Zimmerman was arrested . The package of documents , photos and video was turned over by prosecutors to defense attorneys days before it was released to the media . The autopsy says medical examiners found THC , the psychoactive ingredient in marijuana , when they tested Martin 's blood and urine . A police report shows Martin had been shot once in the chest and had been pronounced dead at the scene . Also in the package is a photo of suspect George Zimmerman with a bloody nose taken the night of the fight . A paramedic report says Zimmerman had a 1-inch laceration on his head and forehead abrasion . `` Bleeding tenderness to his nose , and a small laceration to the back of his head . All injuries have minor bleeding , '' paramedic Michael Brandy wrote about Zimmerman 's injuries in the report . Zimmerman told a police officer that he did not have any other bruises or cuts but his back hurt , according to a police report . Whether Zimmerman was injured in the Feb. 26 altercation with Martin has been a key question . Zimmerman has claimed self-defense and said he only fired because the unarmed teenager attacked him . Zimmerman is awaiting trial on a second-degree murder charge . He has pleaded not guilty . Investigator Christopher Serino , who recommended that Zimmerman be charged , told prosecutors in March that the fight could have been avoided if Zimmerman had remained in his vehicle and awaited the arrival of law enforcement . He said Zimmerman , after leaving his vehicle , could have identified himself to Martin as a concerned citizen and talked to him instead of confronting him . He said there is no evidence Martin was involved in any criminal activity . A separate report written by Serino at the crime scene says Martin had $ 40.15 , Skittles candy , a red lighter , headphones and a photo pin in his pocket . He had been shot once in the chest and had been pronounced dead at the scene . New witness accounts also emerged Thursday . A witness , whose name is redacted , told investigators he saw `` a black male , wearing a dark colored hoodie , '' on top of a white or Hispanic male who was yelling for help . The witness , who was looking out the sliding glass door at his home about 30 feet away , said he saw the black male throwing punches `` MMA ( mixed martial arts ) style . '' He said he told the fighters he was calling the police . He said that as he was making the call , he heard a shot . He looked outside and saw the person who had been on top laid out on the grass as if he had been shot . He said the other fighter was standing on the sidewalk , talking to another person with a flashlight .
+Event	1	found	Occurrence	18	2
+Event	2	shot	Occurrence	94	15
+Event	3	report	Occurrence	145	24
+Event	4	released	I_Action	152	25
+Event	5	shows	Reporting	170	27
+Event	6	release	Occurrence	204	34
+Event	7	shooting	Occurrence	392	64
+Event	8	wrote	Reporting	402	66
+Event	9	confrontation	Occurrence	429	72
+Event	10	report	Reporting	474	79
+Event	11	came	I_Action	481	80
+Event	12	arrested	Occurrence	522	49
+Event	13	turned	Occurrence	579	98
+Event	14	released	Reporting	646	109
+Event	15	autopsy	Occurrence	673	23
+Event	16	says	Reporting	681	116
+Event	17	found	Occurrence	704	119
+Event	18	tested	Occurrence	767	130
+Event	19	report	Occurrence	809	139
+Event	20	shows	Reporting	816	140
+Event	21	shot	Occurrence	838	144
+Event	22	pronounced	Reporting	874	152
+Event	23	taken	Occurrence	982	173
+Event	24	fight	Occurrence	1005	178
+Event	25	report	Reporting	1024	182
+Event	26	says	Reporting	1031	183
+Event	27	wrote	Reporting	1247	224
+Event	28	report	Reporting	1287	231
+Event	29	told	Reporting	1305	234
+Event	30	report	Reporting	1415	257
+Event	31	injured	Occurrence	1445	262
+Event	32	altercation	Occurrence	1468	267
+Event	33	claimed	Reporting	1531	278
+Event	34	said	I_Action	1556	281
+Event	35	fired	Occurrence	1569	284
+Event	36	attacked	Occurrence	1604	289
+Event	37	pleaded	Reporting	1687	304
+Event	38	recommended	I_Action	1744	313
+Event	39	told	Reporting	1783	319
+Event	40	fight	Occurrence	1818	325
+Event	41	said	Reporting	1936	346
+Event	42	leaving	Occurrence	1958	350
+Event	43	confronting	Occurrence	2071	370
+Event	44	said	Reporting	2091	374
+Event	45	report	Reporting	2174	389
+Event	46	written	I_Action	2181	390
+Event	47	shot	Occurrence	2327	422
+Event	48	pronounced	Reporting	2363	430
+Event	49	emerged	Perception	2419	440
+Event	50	redacted	Occurrence	2462	449
+Event	51	told	Reporting	2472	451
+Event	52	saw	Perception	2494	454
+Event	53	yelling	Reporting	2588	477
+Event	54	looking	Perception	2627	486
+Event	55	said	Reporting	2694	500
+Event	56	saw	I_Action	2702	502
+Event	57	throwing	I_Action	2721	506
+Event	58	punches	Occurrence	2730	507
+Event	59	said	Reporting	2775	519
+Event	60	told	Reporting	2783	521
+Event	61	said	Reporting	2831	531
+Event	62	making	I_Action	2851	536
+Event	63	call	Occurrence	2862	538
+Event	64	heard	I_Action	2871	541
+Event	65	shot	Occurrence	2879	543
+Event	66	looked	Perception	2888	546
+Event	67	saw	Perception	2907	549
+Event	68	said	Reporting	2991	570
+Event	69	talking	Reporting	3044	580
+Relation	7	2	Coref	false	shooting	shot
+Relation	17	1	Coref	false	found	found
+Relation	21	2	Coref	false	shot	shot
+Relation	35	21	Coref	false	fired	shot
+Relation	40	24	Coref	false	fight	fight
+Relation	65	35	Coref	false	shot	fired
+Relation	9	43	Coref	true	confrontation	confronting
+Relation	6	3	SuperSub	false	release	report
+Relation	6	13	SuperSub	false	release	turned
+Relation	15	18	SuperSub	false	autopsy	tested
+Relation	18	17	SuperSub	false	tested	found
+Relation	32	31	SuperSub	true	altercation	injured
+Relation	32	24	SuperSub	false	altercation	fight
+Relation	24	36	SuperSub	false	fight	attacked
+Relation	24	35	SuperSub	false	fight	fired
+Relation	32	43	SuperSub	false	altercation	confronting
+Relation	54	52	SuperSub	false	looking	saw
+Relation	40	54	SuperSub	false	fight	looking
+Relation	40	58	SuperSub	false	fight	punches
+Relation	40	63	SuperSub	false	fight	call
+Relation	66	67	SuperSub	false	looked	saw
+Relation	43	42	SuperSub	false	confronting	leaving
+Relation	18	1	SuperSub	true	tested	found
+Relation	32	40	SuperSub	true	altercation	fight
+Relation	40	36	SuperSub	true	fight	attacked
+Relation	40	35	SuperSub	true	fight	fired
+Relation	24	65	SuperSub	true	fight	shot
+Relation	24	21	SuperSub	true	fight	shot
+Relation	32	9	SuperSub	true	altercation	confrontation
+Relation	24	54	SuperSub	true	fight	looking
+Relation	24	58	SuperSub	true	fight	punches
+Relation	24	63	SuperSub	true	fight	call
+Relation	9	42	SuperSub	true	confrontation	leaving
+Relation	15	17	SuperSub	true	autopsy	found
+Relation	32	36	SuperSub	true	altercation	attacked
+Relation	32	35	SuperSub	true	altercation	fired
+Relation	32	42	SuperSub	true	altercation	leaving
+Relation	40	52	SuperSub	true	fight	saw
+Relation	32	54	SuperSub	true	altercation	looking
+Relation	32	58	SuperSub	true	altercation	punches
+Relation	32	63	SuperSub	true	altercation	call
+Relation	24	52	SuperSub	true	fight	saw
+Relation	15	17	SuperSub	true	autopsy	found
+Relation	32	36	SuperSub	true	altercation	attacked
+Relation	32	35	SuperSub	true	altercation	fired
+Relation	32	42	SuperSub	true	altercation	leaving
+Relation	40	52	SuperSub	true	fight	saw
+Relation	32	54	SuperSub	true	altercation	looking
+Relation	32	58	SuperSub	true	altercation	punches
+Relation	32	63	SuperSub	true	altercation	call
+Relation	24	52	SuperSub	true	fight	saw
+Relation	32	52	SuperSub	true	altercation	saw
+Relation	15	17	SuperSub	true	autopsy	found
+Relation	32	36	SuperSub	true	altercation	attacked
+Relation	32	35	SuperSub	true	altercation	fired
+Relation	32	42	SuperSub	true	altercation	leaving
+Relation	40	52	SuperSub	true	fight	saw
+Relation	32	54	SuperSub	true	altercation	looking
+Relation	32	58	SuperSub	true	altercation	punches
+Relation	32	63	SuperSub	true	altercation	call
+Relation	24	52	SuperSub	true	fight	saw
+Relation	32	52	SuperSub	true	altercation	saw

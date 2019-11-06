@@ -1,0 +1,25 @@
+Text	21/11/2011 - 17:07:49 A woman has been arrested in connection with the murder of Ciaran Noonan . The woman , 24 , was detained in Dublin this afternoon and taken to Store Street Garda station . She is being held and questioned under section 30 of the Offences against the State Act . It is the eighth arrest over the killing of the 29-year-old father of one , whose body was found on farmland in Co Meath earlier this month . No one has yet been charged . Mr Noonan , who it is believed owed a drug debt , was kidnapped from the East Wall area of Dublin on October 20 . He was murdered before being dumped in a field at Tullaghmeaden , about six miles outside Trim , Co Meath . His body was not discovered until November 4 after a tip-off .
+Event	1	arrested	Occurrence	39	7
+Event	2	murder	Occurrence	71	12
+Event	3	detained	Occurrence	115	23
+Event	4	taken	Occurrence	153	29
+Event	5	held	Occurrence	203	39
+Event	6	questioned	Occurrence	212	41
+Event	7	arrest	Occurrence	296	57
+Event	8	killing	Occurrence	312	60
+Event	9	found	Occurrence	369	71
+Event	10	kidnapped	Occurrence	500	101
+Event	11	murdered	Occurrence	566	115
+Event	12	dumped	Occurrence	588	118
+Event	13	discovered	Occurrence	681	138
+Relation	1	3	Coref	false	arrested	detained
+Relation	7	1	Coref	false	arrest	arrested
+Relation	2	8	Coref	false	murder	killing
+Relation	11	8	Coref	false	murdered	killing
+Relation	5	3	Coref	false	held	detained
+Relation	13	9	Coref	false	discovered	found
+Relation	5	6	SuperSub	false	held	questioned
+Relation	3	4	SuperSub	false	detained	taken
+Relation	3	6	SuperSub	true	detained	questioned
+Relation	5	4	SuperSub	true	held	taken
+Relation	1	4	SuperSub	true	arrested	taken

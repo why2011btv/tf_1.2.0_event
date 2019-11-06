@@ -1,0 +1,80 @@
+Text	Hundreds of people took to the streets in Pakistan 's capital city of Islamabad Thursday , to protest the NATO airstrike that killed 24 Pakistani soldiers on Nov 26 , NBC News reported . Lawyers , union members , and others -- carrying Pakistani flag and signs reading `` Go America Go '' and `` We Condemn Nato Attack '' -- marched to the heavily-fortified diplomatic enclave . Police in riot gear stood behind barbed wire along parts of the route . A dummy marked `` Nato '' was burned outside the Parliament building . A police official told Agence France Presse that 500 policemen were deployed around the diplomatic enclave to prevent any violence . The protest came after assailants earlier torched more than 20 tankers in Pakistan carrying fuel for U.S. and NATO troops in neighboring Afghanistan on Thursday , in the first reported attack since Islamabad closed the border to protest coalition airstrikes . Several hundred trucks have been stranded at poorly guarded terminals around the country as they wait for Pakistan to reopen its two border crossings into Afghanistan . Around 40 percent of the non-lethal supplies for U.S.-led troops in landlocked Afghanistan travel across Pakistani soil . Islamabad closed both frontier crossings into Afghanistan on Nov. 26 , hours after airstrikes by the U.S.-led coalition killed 24 Pakistani troops on the Pakistan-Afghanistan border . U.S. and NATO officials have said the incident was a mistake , and have pledged to investigate . Police officer Hamid Shakil says unknown men fired rockets at a terminal for the tankers close to the southwestern city of Quetta . He said at least 23 tankers were set ablaze . There were no immediate reports of casualties . Last year , Islamabad temporarily closed one of its Afghan crossings to NATO supplies after U.S. helicopters accidentally killed two Pakistani soldiers . Suspected militants or criminals took advantage of the impasse to launch many attacks against stranded or rerouted trucks carrying NATO supplies . The deadly airstrikes at the border sent already tense relations between Pakistan and the United States to new lows , threatening Islamabad 's cooperation in helping negotiate an end to the Afghan war . It came amid political tensions in Islamabad following the resignation of Pakistan 's ambassador to the United States following an outcry from the country 's powerful military establishment , which is in charge of Afghan and U.S. policy . Envoy Husain Haqqani stepped down because of allegations he wrote a memo to Washington asking for its help to stop a supposed military coup . President Asif Ali Zardari has been under pressure because of the scandal , and on Tuesday flew to Dubai for medical treatment related to a heart condition . His trip led to rumors that the 56-year-old was losing his grip on power . Earlier Thursday , Secretary of State Hillary Rodham Clinton said the U.S. expected Zardari , an American ally , `` will be able to return in full health in his duties '' after receiving treatment . A statement for the presidency said Zardari 's health was improving .
+Event	1	took	I_Action	19	3
+Event	2	protest	I_Action	92	17
+Event	3	airstrike	Occurrence	109	20
+Event	4	killed	Occurrence	124	22
+Event	5	reported	Reporting	173	32
+Event	6	carrying	Occurrence	221	42
+Event	7	Attack	Occurrence	300	58
+Event	8	marched	Occurrence	311	61
+Event	9	burned	Occurrence	461	89
+Event	10	told	Reporting	519	98
+Event	11	deployed	I_Action	569	106
+Event	12	protest	Occurrence	637	117
+Event	13	came	Occurrence	645	118
+Event	14	torched	Occurrence	675	122
+Event	15	attack	Occurrence	817	146
+Event	16	closed	I_Action	840	149
+Event	17	protest	I_Action	861	153
+Event	18	airstrikes	HalfGeneric	879	155
+Event	19	stranded	Occurrence	924	162
+Event	20	wait	I_Action	988	172
+Event	21	closed	Occurrence	1190	203
+Event	22	airstrikes	Occurrence	1262	215
+Event	23	killed	Occurrence	1299	220
+Event	24	said	Reporting	1391	234
+Event	25	incident	Occurrence	1400	236
+Event	26	pledged	I_Action	1433	243
+Event	27	says	Reporting	1485	251
+Event	28	fired	Occurrence	1502	254
+Event	29	said	Reporting	1591	271
+Event	30	set	I_Action	1621	277
+Event	31	ablaze	Occurrence	1625	278
+Event	32	closed	Occurrence	1713	293
+Event	33	killed	Occurrence	1801	306
+Event	34	took	I_Action	1865	315
+Event	35	impasse	Occurrence	1887	319
+Event	36	launch	I_Action	1898	321
+Event	37	attacks	HalfGeneric	1910	323
+Event	38	airstrikes	Occurrence	1989	335
+Event	39	sent	Occurrence	2014	339
+Event	40	threatening	Occurrence	2095	353
+Event	41	war	Occurrence	2173	365
+Event	42	resignation	Occurrence	2237	376
+Event	43	outcry	Occurrence	2308	387
+Event	44	stepped	Occurrence	2434	409
+Event	45	scandal	Occurrence	2620	442
+Event	46	flew	Occurrence	2644	447
+Event	47	trip	Occurrence	2714	460
+Event	48	led	Occurrence	2719	461
+Event	49	said	Reporting	2844	483
+Event	50	statement	Occurrence	2977	511
+Event	51	said	Reporting	3006	515
+Relation	7	3	Coref	false	Attack	airstrike
+Relation	22	18	Coref	false	airstrikes	airstrikes
+Relation	3	18	Coref	false	airstrike	airstrikes
+Relation	14	31	Coref	false	torched	ablaze
+Relation	25	38	Coref	false	incident	airstrikes
+Relation	42	44	Coref	false	resignation	stepped
+Relation	46	47	Coref	false	flew	trip
+Relation	3	4	SuperSub	false	airstrike	killed
+Relation	12	8	SuperSub	false	protest	marched
+Relation	12	6	SuperSub	false	protest	carrying
+Relation	12	9	SuperSub	false	protest	burned
+Relation	22	23	SuperSub	false	airstrikes	killed
+Relation	22	25	SuperSub	false	airstrikes	incident
+Relation	15	28	SuperSub	false	attack	fired
+Relation	28	14	SuperSub	false	fired	torched
+Relation	35	32	SuperSub	false	impasse	closed
+Relation	35	37	SuperSub	false	impasse	attacks
+Relation	45	44	SuperSub	false	scandal	stepped
+Relation	18	4	SuperSub	true	airstrikes	killed
+Relation	7	4	SuperSub	true	Attack	killed
+Relation	18	23	SuperSub	true	airstrikes	killed
+Relation	18	25	SuperSub	true	airstrikes	incident
+Relation	22	38	SuperSub	true	airstrikes	airstrikes
+Relation	28	31	SuperSub	true	fired	ablaze
+Relation	45	42	SuperSub	true	scandal	resignation
+Relation	15	14	SuperSub	true	attack	torched
+Relation	15	14	SuperSub	true	attack	torched
+Relation	15	14	SuperSub	true	attack	torched

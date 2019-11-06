@@ -1,0 +1,44 @@
+Text	The United States said Monday it does not intend to relax the sanctions against Iran , despite the fact that the latest round of talks over Iranian nuclear works which were held in Istanbul have been considered a `` first positive step `` . The United States renewed its call to Tehran , asking it to take concrete steps to address concerns surrounding its disputed nuclear program . `` As we have already said , we want to see Iran offering concrete proposals and move forward , and if realized , then we could consider gesture measures . Nevertheless , we consider the talks in Istanbul as a very first positive step , `` said the spokesman of U.S. State Department Mark Toner during a press conference . Despite these positive beginnings , the spokesman denied that the U.S. has the intention of relaxing its sanctions against Iran . `` The sanctions remain in place for now . Nobody has mentioned cancellation of sanctions , '' he said . The United States hopes that the talks in Istanbul will be the beginning of a `` sustainable process '' , and it is already preparing for a second meeting to be held next month in Baghdad , Iraq , said Toner . Iran and the five members of the Security Council of the UN ( United States , France , Russia , China , Great Britain ) plus Germany , which form the P5 +1 , completed a series of talks Saturday on Iran 's nuclear program in Istanbul , Turkey . Both sides described the talks as positive and agreed to meet again in Baghdad on May 23 . Mr. Toner noted that the U.S. had made it clear that its ultimate goal was to see Iran `` take concrete steps to address unequivocally the concerns of the international community over its nuclear program . '' Referring to international sanctions against Iran , Mr. Toner said he believed that Iran had `` every reason to engage constructively in this dialogue , and come to the negotiating table with concrete proposals `` . Despite Tehran 's insistence on the peaceful aspect of its nuclear program , European countries and the U.S. suspect Iran is trying to develop nuclear weapons , and threatened to use force to prevent Tehran from becoming a nuclear power . While acknowledging that the negotiating process would take some time , Mr. Toner has stressed the urgency of solving the Iranian nuclear crisis through peaceful negotiations .
+Event	1	said	Reporting	19	3
+Event	2	talks	Occurrence	130	24
+Event	3	held	I_Action	174	31
+Event	4	renewed	I_Action	256	47
+Event	5	call	Occurrence	268	49
+Event	6	asking	I_Action	284	53
+Event	7	said	Reporting	399	73
+Event	8	talks	Occurrence	559	103
+Event	9	said	Reporting	609	114
+Event	10	conference	Occurrence	679	126
+Event	11	denied	I_Action	740	135
+Event	12	said	Reporting	912	167
+Event	13	talks	Occurrence	951	175
+Event	14	preparing	I_Action	1037	193
+Event	15	said	Reporting	1109	208
+Event	16	completed	I_Action	1271	245
+Event	17	talks	HalfGeneric	1293	249
+Event	18	described	I_Action	1366	263
+Event	19	talks	Occurrence	1380	265
+Event	20	agreed	I_Action	1402	269
+Event	21	noted	Reporting	1455	281
+Event	22	made	Occurrence	1479	286
+Event	23	said	Reporting	1710	325
+Event	24	dialogue	Occurrence	1788	339
+Event	25	insistence	Reporting	1876	355
+Event	26	threatened	I_Action	2021	380
+Event	27	acknowledging	Occurrence	2100	394
+Event	28	stressed	Reporting	2179	407
+Event	29	crisis	Occurrence	2231	415
+Relation	2	8	Coref	false	talks	talks
+Relation	8	13	Coref	false	talks	talks
+Relation	13	17	Coref	false	talks	talks
+Relation	17	19	Coref	false	talks	talks
+Relation	2	5	SuperSub	false	talks	call
+Relation	19	22	SuperSub	false	talks	made
+Relation	24	19	SuperSub	false	dialogue	talks
+Relation	10	27	SuperSub	false	conference	acknowledging
+Relation	8	5	SuperSub	true	talks	call
+Relation	17	22	SuperSub	true	talks	made
+Relation	24	17	SuperSub	true	dialogue	talks
+Relation	24	22	SuperSub	true	dialogue	made
+Relation	24	22	SuperSub	true	dialogue	made
+Relation	24	22	SuperSub	true	dialogue	made

@@ -1,0 +1,51 @@
+Text	The Legion of Christ religious order has been hit by the second scandal in a week with the admission that its most well-known priest - a prominent author , lecturer and television personality - had fathered a child . The Rev Thomas Williams said in a statement he was `` deeply sorry for this grave transgression '' against his vows of celibacy and would be taking a year off to reflect on what he had done . The statement was issued after reporters confronted the Legion with the allegation lodged by a Spanish association of Legion victims accusing Rev Williams of having fathered a child . The letter , sent to the Legion and Vatican several weeks ago , also named other Legion priests accused of sexually abusing minors . Rev Williams , who was not accused of abuse , said `` a number of years ago '' he had a relationship with a woman and fathered her child . He did not identify the mother or say whether the relationship had continued . The Legion has been beset by scandals for years following revelations that its late founder , the Rev Marciel Maciel , fathered three children and sexually abused his seminarians . Rev Maciel died in 2008 and in 2009 the Legion admitted to his crimes . Rev Williams , the most prominent priest in the 800-strong order , spoke about Rev Maciel 's double life in a February 2009 interview with the Catholic ETWN programme , saying the revelations were a `` very , very hard blow to all of us . '' Rev Williams , who is the author of such books as the 2008 book Knowing Right From Wrong on Christian moral conscience , was the superior of the Legion 's general directorate in Rome in the late 1990s and early 2000s . More recently , he has taught theology , promoted his books and lectured . The accusation against Rev Williams was first lodged for Help of Those Affected by the LC , a Spanish association for victims of the Legion , which several weeks ago sent a list of accused Legion priests to the superior in Rome , Fr Alvaro Corcuera and the Vatican 's Congregation for the Doctrine of the Faith . The Legion admitted on Friday that it had referred seven priests to the Vatican who were accused of sexually abusing minors .
+Event	1	hit	Occurrence	46	8
+Event	2	scandal	Occurrence	64	12
+Event	3	admission	Reporting	91	18
+Event	4	fathered	Occurrence	197	35
+Event	5	said	Reporting	239	43
+Event	6	transgression	Occurrence	295	55
+Event	7	issued	I_Action	420	80
+Event	8	confronted	Occurrence	443	83
+Event	9	allegation	Reporting	474	88
+Event	10	lodged	I_Action	485	89
+Event	11	accusing	I_Action	535	97
+Event	12	sent	Occurrence	597	109
+Event	13	named	Reporting	652	120
+Event	14	accused	I_Action	679	124
+Event	15	said	Reporting	759	140
+Event	16	fathered	Occurrence	827	102
+Event	17	beset	Occurrence	945	178
+Event	18	scandals	HalfGeneric	954	180
+Event	19	revelations	Reporting	983	184
+Event	20	fathered	Occurrence	1042	156
+Event	21	abused	HalfGeneric	1079	200
+Event	22	died	Occurrence	1114	206
+Event	23	admitted	I_Action	1150	214
+Event	24	crimes	HalfGeneric	1166	217
+Event	25	spoke	Reporting	1239	231
+Event	26	interview	Occurrence	1295	242
+Event	27	saying	Reporting	1339	249
+Event	28	revelations	Reporting	1350	251
+Event	29	blow	Occurrence	1386	259
+Event	30	taught	HalfGeneric	1643	313
+Event	31	promoted	HalfGeneric	1660	316
+Event	32	lectured	HalfGeneric	1683	320
+Event	33	accusation	Occurrence	1697	323
+Event	34	lodged	I_Action	1739	329
+Event	35	sent	Occurrence	1857	352
+Event	36	admitted	Reporting	2012	382
+Event	37	referred	Reporting	2043	388
+Event	38	accused	I_Action	2090	136
+Relation	6	4	Coref	false	transgression	fathered
+Relation	16	6	Coref	false	fathered	transgression
+Relation	35	12	Coref	false	sent	sent
+Relation	2	1	SuperSub	false	scandal	hit
+Relation	2	4	SuperSub	false	scandal	fathered
+Relation	2	8	SuperSub	false	scandal	confronted
+Relation	2	12	SuperSub	false	scandal	sent
+Relation	24	20	SuperSub	false	crimes	fathered
+Relation	24	21	SuperSub	false	crimes	abused
+Relation	18	29	SuperSub	false	scandals	blow
+Relation	2	6	SuperSub	true	scandal	transgression
+Relation	2	35	SuperSub	true	scandal	sent

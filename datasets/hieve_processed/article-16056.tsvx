@@ -1,0 +1,47 @@
+Text	Pirates have hijacked a Greek-owned oil tanker carrying 135,000 tonnes of crude oil in the Arabian Sea , the first successful attack on an oil tanker off the Horn of Africa in more than a year . The vessel 's manager , Dynacom Tankers Management , said it had lost contact with the crew of the MT Smyrni , a Suezmax-class tanker , following the attack off Oman at 11.15 GMT on Thursday . `` The Liberian-flagged tanker , the MT Smyrni , is carrying a cargo of 135,000 tonnes of crude oil , '' it said . Suezmax tankers typically can transport a crude oil cargo of up to 1m barrels , compared with 2m to 3m barrels for larger oil tankers . Dynacom gave no further details but Kenya-based piracy expert Andrew Mwangura said the vessel was heading for the Somali coastline . Industry websites said the tanker had sailed from Turkey , but there were mixed reports about its destination . `` Aboard are nine Indians and about eight Filipinos , '' Mwangura , who is maritime editor of Somalia Report , said , adding : `` It is headed to Somalia . '' OceanUSlive.Org , a social networking site for the maritime industry , said the attack was one of four to have taken place in the Arabian Sea in the past few days after a lull in pirate activity . The hijack success rate for Somali pirates has dropped sharply in recent months , due in part to more merchant ships using armed security guards , razor wire and water cannon to protect themselves . In its statement , Dynacom did not disclose whether the Smyrni was carrying private security personnel . On Wednesday , a gang of pirates fired rocket-propelled grenades at a crude tanker 350 miles ( 565 km ) east of Socotra , an island between Yemen and Somalia , according to OceanUSlive.org . Seaborne gangs have raked in an estimated $ 150m ( £93m ) in ransoms in what has become a highly organised , international criminal enterprise , say security analysts Somali pirates in December released an Italian-owned Aframax oil tanker – smaller than the Suezmax – after receiving an $ 11.5m ( £7.1m ) payment . The Savina Caylyn was seized in February 2011 . Despite successful efforts to quell attacks in the Gulf of Aden , international navies have struggled to contain piracy in the Indian Ocean and Arabian Sea owing to the vast distances involved .
+Event	1	hijacked	Occurrence	14	2
+Event	2	attack	Occurrence	126	21
+Event	3	said	Reporting	244	46
+Event	4	lost	Occurrence	256	49
+Event	5	attack	Occurrence	339	65
+Event	6	said	Reporting	482	96
+Event	7	said	Reporting	700	135
+Event	8	heading	Occurrence	720	139
+Event	9	said	Reporting	772	147
+Event	10	sailed	Occurrence	792	151
+Event	11	reports	HalfGeneric	833	159
+Event	12	said	Reporting	969	185
+Event	13	adding	Reporting	975	187
+Event	14	said	Reporting	1079	208
+Event	15	attack	Occurrence	1088	210
+Event	16	taken	Occurrence	1119	217
+Event	17	dropped	StateChange	1251	243
+Event	18	statement	Occurrence	1407	272
+Event	19	fired	Occurrence	1535	294
+Event	20	raked	HalfGeneric	1708	325
+Event	21	say	Reporting	1828	348
+Event	22	released	Occurrence	1877	355
+Event	23	receiving	I_Action	1957	368
+Event	24	payment	Occurrence	1985	375
+Event	25	seized	Occurrence	2016	381
+Event	26	efforts	I_Action	2060	388
+Event	27	quell	I_Action	2071	390
+Event	28	attacks	HalfGeneric	2077	391
+Event	29	struggled	I_Action	2132	401
+Relation	5	2	Coref	false	attack	attack
+Relation	15	2	Coref	false	attack	attack
+Relation	2	1	SuperSub	false	attack	hijacked
+Relation	2	4	SuperSub	false	attack	lost
+Relation	8	5	SuperSub	false	heading	attack
+Relation	8	10	SuperSub	false	heading	sailed
+Relation	15	1	SuperSub	true	attack	hijacked
+Relation	5	1	SuperSub	true	attack	hijacked
+Relation	15	4	SuperSub	true	attack	lost
+Relation	5	4	SuperSub	true	attack	lost
+Relation	8	2	SuperSub	true	heading	attack
+Relation	8	1	SuperSub	true	heading	hijacked
+Relation	8	4	SuperSub	true	heading	lost
+Relation	8	1	SuperSub	true	heading	hijacked
+Relation	8	4	SuperSub	true	heading	lost
+Relation	8	1	SuperSub	true	heading	hijacked
+Relation	8	4	SuperSub	true	heading	lost

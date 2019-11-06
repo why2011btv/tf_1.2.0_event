@@ -1,0 +1,30 @@
+Text	Australia appealed for leniency after its citizen was sentenced Wednesday to 500 lashes and a year in prison by a Saudi Arabian court . Mansor Almaribe , 45 , was found guilty of blasphemy after he was arrested last month in Medina while on a pilgrimage , Australian officials said . It 's unclear what Almaribe , a Shia Muslim from Victoria state , said or did to get arrested . `` The ambassador has urgently contacted Saudi authorities and will make strong representations , including to key figures in the Saudi government , seeking leniency , '' said Kate Sieper , a foreign affairs spokeswoman . Family members said they are worried about his health . `` He is sick , and he has back injuries and he has diabetes , '' his son , Issam Almaribe , told CNN affiliate 9 News Australia . Consular officials have contacted Almaribe several times by phone since his arrest in mid-November , and were in the courtroom during the reading of the verdict . Australian officials said they were informed he was convicted of blasphemy and `` making comments insulting to prophet Mohammed 's relatives . '' His sentence was originally two years imprisonment along with the 500 lashes , but the court reduced the sentence by a year , consular officials said . It was unclear when the lashing punishment will be carried out . Blasphemy is punishable by up to a death sentence under the strict Muslim law in Saudi Arabia .
+Event	1	appealed	Occurrence	10	1
+Event	2	sentenced	Occurrence	54	8
+Event	3	found	Occurrence	160	30
+Event	4	arrested	Occurrence	199	37
+Event	5	pilgrimage	Occurrence	240	45
+Event	6	said	Reporting	273	49
+Event	7	said	Reporting	342	64
+Event	8	did	I_Action	350	66
+Event	9	arrested	Occurrence	361	69
+Event	10	contacted	Occurrence	400	76
+Event	11	said	Reporting	535	98
+Event	12	said	Reporting	599	109
+Event	13	told	Reporting	724	139
+Event	14	contacted	Occurrence	785	149
+Event	15	arrest	Occurrence	837	157
+Event	16	reading	Reporting	898	168
+Event	17	said	Reporting	943	175
+Event	18	informed	Reporting	958	178
+Event	19	convicted	I_Action	974	181
+Event	20	reduced	Occurrence	1154	212
+Event	21	said	Reporting	1205	221
+Relation	9	4	Coref	false	arrested	arrested
+Relation	15	9	Coref	false	arrest	arrested
+Relation	20	2	Coref	true	reduced	sentenced
+Relation	5	4	SuperSub	false	pilgrimage	arrested
+Relation	1	10	SuperSub	false	appealed	contacted
+Relation	3	2	SuperSub	true	found	sentenced
+Relation	5	9	SuperSub	true	pilgrimage	arrested
+Relation	3	20	SuperSub	true	found	reduced

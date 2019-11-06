@@ -1,0 +1,4157 @@
+nohup: ignoring input
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /u01/why/0_Dan/event_abstraction/baselines/bilm/elmo.py:89: calling squeeze (from tensorflow.python.ops.array_ops) with squeeze_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+2019-11-06 06:03:47.154819: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-11-06 06:03:47.371247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:03:00.0
+totalMemory: 10.91GiB freeMemory: 10.48GiB
+2019-11-06 06:03:47.371320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-06 06:03:47.814674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-06 06:03:47.814751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-06 06:03:47.814763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-06 06:03:47.815171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10130 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-11-06 06:04:19.952643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-06 06:04:19.952746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-06 06:04:19.952762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-06 06:04:19.952780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-06 06:04:19.953117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10130 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /u01/why/0_Dan/KAIROS/lib/python3.6/site-packages/tensorflow/python/util/tf_should_use.py:189: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+Added 179 stop words.
+#Files: 100
+46072 rel cases out of 99 articles.
+#event_types 3173
+label_map [[0. 1.]
+ [1. 0.]]   label_weights [9.406288280930992, 0.528070054787612]
+WARNING: Currently max_batch_size of elmo encoder is set to 120000
+USING SKIP CONNECTIONS
+++++++Check_point_1
+
+(100, 1122, 256)
+5
+Creating encoder type as lstm...
+token1.shape: (64, 3941)
+Combine mode: subtract
+num_A_batch = 720
+process: 50 / 720. Epoch 1
+process: 100 / 720. Epoch 1
+process: 150 / 720. Epoch 1
+process: 200 / 720. Epoch 1
+process: 250 / 720. Epoch 1
+process: 300 / 720. Epoch 1
+process: 350 / 720. Epoch 1
+process: 400 / 720. Epoch 1
+process: 450 / 720. Epoch 1
+process: 500 / 720. Epoch 1
+process: 550 / 720. Epoch 1
+process: 600 / 720. Epoch 1
+process: 650 / 720. Epoch 1
+process: 700 / 720. Epoch 1
+process: 720 / 720. Epoch 1
+Loss of epoch 1 = 333.2872254103422, which is 0.46289892418103085 per case
+Time use: 306
+process: 50 / 720. Epoch 2
+process: 100 / 720. Epoch 2
+process: 150 / 720. Epoch 2
+process: 200 / 720. Epoch 2
+process: 250 / 720. Epoch 2
+process: 300 / 720. Epoch 2
+process: 350 / 720. Epoch 2
+process: 400 / 720. Epoch 2
+process: 450 / 720. Epoch 2
+process: 500 / 720. Epoch 2
+process: 550 / 720. Epoch 2
+process: 600 / 720. Epoch 2
+process: 650 / 720. Epoch 2
+process: 700 / 720. Epoch 2
+process: 720 / 720. Epoch 2
+Loss of epoch 2 = 299.8048265874386, which is 0.4163955924825536 per case
+Time use: 608
+process: 50 / 720. Epoch 3
+process: 100 / 720. Epoch 3
+process: 150 / 720. Epoch 3
+process: 200 / 720. Epoch 3
+process: 250 / 720. Epoch 3
+process: 300 / 720. Epoch 3
+process: 350 / 720. Epoch 3
+process: 400 / 720. Epoch 3
+process: 450 / 720. Epoch 3
+process: 500 / 720. Epoch 3
+process: 550 / 720. Epoch 3
+process: 600 / 720. Epoch 3
+process: 650 / 720. Epoch 3
+process: 700 / 720. Epoch 3
+process: 720 / 720. Epoch 3
+Loss of epoch 3 = 297.7068887501955, which is 0.41348178993082707 per case
+Time use: 910
+process: 50 / 720. Epoch 4
+process: 100 / 720. Epoch 4
+process: 150 / 720. Epoch 4
+process: 200 / 720. Epoch 4
+process: 250 / 720. Epoch 4
+process: 300 / 720. Epoch 4
+process: 350 / 720. Epoch 4
+process: 400 / 720. Epoch 4
+process: 450 / 720. Epoch 4
+process: 500 / 720. Epoch 4
+process: 550 / 720. Epoch 4
+process: 600 / 720. Epoch 4
+process: 650 / 720. Epoch 4
+process: 700 / 720. Epoch 4
+process: 720 / 720. Epoch 4
+Loss of epoch 4 = 280.2215742021799, which is 0.38919663083636097 per case
+Time use: 1212
+process: 50 / 720. Epoch 5
+process: 100 / 720. Epoch 5
+process: 150 / 720. Epoch 5
+process: 200 / 720. Epoch 5
+process: 250 / 720. Epoch 5
+process: 300 / 720. Epoch 5
+process: 350 / 720. Epoch 5
+process: 400 / 720. Epoch 5
+process: 450 / 720. Epoch 5
+process: 500 / 720. Epoch 5
+process: 550 / 720. Epoch 5
+process: 600 / 720. Epoch 5
+process: 650 / 720. Epoch 5
+process: 700 / 720. Epoch 5
+process: 720 / 720. Epoch 5
+Loss of epoch 5 = 263.9478690624237, which is 0.3665942625866996 per case
+Time use: 1514
+process: 50 / 720. Epoch 6
+process: 100 / 720. Epoch 6
+process: 150 / 720. Epoch 6
+process: 200 / 720. Epoch 6
+process: 250 / 720. Epoch 6
+process: 300 / 720. Epoch 6
+process: 350 / 720. Epoch 6
+process: 400 / 720. Epoch 6
+process: 450 / 720. Epoch 6
+process: 500 / 720. Epoch 6
+process: 550 / 720. Epoch 6
+process: 600 / 720. Epoch 6
+process: 650 / 720. Epoch 6
+process: 700 / 720. Epoch 6
+process: 720 / 720. Epoch 6
+Loss of epoch 6 = 266.88154035806656, which is 0.3706688060528702 per case
+Time use: 1816
+process: 50 / 720. Epoch 7
+process: 100 / 720. Epoch 7
+process: 150 / 720. Epoch 7
+process: 200 / 720. Epoch 7
+process: 250 / 720. Epoch 7
+process: 300 / 720. Epoch 7
+process: 350 / 720. Epoch 7
+process: 400 / 720. Epoch 7
+process: 450 / 720. Epoch 7
+process: 500 / 720. Epoch 7
+process: 550 / 720. Epoch 7
+process: 600 / 720. Epoch 7
+process: 650 / 720. Epoch 7
+process: 700 / 720. Epoch 7
+process: 720 / 720. Epoch 7
+Loss of epoch 7 = 260.07162560522556, which is 0.36121059111836884 per case
+Time use: 2117
+process: 50 / 720. Epoch 8
+process: 100 / 720. Epoch 8
+process: 150 / 720. Epoch 8
+process: 200 / 720. Epoch 8
+process: 250 / 720. Epoch 8
+process: 300 / 720. Epoch 8
+process: 350 / 720. Epoch 8
+process: 400 / 720. Epoch 8
+process: 450 / 720. Epoch 8
+process: 500 / 720. Epoch 8
+process: 550 / 720. Epoch 8
+process: 600 / 720. Epoch 8
+process: 650 / 720. Epoch 8
+process: 700 / 720. Epoch 8
+process: 720 / 720. Epoch 8
+Loss of epoch 8 = 245.05201309919357, which is 0.3403500181933244 per case
+Time use: 2419
+process: 50 / 720. Epoch 9
+process: 100 / 720. Epoch 9
+process: 150 / 720. Epoch 9
+process: 200 / 720. Epoch 9
+process: 250 / 720. Epoch 9
+process: 300 / 720. Epoch 9
+process: 350 / 720. Epoch 9
+process: 400 / 720. Epoch 9
+process: 450 / 720. Epoch 9
+process: 500 / 720. Epoch 9
+process: 550 / 720. Epoch 9
+process: 600 / 720. Epoch 9
+process: 650 / 720. Epoch 9
+process: 700 / 720. Epoch 9
+process: 720 / 720. Epoch 9
+Loss of epoch 9 = 245.517865806818, which is 0.3409970358428028 per case
+Time use: 2721
+process: 50 / 720. Epoch 10
+process: 100 / 720. Epoch 10
+process: 150 / 720. Epoch 10
+process: 200 / 720. Epoch 10
+process: 250 / 720. Epoch 10
+process: 300 / 720. Epoch 10
+process: 350 / 720. Epoch 10
+process: 400 / 720. Epoch 10
+process: 450 / 720. Epoch 10
+process: 500 / 720. Epoch 10
+process: 550 / 720. Epoch 10
+process: 600 / 720. Epoch 10
+process: 650 / 720. Epoch 10
+process: 700 / 720. Epoch 10
+process: 720 / 720. Epoch 10
+Loss of epoch 10 = 242.8693247884512, which is 0.3373185066506267 per case
+Time use: 3023
+process: 50 / 720. Epoch 11
+process: 100 / 720. Epoch 11
+process: 150 / 720. Epoch 11
+process: 200 / 720. Epoch 11
+process: 250 / 720. Epoch 11
+process: 300 / 720. Epoch 11
+process: 350 / 720. Epoch 11
+process: 400 / 720. Epoch 11
+process: 450 / 720. Epoch 11
+process: 500 / 720. Epoch 11
+process: 550 / 720. Epoch 11
+process: 600 / 720. Epoch 11
+process: 650 / 720. Epoch 11
+process: 700 / 720. Epoch 11
+process: 720 / 720. Epoch 11
+Loss of epoch 11 = 244.44101811945438, which is 0.3395014140547978 per case
+Time use: 3325
+process: 50 / 720. Epoch 12
+process: 100 / 720. Epoch 12
+process: 150 / 720. Epoch 12
+process: 200 / 720. Epoch 12
+process: 250 / 720. Epoch 12
+process: 300 / 720. Epoch 12
+process: 350 / 720. Epoch 12
+process: 400 / 720. Epoch 12
+process: 450 / 720. Epoch 12
+process: 500 / 720. Epoch 12
+process: 550 / 720. Epoch 12
+process: 600 / 720. Epoch 12
+process: 650 / 720. Epoch 12
+process: 700 / 720. Epoch 12
+process: 720 / 720. Epoch 12
+Loss of epoch 12 = 240.2552878856659, which is 0.3336878998412026 per case
+Time use: 3627
+process: 50 / 720. Epoch 13
+process: 100 / 720. Epoch 13
+process: 150 / 720. Epoch 13
+process: 200 / 720. Epoch 13
+process: 250 / 720. Epoch 13
+process: 300 / 720. Epoch 13
+process: 350 / 720. Epoch 13
+process: 400 / 720. Epoch 13
+process: 450 / 720. Epoch 13
+process: 500 / 720. Epoch 13
+process: 550 / 720. Epoch 13
+process: 600 / 720. Epoch 13
+process: 650 / 720. Epoch 13
+process: 700 / 720. Epoch 13
+process: 720 / 720. Epoch 13
+Loss of epoch 13 = 252.51632025837898, which is 0.3507171114699708 per case
+Time use: 3929
+process: 50 / 720. Epoch 14
+process: 100 / 720. Epoch 14
+process: 150 / 720. Epoch 14
+process: 200 / 720. Epoch 14
+process: 250 / 720. Epoch 14
+process: 300 / 720. Epoch 14
+process: 350 / 720. Epoch 14
+process: 400 / 720. Epoch 14
+process: 450 / 720. Epoch 14
+process: 500 / 720. Epoch 14
+process: 550 / 720. Epoch 14
+process: 600 / 720. Epoch 14
+process: 650 / 720. Epoch 14
+process: 700 / 720. Epoch 14
+process: 720 / 720. Epoch 14
+Loss of epoch 14 = 238.3573507964611, which is 0.33105187610619596 per case
+Time use: 4231
+process: 50 / 720. Epoch 15
+process: 100 / 720. Epoch 15
+process: 150 / 720. Epoch 15
+process: 200 / 720. Epoch 15
+process: 250 / 720. Epoch 15
+process: 300 / 720. Epoch 15
+process: 350 / 720. Epoch 15
+process: 400 / 720. Epoch 15
+process: 450 / 720. Epoch 15
+process: 500 / 720. Epoch 15
+process: 550 / 720. Epoch 15
+process: 600 / 720. Epoch 15
+process: 650 / 720. Epoch 15
+process: 700 / 720. Epoch 15
+process: 720 / 720. Epoch 15
+Loss of epoch 15 = 238.08673524856567, which is 0.33067602117856343 per case
+Time use: 4532
+process: 50 / 720. Epoch 16
+process: 100 / 720. Epoch 16
+process: 150 / 720. Epoch 16
+process: 200 / 720. Epoch 16
+process: 250 / 720. Epoch 16
+process: 300 / 720. Epoch 16
+process: 350 / 720. Epoch 16
+process: 400 / 720. Epoch 16
+process: 450 / 720. Epoch 16
+process: 500 / 720. Epoch 16
+process: 550 / 720. Epoch 16
+process: 600 / 720. Epoch 16
+process: 650 / 720. Epoch 16
+process: 700 / 720. Epoch 16
+process: 720 / 720. Epoch 16
+Loss of epoch 16 = 256.6894394606352, which is 0.3565131103619933 per case
+Time use: 4834
+process: 50 / 720. Epoch 17
+process: 100 / 720. Epoch 17
+process: 150 / 720. Epoch 17
+process: 200 / 720. Epoch 17
+process: 250 / 720. Epoch 17
+process: 300 / 720. Epoch 17
+process: 350 / 720. Epoch 17
+process: 400 / 720. Epoch 17
+process: 450 / 720. Epoch 17
+process: 500 / 720. Epoch 17
+process: 550 / 720. Epoch 17
+process: 600 / 720. Epoch 17
+process: 650 / 720. Epoch 17
+process: 700 / 720. Epoch 17
+process: 720 / 720. Epoch 17
+Loss of epoch 17 = 241.95501226186752, which is 0.3360486281414827 per case
+Time use: 5136
+process: 50 / 720. Epoch 18
+process: 100 / 720. Epoch 18
+process: 150 / 720. Epoch 18
+process: 200 / 720. Epoch 18
+process: 250 / 720. Epoch 18
+process: 300 / 720. Epoch 18
+process: 350 / 720. Epoch 18
+process: 400 / 720. Epoch 18
+process: 450 / 720. Epoch 18
+process: 500 / 720. Epoch 18
+process: 550 / 720. Epoch 18
+process: 600 / 720. Epoch 18
+process: 650 / 720. Epoch 18
+process: 700 / 720. Epoch 18
+process: 720 / 720. Epoch 18
+Loss of epoch 18 = 247.91369001567364, which is 0.34432456946621337 per case
+Time use: 5438
+process: 50 / 720. Epoch 19
+process: 100 / 720. Epoch 19
+process: 150 / 720. Epoch 19
+process: 200 / 720. Epoch 19
+process: 250 / 720. Epoch 19
+process: 300 / 720. Epoch 19
+process: 350 / 720. Epoch 19
+process: 400 / 720. Epoch 19
+process: 450 / 720. Epoch 19
+process: 500 / 720. Epoch 19
+process: 550 / 720. Epoch 19
+process: 600 / 720. Epoch 19
+process: 650 / 720. Epoch 19
+process: 700 / 720. Epoch 19
+process: 720 / 720. Epoch 19
+Loss of epoch 19 = 228.37116518616676, which is 0.31718217386967607 per case
+Time use: 5740
+process: 50 / 720. Epoch 20
+process: 100 / 720. Epoch 20
+process: 150 / 720. Epoch 20
+process: 200 / 720. Epoch 20
+process: 250 / 720. Epoch 20
+process: 300 / 720. Epoch 20
+process: 350 / 720. Epoch 20
+process: 400 / 720. Epoch 20
+process: 450 / 720. Epoch 20
+process: 500 / 720. Epoch 20
+process: 550 / 720. Epoch 20
+process: 600 / 720. Epoch 20
+process: 650 / 720. Epoch 20
+process: 700 / 720. Epoch 20
+process: 720 / 720. Epoch 20
+Loss of epoch 20 = 220.83449244499207, which is 0.30671457284026676 per case
+Time use: 6041
+process: 50 / 720. Epoch 21
+process: 100 / 720. Epoch 21
+process: 150 / 720. Epoch 21
+process: 200 / 720. Epoch 21
+process: 250 / 720. Epoch 21
+process: 300 / 720. Epoch 21
+process: 350 / 720. Epoch 21
+process: 400 / 720. Epoch 21
+process: 450 / 720. Epoch 21
+process: 500 / 720. Epoch 21
+process: 550 / 720. Epoch 21
+process: 600 / 720. Epoch 21
+process: 650 / 720. Epoch 21
+process: 700 / 720. Epoch 21
+process: 720 / 720. Epoch 21
+Loss of epoch 21 = 228.97612892091274, which is 0.31802240127904546 per case
+Time use: 6343
+process: 50 / 720. Epoch 22
+process: 100 / 720. Epoch 22
+process: 150 / 720. Epoch 22
+process: 200 / 720. Epoch 22
+process: 250 / 720. Epoch 22
+process: 300 / 720. Epoch 22
+process: 350 / 720. Epoch 22
+process: 400 / 720. Epoch 22
+process: 450 / 720. Epoch 22
+process: 500 / 720. Epoch 22
+process: 550 / 720. Epoch 22
+process: 600 / 720. Epoch 22
+process: 650 / 720. Epoch 22
+process: 700 / 720. Epoch 22
+process: 720 / 720. Epoch 22
+Loss of epoch 22 = 233.5723176598549, which is 0.3244059967497985 per case
+Time use: 6645
+process: 50 / 720. Epoch 23
+process: 100 / 720. Epoch 23
+process: 150 / 720. Epoch 23
+process: 200 / 720. Epoch 23
+process: 250 / 720. Epoch 23
+process: 300 / 720. Epoch 23
+process: 350 / 720. Epoch 23
+process: 400 / 720. Epoch 23
+process: 450 / 720. Epoch 23
+process: 500 / 720. Epoch 23
+process: 550 / 720. Epoch 23
+process: 600 / 720. Epoch 23
+process: 650 / 720. Epoch 23
+process: 700 / 720. Epoch 23
+process: 720 / 720. Epoch 23
+Loss of epoch 23 = 240.0079632550478, which is 0.3333443934097886 per case
+Time use: 6947
+process: 50 / 720. Epoch 24
+process: 100 / 720. Epoch 24
+process: 150 / 720. Epoch 24
+process: 200 / 720. Epoch 24
+process: 250 / 720. Epoch 24
+process: 300 / 720. Epoch 24
+process: 350 / 720. Epoch 24
+process: 400 / 720. Epoch 24
+process: 450 / 720. Epoch 24
+process: 500 / 720. Epoch 24
+process: 550 / 720. Epoch 24
+process: 600 / 720. Epoch 24
+process: 650 / 720. Epoch 24
+process: 700 / 720. Epoch 24
+process: 720 / 720. Epoch 24
+Loss of epoch 24 = 215.86719745397568, which is 0.2998155520194107 per case
+Time use: 7249
+process: 50 / 720. Epoch 25
+process: 100 / 720. Epoch 25
+process: 150 / 720. Epoch 25
+process: 200 / 720. Epoch 25
+process: 250 / 720. Epoch 25
+process: 300 / 720. Epoch 25
+process: 350 / 720. Epoch 25
+process: 400 / 720. Epoch 25
+process: 450 / 720. Epoch 25
+process: 500 / 720. Epoch 25
+process: 550 / 720. Epoch 25
+process: 600 / 720. Epoch 25
+process: 650 / 720. Epoch 25
+process: 700 / 720. Epoch 25
+process: 720 / 720. Epoch 25
+Loss of epoch 25 = 227.11858139932156, which is 0.3154424741657244 per case
+Time use: 7550
+process: 50 / 720. Epoch 26
+process: 100 / 720. Epoch 26
+process: 150 / 720. Epoch 26
+process: 200 / 720. Epoch 26
+process: 250 / 720. Epoch 26
+process: 300 / 720. Epoch 26
+process: 350 / 720. Epoch 26
+process: 400 / 720. Epoch 26
+process: 450 / 720. Epoch 26
+process: 500 / 720. Epoch 26
+process: 550 / 720. Epoch 26
+process: 600 / 720. Epoch 26
+process: 650 / 720. Epoch 26
+process: 700 / 720. Epoch 26
+process: 720 / 720. Epoch 26
+Loss of epoch 26 = 227.8564613610506, which is 0.3164673074459036 per case
+Time use: 7852
+process: 50 / 720. Epoch 27
+process: 100 / 720. Epoch 27
+process: 150 / 720. Epoch 27
+process: 200 / 720. Epoch 27
+process: 250 / 720. Epoch 27
+process: 300 / 720. Epoch 27
+process: 350 / 720. Epoch 27
+process: 400 / 720. Epoch 27
+process: 450 / 720. Epoch 27
+process: 500 / 720. Epoch 27
+process: 550 / 720. Epoch 27
+process: 600 / 720. Epoch 27
+process: 650 / 720. Epoch 27
+process: 700 / 720. Epoch 27
+process: 720 / 720. Epoch 27
+Loss of epoch 27 = 244.95298886299133, which is 0.3402124845319324 per case
+Time use: 8154
+process: 50 / 720. Epoch 28
+process: 100 / 720. Epoch 28
+process: 150 / 720. Epoch 28
+process: 200 / 720. Epoch 28
+process: 250 / 720. Epoch 28
+process: 300 / 720. Epoch 28
+process: 350 / 720. Epoch 28
+process: 400 / 720. Epoch 28
+process: 450 / 720. Epoch 28
+process: 500 / 720. Epoch 28
+process: 550 / 720. Epoch 28
+process: 600 / 720. Epoch 28
+process: 650 / 720. Epoch 28
+process: 700 / 720. Epoch 28
+process: 720 / 720. Epoch 28
+Loss of epoch 28 = 239.27020366489887, which is 0.33231972731235954 per case
+Time use: 8456
+process: 50 / 720. Epoch 29
+process: 100 / 720. Epoch 29
+process: 150 / 720. Epoch 29
+process: 200 / 720. Epoch 29
+process: 250 / 720. Epoch 29
+process: 300 / 720. Epoch 29
+process: 350 / 720. Epoch 29
+process: 400 / 720. Epoch 29
+process: 450 / 720. Epoch 29
+process: 500 / 720. Epoch 29
+process: 550 / 720. Epoch 29
+process: 600 / 720. Epoch 29
+process: 650 / 720. Epoch 29
+process: 700 / 720. Epoch 29
+process: 720 / 720. Epoch 29
+Loss of epoch 29 = 250.04970490932465, which is 0.3472912568185065 per case
+Time use: 8758
+process: 50 / 720. Epoch 30
+process: 100 / 720. Epoch 30
+process: 150 / 720. Epoch 30
+process: 200 / 720. Epoch 30
+process: 250 / 720. Epoch 30
+process: 300 / 720. Epoch 30
+process: 350 / 720. Epoch 30
+process: 400 / 720. Epoch 30
+process: 450 / 720. Epoch 30
+process: 500 / 720. Epoch 30
+process: 550 / 720. Epoch 30
+process: 600 / 720. Epoch 30
+process: 650 / 720. Epoch 30
+process: 700 / 720. Epoch 30
+process: 720 / 720. Epoch 30
+Loss of epoch 30 = 238.4238834530115, which is 0.3311442825736271 per case
+Time use: 9059
+process: 50 / 720. Epoch 31
+process: 100 / 720. Epoch 31
+process: 150 / 720. Epoch 31
+process: 200 / 720. Epoch 31
+process: 250 / 720. Epoch 31
+process: 300 / 720. Epoch 31
+process: 350 / 720. Epoch 31
+process: 400 / 720. Epoch 31
+process: 450 / 720. Epoch 31
+process: 500 / 720. Epoch 31
+process: 550 / 720. Epoch 31
+process: 600 / 720. Epoch 31
+process: 650 / 720. Epoch 31
+process: 700 / 720. Epoch 31
+process: 720 / 720. Epoch 31
+Loss of epoch 31 = 225.40900380909443, which is 0.3130680608459645 per case
+Time use: 9361
+process: 50 / 720. Epoch 32
+process: 100 / 720. Epoch 32
+process: 150 / 720. Epoch 32
+process: 200 / 720. Epoch 32
+process: 250 / 720. Epoch 32
+process: 300 / 720. Epoch 32
+process: 350 / 720. Epoch 32
+process: 400 / 720. Epoch 32
+process: 450 / 720. Epoch 32
+process: 500 / 720. Epoch 32
+process: 550 / 720. Epoch 32
+process: 600 / 720. Epoch 32
+process: 650 / 720. Epoch 32
+process: 700 / 720. Epoch 32
+process: 720 / 720. Epoch 32
+Loss of epoch 32 = 232.1162046790123, which is 0.3223836176097393 per case
+Time use: 9663
+process: 50 / 720. Epoch 33
+process: 100 / 720. Epoch 33
+process: 150 / 720. Epoch 33
+process: 200 / 720. Epoch 33
+process: 250 / 720. Epoch 33
+process: 300 / 720. Epoch 33
+process: 350 / 720. Epoch 33
+process: 400 / 720. Epoch 33
+process: 450 / 720. Epoch 33
+process: 500 / 720. Epoch 33
+process: 550 / 720. Epoch 33
+process: 600 / 720. Epoch 33
+process: 650 / 720. Epoch 33
+process: 700 / 720. Epoch 33
+process: 720 / 720. Epoch 33
+Loss of epoch 33 = 255.78986531496048, which is 0.355263701826334 per case
+Time use: 9965
+process: 50 / 720. Epoch 34
+process: 100 / 720. Epoch 34
+process: 150 / 720. Epoch 34
+process: 200 / 720. Epoch 34
+process: 250 / 720. Epoch 34
+process: 300 / 720. Epoch 34
+process: 350 / 720. Epoch 34
+process: 400 / 720. Epoch 34
+process: 450 / 720. Epoch 34
+process: 500 / 720. Epoch 34
+process: 550 / 720. Epoch 34
+process: 600 / 720. Epoch 34
+process: 650 / 720. Epoch 34
+process: 700 / 720. Epoch 34
+process: 720 / 720. Epoch 34
+Loss of epoch 34 = 229.96970891952515, which is 0.3194023734993405 per case
+Time use: 10265
+process: 50 / 720. Epoch 35
+process: 100 / 720. Epoch 35
+process: 150 / 720. Epoch 35
+process: 200 / 720. Epoch 35
+process: 250 / 720. Epoch 35
+process: 300 / 720. Epoch 35
+process: 350 / 720. Epoch 35
+process: 400 / 720. Epoch 35
+process: 450 / 720. Epoch 35
+process: 500 / 720. Epoch 35
+process: 550 / 720. Epoch 35
+process: 600 / 720. Epoch 35
+process: 650 / 720. Epoch 35
+process: 700 / 720. Epoch 35
+process: 720 / 720. Epoch 35
+Loss of epoch 35 = 219.92547857761383, which is 0.3054520535800192 per case
+Time use: 10567
+process: 50 / 720. Epoch 36
+process: 100 / 720. Epoch 36
+process: 150 / 720. Epoch 36
+process: 200 / 720. Epoch 36
+process: 250 / 720. Epoch 36
+process: 300 / 720. Epoch 36
+process: 350 / 720. Epoch 36
+process: 400 / 720. Epoch 36
+process: 450 / 720. Epoch 36
+process: 500 / 720. Epoch 36
+process: 550 / 720. Epoch 36
+process: 600 / 720. Epoch 36
+process: 650 / 720. Epoch 36
+process: 700 / 720. Epoch 36
+process: 720 / 720. Epoch 36
+Loss of epoch 36 = 243.28767758607864, which is 0.33789955220288703 per case
+Time use: 10868
+process: 50 / 720. Epoch 37
+process: 100 / 720. Epoch 37
+process: 150 / 720. Epoch 37
+process: 200 / 720. Epoch 37
+process: 250 / 720. Epoch 37
+process: 300 / 720. Epoch 37
+process: 350 / 720. Epoch 37
+process: 400 / 720. Epoch 37
+process: 450 / 720. Epoch 37
+process: 500 / 720. Epoch 37
+process: 550 / 720. Epoch 37
+process: 600 / 720. Epoch 37
+process: 650 / 720. Epoch 37
+process: 700 / 720. Epoch 37
+process: 720 / 720. Epoch 37
+Loss of epoch 37 = 223.52162131667137, which is 0.3104466962731547 per case
+Time use: 11169
+process: 50 / 720. Epoch 38
+process: 100 / 720. Epoch 38
+process: 150 / 720. Epoch 38
+process: 200 / 720. Epoch 38
+process: 250 / 720. Epoch 38
+process: 300 / 720. Epoch 38
+process: 350 / 720. Epoch 38
+process: 400 / 720. Epoch 38
+process: 450 / 720. Epoch 38
+process: 500 / 720. Epoch 38
+process: 550 / 720. Epoch 38
+process: 600 / 720. Epoch 38
+process: 650 / 720. Epoch 38
+process: 700 / 720. Epoch 38
+process: 720 / 720. Epoch 38
+Loss of epoch 38 = 224.18958213925362, which is 0.31137441963785223 per case
+Time use: 11471
+process: 50 / 720. Epoch 39
+process: 100 / 720. Epoch 39
+process: 150 / 720. Epoch 39
+process: 200 / 720. Epoch 39
+process: 250 / 720. Epoch 39
+process: 300 / 720. Epoch 39
+process: 350 / 720. Epoch 39
+process: 400 / 720. Epoch 39
+process: 450 / 720. Epoch 39
+process: 500 / 720. Epoch 39
+process: 550 / 720. Epoch 39
+process: 600 / 720. Epoch 39
+process: 650 / 720. Epoch 39
+process: 700 / 720. Epoch 39
+process: 720 / 720. Epoch 39
+Loss of epoch 39 = 258.2783058285713, which is 0.3587198692063491 per case
+Time use: 11772
+process: 50 / 720. Epoch 40
+process: 100 / 720. Epoch 40
+process: 150 / 720. Epoch 40
+process: 200 / 720. Epoch 40
+process: 250 / 720. Epoch 40
+process: 300 / 720. Epoch 40
+process: 350 / 720. Epoch 40
+process: 400 / 720. Epoch 40
+process: 450 / 720. Epoch 40
+process: 500 / 720. Epoch 40
+process: 550 / 720. Epoch 40
+process: 600 / 720. Epoch 40
+process: 650 / 720. Epoch 40
+process: 700 / 720. Epoch 40
+process: 720 / 720. Epoch 40
+Loss of epoch 40 = 236.72663322091103, which is 0.32878699058459865 per case
+Time use: 12074
+process: 50 / 720. Epoch 41
+process: 100 / 720. Epoch 41
+process: 150 / 720. Epoch 41
+process: 200 / 720. Epoch 41
+process: 250 / 720. Epoch 41
+process: 300 / 720. Epoch 41
+process: 350 / 720. Epoch 41
+process: 400 / 720. Epoch 41
+process: 450 / 720. Epoch 41
+process: 500 / 720. Epoch 41
+process: 550 / 720. Epoch 41
+process: 600 / 720. Epoch 41
+process: 650 / 720. Epoch 41
+process: 700 / 720. Epoch 41
+process: 720 / 720. Epoch 41
+Loss of epoch 41 = 216.23913380503654, which is 0.30033213028477296 per case
+Time use: 12375
+process: 50 / 720. Epoch 42
+process: 100 / 720. Epoch 42
+process: 150 / 720. Epoch 42
+process: 200 / 720. Epoch 42
+process: 250 / 720. Epoch 42
+process: 300 / 720. Epoch 42
+process: 350 / 720. Epoch 42
+process: 400 / 720. Epoch 42
+process: 450 / 720. Epoch 42
+process: 500 / 720. Epoch 42
+process: 550 / 720. Epoch 42
+process: 600 / 720. Epoch 42
+process: 650 / 720. Epoch 42
+process: 700 / 720. Epoch 42
+process: 720 / 720. Epoch 42
+Loss of epoch 42 = 234.66116830706596, which is 0.32591828931536937 per case
+Time use: 12677
+process: 50 / 720. Epoch 43
+process: 100 / 720. Epoch 43
+process: 150 / 720. Epoch 43
+process: 200 / 720. Epoch 43
+process: 250 / 720. Epoch 43
+process: 300 / 720. Epoch 43
+process: 350 / 720. Epoch 43
+process: 400 / 720. Epoch 43
+process: 450 / 720. Epoch 43
+process: 500 / 720. Epoch 43
+process: 550 / 720. Epoch 43
+process: 600 / 720. Epoch 43
+process: 650 / 720. Epoch 43
+process: 700 / 720. Epoch 43
+process: 720 / 720. Epoch 43
+Loss of epoch 43 = 242.124853849411, which is 0.33628451923529307 per case
+Time use: 12979
+process: 50 / 720. Epoch 44
+process: 100 / 720. Epoch 44
+process: 150 / 720. Epoch 44
+process: 200 / 720. Epoch 44
+process: 250 / 720. Epoch 44
+process: 300 / 720. Epoch 44
+process: 350 / 720. Epoch 44
+process: 400 / 720. Epoch 44
+process: 450 / 720. Epoch 44
+process: 500 / 720. Epoch 44
+process: 550 / 720. Epoch 44
+process: 600 / 720. Epoch 44
+process: 650 / 720. Epoch 44
+process: 700 / 720. Epoch 44
+process: 720 / 720. Epoch 44
+Loss of epoch 44 = 229.19504567980766, which is 0.3183264523330662 per case
+Time use: 13280
+process: 50 / 720. Epoch 45
+process: 100 / 720. Epoch 45
+process: 150 / 720. Epoch 45
+process: 200 / 720. Epoch 45
+process: 250 / 720. Epoch 45
+process: 300 / 720. Epoch 45
+process: 350 / 720. Epoch 45
+process: 400 / 720. Epoch 45
+process: 450 / 720. Epoch 45
+process: 500 / 720. Epoch 45
+process: 550 / 720. Epoch 45
+process: 600 / 720. Epoch 45
+process: 650 / 720. Epoch 45
+process: 700 / 720. Epoch 45
+process: 720 / 720. Epoch 45
+Loss of epoch 45 = 225.21222427487373, which is 0.31279475593732464 per case
+Time use: 13582
+process: 50 / 720. Epoch 46
+process: 100 / 720. Epoch 46
+process: 150 / 720. Epoch 46
+process: 200 / 720. Epoch 46
+process: 250 / 720. Epoch 46
+process: 300 / 720. Epoch 46
+process: 350 / 720. Epoch 46
+process: 400 / 720. Epoch 46
+process: 450 / 720. Epoch 46
+process: 500 / 720. Epoch 46
+process: 550 / 720. Epoch 46
+process: 600 / 720. Epoch 46
+process: 650 / 720. Epoch 46
+process: 700 / 720. Epoch 46
+process: 720 / 720. Epoch 46
+Loss of epoch 46 = 217.81044624745846, which is 0.3025145086770256 per case
+Time use: 13884
+process: 50 / 720. Epoch 47
+process: 100 / 720. Epoch 47
+process: 150 / 720. Epoch 47
+process: 200 / 720. Epoch 47
+process: 250 / 720. Epoch 47
+process: 300 / 720. Epoch 47
+process: 350 / 720. Epoch 47
+process: 400 / 720. Epoch 47
+process: 450 / 720. Epoch 47
+process: 500 / 720. Epoch 47
+process: 550 / 720. Epoch 47
+process: 600 / 720. Epoch 47
+process: 650 / 720. Epoch 47
+process: 700 / 720. Epoch 47
+process: 720 / 720. Epoch 47
+Loss of epoch 47 = 229.4207332879305, which is 0.3186399073443479 per case
+Time use: 14185
+process: 50 / 720. Epoch 48
+process: 100 / 720. Epoch 48
+process: 150 / 720. Epoch 48
+process: 200 / 720. Epoch 48
+process: 250 / 720. Epoch 48
+process: 300 / 720. Epoch 48
+process: 350 / 720. Epoch 48
+process: 400 / 720. Epoch 48
+process: 450 / 720. Epoch 48
+process: 500 / 720. Epoch 48
+process: 550 / 720. Epoch 48
+process: 600 / 720. Epoch 48
+process: 650 / 720. Epoch 48
+process: 700 / 720. Epoch 48
+process: 720 / 720. Epoch 48
+Loss of epoch 48 = 216.32965050637722, which is 0.30045784792552394 per case
+Time use: 14487
+process: 50 / 720. Epoch 49
+process: 100 / 720. Epoch 49
+process: 150 / 720. Epoch 49
+process: 200 / 720. Epoch 49
+process: 250 / 720. Epoch 49
+process: 300 / 720. Epoch 49
+process: 350 / 720. Epoch 49
+process: 400 / 720. Epoch 49
+process: 450 / 720. Epoch 49
+process: 500 / 720. Epoch 49
+process: 550 / 720. Epoch 49
+process: 600 / 720. Epoch 49
+process: 650 / 720. Epoch 49
+process: 700 / 720. Epoch 49
+process: 720 / 720. Epoch 49
+Loss of epoch 49 = 234.88118702173233, which is 0.3262238708635171 per case
+Time use: 14788
+process: 50 / 720. Epoch 50
+process: 100 / 720. Epoch 50
+process: 150 / 720. Epoch 50
+process: 200 / 720. Epoch 50
+process: 250 / 720. Epoch 50
+process: 300 / 720. Epoch 50
+process: 350 / 720. Epoch 50
+process: 400 / 720. Epoch 50
+process: 450 / 720. Epoch 50
+process: 500 / 720. Epoch 50
+process: 550 / 720. Epoch 50
+process: 600 / 720. Epoch 50
+process: 650 / 720. Epoch 50
+process: 700 / 720. Epoch 50
+process: 720 / 720. Epoch 50
+Loss of epoch 50 = 237.36814081668854, which is 0.32967797335651183 per case
+Time use: 15087
+process: 50 / 720. Epoch 51
+process: 100 / 720. Epoch 51
+process: 150 / 720. Epoch 51
+process: 200 / 720. Epoch 51
+process: 250 / 720. Epoch 51
+process: 300 / 720. Epoch 51
+process: 350 / 720. Epoch 51
+process: 400 / 720. Epoch 51
+process: 450 / 720. Epoch 51
+process: 500 / 720. Epoch 51
+process: 550 / 720. Epoch 51
+process: 600 / 720. Epoch 51
+process: 650 / 720. Epoch 51
+process: 700 / 720. Epoch 51
+process: 720 / 720. Epoch 51
+Loss of epoch 51 = 229.15177780389786, which is 0.31826635806096926 per case
+Time use: 15383
+process: 50 / 720. Epoch 52
+process: 100 / 720. Epoch 52
+process: 150 / 720. Epoch 52
+process: 200 / 720. Epoch 52
+process: 250 / 720. Epoch 52
+process: 300 / 720. Epoch 52
+process: 350 / 720. Epoch 52
+process: 400 / 720. Epoch 52
+process: 450 / 720. Epoch 52
+process: 500 / 720. Epoch 52
+process: 550 / 720. Epoch 52
+process: 600 / 720. Epoch 52
+process: 650 / 720. Epoch 52
+process: 700 / 720. Epoch 52
+process: 720 / 720. Epoch 52
+Loss of epoch 52 = 233.75715766847134, which is 0.32466271898398796 per case
+Time use: 15680
+process: 50 / 720. Epoch 53
+process: 100 / 720. Epoch 53
+process: 150 / 720. Epoch 53
+process: 200 / 720. Epoch 53
+process: 250 / 720. Epoch 53
+process: 300 / 720. Epoch 53
+process: 350 / 720. Epoch 53
+process: 400 / 720. Epoch 53
+process: 450 / 720. Epoch 53
+process: 500 / 720. Epoch 53
+process: 550 / 720. Epoch 53
+process: 600 / 720. Epoch 53
+process: 650 / 720. Epoch 53
+process: 700 / 720. Epoch 53
+process: 720 / 720. Epoch 53
+Loss of epoch 53 = 228.71089993417263, which is 0.31765402768635087 per case
+Time use: 15981
+process: 50 / 720. Epoch 54
+process: 100 / 720. Epoch 54
+process: 150 / 720. Epoch 54
+process: 200 / 720. Epoch 54
+process: 250 / 720. Epoch 54
+process: 300 / 720. Epoch 54
+process: 350 / 720. Epoch 54
+process: 400 / 720. Epoch 54
+process: 450 / 720. Epoch 54
+process: 500 / 720. Epoch 54
+process: 550 / 720. Epoch 54
+process: 600 / 720. Epoch 54
+process: 650 / 720. Epoch 54
+process: 700 / 720. Epoch 54
+process: 720 / 720. Epoch 54
+Loss of epoch 54 = 248.02013662457466, which is 0.3444724119785759 per case
+Time use: 16283
+process: 50 / 720. Epoch 55
+process: 100 / 720. Epoch 55
+process: 150 / 720. Epoch 55
+process: 200 / 720. Epoch 55
+process: 250 / 720. Epoch 55
+process: 300 / 720. Epoch 55
+process: 350 / 720. Epoch 55
+process: 400 / 720. Epoch 55
+process: 450 / 720. Epoch 55
+process: 500 / 720. Epoch 55
+process: 550 / 720. Epoch 55
+process: 600 / 720. Epoch 55
+process: 650 / 720. Epoch 55
+process: 700 / 720. Epoch 55
+process: 720 / 720. Epoch 55
+Loss of epoch 55 = 241.43275797367096, which is 0.3353232749634319 per case
+Time use: 16585
+process: 50 / 720. Epoch 56
+process: 100 / 720. Epoch 56
+process: 150 / 720. Epoch 56
+process: 200 / 720. Epoch 56
+process: 250 / 720. Epoch 56
+process: 300 / 720. Epoch 56
+process: 350 / 720. Epoch 56
+process: 400 / 720. Epoch 56
+process: 450 / 720. Epoch 56
+process: 500 / 720. Epoch 56
+process: 550 / 720. Epoch 56
+process: 600 / 720. Epoch 56
+process: 650 / 720. Epoch 56
+process: 700 / 720. Epoch 56
+process: 720 / 720. Epoch 56
+Loss of epoch 56 = 234.44558328390121, which is 0.32561886567208503 per case
+Time use: 16886
+process: 50 / 720. Epoch 57
+process: 100 / 720. Epoch 57
+process: 150 / 720. Epoch 57
+process: 200 / 720. Epoch 57
+process: 250 / 720. Epoch 57
+process: 300 / 720. Epoch 57
+process: 350 / 720. Epoch 57
+process: 400 / 720. Epoch 57
+process: 450 / 720. Epoch 57
+process: 500 / 720. Epoch 57
+process: 550 / 720. Epoch 57
+process: 600 / 720. Epoch 57
+process: 650 / 720. Epoch 57
+process: 700 / 720. Epoch 57
+process: 720 / 720. Epoch 57
+Loss of epoch 57 = 234.38116392493248, which is 0.325529394340184 per case
+Time use: 17187
+process: 50 / 720. Epoch 58
+process: 100 / 720. Epoch 58
+process: 150 / 720. Epoch 58
+process: 200 / 720. Epoch 58
+process: 250 / 720. Epoch 58
+process: 300 / 720. Epoch 58
+process: 350 / 720. Epoch 58
+process: 400 / 720. Epoch 58
+process: 450 / 720. Epoch 58
+process: 500 / 720. Epoch 58
+process: 550 / 720. Epoch 58
+process: 600 / 720. Epoch 58
+process: 650 / 720. Epoch 58
+process: 700 / 720. Epoch 58
+process: 720 / 720. Epoch 58
+Loss of epoch 58 = 240.25863505899906, which is 0.33369254869305426 per case
+Time use: 17489
+process: 50 / 720. Epoch 59
+process: 100 / 720. Epoch 59
+process: 150 / 720. Epoch 59
+process: 200 / 720. Epoch 59
+process: 250 / 720. Epoch 59
+process: 300 / 720. Epoch 59
+process: 350 / 720. Epoch 59
+process: 400 / 720. Epoch 59
+process: 450 / 720. Epoch 59
+process: 500 / 720. Epoch 59
+process: 550 / 720. Epoch 59
+process: 600 / 720. Epoch 59
+process: 650 / 720. Epoch 59
+process: 700 / 720. Epoch 59
+process: 720 / 720. Epoch 59
+Loss of epoch 59 = 221.5094535946846, which is 0.3076520188815064 per case
+Time use: 17790
+process: 50 / 720. Epoch 60
+process: 100 / 720. Epoch 60
+process: 150 / 720. Epoch 60
+process: 200 / 720. Epoch 60
+process: 250 / 720. Epoch 60
+process: 300 / 720. Epoch 60
+process: 350 / 720. Epoch 60
+process: 400 / 720. Epoch 60
+process: 450 / 720. Epoch 60
+process: 500 / 720. Epoch 60
+process: 550 / 720. Epoch 60
+process: 600 / 720. Epoch 60
+process: 650 / 720. Epoch 60
+process: 700 / 720. Epoch 60
+process: 720 / 720. Epoch 60
+Loss of epoch 60 = 240.61996187269688, which is 0.33419439148985675 per case
+Time use: 18091
+process: 50 / 720. Epoch 61
+process: 100 / 720. Epoch 61
+process: 150 / 720. Epoch 61
+process: 200 / 720. Epoch 61
+process: 250 / 720. Epoch 61
+process: 300 / 720. Epoch 61
+process: 350 / 720. Epoch 61
+process: 400 / 720. Epoch 61
+process: 450 / 720. Epoch 61
+process: 500 / 720. Epoch 61
+process: 550 / 720. Epoch 61
+process: 600 / 720. Epoch 61
+process: 650 / 720. Epoch 61
+process: 700 / 720. Epoch 61
+process: 720 / 720. Epoch 61
+Loss of epoch 61 = 235.67880049347878, which is 0.3273316673520539 per case
+Time use: 18393
+process: 50 / 720. Epoch 62
+process: 100 / 720. Epoch 62
+process: 150 / 720. Epoch 62
+process: 200 / 720. Epoch 62
+process: 250 / 720. Epoch 62
+process: 300 / 720. Epoch 62
+process: 350 / 720. Epoch 62
+process: 400 / 720. Epoch 62
+process: 450 / 720. Epoch 62
+process: 500 / 720. Epoch 62
+process: 550 / 720. Epoch 62
+process: 600 / 720. Epoch 62
+process: 650 / 720. Epoch 62
+process: 700 / 720. Epoch 62
+process: 720 / 720. Epoch 62
+Loss of epoch 62 = 214.66689404845238, which is 0.2981484639561839 per case
+Time use: 18694
+process: 50 / 720. Epoch 63
+process: 100 / 720. Epoch 63
+process: 150 / 720. Epoch 63
+process: 200 / 720. Epoch 63
+process: 250 / 720. Epoch 63
+process: 300 / 720. Epoch 63
+process: 350 / 720. Epoch 63
+process: 400 / 720. Epoch 63
+process: 450 / 720. Epoch 63
+process: 500 / 720. Epoch 63
+process: 550 / 720. Epoch 63
+process: 600 / 720. Epoch 63
+process: 650 / 720. Epoch 63
+process: 700 / 720. Epoch 63
+process: 720 / 720. Epoch 63
+Loss of epoch 63 = 241.2289843261242, which is 0.33504025600850584 per case
+Time use: 18995
+process: 50 / 720. Epoch 64
+process: 100 / 720. Epoch 64
+process: 150 / 720. Epoch 64
+process: 200 / 720. Epoch 64
+process: 250 / 720. Epoch 64
+process: 300 / 720. Epoch 64
+process: 350 / 720. Epoch 64
+process: 400 / 720. Epoch 64
+process: 450 / 720. Epoch 64
+process: 500 / 720. Epoch 64
+process: 550 / 720. Epoch 64
+process: 600 / 720. Epoch 64
+process: 650 / 720. Epoch 64
+process: 700 / 720. Epoch 64
+process: 720 / 720. Epoch 64
+Loss of epoch 64 = 221.16706213355064, which is 0.307176475185487 per case
+Time use: 19297
+process: 50 / 720. Epoch 65
+process: 100 / 720. Epoch 65
+process: 150 / 720. Epoch 65
+process: 200 / 720. Epoch 65
+process: 250 / 720. Epoch 65
+process: 300 / 720. Epoch 65
+process: 350 / 720. Epoch 65
+process: 400 / 720. Epoch 65
+process: 450 / 720. Epoch 65
+process: 500 / 720. Epoch 65
+process: 550 / 720. Epoch 65
+process: 600 / 720. Epoch 65
+process: 650 / 720. Epoch 65
+process: 700 / 720. Epoch 65
+process: 720 / 720. Epoch 65
+Loss of epoch 65 = 234.17103381454945, which is 0.325237546964652 per case
+Time use: 19598
+process: 50 / 720. Epoch 66
+process: 100 / 720. Epoch 66
+process: 150 / 720. Epoch 66
+process: 200 / 720. Epoch 66
+process: 250 / 720. Epoch 66
+process: 300 / 720. Epoch 66
+process: 350 / 720. Epoch 66
+process: 400 / 720. Epoch 66
+process: 450 / 720. Epoch 66
+process: 500 / 720. Epoch 66
+process: 550 / 720. Epoch 66
+process: 600 / 720. Epoch 66
+process: 650 / 720. Epoch 66
+process: 700 / 720. Epoch 66
+process: 720 / 720. Epoch 66
+Loss of epoch 66 = 220.459235355258, which is 0.3061933824378583 per case
+Time use: 19899
+process: 50 / 720. Epoch 67
+process: 100 / 720. Epoch 67
+process: 150 / 720. Epoch 67
+process: 200 / 720. Epoch 67
+process: 250 / 720. Epoch 67
+process: 300 / 720. Epoch 67
+process: 350 / 720. Epoch 67
+process: 400 / 720. Epoch 67
+process: 450 / 720. Epoch 67
+process: 500 / 720. Epoch 67
+process: 550 / 720. Epoch 67
+process: 600 / 720. Epoch 67
+process: 650 / 720. Epoch 67
+process: 700 / 720. Epoch 67
+process: 720 / 720. Epoch 67
+Loss of epoch 67 = 252.99573388695717, which is 0.35138296373188493 per case
+Time use: 20200
+process: 50 / 720. Epoch 68
+process: 100 / 720. Epoch 68
+process: 150 / 720. Epoch 68
+process: 200 / 720. Epoch 68
+process: 250 / 720. Epoch 68
+process: 300 / 720. Epoch 68
+process: 350 / 720. Epoch 68
+process: 400 / 720. Epoch 68
+process: 450 / 720. Epoch 68
+process: 500 / 720. Epoch 68
+process: 550 / 720. Epoch 68
+process: 600 / 720. Epoch 68
+process: 650 / 720. Epoch 68
+process: 700 / 720. Epoch 68
+process: 720 / 720. Epoch 68
+Loss of epoch 68 = 233.65368933975697, which is 0.3245190129718847 per case
+Time use: 20502
+process: 50 / 720. Epoch 69
+process: 100 / 720. Epoch 69
+process: 150 / 720. Epoch 69
+process: 200 / 720. Epoch 69
+process: 250 / 720. Epoch 69
+process: 300 / 720. Epoch 69
+process: 350 / 720. Epoch 69
+process: 400 / 720. Epoch 69
+process: 450 / 720. Epoch 69
+process: 500 / 720. Epoch 69
+process: 550 / 720. Epoch 69
+process: 600 / 720. Epoch 69
+process: 650 / 720. Epoch 69
+process: 700 / 720. Epoch 69
+process: 720 / 720. Epoch 69
+Loss of epoch 69 = 227.64508940279484, which is 0.3161737352816595 per case
+Time use: 20803
+process: 50 / 720. Epoch 70
+process: 100 / 720. Epoch 70
+process: 150 / 720. Epoch 70
+process: 200 / 720. Epoch 70
+process: 250 / 720. Epoch 70
+process: 300 / 720. Epoch 70
+process: 350 / 720. Epoch 70
+process: 400 / 720. Epoch 70
+process: 450 / 720. Epoch 70
+process: 500 / 720. Epoch 70
+process: 550 / 720. Epoch 70
+process: 600 / 720. Epoch 70
+process: 650 / 720. Epoch 70
+process: 700 / 720. Epoch 70
+process: 720 / 720. Epoch 70
+Loss of epoch 70 = 217.03348809480667, which is 0.3014354001316759 per case
+Time use: 21105
+process: 50 / 720. Epoch 71
+process: 100 / 720. Epoch 71
+process: 150 / 720. Epoch 71
+process: 200 / 720. Epoch 71
+process: 250 / 720. Epoch 71
+process: 300 / 720. Epoch 71
+process: 350 / 720. Epoch 71
+process: 400 / 720. Epoch 71
+process: 450 / 720. Epoch 71
+process: 500 / 720. Epoch 71
+process: 550 / 720. Epoch 71
+process: 600 / 720. Epoch 71
+process: 650 / 720. Epoch 71
+process: 700 / 720. Epoch 71
+process: 720 / 720. Epoch 71
+Loss of epoch 71 = 228.3539181947708, which is 0.31715821971495944 per case
+Time use: 21406
+process: 50 / 720. Epoch 72
+process: 100 / 720. Epoch 72
+process: 150 / 720. Epoch 72
+process: 200 / 720. Epoch 72
+process: 250 / 720. Epoch 72
+process: 300 / 720. Epoch 72
+process: 350 / 720. Epoch 72
+process: 400 / 720. Epoch 72
+process: 450 / 720. Epoch 72
+process: 500 / 720. Epoch 72
+process: 550 / 720. Epoch 72
+process: 600 / 720. Epoch 72
+process: 650 / 720. Epoch 72
+process: 700 / 720. Epoch 72
+process: 720 / 720. Epoch 72
+Loss of epoch 72 = 227.32171228528023, which is 0.3157246003962225 per case
+Time use: 21707
+process: 50 / 720. Epoch 73
+process: 100 / 720. Epoch 73
+process: 150 / 720. Epoch 73
+process: 200 / 720. Epoch 73
+process: 250 / 720. Epoch 73
+process: 300 / 720. Epoch 73
+process: 350 / 720. Epoch 73
+process: 400 / 720. Epoch 73
+process: 450 / 720. Epoch 73
+process: 500 / 720. Epoch 73
+process: 550 / 720. Epoch 73
+process: 600 / 720. Epoch 73
+process: 650 / 720. Epoch 73
+process: 700 / 720. Epoch 73
+process: 720 / 720. Epoch 73
+Loss of epoch 73 = 227.43229785561562, which is 0.3158781914661328 per case
+Time use: 22009
+process: 50 / 720. Epoch 74
+process: 100 / 720. Epoch 74
+process: 150 / 720. Epoch 74
+process: 200 / 720. Epoch 74
+process: 250 / 720. Epoch 74
+process: 300 / 720. Epoch 74
+process: 350 / 720. Epoch 74
+process: 400 / 720. Epoch 74
+process: 450 / 720. Epoch 74
+process: 500 / 720. Epoch 74
+process: 550 / 720. Epoch 74
+process: 600 / 720. Epoch 74
+process: 650 / 720. Epoch 74
+process: 700 / 720. Epoch 74
+process: 720 / 720. Epoch 74
+Loss of epoch 74 = 214.3360502421856, which is 0.2976889586697022 per case
+Time use: 22310
+process: 50 / 720. Epoch 75
+process: 100 / 720. Epoch 75
+process: 150 / 720. Epoch 75
+process: 200 / 720. Epoch 75
+process: 250 / 720. Epoch 75
+process: 300 / 720. Epoch 75
+process: 350 / 720. Epoch 75
+process: 400 / 720. Epoch 75
+process: 450 / 720. Epoch 75
+process: 500 / 720. Epoch 75
+process: 550 / 720. Epoch 75
+process: 600 / 720. Epoch 75
+process: 650 / 720. Epoch 75
+process: 700 / 720. Epoch 75
+process: 720 / 720. Epoch 75
+Loss of epoch 75 = 227.8340666592121, which is 0.3164362036933502 per case
+Time use: 22611
+process: 50 / 720. Epoch 76
+process: 100 / 720. Epoch 76
+process: 150 / 720. Epoch 76
+process: 200 / 720. Epoch 76
+process: 250 / 720. Epoch 76
+process: 300 / 720. Epoch 76
+process: 350 / 720. Epoch 76
+process: 400 / 720. Epoch 76
+process: 450 / 720. Epoch 76
+process: 500 / 720. Epoch 76
+process: 550 / 720. Epoch 76
+process: 600 / 720. Epoch 76
+process: 650 / 720. Epoch 76
+process: 700 / 720. Epoch 76
+process: 720 / 720. Epoch 76
+Loss of epoch 76 = 242.2965131253004, which is 0.33652293489625057 per case
+Time use: 22913
+process: 50 / 720. Epoch 77
+process: 100 / 720. Epoch 77
+process: 150 / 720. Epoch 77
+process: 200 / 720. Epoch 77
+process: 250 / 720. Epoch 77
+process: 300 / 720. Epoch 77
+process: 350 / 720. Epoch 77
+process: 400 / 720. Epoch 77
+process: 450 / 720. Epoch 77
+process: 500 / 720. Epoch 77
+process: 550 / 720. Epoch 77
+process: 600 / 720. Epoch 77
+process: 650 / 720. Epoch 77
+process: 700 / 720. Epoch 77
+process: 720 / 720. Epoch 77
+Loss of epoch 77 = 213.9355130791664, which is 0.2971326570543978 per case
+Time use: 23215
+process: 50 / 720. Epoch 78
+process: 100 / 720. Epoch 78
+process: 150 / 720. Epoch 78
+process: 200 / 720. Epoch 78
+process: 250 / 720. Epoch 78
+process: 300 / 720. Epoch 78
+process: 350 / 720. Epoch 78
+process: 400 / 720. Epoch 78
+process: 450 / 720. Epoch 78
+process: 500 / 720. Epoch 78
+process: 550 / 720. Epoch 782019-11-06 13:01:00.556272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-06 13:01:00.556415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-06 13:01:00.558734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-06 13:01:00.558762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-06 13:01:00.559025: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10130 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+
+process: 600 / 720. Epoch 78
+process: 650 / 720. Epoch 78
+process: 700 / 720. Epoch 78
+process: 720 / 720. Epoch 78
+Loss of epoch 78 = 232.57241079211235, which is 0.3230172372112671 per case
+Time use: 23516
+process: 50 / 720. Epoch 79
+process: 100 / 720. Epoch 79
+process: 150 / 720. Epoch 79
+process: 200 / 720. Epoch 79
+process: 250 / 720. Epoch 79
+process: 300 / 720. Epoch 79
+process: 350 / 720. Epoch 79
+process: 400 / 720. Epoch 79
+process: 450 / 720. Epoch 79
+process: 500 / 720. Epoch 79
+process: 550 / 720. Epoch 79
+process: 600 / 720. Epoch 79
+process: 650 / 720. Epoch 79
+process: 700 / 720. Epoch 79
+process: 720 / 720. Epoch 79
+Loss of epoch 79 = 221.62080657482147, which is 0.3078066757983632 per case
+Time use: 23818
+process: 50 / 720. Epoch 80
+process: 100 / 720. Epoch 80
+process: 150 / 720. Epoch 80
+process: 200 / 720. Epoch 80
+process: 250 / 720. Epoch 80
+process: 300 / 720. Epoch 80
+process: 350 / 720. Epoch 80
+process: 400 / 720. Epoch 80
+process: 450 / 720. Epoch 80
+process: 500 / 720. Epoch 80
+process: 550 / 720. Epoch 80
+process: 600 / 720. Epoch 80
+process: 650 / 720. Epoch 80
+process: 700 / 720. Epoch 80
+process: 720 / 720. Epoch 80
+Loss of epoch 80 = 215.01113709807396, which is 0.2986265793028805 per case
+Time use: 24119
+Done
+(array([0.20392336, 0.9893208 ]), array([0.85632184, 0.79926378]), array([0.3294031 , 0.88419445]), array([ 522, 8693]))
+Sess closed.
+Creating encoder type as lstm...
+token1.shape: (64, 3941)
+Combine mode: subtract
+num_A_batch = 720
+process: 50 / 720. Epoch 1
+process: 100 / 720. Epoch 1
+process: 150 / 720. Epoch 1
+process: 200 / 720. Epoch 1
+process: 250 / 720. Epoch 1
+process: 300 / 720. Epoch 1
+process: 350 / 720. Epoch 1
+process: 400 / 720. Epoch 1
+process: 450 / 720. Epoch 1
+process: 500 / 720. Epoch 1
+process: 550 / 720. Epoch 1
+process: 600 / 720. Epoch 1
+process: 650 / 720. Epoch 1
+process: 700 / 720. Epoch 1
+process: 720 / 720. Epoch 1
+Loss of epoch 1 = 343.97119185328484, which is 0.4777377664628956 per case
+Time use: 303
+process: 50 / 720. Epoch 2
+process: 100 / 720. Epoch 2
+process: 150 / 720. Epoch 2
+process: 200 / 720. Epoch 2
+process: 250 / 720. Epoch 2
+process: 300 / 720. Epoch 2
+process: 350 / 720. Epoch 2
+process: 400 / 720. Epoch 2
+process: 450 / 720. Epoch 2
+process: 500 / 720. Epoch 2
+process: 550 / 720. Epoch 2
+process: 600 / 720. Epoch 2
+process: 650 / 720. Epoch 2
+process: 700 / 720. Epoch 2
+process: 720 / 720. Epoch 2
+Loss of epoch 2 = 289.4435232132673, which is 0.40200489335176015 per case
+Time use: 603
+process: 50 / 720. Epoch 3
+process: 100 / 720. Epoch 3
+process: 150 / 720. Epoch 3
+process: 200 / 720. Epoch 3
+process: 250 / 720. Epoch 3
+process: 300 / 720. Epoch 3
+process: 350 / 720. Epoch 3
+process: 400 / 720. Epoch 3
+process: 450 / 720. Epoch 3
+process: 500 / 720. Epoch 3
+process: 550 / 720. Epoch 3
+process: 600 / 720. Epoch 3
+process: 650 / 720. Epoch 3
+process: 700 / 720. Epoch 3
+process: 720 / 720. Epoch 3
+Loss of epoch 3 = 268.0595399290323, which is 0.37230491656810044 per case
+Time use: 903
+process: 50 / 720. Epoch 4
+process: 100 / 720. Epoch 4
+process: 150 / 720. Epoch 4
+process: 200 / 720. Epoch 4
+process: 250 / 720. Epoch 4
+process: 300 / 720. Epoch 4
+process: 350 / 720. Epoch 4
+process: 400 / 720. Epoch 4
+process: 450 / 720. Epoch 4
+process: 500 / 720. Epoch 4
+process: 550 / 720. Epoch 4
+process: 600 / 720. Epoch 4
+process: 650 / 720. Epoch 4
+process: 700 / 720. Epoch 4
+process: 720 / 720. Epoch 4
+Loss of epoch 4 = 272.83204621076584, which is 0.37893339751495253 per case
+Time use: 1203
+process: 50 / 720. Epoch 5
+process: 100 / 720. Epoch 5
+process: 150 / 720. Epoch 5
+process: 200 / 720. Epoch 5
+process: 250 / 720. Epoch 5
+process: 300 / 720. Epoch 5
+process: 350 / 720. Epoch 5
+process: 400 / 720. Epoch 5
+process: 450 / 720. Epoch 5
+process: 500 / 720. Epoch 5
+process: 550 / 720. Epoch 5
+process: 600 / 720. Epoch 5
+process: 650 / 720. Epoch 5
+process: 700 / 720. Epoch 5
+process: 720 / 720. Epoch 5
+Loss of epoch 5 = 252.85884246230125, which is 0.3511928367531962 per case
+Time use: 1503
+process: 50 / 720. Epoch 6
+process: 100 / 720. Epoch 6
+process: 150 / 720. Epoch 6
+process: 200 / 720. Epoch 6
+process: 250 / 720. Epoch 6
+process: 300 / 720. Epoch 6
+process: 350 / 720. Epoch 6
+process: 400 / 720. Epoch 6
+process: 450 / 720. Epoch 6
+process: 500 / 720. Epoch 6
+process: 550 / 720. Epoch 6
+process: 600 / 720. Epoch 6
+process: 650 / 720. Epoch 6
+process: 700 / 720. Epoch 6
+process: 720 / 720. Epoch 6
+Loss of epoch 6 = 250.33851754665375, which is 0.34769238548146353 per case
+Time use: 1803
+process: 50 / 720. Epoch 7
+process: 100 / 720. Epoch 7
+process: 150 / 720. Epoch 7
+process: 200 / 720. Epoch 7
+process: 250 / 720. Epoch 7
+process: 300 / 720. Epoch 7
+process: 350 / 720. Epoch 7
+process: 400 / 720. Epoch 7
+process: 450 / 720. Epoch 7
+process: 500 / 720. Epoch 7
+process: 550 / 720. Epoch 7
+process: 600 / 720. Epoch 7
+process: 650 / 720. Epoch 7
+process: 700 / 720. Epoch 7
+process: 720 / 720. Epoch 7
+Loss of epoch 7 = 276.8208264708519, which is 0.38447337009840543 per case
+Time use: 2103
+process: 50 / 720. Epoch 8
+process: 100 / 720. Epoch 8
+process: 150 / 720. Epoch 8
+process: 200 / 720. Epoch 8
+process: 250 / 720. Epoch 8
+process: 300 / 720. Epoch 8
+process: 350 / 720. Epoch 8
+process: 400 / 720. Epoch 8
+process: 450 / 720. Epoch 8
+process: 500 / 720. Epoch 8
+process: 550 / 720. Epoch 8
+process: 600 / 720. Epoch 8
+process: 650 / 720. Epoch 8
+process: 700 / 720. Epoch 8
+process: 720 / 720. Epoch 8
+Loss of epoch 8 = 248.7090053409338, which is 0.34542917408463025 per case
+Time use: 2402
+process: 50 / 720. Epoch 9
+process: 100 / 720. Epoch 9
+process: 150 / 720. Epoch 9
+process: 200 / 720. Epoch 9
+process: 250 / 720. Epoch 9
+process: 300 / 720. Epoch 9
+process: 350 / 720. Epoch 9
+process: 400 / 720. Epoch 9
+process: 450 / 720. Epoch 9
+process: 500 / 720. Epoch 9
+process: 550 / 720. Epoch 9
+process: 600 / 720. Epoch 9
+process: 650 / 720. Epoch 9
+process: 700 / 720. Epoch 9
+process: 720 / 720. Epoch 9
+Loss of epoch 9 = 258.7105840444565, which is 0.3593202556173007 per case
+Time use: 2686
+process: 50 / 720. Epoch 10
+process: 100 / 720. Epoch 10
+process: 150 / 720. Epoch 10
+process: 200 / 720. Epoch 10
+process: 250 / 720. Epoch 10
+process: 300 / 720. Epoch 10
+process: 350 / 720. Epoch 10
+process: 400 / 720. Epoch 10
+process: 450 / 720. Epoch 10
+process: 500 / 720. Epoch 10
+process: 550 / 720. Epoch 10
+process: 600 / 720. Epoch 10
+process: 650 / 720. Epoch 10
+process: 700 / 720. Epoch 10
+process: 720 / 720. Epoch 10
+Loss of epoch 10 = 246.3448590040207, which is 0.3421456375055843 per case
+Time use: 2954
+process: 50 / 720. Epoch 11
+process: 100 / 720. Epoch 11
+process: 150 / 720. Epoch 11
+process: 200 / 720. Epoch 11
+process: 250 / 720. Epoch 11
+process: 300 / 720. Epoch 11
+process: 350 / 720. Epoch 11
+process: 400 / 720. Epoch 11
+process: 450 / 720. Epoch 11
+process: 500 / 720. Epoch 11
+process: 550 / 720. Epoch 11
+process: 600 / 720. Epoch 11
+process: 650 / 720. Epoch 11
+process: 700 / 720. Epoch 11
+process: 720 / 720. Epoch 11
+Loss of epoch 11 = 257.31717625260353, which is 0.3573849670175049 per case
+Time use: 3223
+process: 50 / 720. Epoch 12
+process: 100 / 720. Epoch 12
+process: 150 / 720. Epoch 12
+process: 200 / 720. Epoch 12
+process: 250 / 720. Epoch 12
+process: 300 / 720. Epoch 12
+process: 350 / 720. Epoch 12
+process: 400 / 720. Epoch 12
+process: 450 / 720. Epoch 12
+process: 500 / 720. Epoch 12
+process: 550 / 720. Epoch 12
+process: 600 / 720. Epoch 12
+process: 650 / 720. Epoch 12
+process: 700 / 720. Epoch 12
+process: 720 / 720. Epoch 12
+Loss of epoch 12 = 266.46170239150524, which is 0.3700856977659795 per case
+Time use: 3490
+process: 50 / 720. Epoch 13
+process: 100 / 720. Epoch 13
+process: 150 / 720. Epoch 13
+process: 200 / 720. Epoch 13
+process: 250 / 720. Epoch 13
+process: 300 / 720. Epoch 13
+process: 350 / 720. Epoch 13
+process: 400 / 720. Epoch 13
+process: 450 / 720. Epoch 13
+process: 500 / 720. Epoch 13
+process: 550 / 720. Epoch 13
+process: 600 / 720. Epoch 13
+process: 650 / 720. Epoch 13
+process: 700 / 720. Epoch 13
+process: 720 / 720. Epoch 13
+Loss of epoch 13 = 279.0127505660057, which is 0.3875177091194524 per case
+Time use: 3763
+process: 50 / 720. Epoch 14
+process: 100 / 720. Epoch 14
+process: 150 / 720. Epoch 14
+process: 200 / 720. Epoch 14
+process: 250 / 720. Epoch 14
+process: 300 / 720. Epoch 14
+process: 350 / 720. Epoch 14
+process: 400 / 720. Epoch 14
+process: 450 / 720. Epoch 14
+process: 500 / 720. Epoch 14
+process: 550 / 720. Epoch 14
+process: 600 / 720. Epoch 14
+process: 650 / 720. Epoch 14
+process: 700 / 720. Epoch 14
+process: 720 / 720. Epoch 14
+Loss of epoch 14 = 258.64359553158283, which is 0.35922721601608726 per case
+Time use: 4063
+process: 50 / 720. Epoch 15
+process: 100 / 720. Epoch 15
+process: 150 / 720. Epoch 15
+process: 200 / 720. Epoch 15
+process: 250 / 720. Epoch 15
+process: 300 / 720. Epoch 15
+process: 350 / 720. Epoch 15
+process: 400 / 720. Epoch 15
+process: 450 / 720. Epoch 15
+process: 500 / 720. Epoch 15
+process: 550 / 720. Epoch 15
+process: 600 / 720. Epoch 15
+process: 650 / 720. Epoch 15
+process: 700 / 720. Epoch 15
+process: 720 / 720. Epoch 15
+Loss of epoch 15 = 227.57183898985386, which is 0.31607199859701923 per case
+Time use: 4363
+process: 50 / 720. Epoch 16
+process: 100 / 720. Epoch 16
+process: 150 / 720. Epoch 16
+process: 200 / 720. Epoch 16
+process: 250 / 720. Epoch 16
+process: 300 / 720. Epoch 16
+process: 350 / 720. Epoch 16
+process: 400 / 720. Epoch 16
+process: 450 / 720. Epoch 16
+process: 500 / 720. Epoch 16
+process: 550 / 720. Epoch 16
+process: 600 / 720. Epoch 16
+process: 650 / 720. Epoch 16
+process: 700 / 720. Epoch 16
+process: 720 / 720. Epoch 16
+Loss of epoch 16 = 237.67091968655586, which is 0.3300984995646609 per case
+Time use: 4663
+process: 50 / 720. Epoch 17
+process: 100 / 720. Epoch 17
+process: 150 / 720. Epoch 17
+process: 200 / 720. Epoch 17
+process: 250 / 720. Epoch 17
+process: 300 / 720. Epoch 17
+process: 350 / 720. Epoch 17
+process: 400 / 720. Epoch 17
+process: 450 / 720. Epoch 17
+process: 500 / 720. Epoch 17
+process: 550 / 720. Epoch 17
+process: 600 / 720. Epoch 17
+process: 650 / 720. Epoch 17
+process: 700 / 720. Epoch 17
+process: 720 / 720. Epoch 17
+Loss of epoch 17 = 232.75970116257668, which is 0.32327736272580093 per case
+Time use: 4962
+process: 50 / 720. Epoch 18
+process: 100 / 720. Epoch 18
+process: 150 / 720. Epoch 18
+process: 200 / 720. Epoch 18
+process: 250 / 720. Epoch 18
+process: 300 / 720. Epoch 18
+process: 350 / 720. Epoch 18
+process: 400 / 720. Epoch 18
+process: 450 / 720. Epoch 18
+process: 500 / 720. Epoch 18
+process: 550 / 720. Epoch 18
+process: 600 / 720. Epoch 18
+process: 650 / 720. Epoch 18
+process: 700 / 720. Epoch 18
+process: 720 / 720. Epoch 18
+Loss of epoch 18 = 246.8175933510065, which is 0.342802212987509 per case
+Time use: 5261
+process: 50 / 720. Epoch 19
+process: 100 / 720. Epoch 19
+process: 150 / 720. Epoch 19
+process: 200 / 720. Epoch 19
+process: 250 / 720. Epoch 19
+process: 300 / 720. Epoch 19
+process: 350 / 720. Epoch 19
+process: 400 / 720. Epoch 19
+process: 450 / 720. Epoch 19
+process: 500 / 720. Epoch 19
+process: 550 / 720. Epoch 19
+process: 600 / 720. Epoch 19
+process: 650 / 720. Epoch 19
+process: 700 / 720. Epoch 19
+process: 720 / 720. Epoch 19
+Loss of epoch 19 = 231.83593551814556, which is 0.3219943548863133 per case
+Time use: 5560
+process: 50 / 720. Epoch 20
+process: 100 / 720. Epoch 20
+process: 150 / 720. Epoch 20
+process: 200 / 720. Epoch 20
+process: 250 / 720. Epoch 20
+process: 300 / 720. Epoch 20
+process: 350 / 720. Epoch 20
+process: 400 / 720. Epoch 20
+process: 450 / 720. Epoch 20
+process: 500 / 720. Epoch 20
+process: 550 / 720. Epoch 20
+process: 600 / 720. Epoch 20
+process: 650 / 720. Epoch 20
+process: 700 / 720. Epoch 20
+process: 720 / 720. Epoch 20
+Loss of epoch 20 = 235.99132354557514, which is 0.32776572714663216 per case
+Time use: 5855
+process: 50 / 720. Epoch 21
+process: 100 / 720. Epoch 21
+process: 150 / 720. Epoch 21
+process: 200 / 720. Epoch 21
+process: 250 / 720. Epoch 21
+process: 300 / 720. Epoch 21
+process: 350 / 720. Epoch 21
+process: 400 / 720. Epoch 21
+process: 450 / 720. Epoch 21
+process: 500 / 720. Epoch 21
+process: 550 / 720. Epoch 21
+process: 600 / 720. Epoch 21
+process: 650 / 720. Epoch 21
+process: 700 / 720. Epoch 21
+process: 720 / 720. Epoch 21
+Loss of epoch 21 = 232.0091332346201, which is 0.3222349072703057 per case
+Time use: 6151
+process: 50 / 720. Epoch 22
+process: 100 / 720. Epoch 22
+process: 150 / 720. Epoch 22
+process: 200 / 720. Epoch 22
+process: 250 / 720. Epoch 22
+process: 300 / 720. Epoch 22
+process: 350 / 720. Epoch 22
+process: 400 / 720. Epoch 22
+process: 450 / 720. Epoch 22
+process: 500 / 720. Epoch 22
+process: 550 / 720. Epoch 22
+process: 600 / 720. Epoch 22
+process: 650 / 720. Epoch 22
+process: 700 / 720. Epoch 22
+process: 720 / 720. Epoch 22
+Loss of epoch 22 = 260.39853371679783, which is 0.3616646301622192 per case
+Time use: 6449
+process: 50 / 720. Epoch 23
+process: 100 / 720. Epoch 23
+process: 150 / 720. Epoch 23
+process: 200 / 720. Epoch 23
+process: 250 / 720. Epoch 23
+process: 300 / 720. Epoch 23
+process: 350 / 720. Epoch 23
+process: 400 / 720. Epoch 23
+process: 450 / 720. Epoch 23
+process: 500 / 720. Epoch 23
+process: 550 / 720. Epoch 23
+process: 600 / 720. Epoch 23
+process: 650 / 720. Epoch 23
+process: 700 / 720. Epoch 23
+process: 720 / 720. Epoch 23
+Loss of epoch 23 = 246.04294155538082, which is 0.3417263077158067 per case
+Time use: 6750
+process: 50 / 720. Epoch 24
+process: 100 / 720. Epoch 24
+process: 150 / 720. Epoch 24
+process: 200 / 720. Epoch 24
+process: 250 / 720. Epoch 24
+process: 300 / 720. Epoch 24
+process: 350 / 720. Epoch 24
+process: 400 / 720. Epoch 24
+process: 450 / 720. Epoch 24
+process: 500 / 720. Epoch 24
+process: 550 / 720. Epoch 24
+process: 600 / 720. Epoch 24
+process: 650 / 720. Epoch 24
+process: 700 / 720. Epoch 24
+process: 720 / 720. Epoch 24
+Loss of epoch 24 = 227.8179431706667, which is 0.3164138099592593 per case
+Time use: 7050
+process: 50 / 720. Epoch 25
+process: 100 / 720. Epoch 25
+process: 150 / 720. Epoch 25
+process: 200 / 720. Epoch 25
+process: 250 / 720. Epoch 25
+process: 300 / 720. Epoch 25
+process: 350 / 720. Epoch 25
+process: 400 / 720. Epoch 25
+process: 450 / 720. Epoch 25
+process: 500 / 720. Epoch 25
+process: 550 / 720. Epoch 25
+process: 600 / 720. Epoch 25
+process: 650 / 720. Epoch 25
+process: 700 / 720. Epoch 25
+process: 720 / 720. Epoch 25
+Loss of epoch 25 = 234.29089656472206, which is 0.3254040230065584 per case
+Time use: 7350
+process: 50 / 720. Epoch 26
+process: 100 / 720. Epoch 26
+process: 150 / 720. Epoch 26
+process: 200 / 720. Epoch 26
+process: 250 / 720. Epoch 26
+process: 300 / 720. Epoch 26
+process: 350 / 720. Epoch 26
+process: 400 / 720. Epoch 26
+process: 450 / 720. Epoch 26
+process: 500 / 720. Epoch 26
+process: 550 / 720. Epoch 26
+process: 600 / 720. Epoch 26
+process: 650 / 720. Epoch 26
+process: 700 / 720. Epoch 26
+process: 720 / 720. Epoch 26
+Loss of epoch 26 = 247.2995923012495, which is 0.3434716559739576 per case
+Time use: 7650
+process: 50 / 720. Epoch 27
+process: 100 / 720. Epoch 27
+process: 150 / 720. Epoch 27
+process: 200 / 720. Epoch 27
+process: 250 / 720. Epoch 27
+process: 300 / 720. Epoch 27
+process: 350 / 720. Epoch 27
+process: 400 / 720. Epoch 27
+process: 450 / 720. Epoch 27
+process: 500 / 720. Epoch 27
+process: 550 / 720. Epoch 27
+process: 600 / 720. Epoch 27
+process: 650 / 720. Epoch 27
+process: 700 / 720. Epoch 27
+process: 720 / 720. Epoch 27
+Loss of epoch 27 = 234.97592248022556, which is 0.3263554478892022 per case
+Time use: 7951
+process: 50 / 720. Epoch 28
+process: 100 / 720. Epoch 28
+process: 150 / 720. Epoch 28
+process: 200 / 720. Epoch 28
+process: 250 / 720. Epoch 28
+process: 300 / 720. Epoch 28
+process: 350 / 720. Epoch 28
+process: 400 / 720. Epoch 28
+process: 450 / 720. Epoch 28
+process: 500 / 720. Epoch 28
+process: 550 / 720. Epoch 28
+process: 600 / 720. Epoch 28
+process: 650 / 720. Epoch 28
+process: 700 / 720. Epoch 28
+process: 720 / 720. Epoch 28
+Loss of epoch 28 = 238.7617952823639, which is 0.33161360455883876 per case
+Time use: 8251
+process: 50 / 720. Epoch 29
+process: 100 / 720. Epoch 29
+process: 150 / 720. Epoch 29
+process: 200 / 720. Epoch 29
+process: 250 / 720. Epoch 29
+process: 300 / 720. Epoch 29
+process: 350 / 720. Epoch 29
+process: 400 / 720. Epoch 29
+process: 450 / 720. Epoch 29
+process: 500 / 720. Epoch 29
+process: 550 / 720. Epoch 29
+process: 600 / 720. Epoch 29
+process: 650 / 720. Epoch 29
+process: 700 / 720. Epoch 29
+process: 720 / 720. Epoch 29
+Loss of epoch 29 = 232.6029951274395, which is 0.3230597154547771 per case
+Time use: 8551
+process: 50 / 720. Epoch 30
+process: 100 / 720. Epoch 30
+process: 150 / 720. Epoch 30
+process: 200 / 720. Epoch 30
+process: 250 / 720. Epoch 30
+process: 300 / 720. Epoch 30
+process: 350 / 720. Epoch 30
+process: 400 / 720. Epoch 30
+process: 450 / 720. Epoch 30
+process: 500 / 720. Epoch 30
+process: 550 / 720. Epoch 30
+process: 600 / 720. Epoch 30
+process: 650 / 720. Epoch 30
+process: 700 / 720. Epoch 30
+process: 720 / 720. Epoch 30
+Loss of epoch 30 = 227.92159882187843, which is 0.3165577761414978 per case
+Time use: 8851
+process: 50 / 720. Epoch 31
+process: 100 / 720. Epoch 31
+process: 150 / 720. Epoch 31
+process: 200 / 720. Epoch 31
+process: 250 / 720. Epoch 31
+process: 300 / 720. Epoch 31
+process: 350 / 720. Epoch 31
+process: 400 / 720. Epoch 31
+process: 450 / 720. Epoch 31
+process: 500 / 720. Epoch 31
+process: 550 / 720. Epoch 31
+process: 600 / 720. Epoch 31
+process: 650 / 720. Epoch 31
+process: 700 / 720. Epoch 31
+process: 720 / 720. Epoch 31
+Loss of epoch 31 = 219.30134584009647, which is 0.30458520255568955 per case
+Time use: 9151
+process: 50 / 720. Epoch 32
+process: 100 / 720. Epoch 32
+process: 150 / 720. Epoch 32
+process: 200 / 720. Epoch 32
+process: 250 / 720. Epoch 32
+process: 300 / 720. Epoch 32
+process: 350 / 720. Epoch 32
+process: 400 / 720. Epoch 32
+process: 450 / 720. Epoch 32
+process: 500 / 720. Epoch 32
+process: 550 / 720. Epoch 32
+process: 600 / 720. Epoch 32
+process: 650 / 720. Epoch 32
+process: 700 / 720. Epoch 32
+process: 720 / 720. Epoch 32
+Loss of epoch 32 = 250.77578100562096, which is 0.34829969584114023 per case
+Time use: 9451
+process: 50 / 720. Epoch 33
+process: 100 / 720. Epoch 33
+process: 150 / 720. Epoch 33
+process: 200 / 720. Epoch 33
+process: 250 / 720. Epoch 33
+process: 300 / 720. Epoch 33
+process: 350 / 720. Epoch 33
+process: 400 / 720. Epoch 33
+process: 450 / 720. Epoch 33
+process: 500 / 720. Epoch 33
+process: 550 / 720. Epoch 33
+process: 600 / 720. Epoch 33
+process: 650 / 720. Epoch 33
+process: 700 / 720. Epoch 33
+process: 720 / 720. Epoch 33
+Loss of epoch 33 = 237.83646482229233, which is 0.3303284233642949 per case
+Time use: 9751
+process: 50 / 720. Epoch 34
+process: 100 / 720. Epoch 34
+process: 150 / 720. Epoch 34
+process: 200 / 720. Epoch 34
+process: 250 / 720. Epoch 34
+process: 300 / 720. Epoch 34
+process: 350 / 720. Epoch 34
+process: 400 / 720. Epoch 34
+process: 450 / 720. Epoch 34
+process: 500 / 720. Epoch 34
+process: 550 / 720. Epoch 34
+process: 600 / 720. Epoch 34
+process: 650 / 720. Epoch 34
+process: 700 / 720. Epoch 34
+process: 720 / 720. Epoch 34
+Loss of epoch 34 = 238.15369574725628, which is 0.3307690218711893 per case
+Time use: 10051
+process: 50 / 720. Epoch 35
+process: 100 / 720. Epoch 35
+process: 150 / 720. Epoch 35
+process: 200 / 720. Epoch 35
+process: 250 / 720. Epoch 35
+process: 300 / 720. Epoch 35
+process: 350 / 720. Epoch 35
+process: 400 / 720. Epoch 35
+process: 450 / 720. Epoch 35
+process: 500 / 720. Epoch 35
+process: 550 / 720. Epoch 35
+process: 600 / 720. Epoch 35
+process: 650 / 720. Epoch 35
+process: 700 / 720. Epoch 35
+process: 720 / 720. Epoch 35
+Loss of epoch 35 = 225.74899293482304, which is 0.313540267965032 per case
+Time use: 10351
+process: 50 / 720. Epoch 36
+process: 100 / 720. Epoch 36
+process: 150 / 720. Epoch 36
+process: 200 / 720. Epoch 36
+process: 250 / 720. Epoch 36
+process: 300 / 720. Epoch 36
+process: 350 / 720. Epoch 36
+process: 400 / 720. Epoch 36
+process: 450 / 720. Epoch 36
+process: 500 / 720. Epoch 36
+process: 550 / 720. Epoch 36
+process: 600 / 720. Epoch 36
+process: 650 / 720. Epoch 36
+process: 700 / 720. Epoch 36
+process: 720 / 720. Epoch 36
+Loss of epoch 36 = 232.1770454198122, which is 0.32246811863862807 per case
+Time use: 10650
+process: 50 / 720. Epoch 37
+process: 100 / 720. Epoch 37
+process: 150 / 720. Epoch 37
+process: 200 / 720. Epoch 37
+process: 250 / 720. Epoch 37
+process: 300 / 720. Epoch 37
+process: 350 / 720. Epoch 37
+process: 400 / 720. Epoch 37
+process: 450 / 720. Epoch 37
+process: 500 / 720. Epoch 37
+process: 550 / 720. Epoch 37
+process: 600 / 720. Epoch 37
+process: 650 / 720. Epoch 37
+process: 700 / 720. Epoch 37
+process: 720 / 720. Epoch 37
+Loss of epoch 37 = 277.55282421410084, which is 0.3854900336306956 per case
+Time use: 10950
+process: 50 / 720. Epoch 38
+process: 100 / 720. Epoch 38
+process: 150 / 720. Epoch 38
+process: 200 / 720. Epoch 38
+process: 250 / 720. Epoch 38
+process: 300 / 720. Epoch 38
+process: 350 / 720. Epoch 38
+process: 400 / 720. Epoch 38
+process: 450 / 720. Epoch 38
+process: 500 / 720. Epoch 38
+process: 550 / 720. Epoch 38
+process: 600 / 720. Epoch 38
+process: 650 / 720. Epoch 38
+process: 700 / 720. Epoch 38
+process: 720 / 720. Epoch 38
+Loss of epoch 38 = 245.18551798164845, which is 0.3405354416411784 per case
+Time use: 11249
+process: 50 / 720. Epoch 39
+process: 100 / 720. Epoch 39
+process: 150 / 720. Epoch 39
+process: 200 / 720. Epoch 39
+process: 250 / 720. Epoch 39
+process: 300 / 720. Epoch 39
+process: 350 / 720. Epoch 39
+process: 400 / 720. Epoch 39
+process: 450 / 720. Epoch 39
+process: 500 / 720. Epoch 39
+process: 550 / 720. Epoch 39
+process: 600 / 720. Epoch 39
+process: 650 / 720. Epoch 39
+process: 700 / 720. Epoch 39
+process: 720 / 720. Epoch 39
+Loss of epoch 39 = 232.3471447378397, which is 0.322704367691444 per case
+Time use: 11548
+process: 50 / 720. Epoch 40
+process: 100 / 720. Epoch 40
+process: 150 / 720. Epoch 40
+process: 200 / 720. Epoch 40
+process: 250 / 720. Epoch 40
+process: 300 / 720. Epoch 40
+process: 350 / 720. Epoch 40
+process: 400 / 720. Epoch 40
+process: 450 / 720. Epoch 40
+process: 500 / 720. Epoch 40
+process: 550 / 720. Epoch 40
+process: 600 / 720. Epoch 40
+process: 650 / 720. Epoch 40
+process: 700 / 720. Epoch 40
+process: 720 / 720. Epoch 40
+Loss of epoch 40 = 256.08503594994545, which is 0.3556736610415909 per case
+Time use: 11848
+process: 50 / 720. Epoch 41
+process: 100 / 720. Epoch 41
+process: 150 / 720. Epoch 41
+process: 200 / 720. Epoch 41
+process: 250 / 720. Epoch 41
+process: 300 / 720. Epoch 41
+process: 350 / 720. Epoch 41
+process: 400 / 720. Epoch 41
+process: 450 / 720. Epoch 41
+process: 500 / 720. Epoch 41
+process: 550 / 720. Epoch 41
+process: 600 / 720. Epoch 41
+process: 650 / 720. Epoch 41
+process: 700 / 720. Epoch 41
+process: 720 / 720. Epoch 41
+Loss of epoch 41 = 224.69345805048943, which is 0.31207424729234645 per case
+Time use: 12147
+process: 50 / 720. Epoch 42
+process: 100 / 720. Epoch 42
+process: 150 / 720. Epoch 42
+process: 200 / 720. Epoch 42
+process: 250 / 720. Epoch 42
+process: 300 / 720. Epoch 42
+process: 350 / 720. Epoch 42
+process: 400 / 720. Epoch 42
+process: 450 / 720. Epoch 42
+process: 500 / 720. Epoch 42
+process: 550 / 720. Epoch 42
+process: 600 / 720. Epoch 42
+process: 650 / 720. Epoch 42
+process: 700 / 720. Epoch 42
+process: 720 / 720. Epoch 42
+Loss of epoch 42 = 217.98090478777885, which is 0.3027512566496929 per case
+Time use: 12446
+process: 50 / 720. Epoch 43
+process: 100 / 720. Epoch 43
+process: 150 / 720. Epoch 43
+process: 200 / 720. Epoch 43
+process: 250 / 720. Epoch 43
+process: 300 / 720. Epoch 43
+process: 350 / 720. Epoch 43
+process: 400 / 720. Epoch 43
+process: 450 / 720. Epoch 43
+process: 500 / 720. Epoch 43
+process: 550 / 720. Epoch 43
+process: 600 / 720. Epoch 43
+process: 650 / 720. Epoch 43
+process: 700 / 720. Epoch 43
+process: 720 / 720. Epoch 43
+Loss of epoch 43 = 233.76904967427254, which is 0.3246792356587119 per case
+Time use: 12745
+process: 50 / 720. Epoch 44
+process: 100 / 720. Epoch 44
+process: 150 / 720. Epoch 44
+process: 200 / 720. Epoch 44
+process: 250 / 720. Epoch 44
+process: 300 / 720. Epoch 44
+process: 350 / 720. Epoch 44
+process: 400 / 720. Epoch 44
+process: 450 / 720. Epoch 44
+process: 500 / 720. Epoch 44
+process: 550 / 720. Epoch 44
+process: 600 / 720. Epoch 44
+process: 650 / 720. Epoch 44
+process: 700 / 720. Epoch 44
+process: 720 / 720. Epoch 44
+Loss of epoch 44 = 218.8444321155548, which is 0.3039506001604928 per case
+Time use: 13044
+process: 50 / 720. Epoch 45
+process: 100 / 720. Epoch 45
+process: 150 / 720. Epoch 45
+process: 200 / 720. Epoch 45
+process: 250 / 720. Epoch 45
+process: 300 / 720. Epoch 45
+process: 350 / 720. Epoch 45
+process: 400 / 720. Epoch 45
+process: 450 / 720. Epoch 45
+process: 500 / 720. Epoch 45
+process: 550 / 720. Epoch 45
+process: 600 / 720. Epoch 45
+process: 650 / 720. Epoch 45
+process: 700 / 720. Epoch 45
+process: 720 / 720. Epoch 45
+Loss of epoch 45 = 218.82803057134151, which is 0.3039278202379743 per case
+Time use: 13343
+process: 50 / 720. Epoch 46
+process: 100 / 720. Epoch 46
+process: 150 / 720. Epoch 46
+process: 200 / 720. Epoch 46
+process: 250 / 720. Epoch 46
+process: 300 / 720. Epoch 46
+process: 350 / 720. Epoch 46
+process: 400 / 720. Epoch 46
+process: 450 / 720. Epoch 46
+process: 500 / 720. Epoch 46
+process: 550 / 720. Epoch 46
+process: 600 / 720. Epoch 46
+process: 650 / 720. Epoch 46
+process: 700 / 720. Epoch 46
+process: 720 / 720. Epoch 46
+Loss of epoch 46 = 239.6782864779234, which is 0.3328865089971158 per case
+Time use: 13642
+process: 50 / 720. Epoch 47
+process: 100 / 720. Epoch 47
+process: 150 / 720. Epoch 47
+process: 200 / 720. Epoch 47
+process: 250 / 720. Epoch 47
+process: 300 / 720. Epoch 47
+process: 350 / 720. Epoch 47
+process: 400 / 720. Epoch 47
+process: 450 / 720. Epoch 47
+process: 500 / 720. Epoch 47
+process: 550 / 720. Epoch 47
+process: 600 / 720. Epoch 47
+process: 650 / 720. Epoch 47
+process: 700 / 720. Epoch 47
+process: 720 / 720. Epoch 47
+Loss of epoch 47 = 217.15593400597572, which is 0.3016054638971885 per case
+Time use: 13942
+process: 50 / 720. Epoch 48
+process: 100 / 720. Epoch 48
+process: 150 / 720. Epoch 48
+process: 200 / 720. Epoch 48
+process: 250 / 720. Epoch 48
+process: 300 / 720. Epoch 48
+process: 350 / 720. Epoch 48
+process: 400 / 720. Epoch 48
+process: 450 / 720. Epoch 48
+process: 500 / 720. Epoch 48
+process: 550 / 720. Epoch 48
+process: 600 / 720. Epoch 48
+process: 650 / 720. Epoch 48
+process: 700 / 720. Epoch 48
+process: 720 / 720. Epoch 48
+Loss of epoch 48 = 229.7293465733528, which is 0.3190685369074345 per case
+Time use: 14242
+process: 50 / 720. Epoch 49
+process: 100 / 720. Epoch 49
+process: 150 / 720. Epoch 49
+process: 200 / 720. Epoch 49
+process: 250 / 720. Epoch 49
+process: 300 / 720. Epoch 49
+process: 350 / 720. Epoch 49
+process: 400 / 720. Epoch 49
+process: 450 / 720. Epoch 49
+process: 500 / 720. Epoch 49
+process: 550 / 720. Epoch 49
+process: 600 / 720. Epoch 49
+process: 650 / 720. Epoch 49
+process: 700 / 720. Epoch 49
+process: 720 / 720. Epoch 49
+Loss of epoch 49 = 238.2747437208891, which is 0.3309371440567904 per case
+Time use: 14541
+process: 50 / 720. Epoch 50
+process: 100 / 720. Epoch 50
+process: 150 / 720. Epoch 50
+process: 200 / 720. Epoch 50
+process: 250 / 720. Epoch 50
+process: 300 / 720. Epoch 50
+process: 350 / 720. Epoch 50
+process: 400 / 720. Epoch 50
+process: 450 / 720. Epoch 50
+process: 500 / 720. Epoch 50
+process: 550 / 720. Epoch 50
+process: 600 / 720. Epoch 50
+process: 650 / 720. Epoch 50
+process: 700 / 720. Epoch 50
+process: 720 / 720. Epoch 50
+Loss of epoch 50 = 237.41620454192162, which is 0.3297447285304467 per case
+Time use: 14841
+process: 50 / 720. Epoch 51
+process: 100 / 720. Epoch 51
+process: 150 / 720. Epoch 51
+process: 200 / 720. Epoch 51
+process: 250 / 720. Epoch 51
+process: 300 / 720. Epoch 51
+process: 350 / 720. Epoch 51
+process: 400 / 720. Epoch 51
+process: 450 / 720. Epoch 51
+process: 500 / 720. Epoch 51
+process: 550 / 720. Epoch 51
+process: 600 / 720. Epoch 51
+process: 650 / 720. Epoch 51
+process: 700 / 720. Epoch 51
+process: 720 / 720. Epoch 51
+Loss of epoch 51 = 224.62065437436104, which is 0.31197313107550145 per case
+Time use: 15141
+process: 50 / 720. Epoch 52
+process: 100 / 720. Epoch 52
+process: 150 / 720. Epoch 52
+process: 200 / 720. Epoch 52
+process: 250 / 720. Epoch 52
+process: 300 / 720. Epoch 52
+process: 350 / 720. Epoch 52
+process: 400 / 720. Epoch 52
+process: 450 / 720. Epoch 52
+process: 500 / 720. Epoch 52
+process: 550 / 720. Epoch 52
+process: 600 / 720. Epoch 52
+process: 650 / 720. Epoch 52
+process: 700 / 720. Epoch 52
+process: 720 / 720. Epoch 52
+Loss of epoch 52 = 224.685353115201, which is 0.3120629904377792 per case
+Time use: 15440
+process: 50 / 720. Epoch 53
+process: 100 / 720. Epoch 53
+process: 150 / 720. Epoch 53
+process: 200 / 720. Epoch 53
+process: 250 / 720. Epoch 53
+process: 300 / 720. Epoch 53
+process: 350 / 720. Epoch 53
+process: 400 / 720. Epoch 53
+process: 450 / 720. Epoch 53
+process: 500 / 720. Epoch 53
+process: 550 / 720. Epoch 53
+process: 600 / 720. Epoch 53
+process: 650 / 720. Epoch 53
+process: 700 / 720. Epoch 53
+process: 720 / 720. Epoch 53
+Loss of epoch 53 = 229.598850145936, which is 0.31888729186935555 per case
+Time use: 15739
+process: 50 / 720. Epoch 54
+process: 100 / 720. Epoch 54
+process: 150 / 720. Epoch 54
+process: 200 / 720. Epoch 54
+process: 250 / 720. Epoch 54
+process: 300 / 720. Epoch 54
+process: 350 / 720. Epoch 54
+process: 400 / 720. Epoch 54
+process: 450 / 720. Epoch 54
+process: 500 / 720. Epoch 54
+process: 550 / 720. Epoch 54
+process: 600 / 720. Epoch 54
+process: 650 / 720. Epoch 54
+process: 700 / 720. Epoch 54
+process: 720 / 720. Epoch 54
+Loss of epoch 54 = 223.69757269322872, which is 0.3106910731850399 per case
+Time use: 16039
+process: 50 / 720. Epoch 55
+process: 100 / 720. Epoch 55
+process: 150 / 720. Epoch 55
+process: 200 / 720. Epoch 55
+process: 250 / 720. Epoch 55
+process: 300 / 720. Epoch 55
+process: 350 / 720. Epoch 55
+process: 400 / 720. Epoch 55
+process: 450 / 720. Epoch 55
+process: 500 / 720. Epoch 55
+process: 550 / 720. Epoch 55
+process: 600 / 720. Epoch 55
+process: 650 / 720. Epoch 55
+process: 700 / 720. Epoch 55
+process: 720 / 720. Epoch 55
+Loss of epoch 55 = 255.05094923079014, which is 0.35423742948720854 per case
+Time use: 16338
+process: 50 / 720. Epoch 56
+process: 100 / 720. Epoch 56
+process: 150 / 720. Epoch 56
+process: 200 / 720. Epoch 56
+process: 250 / 720. Epoch 56
+process: 300 / 720. Epoch 56
+process: 350 / 720. Epoch 56
+process: 400 / 720. Epoch 56
+process: 450 / 720. Epoch 56
+process: 500 / 720. Epoch 56
+process: 550 / 720. Epoch 56
+process: 600 / 720. Epoch 56
+process: 650 / 720. Epoch 56
+process: 700 / 720. Epoch 56
+process: 720 / 720. Epoch 56
+Loss of epoch 56 = 256.6895328313112, which is 0.35651324004348783 per case
+Time use: 16637
+process: 50 / 720. Epoch 57
+process: 100 / 720. Epoch 57
+process: 150 / 720. Epoch 57
+process: 200 / 720. Epoch 57
+process: 250 / 720. Epoch 57
+process: 300 / 720. Epoch 57
+process: 350 / 720. Epoch 57
+process: 400 / 720. Epoch 57
+process: 450 / 720. Epoch 57
+process: 500 / 720. Epoch 57
+process: 550 / 720. Epoch 57
+process: 600 / 720. Epoch 57
+process: 650 / 720. Epoch 57
+process: 700 / 720. Epoch 57
+process: 720 / 720. Epoch 57
+Loss of epoch 57 = 217.18353714048862, which is 0.301643801584012 per case
+Time use: 16937
+process: 50 / 720. Epoch 58
+process: 100 / 720. Epoch 58
+process: 150 / 720. Epoch 58
+process: 200 / 720. Epoch 58
+process: 250 / 720. Epoch 58
+process: 300 / 720. Epoch 58
+process: 350 / 720. Epoch 58
+process: 400 / 720. Epoch 58
+process: 450 / 720. Epoch 58
+process: 500 / 720. Epoch 58
+process: 550 / 720. Epoch 58
+process: 600 / 720. Epoch 58
+process: 650 / 720. Epoch 58
+process: 700 / 720. Epoch 58
+process: 720 / 720. Epoch 58
+Loss of epoch 58 = 217.84997607767582, which is 0.30256941121899417 per case
+Time use: 17236
+process: 50 / 720. Epoch 59
+process: 100 / 720. Epoch 59
+process: 150 / 720. Epoch 59
+process: 200 / 720. Epoch 59
+process: 250 / 720. Epoch 59
+process: 300 / 720. Epoch 59
+process: 350 / 720. Epoch 59
+process: 400 / 720. Epoch 59
+process: 450 / 720. Epoch 59
+process: 500 / 720. Epoch 59
+process: 550 / 720. Epoch 59
+process: 600 / 720. Epoch 59
+process: 650 / 720. Epoch 59
+process: 700 / 720. Epoch 59
+process: 720 / 720. Epoch 59
+Loss of epoch 59 = 228.40506145358086, which is 0.3172292520188623 per case
+Time use: 17535
+process: 50 / 720. Epoch 60
+process: 100 / 720. Epoch 60
+process: 150 / 720. Epoch 60
+process: 200 / 720. Epoch 60
+process: 250 / 720. Epoch 60
+process: 300 / 720. Epoch 60
+process: 350 / 720. Epoch 60
+process: 400 / 720. Epoch 60
+process: 450 / 720. Epoch 60
+process: 500 / 720. Epoch 60
+process: 550 / 720. Epoch 60
+process: 600 / 720. Epoch 60
+process: 650 / 720. Epoch 60
+process: 700 / 720. Epoch 60
+process: 720 / 720. Epoch 60
+Loss of epoch 60 = 228.94304710626602, which is 0.31797645431425836 per case
+Time use: 17834
+process: 50 / 720. Epoch 61
+process: 100 / 720. Epoch 61
+process: 150 / 720. Epoch 61
+process: 200 / 720. Epoch 61
+process: 250 / 720. Epoch 61
+process: 300 / 720. Epoch 61
+process: 350 / 720. Epoch 61
+process: 400 / 720. Epoch 61
+process: 450 / 720. Epoch 61
+process: 500 / 720. Epoch 61
+process: 550 / 720. Epoch 61
+process: 600 / 720. Epoch 61
+process: 650 / 720. Epoch 61
+process: 700 / 720. Epoch 61
+process: 720 / 720. Epoch 61
+Loss of epoch 61 = 227.91718783974648, which is 0.31655164977742567 per case
+Time use: 18134
+process: 50 / 720. Epoch 62
+process: 100 / 720. Epoch 62
+process: 150 / 720. Epoch 62
+process: 200 / 720. Epoch 62
+process: 250 / 720. Epoch 62
+process: 300 / 720. Epoch 62
+process: 350 / 720. Epoch 62
+process: 400 / 720. Epoch 62
+process: 450 / 720. Epoch 62
+process: 500 / 720. Epoch 62
+process: 550 / 720. Epoch 62
+process: 600 / 720. Epoch 62
+process: 650 / 720. Epoch 62
+process: 700 / 720. Epoch 62
+process: 720 / 720. Epoch 62
+Loss of epoch 62 = 232.53048495948315, which is 0.32295900688817103 per case
+Time use: 18433
+process: 50 / 720. Epoch 63
+process: 100 / 720. Epoch 63
+process: 150 / 720. Epoch 63
+process: 200 / 720. Epoch 63
+process: 250 / 720. Epoch 63
+process: 300 / 720. Epoch 63
+process: 350 / 720. Epoch 63
+process: 400 / 720. Epoch 63
+process: 450 / 720. Epoch 63
+process: 500 / 720. Epoch 63
+process: 550 / 720. Epoch 63
+process: 600 / 720. Epoch 63
+process: 650 / 720. Epoch 63
+process: 700 / 720. Epoch 63
+process: 720 / 720. Epoch 63
+Loss of epoch 63 = 235.5215430110693, which is 0.3271132541820407 per case
+Time use: 18733
+process: 50 / 720. Epoch 64
+process: 100 / 720. Epoch 64
+process: 150 / 720. Epoch 64
+process: 200 / 720. Epoch 64
+process: 250 / 720. Epoch 64
+process: 300 / 720. Epoch 64
+process: 350 / 720. Epoch 64
+process: 400 / 720. Epoch 64
+process: 450 / 720. Epoch 64
+process: 500 / 720. Epoch 64
+process: 550 / 720. Epoch 64
+process: 600 / 720. Epoch 64
+process: 650 / 720. Epoch 64
+process: 700 / 720. Epoch 64
+process: 720 / 720. Epoch 64
+Loss of epoch 64 = 223.12671080231667, which is 0.30989820944766205 per case
+Time use: 19032
+process: 50 / 720. Epoch 65
+process: 100 / 720. Epoch 65
+process: 150 / 720. Epoch 65
+process: 200 / 720. Epoch 65
+process: 250 / 720. Epoch 65
+process: 300 / 720. Epoch 65
+process: 350 / 720. Epoch 65
+process: 400 / 720. Epoch 65
+process: 450 / 720. Epoch 65
+process: 500 / 720. Epoch 65
+process: 550 / 720. Epoch 65
+process: 600 / 720. Epoch 65
+process: 650 / 720. Epoch 65
+process: 700 / 720. Epoch 65
+process: 720 / 720. Epoch 65
+Loss of epoch 65 = 240.56455543637276, which is 0.33411743810607325 per case
+Time use: 19332
+process: 50 / 720. Epoch 66
+process: 100 / 720. Epoch 66
+process: 150 / 720. Epoch 66
+process: 200 / 720. Epoch 66
+process: 250 / 720. Epoch 66
+process: 300 / 720. Epoch 66
+process: 350 / 720. Epoch 66
+process: 400 / 720. Epoch 66
+process: 450 / 720. Epoch 66
+process: 500 / 720. Epoch 66
+process: 550 / 720. Epoch 66
+process: 600 / 720. Epoch 66
+process: 650 / 720. Epoch 66
+process: 700 / 720. Epoch 66
+process: 720 / 720. Epoch 66
+Loss of epoch 66 = 288.92729191482067, which is 0.40128790543725096 per case
+Time use: 19632
+process: 50 / 720. Epoch 67
+process: 100 / 720. Epoch 67
+process: 150 / 720. Epoch 67
+process: 200 / 720. Epoch 67
+process: 250 / 720. Epoch 67
+process: 300 / 720. Epoch 67
+process: 350 / 720. Epoch 67
+process: 400 / 720. Epoch 67
+process: 450 / 720. Epoch 67
+process: 500 / 720. Epoch 67
+process: 550 / 720. Epoch 67
+process: 600 / 720. Epoch 67
+process: 650 / 720. Epoch 67
+process: 700 / 720. Epoch 67
+process: 720 / 720. Epoch 67
+Loss of epoch 67 = 228.46313121914864, which is 0.3173099044710398 per case
+Time use: 19933
+process: 50 / 720. Epoch 68
+process: 100 / 720. Epoch 68
+process: 150 / 720. Epoch 68
+process: 200 / 720. Epoch 68
+process: 250 / 720. Epoch 68
+process: 300 / 720. Epoch 68
+process: 350 / 720. Epoch 68
+process: 400 / 720. Epoch 68
+process: 450 / 720. Epoch 68
+process: 500 / 720. Epoch 68
+process: 550 / 720. Epoch 68
+process: 600 / 720. Epoch 68
+process: 650 / 720. Epoch 68
+process: 700 / 720. Epoch 68
+process: 720 / 720. Epoch 68
+Loss of epoch 68 = 241.40240558981895, which is 0.33528111887474854 per case
+Time use: 20233
+process: 50 / 720. Epoch 69
+process: 100 / 720. Epoch 69
+process: 150 / 720. Epoch 69
+process: 200 / 720. Epoch 69
+process: 250 / 720. Epoch 69
+process: 300 / 720. Epoch 69
+process: 350 / 720. Epoch 69
+process: 400 / 720. Epoch 69
+process: 450 / 720. Epoch 69
+process: 500 / 720. Epoch 69
+process: 550 / 720. Epoch 69
+process: 600 / 720. Epoch 69
+process: 650 / 720. Epoch 69
+process: 700 / 720. Epoch 69
+process: 720 / 720. Epoch 69
+Loss of epoch 69 = 233.4817866832018, which is 0.3242802592822247 per case
+Time use: 20533
+process: 50 / 720. Epoch 70
+process: 100 / 720. Epoch 70
+process: 150 / 720. Epoch 70
+process: 200 / 720. Epoch 70
+process: 250 / 720. Epoch 70
+process: 300 / 720. Epoch 70
+process: 350 / 720. Epoch 70
+process: 400 / 720. Epoch 70
+process: 450 / 720. Epoch 70
+process: 500 / 720. Epoch 70
+process: 550 / 720. Epoch 70
+process: 600 / 720. Epoch 70
+process: 650 / 720. Epoch 70
+process: 700 / 720. Epoch 70
+process: 720 / 720. Epoch 70
+Loss of epoch 70 = 208.96294489502907, which is 0.29022631235420704 per case
+Time use: 20833
+process: 50 / 720. Epoch 71
+process: 100 / 720. Epoch 71
+process: 150 / 720. Epoch 71
+process: 200 / 720. Epoch 71
+process: 250 / 720. Epoch 71
+process: 300 / 720. Epoch 71
+process: 350 / 720. Epoch 71
+process: 400 / 720. Epoch 71
+process: 450 / 720. Epoch 71
+process: 500 / 720. Epoch 71
+process: 550 / 720. Epoch 71
+process: 600 / 720. Epoch 71
+process: 650 / 720. Epoch 71
+process: 700 / 720. Epoch 71
+process: 720 / 720. Epoch 71
+Loss of epoch 71 = 227.70235387980938, which is 0.316253269277513 per case
+Time use: 21132
+process: 50 / 720. Epoch 72
+process: 100 / 720. Epoch 72
+process: 150 / 720. Epoch 72
+process: 200 / 720. Epoch 72
+process: 250 / 720. Epoch 72
+process: 300 / 720. Epoch 72
+process: 350 / 720. Epoch 72
+process: 400 / 720. Epoch 72
+process: 450 / 720. Epoch 72
+process: 500 / 720. Epoch 72
+process: 550 / 720. Epoch 72
+process: 600 / 720. Epoch 72
+process: 650 / 720. Epoch 72
+process: 700 / 720. Epoch 72
+process: 720 / 720. Epoch 72
+Loss of epoch 72 = 222.92493848502636, which is 0.30961797011809217 per case
+Time use: 21428
+process: 50 / 720. Epoch 73
+process: 100 / 720. Epoch 73
+process: 150 / 720. Epoch 73
+process: 200 / 720. Epoch 73
+process: 250 / 720. Epoch 73
+process: 300 / 720. Epoch 73
+process: 350 / 720. Epoch 73
+process: 400 / 720. Epoch 73
+process: 450 / 720. Epoch 73
+process: 500 / 720. Epoch 73
+process: 550 / 720. Epoch 73
+process: 600 / 720. Epoch 73
+process: 650 / 720. Epoch 73
+process: 700 / 720. Epoch 73
+process: 720 / 720. Epoch 73
+Loss of epoch 73 = 229.1797409951687, which is 0.3183051958266232 per case
+Time use: 21723
+process: 50 / 720. Epoch 74
+process: 100 / 720. Epoch 74
+process: 150 / 720. Epoch 74
+process: 200 / 720. Epoch 74
+process: 250 / 720. Epoch 74
+process: 300 / 720. Epoch 74
+process: 350 / 720. Epoch 74
+process: 400 / 720. Epoch 74
+process: 450 / 720. Epoch 74
+process: 500 / 720. Epoch 74
+process: 550 / 720. Epoch 74
+process: 600 / 720. Epoch 74
+process: 650 / 720. Epoch 74
+process: 700 / 720. Epoch 74
+process: 720 / 720. Epoch 74
+Loss of epoch 74 = 227.49192795157433, which is 0.3159610110438532 per case
+Time use: 22018
+process: 50 / 720. Epoch 75
+process: 100 / 720. Epoch 75
+process: 150 / 720. Epoch 75
+process: 200 / 720. Epoch 75
+process: 250 / 720. Epoch 75
+process: 300 / 720. Epoch 75
+process: 350 / 720. Epoch 75
+process: 400 / 720. Epoch 75
+process: 450 / 720. Epoch 75
+process: 500 / 720. Epoch 75
+process: 550 / 720. Epoch 75
+process: 600 / 720. Epoch 75
+process: 650 / 720. Epoch 75
+process: 700 / 720. Epoch 75
+process: 720 / 720. Epoch 75
+Loss of epoch 75 = 215.22601468861103, which is 0.2989250204008487 per case
+Time use: 22314
+process: 50 / 720. Epoch 76
+process: 100 / 720. Epoch 76
+process: 150 / 720. Epoch 76
+process: 200 / 720. Epoch 76
+process: 250 / 720. Epoch 76
+process: 300 / 720. Epoch 76
+process: 350 / 720. Epoch 76
+process: 400 / 720. Epoch 76
+process: 450 / 720. Epoch 76
+process: 500 / 720. Epoch 762019-11-06 19:52:03.832760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-11-06 19:52:03.832905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-11-06 19:52:03.832921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-11-06 19:52:03.832941: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-11-06 19:52:03.833165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10130 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:03:00.0, compute capability: 6.1)
+
+process: 550 / 720. Epoch 76
+process: 600 / 720. Epoch 76
+process: 650 / 720. Epoch 76
+process: 700 / 720. Epoch 76
+process: 720 / 720. Epoch 76
+Loss of epoch 76 = 215.48973906040192, which is 0.2992913042505582 per case
+Time use: 22611
+process: 50 / 720. Epoch 77
+process: 100 / 720. Epoch 77
+process: 150 / 720. Epoch 77
+process: 200 / 720. Epoch 77
+process: 250 / 720. Epoch 77
+process: 300 / 720. Epoch 77
+process: 350 / 720. Epoch 77
+process: 400 / 720. Epoch 77
+process: 450 / 720. Epoch 77
+process: 500 / 720. Epoch 77
+process: 550 / 720. Epoch 77
+process: 600 / 720. Epoch 77
+process: 650 / 720. Epoch 77
+process: 700 / 720. Epoch 77
+process: 720 / 720. Epoch 77
+Loss of epoch 77 = 236.32633492350578, which is 0.32823102072709137 per case
+Time use: 22906
+process: 50 / 720. Epoch 78
+process: 100 / 720. Epoch 78
+process: 150 / 720. Epoch 78
+process: 200 / 720. Epoch 78
+process: 250 / 720. Epoch 78
+process: 300 / 720. Epoch 78
+process: 350 / 720. Epoch 78
+process: 400 / 720. Epoch 78
+process: 450 / 720. Epoch 78
+process: 500 / 720. Epoch 78
+process: 550 / 720. Epoch 78
+process: 600 / 720. Epoch 78
+process: 650 / 720. Epoch 78
+process: 700 / 720. Epoch 78
+process: 720 / 720. Epoch 78
+Loss of epoch 78 = 235.8844751417637, which is 0.3276173265857829 per case
+Time use: 23202
+process: 50 / 720. Epoch 79
+process: 100 / 720. Epoch 79
+process: 150 / 720. Epoch 79
+process: 200 / 720. Epoch 79
+process: 250 / 720. Epoch 79
+process: 300 / 720. Epoch 79
+process: 350 / 720. Epoch 79
+process: 400 / 720. Epoch 79
+process: 450 / 720. Epoch 79
+process: 500 / 720. Epoch 79
+process: 550 / 720. Epoch 79
+process: 600 / 720. Epoch 79
+process: 650 / 720. Epoch 79
+process: 700 / 720. Epoch 79
+process: 720 / 720. Epoch 79
+Loss of epoch 79 = 235.26805320382118, which is 0.3267611850053072 per case
+Time use: 23498
+process: 50 / 720. Epoch 80
+process: 100 / 720. Epoch 80
+process: 150 / 720. Epoch 80
+process: 200 / 720. Epoch 80
+process: 250 / 720. Epoch 80
+process: 300 / 720. Epoch 80
+process: 350 / 720. Epoch 80
+process: 400 / 720. Epoch 80
+process: 450 / 720. Epoch 80
+process: 500 / 720. Epoch 80
+process: 550 / 720. Epoch 80
+process: 600 / 720. Epoch 80
+process: 650 / 720. Epoch 80
+process: 700 / 720. Epoch 80
+process: 720 / 720. Epoch 80
+Loss of epoch 80 = 246.42131216824055, which is 0.34225182245588964 per case
+Time use: 23794
+Done
+(array([0.20553936, 0.98896186]), array([0.84262948, 0.81234936]), array([0.33046875, 0.89199748]), array([ 502, 8713]))
+Sess closed.
+Creating encoder type as lstm...
+token1.shape: (64, 3941)
+Combine mode: subtract
+num_A_batch = 720
+process: 50 / 720. Epoch 1
+process: 100 / 720. Epoch 1
+process: 150 / 720. Epoch 1
+process: 200 / 720. Epoch 1
+process: 250 / 720. Epoch 1
+process: 300 / 720. Epoch 1
+process: 350 / 720. Epoch 1
+process: 400 / 720. Epoch 1
+process: 450 / 720. Epoch 1
+process: 500 / 720. Epoch 1
+process: 550 / 720. Epoch 1
+process: 600 / 720. Epoch 1
+process: 650 / 720. Epoch 1
+process: 700 / 720. Epoch 1
+process: 720 / 720. Epoch 1
+Loss of epoch 1 = 399.0765503048897, which is 0.554272986534569 per case
+Time use: 299
+process: 50 / 720. Epoch 2
+process: 100 / 720. Epoch 2
+process: 150 / 720. Epoch 2
+process: 200 / 720. Epoch 2
+process: 250 / 720. Epoch 2
+process: 300 / 720. Epoch 2
+process: 350 / 720. Epoch 2
+process: 400 / 720. Epoch 2
+process: 450 / 720. Epoch 2
+process: 500 / 720. Epoch 2
+process: 550 / 720. Epoch 2
+process: 600 / 720. Epoch 2
+process: 650 / 720. Epoch 2
+process: 700 / 720. Epoch 2
+process: 720 / 720. Epoch 2
+Loss of epoch 2 = 314.37866872549057, which is 0.4366370398965147 per case
+Time use: 594
+process: 50 / 720. Epoch 3
+process: 100 / 720. Epoch 3
+process: 150 / 720. Epoch 3
+process: 200 / 720. Epoch 3
+process: 250 / 720. Epoch 3
+process: 300 / 720. Epoch 3
+process: 350 / 720. Epoch 3
+process: 400 / 720. Epoch 3
+process: 450 / 720. Epoch 3
+process: 500 / 720. Epoch 3
+process: 550 / 720. Epoch 3
+process: 600 / 720. Epoch 3
+process: 650 / 720. Epoch 3
+process: 700 / 720. Epoch 3
+process: 720 / 720. Epoch 3
+Loss of epoch 3 = 289.6399341672659, which is 0.40227768634342487 per case
+Time use: 890
+process: 50 / 720. Epoch 4
+process: 100 / 720. Epoch 4
+process: 150 / 720. Epoch 4
+process: 200 / 720. Epoch 4
+process: 250 / 720. Epoch 4
+process: 300 / 720. Epoch 4
+process: 350 / 720. Epoch 4
+process: 400 / 720. Epoch 4
+process: 450 / 720. Epoch 4
+process: 500 / 720. Epoch 4
+process: 550 / 720. Epoch 4
+process: 600 / 720. Epoch 4
+process: 650 / 720. Epoch 4
+process: 700 / 720. Epoch 4
+process: 720 / 720. Epoch 4
+Loss of epoch 4 = 262.6440289914608, which is 0.3647833735992511 per case
+Time use: 1187
+process: 50 / 720. Epoch 5
+process: 100 / 720. Epoch 5
+process: 150 / 720. Epoch 5
+process: 200 / 720. Epoch 5
+process: 250 / 720. Epoch 5
+process: 300 / 720. Epoch 5
+process: 350 / 720. Epoch 5
+process: 400 / 720. Epoch 5
+process: 450 / 720. Epoch 5
+process: 500 / 720. Epoch 5
+process: 550 / 720. Epoch 5
+process: 600 / 720. Epoch 5
+process: 650 / 720. Epoch 5
+process: 700 / 720. Epoch 5
+process: 720 / 720. Epoch 5
+Loss of epoch 5 = 291.36474446952343, which is 0.4046732562076714 per case
+Time use: 1482
+process: 50 / 720. Epoch 6
+process: 100 / 720. Epoch 6
+process: 150 / 720. Epoch 6
+process: 200 / 720. Epoch 6
+process: 250 / 720. Epoch 6
+process: 300 / 720. Epoch 6
+process: 350 / 720. Epoch 6
+process: 400 / 720. Epoch 6
+process: 450 / 720. Epoch 6
+process: 500 / 720. Epoch 6
+process: 550 / 720. Epoch 6
+process: 600 / 720. Epoch 6
+process: 650 / 720. Epoch 6
+process: 700 / 720. Epoch 6
+process: 720 / 720. Epoch 6
+Loss of epoch 6 = 272.0094667375088, which is 0.37779092602431774 per case
+Time use: 1778
+process: 50 / 720. Epoch 7
+process: 100 / 720. Epoch 7
+process: 150 / 720. Epoch 7
+process: 200 / 720. Epoch 7
+process: 250 / 720. Epoch 7
+process: 300 / 720. Epoch 7
+process: 350 / 720. Epoch 7
+process: 400 / 720. Epoch 7
+process: 450 / 720. Epoch 7
+process: 500 / 720. Epoch 7
+process: 550 / 720. Epoch 7
+process: 600 / 720. Epoch 7
+process: 650 / 720. Epoch 7
+process: 700 / 720. Epoch 7
+process: 720 / 720. Epoch 7
+Loss of epoch 7 = 268.8981772363186, which is 0.37346969060599805 per case
+Time use: 2074
+process: 50 / 720. Epoch 8
+process: 100 / 720. Epoch 8
+process: 150 / 720. Epoch 8
+process: 200 / 720. Epoch 8
+process: 250 / 720. Epoch 8
+process: 300 / 720. Epoch 8
+process: 350 / 720. Epoch 8
+process: 400 / 720. Epoch 8
+process: 450 / 720. Epoch 8
+process: 500 / 720. Epoch 8
+process: 550 / 720. Epoch 8
+process: 600 / 720. Epoch 8
+process: 650 / 720. Epoch 8
+process: 700 / 720. Epoch 8
+process: 720 / 720. Epoch 8
+Loss of epoch 8 = 286.5139490813017, which is 0.3979360403906968 per case
+Time use: 2370
+process: 50 / 720. Epoch 9
+process: 100 / 720. Epoch 9
+process: 150 / 720. Epoch 9
+process: 200 / 720. Epoch 9
+process: 250 / 720. Epoch 9
+process: 300 / 720. Epoch 9
+process: 350 / 720. Epoch 9
+process: 400 / 720. Epoch 9
+process: 450 / 720. Epoch 9
+process: 500 / 720. Epoch 9
+process: 550 / 720. Epoch 9
+process: 600 / 720. Epoch 9
+process: 650 / 720. Epoch 9
+process: 700 / 720. Epoch 9
+process: 720 / 720. Epoch 9
+Loss of epoch 9 = 236.25391966104507, which is 0.3281304439736737 per case
+Time use: 2666
+process: 50 / 720. Epoch 10
+process: 100 / 720. Epoch 10
+process: 150 / 720. Epoch 10
+process: 200 / 720. Epoch 10
+process: 250 / 720. Epoch 10
+process: 300 / 720. Epoch 10
+process: 350 / 720. Epoch 10
+process: 400 / 720. Epoch 10
+process: 450 / 720. Epoch 10
+process: 500 / 720. Epoch 10
+process: 550 / 720. Epoch 10
+process: 600 / 720. Epoch 10
+process: 650 / 720. Epoch 10
+process: 700 / 720. Epoch 10
+process: 720 / 720. Epoch 10
+Loss of epoch 10 = 245.14598855376244, which is 0.3404805396580034 per case
+Time use: 2963
+process: 50 / 720. Epoch 11
+process: 100 / 720. Epoch 11
+process: 150 / 720. Epoch 11
+process: 200 / 720. Epoch 11
+process: 250 / 720. Epoch 11
+process: 300 / 720. Epoch 11
+process: 350 / 720. Epoch 11
+process: 400 / 720. Epoch 11
+process: 450 / 720. Epoch 11
+process: 500 / 720. Epoch 11
+process: 550 / 720. Epoch 11
+process: 600 / 720. Epoch 11
+process: 650 / 720. Epoch 11
+process: 700 / 720. Epoch 11
+process: 720 / 720. Epoch 11
+Loss of epoch 11 = 232.25667752325535, which is 0.3225787187822991 per case
+Time use: 3259
+process: 50 / 720. Epoch 12
+process: 100 / 720. Epoch 12
+process: 150 / 720. Epoch 12
+process: 200 / 720. Epoch 12
+process: 250 / 720. Epoch 12
+process: 300 / 720. Epoch 12
+process: 350 / 720. Epoch 12
+process: 400 / 720. Epoch 12
+process: 450 / 720. Epoch 12
+process: 500 / 720. Epoch 12
+process: 550 / 720. Epoch 12
+process: 600 / 720. Epoch 12
+process: 650 / 720. Epoch 12
+process: 700 / 720. Epoch 12
+process: 720 / 720. Epoch 12
+Loss of epoch 12 = 256.628430724144, which is 0.35642837600575555 per case
+Time use: 3555
+process: 50 / 720. Epoch 13
+process: 100 / 720. Epoch 13
+process: 150 / 720. Epoch 13
+process: 200 / 720. Epoch 13
+process: 250 / 720. Epoch 13
+process: 300 / 720. Epoch 13
+process: 350 / 720. Epoch 13
+process: 400 / 720. Epoch 13
+process: 450 / 720. Epoch 13
+process: 500 / 720. Epoch 13
+process: 550 / 720. Epoch 13
+process: 600 / 720. Epoch 13
+process: 650 / 720. Epoch 13
+process: 700 / 720. Epoch 13
+process: 720 / 720. Epoch 13
+Loss of epoch 13 = 235.8836586177349, which is 0.3276161925246318 per case
+Time use: 3850
+process: 50 / 720. Epoch 14
+process: 100 / 720. Epoch 14
+process: 150 / 720. Epoch 14
+process: 200 / 720. Epoch 14
+process: 250 / 720. Epoch 14
+process: 300 / 720. Epoch 14
+process: 350 / 720. Epoch 14
+process: 400 / 720. Epoch 14
+process: 450 / 720. Epoch 14
+process: 500 / 720. Epoch 14
+process: 550 / 720. Epoch 14
+process: 600 / 720. Epoch 14
+process: 650 / 720. Epoch 14
+process: 700 / 720. Epoch 14
+process: 720 / 720. Epoch 14
+Loss of epoch 14 = 235.45274345576763, which is 0.3270176992441217 per case
+Time use: 4146
+process: 50 / 720. Epoch 15
+process: 100 / 720. Epoch 15
+process: 150 / 720. Epoch 15
+process: 200 / 720. Epoch 15
+process: 250 / 720. Epoch 15
+process: 300 / 720. Epoch 15
+process: 350 / 720. Epoch 15
+process: 400 / 720. Epoch 15
+process: 450 / 720. Epoch 15
+process: 500 / 720. Epoch 15
+process: 550 / 720. Epoch 15
+process: 600 / 720. Epoch 15
+process: 650 / 720. Epoch 15
+process: 700 / 720. Epoch 15
+process: 720 / 720. Epoch 15
+Loss of epoch 15 = 229.78863586485386, which is 0.31915088314563034 per case
+Time use: 4442
+process: 50 / 720. Epoch 16
+process: 100 / 720. Epoch 16
+process: 150 / 720. Epoch 16
+process: 200 / 720. Epoch 16
+process: 250 / 720. Epoch 16
+process: 300 / 720. Epoch 16
+process: 350 / 720. Epoch 16
+process: 400 / 720. Epoch 16
+process: 450 / 720. Epoch 16
+process: 500 / 720. Epoch 16
+process: 550 / 720. Epoch 16
+process: 600 / 720. Epoch 16
+process: 650 / 720. Epoch 16
+process: 700 / 720. Epoch 16
+process: 720 / 720. Epoch 16
+Loss of epoch 16 = 240.80441346764565, which is 0.33445057426061897 per case
+Time use: 4738
+process: 50 / 720. Epoch 17
+process: 100 / 720. Epoch 17
+process: 150 / 720. Epoch 17
+process: 200 / 720. Epoch 17
+process: 250 / 720. Epoch 17
+process: 300 / 720. Epoch 17
+process: 350 / 720. Epoch 17
+process: 400 / 720. Epoch 17
+process: 450 / 720. Epoch 17
+process: 500 / 720. Epoch 17
+process: 550 / 720. Epoch 17
+process: 600 / 720. Epoch 17
+process: 650 / 720. Epoch 17
+process: 700 / 720. Epoch 17
+process: 720 / 720. Epoch 17
+Loss of epoch 17 = 239.95323930680752, which is 0.33326838792612157 per case
+Time use: 5034
+process: 50 / 720. Epoch 18
+process: 100 / 720. Epoch 18
+process: 150 / 720. Epoch 18
+process: 200 / 720. Epoch 18
+process: 250 / 720. Epoch 18
+process: 300 / 720. Epoch 18
+process: 350 / 720. Epoch 18
+process: 400 / 720. Epoch 18
+process: 450 / 720. Epoch 18
+process: 500 / 720. Epoch 18
+process: 550 / 720. Epoch 18
+process: 600 / 720. Epoch 18
+process: 650 / 720. Epoch 18
+process: 700 / 720. Epoch 18
+process: 720 / 720. Epoch 18
+Loss of epoch 18 = 246.39827720820904, which is 0.3422198294558459 per case
+Time use: 5330
+process: 50 / 720. Epoch 19
+process: 100 / 720. Epoch 19
+process: 150 / 720. Epoch 19
+process: 200 / 720. Epoch 19
+process: 250 / 720. Epoch 19
+process: 300 / 720. Epoch 19
+process: 350 / 720. Epoch 19
+process: 400 / 720. Epoch 19
+process: 450 / 720. Epoch 19
+process: 500 / 720. Epoch 19
+process: 550 / 720. Epoch 19
+process: 600 / 720. Epoch 19
+process: 650 / 720. Epoch 19
+process: 700 / 720. Epoch 19
+process: 720 / 720. Epoch 19
+Loss of epoch 19 = 264.47808898985386, which is 0.3673306791525748 per case
+Time use: 5626
+process: 50 / 720. Epoch 20
+process: 100 / 720. Epoch 20
+process: 150 / 720. Epoch 20
+process: 200 / 720. Epoch 20
+process: 250 / 720. Epoch 20
+process: 300 / 720. Epoch 20
+process: 350 / 720. Epoch 20
+process: 400 / 720. Epoch 20
+process: 450 / 720. Epoch 20
+process: 500 / 720. Epoch 20
+process: 550 / 720. Epoch 20
+process: 600 / 720. Epoch 20
+process: 650 / 720. Epoch 20
+process: 700 / 720. Epoch 20
+process: 720 / 720. Epoch 20
+Loss of epoch 20 = 225.6509289443493, which is 0.3134040679782629 per case
+Time use: 5911
+process: 50 / 720. Epoch 21
+process: 100 / 720. Epoch 21
+process: 150 / 720. Epoch 21
+process: 200 / 720. Epoch 21
+process: 250 / 720. Epoch 21
+process: 300 / 720. Epoch 21
+process: 350 / 720. Epoch 21
+process: 400 / 720. Epoch 21
+process: 450 / 720. Epoch 21
+process: 500 / 720. Epoch 21
+process: 550 / 720. Epoch 21
+process: 600 / 720. Epoch 21
+process: 650 / 720. Epoch 21
+process: 700 / 720. Epoch 21
+process: 720 / 720. Epoch 21
+Loss of epoch 21 = 261.48807269334793, which is 0.363177878740761 per case
+Time use: 6178
+process: 50 / 720. Epoch 22
+process: 100 / 720. Epoch 22
+process: 150 / 720. Epoch 22
+process: 200 / 720. Epoch 22
+process: 250 / 720. Epoch 22
+process: 300 / 720. Epoch 22
+process: 350 / 720. Epoch 22
+process: 400 / 720. Epoch 22
+process: 450 / 720. Epoch 22
+process: 500 / 720. Epoch 22
+process: 550 / 720. Epoch 22
+process: 600 / 720. Epoch 22
+process: 650 / 720. Epoch 22
+process: 700 / 720. Epoch 22
+process: 720 / 720. Epoch 22
+Loss of epoch 22 = 232.01269841194153, which is 0.32223985890547435 per case
+Time use: 6446
+process: 50 / 720. Epoch 23
+process: 100 / 720. Epoch 23
+process: 150 / 720. Epoch 23
+process: 200 / 720. Epoch 23
+process: 250 / 720. Epoch 23
+process: 300 / 720. Epoch 23
+process: 350 / 720. Epoch 23
+process: 400 / 720. Epoch 23
+process: 450 / 720. Epoch 23
+process: 500 / 720. Epoch 23
+process: 550 / 720. Epoch 23
+process: 600 / 720. Epoch 23
+process: 650 / 720. Epoch 23
+process: 700 / 720. Epoch 23
+process: 720 / 720. Epoch 23
+Loss of epoch 23 = 247.86554968357086, which is 0.3442577078938484 per case
+Time use: 6714
+process: 50 / 720. Epoch 24
+process: 100 / 720. Epoch 24
+process: 150 / 720. Epoch 24
+process: 200 / 720. Epoch 24
+process: 250 / 720. Epoch 24
+process: 300 / 720. Epoch 24
+process: 350 / 720. Epoch 24
+process: 400 / 720. Epoch 24
+process: 450 / 720. Epoch 24
+process: 500 / 720. Epoch 24
+process: 550 / 720. Epoch 24
+process: 600 / 720. Epoch 24
+process: 650 / 720. Epoch 24
+process: 700 / 720. Epoch 24
+process: 720 / 720. Epoch 24
+Loss of epoch 24 = 231.30433659255505, which is 0.32125602304521533 per case
+Time use: 6993
+process: 50 / 720. Epoch 25
+process: 100 / 720. Epoch 25
+process: 150 / 720. Epoch 25
+process: 200 / 720. Epoch 25
+process: 250 / 720. Epoch 25
+process: 300 / 720. Epoch 25
+process: 350 / 720. Epoch 25
+process: 400 / 720. Epoch 25
+process: 450 / 720. Epoch 25
+process: 500 / 720. Epoch 25
+process: 550 / 720. Epoch 25
+process: 600 / 720. Epoch 25
+process: 650 / 720. Epoch 25
+process: 700 / 720. Epoch 25
+process: 720 / 720. Epoch 25
+Loss of epoch 25 = 241.9606429040432, which is 0.3360564484778378 per case
+Time use: 7289
+process: 50 / 720. Epoch 26
+process: 100 / 720. Epoch 26
+process: 150 / 720. Epoch 26
+process: 200 / 720. Epoch 26
+process: 250 / 720. Epoch 26
+process: 300 / 720. Epoch 26
+process: 350 / 720. Epoch 26
+process: 400 / 720. Epoch 26
+process: 450 / 720. Epoch 26
+process: 500 / 720. Epoch 26
+process: 550 / 720. Epoch 26
+process: 600 / 720. Epoch 26
+process: 650 / 720. Epoch 26
+process: 700 / 720. Epoch 26
+process: 720 / 720. Epoch 26
+Loss of epoch 26 = 254.50140902400017, which is 0.35347417920000024 per case
+Time use: 7586
+process: 50 / 720. Epoch 27
+process: 100 / 720. Epoch 27
+process: 150 / 720. Epoch 27
+process: 200 / 720. Epoch 27
+process: 250 / 720. Epoch 27
+process: 300 / 720. Epoch 27
+process: 350 / 720. Epoch 27
+process: 400 / 720. Epoch 27
+process: 450 / 720. Epoch 27
+process: 500 / 720. Epoch 27
+process: 550 / 720. Epoch 27
+process: 600 / 720. Epoch 27
+process: 650 / 720. Epoch 27
+process: 700 / 720. Epoch 27
+process: 720 / 720. Epoch 27
+Loss of epoch 27 = 244.1141688376665, which is 0.3390474567189813 per case
+Time use: 7882
+process: 50 / 720. Epoch 28
+process: 100 / 720. Epoch 28
+process: 150 / 720. Epoch 28
+process: 200 / 720. Epoch 28
+process: 250 / 720. Epoch 28
+process: 300 / 720. Epoch 28
+process: 350 / 720. Epoch 28
+process: 400 / 720. Epoch 28
+process: 450 / 720. Epoch 28
+process: 500 / 720. Epoch 28
+process: 550 / 720. Epoch 28
+process: 600 / 720. Epoch 28
+process: 650 / 720. Epoch 28
+process: 700 / 720. Epoch 28
+process: 720 / 720. Epoch 28
+Loss of epoch 28 = 265.5790673792362, which is 0.36885981580449473 per case
+Time use: 8179
+process: 50 / 720. Epoch 29
+process: 100 / 720. Epoch 29
+process: 150 / 720. Epoch 29
+process: 200 / 720. Epoch 29
+process: 250 / 720. Epoch 29
+process: 300 / 720. Epoch 29
+process: 350 / 720. Epoch 29
+process: 400 / 720. Epoch 29
+process: 450 / 720. Epoch 29
+process: 500 / 720. Epoch 29
+process: 550 / 720. Epoch 29
+process: 600 / 720. Epoch 29
+process: 650 / 720. Epoch 29
+process: 700 / 720. Epoch 29
+process: 720 / 720. Epoch 29
+Loss of epoch 29 = 236.05342949926853, which is 0.32785198541565075 per case
+Time use: 8476
+process: 50 / 720. Epoch 30
+process: 100 / 720. Epoch 30
+process: 150 / 720. Epoch 30
+process: 200 / 720. Epoch 30
+process: 250 / 720. Epoch 30
+process: 300 / 720. Epoch 30
+process: 350 / 720. Epoch 30
+process: 400 / 720. Epoch 30
+process: 450 / 720. Epoch 30
+process: 500 / 720. Epoch 30
+process: 550 / 720. Epoch 30
+process: 600 / 720. Epoch 30
+process: 650 / 720. Epoch 30
+process: 700 / 720. Epoch 30
+process: 720 / 720. Epoch 30
+Loss of epoch 30 = 222.15016850829124, which is 0.30854190070596005 per case
+Time use: 8772
+process: 50 / 720. Epoch 31
+process: 100 / 720. Epoch 31
+process: 150 / 720. Epoch 31
+process: 200 / 720. Epoch 31
+process: 250 / 720. Epoch 31
+process: 300 / 720. Epoch 31
+process: 350 / 720. Epoch 31
+process: 400 / 720. Epoch 31
+process: 450 / 720. Epoch 31
+process: 500 / 720. Epoch 31
+process: 550 / 720. Epoch 31
+process: 600 / 720. Epoch 31
+process: 650 / 720. Epoch 31
+process: 700 / 720. Epoch 31
+process: 720 / 720. Epoch 31
+Loss of epoch 31 = 240.47088430821896, which is 0.3339873393169708 per case
+Time use: 9069
+process: 50 / 720. Epoch 32
+process: 100 / 720. Epoch 32
+process: 150 / 720. Epoch 32
+process: 200 / 720. Epoch 32
+process: 250 / 720. Epoch 32
+process: 300 / 720. Epoch 32
+process: 350 / 720. Epoch 32
+process: 400 / 720. Epoch 32
+process: 450 / 720. Epoch 32
+process: 500 / 720. Epoch 32
+process: 550 / 720. Epoch 32
+process: 600 / 720. Epoch 32
+process: 650 / 720. Epoch 32
+process: 700 / 720. Epoch 32
+process: 720 / 720. Epoch 32
+Loss of epoch 32 = 227.90190330147743, which is 0.316530421252052 per case
+Time use: 9365
+process: 50 / 720. Epoch 33
+process: 100 / 720. Epoch 33
+process: 150 / 720. Epoch 33
+process: 200 / 720. Epoch 33
+process: 250 / 720. Epoch 33
+process: 300 / 720. Epoch 33
+process: 350 / 720. Epoch 33
+process: 400 / 720. Epoch 33
+process: 450 / 720. Epoch 33
+process: 500 / 720. Epoch 33
+process: 550 / 720. Epoch 33
+process: 600 / 720. Epoch 33
+process: 650 / 720. Epoch 33
+process: 700 / 720. Epoch 33
+process: 720 / 720. Epoch 33
+Loss of epoch 33 = 251.92073892056942, which is 0.34988991516745754 per case
+Time use: 9661
+process: 50 / 720. Epoch 34
+process: 100 / 720. Epoch 34
+process: 150 / 720. Epoch 34
+process: 200 / 720. Epoch 34
+process: 250 / 720. Epoch 34
+process: 300 / 720. Epoch 34
+process: 350 / 720. Epoch 34
+process: 400 / 720. Epoch 34
+process: 450 / 720. Epoch 34
+process: 500 / 720. Epoch 34
+process: 550 / 720. Epoch 34
+process: 600 / 720. Epoch 34
+process: 650 / 720. Epoch 34
+process: 700 / 720. Epoch 34
+process: 720 / 720. Epoch 34
+Loss of epoch 34 = 240.3646019399166, which is 0.33383972491655084 per case
+Time use: 9958
+process: 50 / 720. Epoch 35
+process: 100 / 720. Epoch 35
+process: 150 / 720. Epoch 35
+process: 200 / 720. Epoch 35
+process: 250 / 720. Epoch 35
+process: 300 / 720. Epoch 35
+process: 350 / 720. Epoch 35
+process: 400 / 720. Epoch 35
+process: 450 / 720. Epoch 35
+process: 500 / 720. Epoch 35
+process: 550 / 720. Epoch 35
+process: 600 / 720. Epoch 35
+process: 650 / 720. Epoch 35
+process: 700 / 720. Epoch 35
+process: 720 / 720. Epoch 35
+Loss of epoch 35 = 227.95761270821095, which is 0.31660779542807077 per case
+Time use: 10255
+process: 50 / 720. Epoch 36
+process: 100 / 720. Epoch 36
+process: 150 / 720. Epoch 36
+process: 200 / 720. Epoch 36
+process: 250 / 720. Epoch 36
+process: 300 / 720. Epoch 36
+process: 350 / 720. Epoch 36
+process: 400 / 720. Epoch 36
+process: 450 / 720. Epoch 36
+process: 500 / 720. Epoch 36
+process: 550 / 720. Epoch 36
+process: 600 / 720. Epoch 36
+process: 650 / 720. Epoch 36
+process: 700 / 720. Epoch 36
+process: 720 / 720. Epoch 36
+Loss of epoch 36 = 229.26291459798813, which is 0.31842071471942796 per case
+Time use: 10551
+process: 50 / 720. Epoch 37
+process: 100 / 720. Epoch 37
+process: 150 / 720. Epoch 37
+process: 200 / 720. Epoch 37
+process: 250 / 720. Epoch 37
+process: 300 / 720. Epoch 37
+process: 350 / 720. Epoch 37
+process: 400 / 720. Epoch 37
+process: 450 / 720. Epoch 37
+process: 500 / 720. Epoch 37
+process: 550 / 720. Epoch 37
+process: 600 / 720. Epoch 37
+process: 650 / 720. Epoch 37
+process: 700 / 720. Epoch 37
+process: 720 / 720. Epoch 37
+Loss of epoch 37 = 240.1246872395277, which is 0.33350651005489956 per case
+Time use: 10847
+process: 50 / 720. Epoch 38
+process: 100 / 720. Epoch 38
+process: 150 / 720. Epoch 38
+process: 200 / 720. Epoch 38
+process: 250 / 720. Epoch 38
+process: 300 / 720. Epoch 38
+process: 350 / 720. Epoch 38
+process: 400 / 720. Epoch 38
+process: 450 / 720. Epoch 38
+process: 500 / 720. Epoch 38
+process: 550 / 720. Epoch 38
+process: 600 / 720. Epoch 38
+process: 650 / 720. Epoch 38
+process: 700 / 720. Epoch 38
+process: 720 / 720. Epoch 38
+Loss of epoch 38 = 219.27297349274158, which is 0.30454579651769664 per case
+Time use: 11144
+process: 50 / 720. Epoch 39
+process: 100 / 720. Epoch 39
+process: 150 / 720. Epoch 39
+process: 200 / 720. Epoch 39
+process: 250 / 720. Epoch 39
+process: 300 / 720. Epoch 39
+process: 350 / 720. Epoch 39
+process: 400 / 720. Epoch 39
+process: 450 / 720. Epoch 39
+process: 500 / 720. Epoch 39
+process: 550 / 720. Epoch 39
+process: 600 / 720. Epoch 39
+process: 650 / 720. Epoch 39
+process: 700 / 720. Epoch 39
+process: 720 / 720. Epoch 39
+Loss of epoch 39 = 219.95976884663105, which is 0.30549967895365426 per case
+Time use: 11441
+process: 50 / 720. Epoch 40
+process: 100 / 720. Epoch 40
+process: 150 / 720. Epoch 40
+process: 200 / 720. Epoch 40
+process: 250 / 720. Epoch 40
+process: 300 / 720. Epoch 40
+process: 350 / 720. Epoch 40
+process: 400 / 720. Epoch 40
+process: 450 / 720. Epoch 40
+process: 500 / 720. Epoch 40
+process: 550 / 720. Epoch 40
+process: 600 / 720. Epoch 40
+process: 650 / 720. Epoch 40
+process: 700 / 720. Epoch 40
+process: 720 / 720. Epoch 40
+Loss of epoch 40 = 241.55469082295895, which is 0.3354926261429985 per case
+Time use: 11743
+process: 50 / 720. Epoch 41
+process: 100 / 720. Epoch 41
+process: 150 / 720. Epoch 41
+process: 200 / 720. Epoch 41
+process: 250 / 720. Epoch 41
+process: 300 / 720. Epoch 41
+process: 350 / 720. Epoch 41
+process: 400 / 720. Epoch 41
+process: 450 / 720. Epoch 41
+process: 500 / 720. Epoch 41
+process: 550 / 720. Epoch 41
+process: 600 / 720. Epoch 41
+process: 650 / 720. Epoch 41
+process: 700 / 720. Epoch 41
+process: 720 / 720. Epoch 41
+Loss of epoch 41 = 247.85432170331478, which is 0.3442421134768261 per case
+Time use: 12045
+process: 50 / 720. Epoch 42
+process: 100 / 720. Epoch 42
+process: 150 / 720. Epoch 42
+process: 200 / 720. Epoch 42
+process: 250 / 720. Epoch 42
+process: 300 / 720. Epoch 42
+process: 350 / 720. Epoch 42
+process: 400 / 720. Epoch 42
+process: 450 / 720. Epoch 42
+process: 500 / 720. Epoch 42
+process: 550 / 720. Epoch 42
+process: 600 / 720. Epoch 42
+process: 650 / 720. Epoch 42
+process: 700 / 720. Epoch 42
+process: 720 / 720. Epoch 42
+Loss of epoch 42 = 265.99147710204124, which is 0.3694326070861684 per case
+Time use: 12347
+process: 50 / 720. Epoch 43
+process: 100 / 720. Epoch 43
+process: 150 / 720. Epoch 43
+process: 200 / 720. Epoch 43
+process: 250 / 720. Epoch 43
+process: 300 / 720. Epoch 43
+process: 350 / 720. Epoch 43
+process: 400 / 720. Epoch 43
+process: 450 / 720. Epoch 43
+process: 500 / 720. Epoch 43
+process: 550 / 720. Epoch 43
+process: 600 / 720. Epoch 43
+process: 650 / 720. Epoch 43
+process: 700 / 720. Epoch 43
+process: 720 / 720. Epoch 43
+Loss of epoch 43 = 213.67949283123016, which is 0.29677707337670856 per case
+Time use: 12649
+process: 50 / 720. Epoch 44
+process: 100 / 720. Epoch 44
+process: 150 / 720. Epoch 44
+process: 200 / 720. Epoch 44
+process: 250 / 720. Epoch 44
+process: 300 / 720. Epoch 44
+process: 350 / 720. Epoch 44
+process: 400 / 720. Epoch 44
+process: 450 / 720. Epoch 44
+process: 500 / 720. Epoch 44
+process: 550 / 720. Epoch 44
+process: 600 / 720. Epoch 44
+process: 650 / 720. Epoch 44
+process: 700 / 720. Epoch 44
+process: 720 / 720. Epoch 44
+Loss of epoch 44 = 240.2299592345953, which is 0.3336527211591601 per case
+Time use: 12950
+process: 50 / 720. Epoch 45
+process: 100 / 720. Epoch 45
+process: 150 / 720. Epoch 45
+process: 200 / 720. Epoch 45
+process: 250 / 720. Epoch 45
+process: 300 / 720. Epoch 45
+process: 350 / 720. Epoch 45
+process: 400 / 720. Epoch 45
+process: 450 / 720. Epoch 45
+process: 500 / 720. Epoch 45
+process: 550 / 720. Epoch 45
+process: 600 / 720. Epoch 45
+process: 650 / 720. Epoch 45
+process: 700 / 720. Epoch 45
+process: 720 / 720. Epoch 45
+Loss of epoch 45 = 235.0268474072218, which is 0.32642617695447473 per case
+Time use: 13252
+process: 50 / 720. Epoch 46
+process: 100 / 720. Epoch 46
+process: 150 / 720. Epoch 46
+process: 200 / 720. Epoch 46
+process: 250 / 720. Epoch 46
+process: 300 / 720. Epoch 46
+process: 350 / 720. Epoch 46
+process: 400 / 720. Epoch 46
+process: 450 / 720. Epoch 46
+process: 500 / 720. Epoch 46
+process: 550 / 720. Epoch 46
+process: 600 / 720. Epoch 46
+process: 650 / 720. Epoch 46
+process: 700 / 720. Epoch 46
+process: 720 / 720. Epoch 46
+Loss of epoch 46 = 240.43550896644592, which is 0.33393820689784154 per case
+Time use: 13554
+process: 50 / 720. Epoch 47
+process: 100 / 720. Epoch 47
+process: 150 / 720. Epoch 47
+process: 200 / 720. Epoch 47
+process: 250 / 720. Epoch 47
+process: 300 / 720. Epoch 47
+process: 350 / 720. Epoch 47
+process: 400 / 720. Epoch 47
+process: 450 / 720. Epoch 47
+process: 500 / 720. Epoch 47
+process: 550 / 720. Epoch 47
+process: 600 / 720. Epoch 47
+process: 650 / 720. Epoch 47
+process: 700 / 720. Epoch 47
+process: 720 / 720. Epoch 47
+Loss of epoch 47 = 263.6226202249527, which is 0.3661425280902121 per case
+Time use: 13856
+process: 50 / 720. Epoch 48
+process: 100 / 720. Epoch 48
+process: 150 / 720. Epoch 48
+process: 200 / 720. Epoch 48
+process: 250 / 720. Epoch 48
+process: 300 / 720. Epoch 48
+process: 350 / 720. Epoch 48
+process: 400 / 720. Epoch 48
+process: 450 / 720. Epoch 48
+process: 500 / 720. Epoch 48
+process: 550 / 720. Epoch 48
+process: 600 / 720. Epoch 48
+process: 650 / 720. Epoch 48
+process: 700 / 720. Epoch 48
+process: 720 / 720. Epoch 48
+Loss of epoch 48 = 245.66640008985996, which is 0.34120333345813886 per case
+Time use: 14158
+process: 50 / 720. Epoch 49
+process: 100 / 720. Epoch 49
+process: 150 / 720. Epoch 49
+process: 200 / 720. Epoch 49
+process: 250 / 720. Epoch 49
+process: 300 / 720. Epoch 49
+process: 350 / 720. Epoch 49
+process: 400 / 720. Epoch 49
+process: 450 / 720. Epoch 49
+process: 500 / 720. Epoch 49
+process: 550 / 720. Epoch 49
+process: 600 / 720. Epoch 49
+process: 650 / 720. Epoch 49
+process: 700 / 720. Epoch 49
+process: 720 / 720. Epoch 49
+Loss of epoch 49 = 238.40063984692097, which is 0.33111199978739025 per case
+Time use: 14459
+process: 50 / 720. Epoch 50
+process: 100 / 720. Epoch 50
+process: 150 / 720. Epoch 50
+process: 200 / 720. Epoch 50
+process: 250 / 720. Epoch 50
+process: 300 / 720. Epoch 50
+process: 350 / 720. Epoch 50
+process: 400 / 720. Epoch 50
+process: 450 / 720. Epoch 50
+process: 500 / 720. Epoch 50
+process: 550 / 720. Epoch 50
+process: 600 / 720. Epoch 50
+process: 650 / 720. Epoch 50
+process: 700 / 720. Epoch 50
+process: 720 / 720. Epoch 50
+Loss of epoch 50 = 238.32043524086475, which is 0.33100060450120106 per case
+Time use: 14761
+process: 50 / 720. Epoch 51
+process: 100 / 720. Epoch 51
+process: 150 / 720. Epoch 51
+process: 200 / 720. Epoch 51
+process: 250 / 720. Epoch 51
+process: 300 / 720. Epoch 51
+process: 350 / 720. Epoch 51
+process: 400 / 720. Epoch 51
+process: 450 / 720. Epoch 51
+process: 500 / 720. Epoch 51
+process: 550 / 720. Epoch 51
+process: 600 / 720. Epoch 51
+process: 650 / 720. Epoch 51
+process: 700 / 720. Epoch 51
+process: 720 / 720. Epoch 51
+Loss of epoch 51 = 226.57640290260315, which is 0.3146894484758377 per case
+Time use: 15063
+process: 50 / 720. Epoch 52
+process: 100 / 720. Epoch 52
+process: 150 / 720. Epoch 52
+process: 200 / 720. Epoch 52
+process: 250 / 720. Epoch 52
+process: 300 / 720. Epoch 52
+process: 350 / 720. Epoch 52
+process: 400 / 720. Epoch 52
+process: 450 / 720. Epoch 52
+process: 500 / 720. Epoch 52
+process: 550 / 720. Epoch 52
+process: 600 / 720. Epoch 52
+process: 650 / 720. Epoch 52
+process: 700 / 720. Epoch 52
+process: 720 / 720. Epoch 52
+Loss of epoch 52 = 232.64751709997654, which is 0.3231215515277452 per case
+Time use: 15365
+process: 50 / 720. Epoch 53
+process: 100 / 720. Epoch 53
+process: 150 / 720. Epoch 53
+process: 200 / 720. Epoch 53
+process: 250 / 720. Epoch 53
+process: 300 / 720. Epoch 53
+process: 350 / 720. Epoch 53
+process: 400 / 720. Epoch 53
+process: 450 / 720. Epoch 53
+process: 500 / 720. Epoch 53
+process: 550 / 720. Epoch 53
+process: 600 / 720. Epoch 53
+process: 650 / 720. Epoch 53
+process: 700 / 720. Epoch 53
+process: 720 / 720. Epoch 53
+Loss of epoch 53 = 238.3950778245926, which is 0.3311042747563786 per case
+Time use: 15667
+process: 50 / 720. Epoch 54
+process: 100 / 720. Epoch 54
+process: 150 / 720. Epoch 54
+process: 200 / 720. Epoch 54
+process: 250 / 720. Epoch 54
+process: 300 / 720. Epoch 54
+process: 350 / 720. Epoch 54
+process: 400 / 720. Epoch 54
+process: 450 / 720. Epoch 54
+process: 500 / 720. Epoch 54
+process: 550 / 720. Epoch 54
+process: 600 / 720. Epoch 54
+process: 650 / 720. Epoch 54
+process: 700 / 720. Epoch 54
+process: 720 / 720. Epoch 54
+Loss of epoch 54 = 248.31205573678017, which is 0.34487785518997244 per case
+Time use: 15969
+process: 50 / 720. Epoch 55
+process: 100 / 720. Epoch 55
+process: 150 / 720. Epoch 55
+process: 200 / 720. Epoch 55
+process: 250 / 720. Epoch 55
+process: 300 / 720. Epoch 55
+process: 350 / 720. Epoch 55
+process: 400 / 720. Epoch 55
+process: 450 / 720. Epoch 55
+process: 500 / 720. Epoch 55
+process: 550 / 720. Epoch 55
+process: 600 / 720. Epoch 55
+process: 650 / 720. Epoch 55
+process: 700 / 720. Epoch 55
+process: 720 / 720. Epoch 55
+Loss of epoch 55 = 233.83116225898266, which is 0.32476550313747593 per case
+Time use: 16270
+process: 50 / 720. Epoch 56
+process: 100 / 720. Epoch 56
+process: 150 / 720. Epoch 56
+process: 200 / 720. Epoch 56
+process: 250 / 720. Epoch 56
+process: 300 / 720. Epoch 56
+process: 350 / 720. Epoch 56
+process: 400 / 720. Epoch 56
+process: 450 / 720. Epoch 56
+process: 500 / 720. Epoch 56
+process: 550 / 720. Epoch 56
+process: 600 / 720. Epoch 56
+process: 650 / 720. Epoch 56
+process: 700 / 720. Epoch 56
+process: 720 / 720. Epoch 56
+Loss of epoch 56 = 245.445157289505, which is 0.34089605179097915 per case
+Time use: 16572
+process: 50 / 720. Epoch 57
+process: 100 / 720. Epoch 57
+process: 150 / 720. Epoch 57
+process: 200 / 720. Epoch 57
+process: 250 / 720. Epoch 57
+process: 300 / 720. Epoch 57
+process: 350 / 720. Epoch 57
+process: 400 / 720. Epoch 57
+process: 450 / 720. Epoch 57
+process: 500 / 720. Epoch 57
+process: 550 / 720. Epoch 57
+process: 600 / 720. Epoch 57
+process: 650 / 720. Epoch 57
+process: 700 / 720. Epoch 57
+process: 720 / 720. Epoch 57
+Loss of epoch 57 = 237.25489977002144, which is 0.32952069412502977 per case
+Time use: 16873
+process: 50 / 720. Epoch 58
+process: 100 / 720. Epoch 58
+process: 150 / 720. Epoch 58
+process: 200 / 720. Epoch 58
+process: 250 / 720. Epoch 58
+process: 300 / 720. Epoch 58
+process: 350 / 720. Epoch 58
+process: 400 / 720. Epoch 58
+process: 450 / 720. Epoch 58
+process: 500 / 720. Epoch 58
+process: 550 / 720. Epoch 58
+process: 600 / 720. Epoch 58
+process: 650 / 720. Epoch 58
+process: 700 / 720. Epoch 58
+process: 720 / 720. Epoch 58
+Loss of epoch 58 = 228.00764667987823, which is 0.31667728705538645 per case
+Time use: 17175
+process: 50 / 720. Epoch 59
+process: 100 / 720. Epoch 59
+process: 150 / 720. Epoch 59
+process: 200 / 720. Epoch 59
+process: 250 / 720. Epoch 59
+process: 300 / 720. Epoch 59
+process: 350 / 720. Epoch 59
+process: 400 / 720. Epoch 59
+process: 450 / 720. Epoch 59
+process: 500 / 720. Epoch 59
+process: 550 / 720. Epoch 59
+process: 600 / 720. Epoch 59
+process: 650 / 720. Epoch 59
+process: 700 / 720. Epoch 59
+process: 720 / 720. Epoch 59
+Loss of epoch 59 = 230.89028151333332, which is 0.32068094654629625 per case
+Time use: 17477
+process: 50 / 720. Epoch 60
+process: 100 / 720. Epoch 60
+process: 150 / 720. Epoch 60
+process: 200 / 720. Epoch 60
+process: 250 / 720. Epoch 60
+process: 300 / 720. Epoch 60
+process: 350 / 720. Epoch 60
+process: 400 / 720. Epoch 60
+process: 450 / 720. Epoch 60
+process: 500 / 720. Epoch 60
+process: 550 / 720. Epoch 60
+process: 600 / 720. Epoch 60
+process: 650 / 720. Epoch 60
+process: 700 / 720. Epoch 60
+process: 720 / 720. Epoch 60
+Loss of epoch 60 = 224.68946242332458, which is 0.31206869781017305 per case
+Time use: 17779
+process: 50 / 720. Epoch 61
+process: 100 / 720. Epoch 61
+process: 150 / 720. Epoch 61
+process: 200 / 720. Epoch 61
+process: 250 / 720. Epoch 61
+process: 300 / 720. Epoch 61
+process: 350 / 720. Epoch 61
+process: 400 / 720. Epoch 61
+process: 450 / 720. Epoch 61
+process: 500 / 720. Epoch 61
+process: 550 / 720. Epoch 61
+process: 600 / 720. Epoch 61
+process: 650 / 720. Epoch 61
+process: 700 / 720. Epoch 61
+process: 720 / 720. Epoch 61
+Loss of epoch 61 = 218.06193882226944, which is 0.30286380391981865 per case
+Time use: 18080
+process: 50 / 720. Epoch 62
+process: 100 / 720. Epoch 62
+process: 150 / 720. Epoch 62
+process: 200 / 720. Epoch 62
+process: 250 / 720. Epoch 62
+process: 300 / 720. Epoch 62
+process: 350 / 720. Epoch 62
+process: 400 / 720. Epoch 62
+process: 450 / 720. Epoch 62
+process: 500 / 720. Epoch 62
+process: 550 / 720. Epoch 62
+process: 600 / 720. Epoch 62
+process: 650 / 720. Epoch 62
+process: 700 / 720. Epoch 62
+process: 720 / 720. Epoch 62
+Loss of epoch 62 = 235.82539755105972, which is 0.32753527437647184 per case
+Time use: 18382
+process: 50 / 720. Epoch 63
+process: 100 / 720. Epoch 63
+process: 150 / 720. Epoch 63
+process: 200 / 720. Epoch 63
+process: 250 / 720. Epoch 63
+process: 300 / 720. Epoch 63
+process: 350 / 720. Epoch 63
+process: 400 / 720. Epoch 63
+process: 450 / 720. Epoch 63
+process: 500 / 720. Epoch 63
+process: 550 / 720. Epoch 63
+process: 600 / 720. Epoch 63
+process: 650 / 720. Epoch 63
+process: 700 / 720. Epoch 63
+process: 720 / 720. Epoch 63
+Loss of epoch 63 = 230.36272512376308, which is 0.3199482293385598 per case
+Time use: 18683
+process: 50 / 720. Epoch 64
+process: 100 / 720. Epoch 64
+process: 150 / 720. Epoch 64
+process: 200 / 720. Epoch 64
+process: 250 / 720. Epoch 64
+process: 300 / 720. Epoch 64
+process: 350 / 720. Epoch 64
+process: 400 / 720. Epoch 64
+process: 450 / 720. Epoch 64
+process: 500 / 720. Epoch 64
+process: 550 / 720. Epoch 64
+process: 600 / 720. Epoch 64
+process: 650 / 720. Epoch 64
+process: 700 / 720. Epoch 64
+process: 720 / 720. Epoch 64
+Loss of epoch 64 = 217.76683032512665, which is 0.30245393100712037 per case
+Time use: 18984
+process: 50 / 720. Epoch 65
+process: 100 / 720. Epoch 65
+process: 150 / 720. Epoch 65
+process: 200 / 720. Epoch 65
+process: 250 / 720. Epoch 65
+process: 300 / 720. Epoch 65
+process: 350 / 720. Epoch 65
+process: 400 / 720. Epoch 65
+process: 450 / 720. Epoch 65
+process: 500 / 720. Epoch 65
+process: 550 / 720. Epoch 65
+process: 600 / 720. Epoch 65
+process: 650 / 720. Epoch 65
+process: 700 / 720. Epoch 65
+process: 720 / 720. Epoch 65
+Loss of epoch 65 = 244.57764437794685, which is 0.3396911727471484 per case
+Time use: 19285
+process: 50 / 720. Epoch 66
+process: 100 / 720. Epoch 66
+process: 150 / 720. Epoch 66
+process: 200 / 720. Epoch 66
+process: 250 / 720. Epoch 66
+process: 300 / 720. Epoch 66
+process: 350 / 720. Epoch 66
+process: 400 / 720. Epoch 66
+process: 450 / 720. Epoch 66
+process: 500 / 720. Epoch 66
+process: 550 / 720. Epoch 66
+process: 600 / 720. Epoch 66
+process: 650 / 720. Epoch 66
+process: 700 / 720. Epoch 66
+process: 720 / 720. Epoch 66
+Loss of epoch 66 = 244.651885420084, which is 0.33979428530567224 per case
+Time use: 19586
+process: 50 / 720. Epoch 67
+process: 100 / 720. Epoch 67
+process: 150 / 720. Epoch 67
+process: 200 / 720. Epoch 67
+process: 250 / 720. Epoch 67
+process: 300 / 720. Epoch 67
+process: 350 / 720. Epoch 67
+process: 400 / 720. Epoch 67
+process: 450 / 720. Epoch 67
+process: 500 / 720. Epoch 67
+process: 550 / 720. Epoch 67
+process: 600 / 720. Epoch 67
+process: 650 / 720. Epoch 67
+process: 700 / 720. Epoch 67
+process: 720 / 720. Epoch 67
+Loss of epoch 67 = 250.04593616724014, which is 0.3472860224545002 per case
+Time use: 19887
+process: 50 / 720. Epoch 68
+process: 100 / 720. Epoch 68
+process: 150 / 720. Epoch 68
+process: 200 / 720. Epoch 68
+process: 250 / 720. Epoch 68
+process: 300 / 720. Epoch 68
+process: 350 / 720. Epoch 68
+process: 400 / 720. Epoch 68
+process: 450 / 720. Epoch 68
+process: 500 / 720. Epoch 68
+process: 550 / 720. Epoch 68
+process: 600 / 720. Epoch 68
+process: 650 / 720. Epoch 68
+process: 700 / 720. Epoch 68
+process: 720 / 720. Epoch 68
+Loss of epoch 68 = 261.2831545174122, which is 0.3628932701630725 per case
+Time use: 20189
+process: 50 / 720. Epoch 69
+process: 100 / 720. Epoch 69
+process: 150 / 720. Epoch 69
+process: 200 / 720. Epoch 69
+process: 250 / 720. Epoch 69
+process: 300 / 720. Epoch 69
+process: 350 / 720. Epoch 69
+process: 400 / 720. Epoch 69
+process: 450 / 720. Epoch 69
+process: 500 / 720. Epoch 69
+process: 550 / 720. Epoch 69
+process: 600 / 720. Epoch 69
+process: 650 / 720. Epoch 69
+process: 700 / 720. Epoch 69
+process: 720 / 720. Epoch 69
+Loss of epoch 69 = 230.69908702373505, which is 0.3204153986440765 per case
+Time use: 20491
+process: 50 / 720. Epoch 70
+process: 100 / 720. Epoch 70
+process: 150 / 720. Epoch 70
+process: 200 / 720. Epoch 70
+process: 250 / 720. Epoch 70
+process: 300 / 720. Epoch 70
+process: 350 / 720. Epoch 70
+process: 400 / 720. Epoch 70
+process: 450 / 720. Epoch 70
+process: 500 / 720. Epoch 70
+process: 550 / 720. Epoch 70
+process: 600 / 720. Epoch 70
+process: 650 / 720. Epoch 70
+process: 700 / 720. Epoch 70
+process: 720 / 720. Epoch 70
+Loss of epoch 70 = 243.37521731853485, which is 0.3380211351646317 per case
+Time use: 20793
+process: 50 / 720. Epoch 71
+process: 100 / 720. Epoch 71
+process: 150 / 720. Epoch 71
+process: 200 / 720. Epoch 71
+process: 250 / 720. Epoch 71
+process: 300 / 720. Epoch 71
+process: 350 / 720. Epoch 71
+process: 400 / 720. Epoch 71
+process: 450 / 720. Epoch 71
+process: 500 / 720. Epoch 71
+process: 550 / 720. Epoch 71
+process: 600 / 720. Epoch 71
+process: 650 / 720. Epoch 71
+process: 700 / 720. Epoch 71
+process: 720 / 720. Epoch 71
+Loss of epoch 71 = 237.0589693337679, which is 0.3292485685191221 per case
+Time use: 21094
+process: 50 / 720. Epoch 72
+process: 100 / 720. Epoch 72
+process: 150 / 720. Epoch 72
+process: 200 / 720. Epoch 72
+process: 250 / 720. Epoch 72
+process: 300 / 720. Epoch 72
+process: 350 / 720. Epoch 72
+process: 400 / 720. Epoch 72
+process: 450 / 720. Epoch 72
+process: 500 / 720. Epoch 72
+process: 550 / 720. Epoch 72
+process: 600 / 720. Epoch 72
+process: 650 / 720. Epoch 72
+process: 700 / 720. Epoch 72
+process: 720 / 720. Epoch 72
+Loss of epoch 72 = 229.86671015620232, which is 0.3192593196613921 per case
+Time use: 21396
+process: 50 / 720. Epoch 73
+process: 100 / 720. Epoch 73
+process: 150 / 720. Epoch 73
+process: 200 / 720. Epoch 73
+process: 250 / 720. Epoch 73
+process: 300 / 720. Epoch 73
+process: 350 / 720. Epoch 73
+process: 400 / 720. Epoch 73
+process: 450 / 720. Epoch 73
+process: 500 / 720. Epoch 73
+process: 550 / 720. Epoch 73
+process: 600 / 720. Epoch 73
+process: 650 / 720. Epoch 73
+process: 700 / 720. Epoch 73
+process: 720 / 720. Epoch 73
+Loss of epoch 73 = 264.52012327313423, which is 0.36738906010157535 per case
+Time use: 21698
+process: 50 / 720. Epoch 74
+process: 100 / 720. Epoch 74
+process: 150 / 720. Epoch 74
+process: 200 / 720. Epoch 74
+process: 250 / 720. Epoch 74
+process: 300 / 720. Epoch 74
+process: 350 / 720. Epoch 74
+process: 400 / 720. Epoch 74
+process: 450 / 720. Epoch 74
+process: 500 / 720. Epoch 74
+process: 550 / 720. Epoch 74
+process: 600 / 720. Epoch 74
+process: 650 / 720. Epoch 74
+process: 700 / 720. Epoch 74
+process: 720 / 720. Epoch 74
+Loss of epoch 74 = 224.38785411417484, which is 0.3116497973807984 per case
+Time use: 21999
+process: 50 / 720. Epoch 75
+process: 100 / 720. Epoch 75
+process: 150 / 720. Epoch 75
+process: 200 / 720. Epoch 75
+process: 250 / 720. Epoch 75
+process: 300 / 720. Epoch 75
+process: 350 / 720. Epoch 75
+process: 400 / 720. Epoch 75
+process: 450 / 720. Epoch 75
+process: 500 / 720. Epoch 75
+process: 550 / 720. Epoch 75
+process: 600 / 720. Epoch 75
+process: 650 / 720. Epoch 75
+process: 700 / 720. Epoch 75
+process: 720 / 720. Epoch 75
+Loss of epoch 75 = 211.43491607904434, which is 0.2936596056653394 per case
+Time use: 22301
+process: 50 / 720. Epoch 76
+process: 100 / 720. Epoch 76
+process: 150 / 720. Epoch 76
+process: 200 / 720. Epoch 76
+process: 250 / 720. Epoch 76
+process: 300 / 720. Epoch 76
+process: 350 / 720. Epoch 76
+process: 400 / 720. Epoch 76
+process: 450 / 720. Epoch 76
+process: 500 / 720. Epoch 76
+process: 550 / 720. Epoch 76
+process: 600 / 720. Epoch 76
+process: 650 / 720. Epoch 76
+process: 700 / 720. Epoch 76
+process: 720 / 720. Epoch 76
+Loss of epoch 76 = 243.86110100150108, which is 0.3386959736131959 per case
+Time use: 22603
+process: 50 / 720. Epoch 77
+process: 100 / 720. Epoch 77
+process: 150 / 720. Epoch 77
+process: 200 / 720. Epoch 77
+process: 250 / 720. Epoch 77
+process: 300 / 720. Epoch 77
+process: 350 / 720. Epoch 77
+process: 400 / 720. Epoch 77
+process: 450 / 720. Epoch 77
+process: 500 / 720. Epoch 77
+process: 550 / 720. Epoch 77
+process: 600 / 720. Epoch 77
+process: 650 / 720. Epoch 77
+process: 700 / 720. Epoch 77
+process: 720 / 720. Epoch 77
+Loss of epoch 77 = 237.22750735282898, which is 0.3294826491011514 per case
+Time use: 22904
+process: 50 / 720. Epoch 78
+process: 100 / 720. Epoch 78
+process: 150 / 720. Epoch 78
+process: 200 / 720. Epoch 78
+process: 250 / 720. Epoch 78
+process: 300 / 720. Epoch 78
+process: 350 / 720. Epoch 78
+process: 400 / 720. Epoch 78
+process: 450 / 720. Epoch 78
+process: 500 / 720. Epoch 78
+process: 550 / 720. Epoch 78
+process: 600 / 720. Epoch 78
+process: 650 / 720. Epoch 78
+process: 700 / 720. Epoch 78
+process: 720 / 720. Epoch 78
+Loss of epoch 78 = 244.0836752653122, which is 0.3390051045351558 per case
+Time use: 23206
+process: 50 / 720. Epoch 79
+process: 100 / 720. Epoch 79
+process: 150 / 720. Epoch 79
+process: 200 / 720. Epoch 79
+process: 250 / 720. Epoch 79
+process: 300 / 720. Epoch 79
+process: 350 / 720. Epoch 79
+process: 400 / 720. Epoch 79
+process: 450 / 720. Epoch 79
+process: 500 / 720. Epoch 79
+process: 550 / 720. Epoch 79
+process: 600 / 720. Epoch 79
+process: 650 / 720. Epoch 79
+process: 700 / 720. Epoch 79
+process: 720 / 720. Epoch 79
+Loss of epoch 79 = 216.94773226976395, which is 0.3013162948191166 per case
+Time use: 23507
+process: 50 / 720. Epoch 80
+process: 100 / 720. Epoch 80
+process: 150 / 720. Epoch 80
+process: 200 / 720. Epoch 80
+process: 250 / 720. Epoch 80
+process: 300 / 720. Epoch 80
+process: 350 / 720. Epoch 80
+process: 400 / 720. Epoch 80
+process: 450 / 720. Epoch 80
+process: 500 / 720. Epoch 80
+process: 550 / 720. Epoch 80
+process: 600 / 720. Epoch 80
+process: 650 / 720. Epoch 80
+process: 700 / 720. Epoch 80
+process: 720 / 720. Epoch 80
+Loss of epoch 80 = 216.91879504919052, which is 0.30127610423498685 per case
+Time use: 23809
+Done
+(array([0.16598824, 0.98814794]), array([0.81555556, 0.78959379]), array([0.27583615, 0.87778271]), array([ 450, 8764]))
+Sess closed.

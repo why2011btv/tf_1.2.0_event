@@ -1,0 +1,23 @@
+Text	As part of an operation involving the Garda National Drugs Unit , Gardai from the Kilkenny Division and Regional Support Units a search was carried out at double warehouse in Kildalton , Piltown , Co. Kilkenny , this evening . During the search two Cannabis grow houses were discovered . Cannabis plants at various stages of growth and Herbal Cannabis with a combined estimated street value of €3 million ( subject to analysis ) have been seized . Three males aged in their 30s were arrested at the scene and are currently detained under Section 2 of the Criminal Justice ( Drug Trafficking ) Act , 1996 , at Thomastown and Kilkenny Garda Stations .
+Event	1	operation	Occurrence	15	4
+Event	2	search	Occurrence	129	22
+Event	3	carried	I_Action	140	24
+Event	4	search	Occurrence	234	42
+Event	5	discovered	Occurrence	271	48
+Event	6	seized	Occurrence	432	76
+Event	7	arrested	Occurrence	475	85
+Event	8	detained	Occurrence	515	92
+Relation	2	4	Coref	false	search	search
+Relation	1	2	SuperSub	false	operation	search
+Relation	4	5	SuperSub	false	search	discovered
+Relation	4	6	SuperSub	false	search	seized
+Relation	1	7	SuperSub	false	operation	arrested
+Relation	1	4	SuperSub	true	operation	search
+Relation	2	5	SuperSub	true	search	discovered
+Relation	2	6	SuperSub	true	search	seized
+Relation	1	5	SuperSub	true	operation	discovered
+Relation	1	6	SuperSub	true	operation	seized
+Relation	1	5	SuperSub	true	operation	discovered
+Relation	1	6	SuperSub	true	operation	seized
+Relation	1	5	SuperSub	true	operation	discovered
+Relation	1	6	SuperSub	true	operation	seized

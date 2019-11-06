@@ -1,0 +1,41 @@
+Text	FBI agents and Mississippi state troopers prepare to search for kidnapping-slaying suspect Adam Mayes on Wednesday in Guntown , Miss . Adam Mayes , 35 , died Thursday evening after authorities acted on a tip and found him in the area near New Albany , Miss . When they went to arrest him , he shot himself in the head , said Guntown Police Chief Michael Hall . The girls , Alexandra Bain , 12 , and Kyliyah Bain , 8 , were being taken to a hospital for observation , Hall said . It was not immediately clear if they were with Mayes when he was killed . Mayes had been charged with first-degree murder in the April 27 deaths of Jo Ann Bain , 31 , and her daughter , Adrienne , 14 . Their bodies were found buried outside the Mayes ' home a week after they were reported missing by Jo Ann Bain 's husband . Mayes ' wife , Teresa , also is charged with first-degree murder in the deaths . She told investigators he killed Jo Ann and Adrienne Bain at their Whiteville , Tenn. , home so he could abduct the two young sisters , according to court documents . Teresa Mayes told investigators that after she saw her husband kill the two in the garage at the Bain home , she drove him , the younger girls and the bodies to Mississippi , according to affidavits filed in court . She faces six felony counts in the case : two first-degree murder charges and four especially aggravated kidnapping charges . Authorities refused to comment on the motive for the April 27 slayings and abductions . Mayes ' mother-in-law , Josie Tate , told the Associated Press that Mayes thought the missing sisters might actually be his daughters and it caused problems in his marriage to her daughter , Teresa , who is jailed in the case .
+Event	1	prepare	I_Action	42	6
+Event	2	died	Occurrence	149	26
+Event	3	acted	Occurrence	189	31
+Event	4	found	Occurrence	208	36
+Event	5	went	I_Action	263	49
+Event	6	shot	Occurrence	286	55
+Event	7	said	Reporting	312	61
+Event	8	taken	Occurrence	415	84
+Event	9	said	Reporting	457	92
+Event	10	killed	Occurrence	528	107
+Event	11	charged	Occurrence	551	112
+Event	12	deaths	Occurrence	600	120
+Event	13	found	Occurrence	677	139
+Event	14	reported	Reporting	737	151
+Event	15	charged	Occurrence	809	168
+Event	16	deaths	Occurrence	849	174
+Event	17	told	Reporting	861	177
+Event	18	killed	I_Action	883	180
+Event	19	abduct	Occurrence	960	196
+Event	20	told	Reporting	1033	209
+Event	21	saw	I_Action	1067	214
+Event	22	kill	Occurrence	1083	217
+Event	23	drove	Occurrence	1132	229
+Event	24	filed	Occurrence	1216	244
+Event	25	refused	I_Action	1368	269
+Event	26	slayings	Occurrence	1418	279
+Event	27	abductions	Occurrence	1431	281
+Event	28	told	Reporting	1477	290
+Event	29	caused	I_Action	1581	307
+Event	30	jailed	Occurrence	1645	320
+Relation	6	2	Coref	false	shot	died
+Relation	10	6	Coref	false	killed	shot
+Relation	16	12	Coref	false	deaths	deaths
+Relation	22	16	Coref	false	kill	deaths
+Relation	26	22	Coref	false	slayings	kill
+Relation	27	19	Coref	false	abductions	abduct
+Relation	19	23	SuperSub	false	abduct	drove
+Relation	15	30	SuperSub	false	charged	jailed
+Relation	15	24	SuperSub	false	charged	filed
+Relation	27	23	SuperSub	true	abductions	drove

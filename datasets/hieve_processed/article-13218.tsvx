@@ -1,0 +1,16 @@
+Text	Support group One in Four says that new allegations surrounding the role of Cardinal Sean Brady in the Brendan Smyth affair require an explanation from the Cardinal . A BBC documentary last night claimed that information was given to an investigating team of clerics - including Cardinal Brady - in 1975 about other children who were being abused at the time but was not passed on . In a statement released before the programme aired last night a spokesman for the Cardinal said the then-Father Brady was a notetaker for the inquiry . He added that it was not his responsibility to inform the civil authorities . Darragh McIntyre was the journalist behind the documentary last night . He told Breakfast here on Newstalk he made contact with the other children who were named in the internal inquiry as victims of Brendan Smyth .
+Event	1	says	Reporting	26	5
+Event	2	affair	Occurrence	117	20
+Event	3	claimed	Reporting	195	33
+Event	4	given	Occurrence	224	37
+Event	5	abused	HalfGeneric	339	57
+Event	6	released	Occurrence	396	70
+Event	7	aired	Occurrence	426	74
+Event	8	said	Reporting	472	82
+Event	9	inquiry	Occurrence	523	91
+Event	10	added	Reporting	535	94
+Event	11	told	Reporting	683	119
+Event	12	made	I_Action	718	125
+Event	13	contact	Occurrence	723	126
+Event	14	inquiry	Occurrence	786	137
+Relation	14	9	Coref	false	inquiry	inquiry

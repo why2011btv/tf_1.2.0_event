@@ -1,0 +1,44 @@
+Text	Spain 's Telefonica said first-quarter net profit halved after the value of its stake in Telecom Italia plunged following a capital increase and it cut prices in its recession-hit home country . Spain 's economy , which sunk into a recession in the first three months of 2012 , is not expected to grow again until the end of the year at the earliest . Net profit at the euro zone 's largest telecoms company , which operates as o2 in Ireland , fell 54 per cent to E748 million , below the bottom end of analyst forecasts that ranged from E764 million to E1.2 billion . The bottom line was hit after Telefonica wrote down the value of its 10 per cent indirect stake in Telecom Italia to E337 million . Telefonica invested E2.3 billion when it bought the stake in 2008 . Italy 's biggest telecom player posted a net loss for 2011 after a goodwill writedown on its domestic business due to an economic downturn . Last week Telecom Italia shareholders agreed to refinance its investment vehicle 's debt , meaning Telefonica must contribute E277 million to a capital increase and new bond issue . Telefonica 's revenue was virtually flat at E15.5 billion as fast growth in Latin America , which accounts for almost half of group revenue , compensated for tough competition in the company 's main European markets , where revenues slipped . Telefonica chairman Cesar Alierta said the results were in line with the company 's targets and reiterated 2012 earnings and debt forecasts .
+Event	1	said	Reporting	19	3
+Event	2	halved	StateChange	49	7
+Event	3	plunged	StateChange	103	17
+Event	4	increase	StateChange	131	21
+Event	5	cut	Occurrence	147	24
+Event	6	sunk	StateChange	216	37
+Event	7	recession	Occurrence	228	40
+Event	8	fell	StateChange	435	83
+Event	9	hit	Occurrence	578	111
+Event	10	wrote	Occurrence	599	114
+Event	11	invested	Occurrence	700	133
+Event	12	bought	Occurrence	730	138
+Event	13	posted	Reporting	787	149
+Event	14	loss	Occurrence	800	152
+Event	15	writedown	Occurrence	831	158
+Event	16	downturn	Occurrence	885	167
+Event	17	agreed	I_Action	933	174
+Event	18	growth	StateChange	1139	209
+Event	19	compensated	I_Action	1213	223
+Event	20	slipped	StateChange	1302	237
+Event	21	said	Reporting	1345	243
+Relation	8	2	Coref	false	fell	halved
+Relation	9	8	Coref	false	hit	fell
+Relation	20	9	Coref	false	slipped	hit
+Relation	12	11	Coref	false	bought	invested
+Relation	7	6	SuperSub	false	recession	sunk
+Relation	2	3	SuperSub	false	halved	plunged
+Relation	2	5	SuperSub	false	halved	cut
+Relation	7	2	SuperSub	false	recession	halved
+Relation	16	15	SuperSub	false	downturn	writedown
+Relation	16	14	SuperSub	false	downturn	loss
+Relation	10	9	SuperSub	false	wrote	hit
+Relation	8	3	SuperSub	true	fell	plunged
+Relation	8	5	SuperSub	true	fell	cut
+Relation	7	8	SuperSub	true	recession	fell
+Relation	10	20	SuperSub	true	wrote	slipped
+Relation	10	8	SuperSub	true	wrote	fell
+Relation	7	3	SuperSub	true	recession	plunged
+Relation	7	5	SuperSub	true	recession	cut
+Relation	7	3	SuperSub	true	recession	plunged
+Relation	7	5	SuperSub	true	recession	cut
+Relation	7	3	SuperSub	true	recession	plunged
+Relation	7	5	SuperSub	true	recession	cut

@@ -1,0 +1,78 @@
+Text	A strong 5.8-magnitude quake rocked Bulgaria shortly after 3:00 am ( 0000 GMT ) Tuesday , Bulgaria 's Seismological Institute said Tuesday . `` The magnitude measured so far was 5.8 on the Richter scale with the epicentre near Sofia , between the towns of Pernik and Radomir , '' a spokeswoman at the institute told AFP . `` We have been registering many aftershocks since then , '' she added . There were no immediate reports of casualties or damages but the jolt was felt very strongly on the top floors of buildings in Sofia . Residents of tall apartment buildings in Sofia said objects crashed to the ground during the tremor which lasted several minutes and was immediately followed by at least one aftershock . `` Everything was shaking like crazy . I ran out shouting ... I wo n't go back home today , '' teenager Maria told AFP outside her apartment building in a western Sofia neighbourhood . People , who were still sitting outside in their pyjamas over an hour after the first jolt , said they felt a new tremor around 4:30 am ( 0130 GMT ) . Civil defence chief Nikolay Nikolov said his service received many reports of toppled chimneys and cracked walls and even broken windows in the region of Pernik , some 30 kilometres ( 20 miles ) southwest of Sofia . There were no reports of interruptions of electricity or communications . The quake comes on the heels of Sunday 's 6.0-magnitude earthquake around the northern Italian city of Ferrara that killed six people and reduced homes and historic buildings to rubble . In August 2009 , a 5.0 magnitude earthquake hit the Black Sea between Bulgaria and Romania to the southeast of the Kaliakra Cape , the Bulgarian seismological institute said at the time . No serious damage was reported .
+Event	1	quake	Occurrence	23	3
+Event	2	rocked	Occurrence	29	4
+Event	3	said	Reporting	122	20
+Event	4	measured	Occurrence	151	26
+Event	5	told	Reporting	300	55
+Event	6	registering	I_Action	324	62
+Event	7	aftershocks	HalfGeneric	341	64
+Event	8	added	Reporting	370	70
+Event	9	jolt	Occurrence	442	83
+Event	10	felt	Perception	451	85
+Event	11	said	Reporting	558	104
+Event	12	crashed	Occurrence	571	106
+Event	13	tremor	Occurrence	604	112
+Event	14	followed	I_Action	660	120
+Event	15	aftershock	Occurrence	685	125
+Event	16	shaking	Occurrence	713	130
+Event	17	ran	I_Action	735	135
+Event	18	shouting	Occurrence	743	137
+Event	19	told	Reporting	799	150
+Event	20	jolt	Occurrence	958	178
+Event	21	said	Reporting	964	180
+Event	22	felt	I_Action	974	182
+Event	23	tremor	Occurrence	985	185
+Event	24	said	Reporting	1055	199
+Event	25	received	I_Action	1072	202
+Event	26	reports	HalfGeneric	1086	76
+Event	27	quake	Occurrence	1308	244
+Event	28	comes	Occurrence	1314	245
+Event	29	earthquake	Occurrence	1359	253
+Event	30	killed	Occurrence	1419	262
+Event	31	reduced	Occurrence	1441	266
+Event	32	earthquake	Occurrence	1521	281
+Event	33	hit	Occurrence	1532	282
+Event	34	said	Reporting	1656	302
+Relation	1	13	Coref	false	quake	tremor
+Relation	20	9	Coref	false	jolt	jolt
+Relation	15	23	Coref	false	aftershock	tremor
+Relation	27	1	Coref	false	quake	quake
+Relation	1	2	SuperSub	false	quake	rocked
+Relation	1	4	SuperSub	false	quake	measured
+Relation	1	9	SuperSub	false	quake	jolt
+Relation	9	10	SuperSub	false	jolt	felt
+Relation	1	12	SuperSub	false	quake	crashed
+Relation	7	15	SuperSub	false	aftershocks	aftershock
+Relation	13	16	SuperSub	false	tremor	shaking
+Relation	16	18	SuperSub	false	shaking	shouting
+Relation	7	23	SuperSub	false	aftershocks	tremor
+Relation	29	30	SuperSub	false	earthquake	killed
+Relation	29	31	SuperSub	false	earthquake	reduced
+Relation	27	2	SuperSub	true	quake	rocked
+Relation	13	2	SuperSub	true	tremor	rocked
+Relation	27	4	SuperSub	true	quake	measured
+Relation	13	4	SuperSub	true	tremor	measured
+Relation	27	9	SuperSub	true	quake	jolt
+Relation	13	9	SuperSub	true	tremor	jolt
+Relation	1	20	SuperSub	true	quake	jolt
+Relation	20	10	SuperSub	true	jolt	felt
+Relation	27	12	SuperSub	true	quake	crashed
+Relation	13	12	SuperSub	true	tremor	crashed
+Relation	7	23	SuperSub	true	aftershocks	tremor
+Relation	1	16	SuperSub	true	quake	shaking
+Relation	7	15	SuperSub	true	aftershocks	aftershock
+Relation	1	10	SuperSub	true	quake	felt
+Relation	13	18	SuperSub	true	tremor	shouting
+Relation	27	10	SuperSub	true	quake	felt
+Relation	13	10	SuperSub	true	tremor	felt
+Relation	1	18	SuperSub	true	quake	shouting
+Relation	1	10	SuperSub	true	quake	felt
+Relation	13	18	SuperSub	true	tremor	shouting
+Relation	27	10	SuperSub	true	quake	felt
+Relation	13	10	SuperSub	true	tremor	felt
+Relation	1	18	SuperSub	true	quake	shouting
+Relation	1	10	SuperSub	true	quake	felt
+Relation	13	18	SuperSub	true	tremor	shouting
+Relation	27	10	SuperSub	true	quake	felt
+Relation	13	10	SuperSub	true	tremor	felt
+Relation	1	18	SuperSub	true	quake	shouting

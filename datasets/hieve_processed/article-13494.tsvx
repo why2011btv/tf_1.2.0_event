@@ -1,0 +1,182 @@
+Text	Pre-election violence has erupted in the Egyptian capital , Cairo , killing at least 11 people , wounding more than 100 others , and prompting several presidential candidates to suspend their campaigns . Egyptian medical and security sources confirmed the death toll in Wednesday 's fighting , which began at dawn when assailants raided a protest camp occupied by hundreds of activists opposed to the military-backed government . Protesters ' demands The mostly Islamist protesters had been camping near the Egyptian defense ministry in Cairo 's Abbassiya district since Saturday , demanding an immediate end to military rule in Egypt . The protesters fought back against the assailants , described by some witnesses as pro-government `` thugs . '' The rival groups attacked each other with firebombs and stones . Gunfire also was heard at the scene . Mohamed Mursi of the Muslim Brotherhood announced a two-day suspension in solidarity with the victims . The Brotherhood also declared a boycott of a meeting with Egypt 's ruling military council planned for later on Wednesday . The other leading Islamist candidate , Abdel Moneim Abol Fotouh , cancelled his next campaign events in protest at how authorities handled the Cairo street battles . Egypt 's presidential election will be the first since a popular uprising ousted longtime autocratic leader Hosni Mubarak in February 2011 . The military council that took over from Mubarak has promised a democratic transition and a transfer of power to an elected president by July 1 . But , Egypt 's generals have faced strong domestic criticism for their handling of that process , which has been plagued by periodic eruptions of deadly violence , often surrounding anti-government protests in major cities . Many of the protesters camped outside the Egyptian defense ministry are Islamists who were angered by the ruling military 's decision to bar ultraconservative Islamist cleric Hazem Abu Ismail from standing in the presidential contest . Egypt 's election commission disqualified Abu Ismail because his mother had taken joint U.S. citizenship . Some liberal pro-democracy activists had joined the Islamists at the encampment in calling for Egypt 's ruling generals to step down immediately .
+Event	1	violence	Occurrence	13	1
+Event	2	erupted	Occurrence	26	3
+Event	3	killing	Occurrence	66	11
+Event	4	wounding	Occurrence	94	17
+Event	5	prompting	I_Action	129	24
+Event	6	suspend	I_Action	174	29
+Event	7	campaigns	Occurrence	188	31
+Event	8	confirmed	I_Action	237	38
+Event	9	fighting	Occurrence	277	45
+Event	10	began	Occurrence	293	48
+Event	11	raided	Occurrence	323	53
+Event	12	camping	Occurrence	482	77
+Event	13	demanding	I_Action	571	91
+Event	14	fought	Occurrence	640	103
+Event	15	described	Reporting	676	109
+Event	16	attacked	Occurrence	748	122
+Event	17	Gunfire	Occurrence	795	130
+Event	18	heard	Perception	812	133
+Event	19	announced	I_Action	874	144
+Event	20	declared	I_Action	958	157
+Event	21	cancelled	I_Action	1123	186
+Event	22	handled	I_Action	1188	196
+Event	23	battles	Occurrence	1213	200
+Event	24	uprising	Occurrence	1286	213
+Event	25	ousted	I_Action	1295	214
+Event	26	took	Occurrence	1387	228
+Event	27	promised	I_Action	1414	233
+Event	28	faced	I_Action	1533	256
+Event	29	criticism	Occurrence	1555	259
+Event	30	process	Occurrence	1592	265
+Event	31	plagued	I_Action	1616	270
+Event	32	eruptions	I_Action	1636	273
+Event	33	violence	HalfGeneric	1656	276
+Event	34	protests	HalfGeneric	1700	281
+Event	35	camped	Occurrence	1749	290
+Event	36	angered	StateChange	1817	300
+Event	37	decision	I_Action	1850	306
+Event	38	bar	Occurrence	1862	308
+Event	39	disqualified	Occurrence	1988	326
+Event	40	taken	Occurrence	2035	333
+Event	41	joined	Occurrence	2106	343
+Event	42	calling	I_Action	2148	350
+Relation	1	9	Coref	false	violence	fighting
+Relation	35	12	Coref	false	camped	camping
+Relation	23	9	Coref	false	battles	fighting
+Relation	14	9	Coref	false	fought	fighting
+Relation	39	38	Coref	false	disqualified	bar
+Relation	1	3	SuperSub	false	violence	killing
+Relation	1	4	SuperSub	false	violence	wounding
+Relation	9	10	SuperSub	false	fighting	began
+Relation	9	11	SuperSub	false	fighting	raided
+Relation	12	1	SuperSub	false	camping	violence
+Relation	9	17	SuperSub	false	fighting	Gunfire
+Relation	30	29	SuperSub	false	process	criticism
+Relation	30	33	SuperSub	false	process	violence
+Relation	30	34	SuperSub	false	process	protests
+Relation	35	41	SuperSub	false	camped	joined
+Relation	12	9	SuperSub	false	camping	fighting
+Relation	9	16	SuperSub	false	fighting	attacked
+Relation	16	17	SuperSub	false	attacked	Gunfire
+Relation	24	26	SuperSub	false	uprising	took
+Relation	34	12	SuperSub	false	protests	camping
+Relation	33	1	SuperSub	false	violence	violence
+Relation	9	3	SuperSub	true	fighting	killing
+Relation	9	4	SuperSub	true	fighting	wounding
+Relation	23	10	SuperSub	true	battles	began
+Relation	14	10	SuperSub	true	fought	began
+Relation	1	10	SuperSub	true	violence	began
+Relation	23	11	SuperSub	true	battles	raided
+Relation	14	11	SuperSub	true	fought	raided
+Relation	1	11	SuperSub	true	violence	raided
+Relation	35	1	SuperSub	true	camped	violence
+Relation	12	9	SuperSub	true	camping	fighting
+Relation	23	17	SuperSub	true	battles	Gunfire
+Relation	14	17	SuperSub	true	fought	Gunfire
+Relation	1	17	SuperSub	true	violence	Gunfire
+Relation	12	41	SuperSub	true	camping	joined
+Relation	35	9	SuperSub	true	camped	fighting
+Relation	12	23	SuperSub	true	camping	battles
+Relation	12	14	SuperSub	true	camping	fought
+Relation	12	1	SuperSub	true	camping	violence
+Relation	23	16	SuperSub	true	battles	attacked
+Relation	14	16	SuperSub	true	fought	attacked
+Relation	1	16	SuperSub	true	violence	attacked
+Relation	34	35	SuperSub	true	protests	camped
+Relation	33	9	SuperSub	true	violence	fighting
+Relation	12	3	SuperSub	true	camping	killing
+Relation	12	4	SuperSub	true	camping	wounding
+Relation	30	1	SuperSub	true	process	violence
+Relation	30	12	SuperSub	true	process	camping
+Relation	12	10	SuperSub	true	camping	began
+Relation	12	11	SuperSub	true	camping	raided
+Relation	12	17	SuperSub	true	camping	Gunfire
+Relation	12	16	SuperSub	true	camping	attacked
+Relation	34	1	SuperSub	true	protests	violence
+Relation	34	9	SuperSub	true	protests	fighting
+Relation	33	3	SuperSub	true	violence	killing
+Relation	33	4	SuperSub	true	violence	wounding
+Relation	35	3	SuperSub	true	camped	killing
+Relation	35	4	SuperSub	true	camped	wounding
+Relation	35	10	SuperSub	true	camped	began
+Relation	35	11	SuperSub	true	camped	raided
+Relation	35	17	SuperSub	true	camped	Gunfire
+Relation	35	16	SuperSub	true	camped	attacked
+Relation	34	41	SuperSub	true	protests	joined
+Relation	33	10	SuperSub	true	violence	began
+Relation	33	11	SuperSub	true	violence	raided
+Relation	33	17	SuperSub	true	violence	Gunfire
+Relation	33	16	SuperSub	true	violence	attacked
+Relation	12	3	SuperSub	true	camping	killing
+Relation	12	4	SuperSub	true	camping	wounding
+Relation	30	1	SuperSub	true	process	violence
+Relation	30	12	SuperSub	true	process	camping
+Relation	12	10	SuperSub	true	camping	began
+Relation	12	11	SuperSub	true	camping	raided
+Relation	12	17	SuperSub	true	camping	Gunfire
+Relation	12	16	SuperSub	true	camping	attacked
+Relation	34	1	SuperSub	true	protests	violence
+Relation	34	9	SuperSub	true	protests	fighting
+Relation	33	3	SuperSub	true	violence	killing
+Relation	33	4	SuperSub	true	violence	wounding
+Relation	35	3	SuperSub	true	camped	killing
+Relation	35	4	SuperSub	true	camped	wounding
+Relation	35	10	SuperSub	true	camped	began
+Relation	35	11	SuperSub	true	camped	raided
+Relation	35	17	SuperSub	true	camped	Gunfire
+Relation	35	16	SuperSub	true	camped	attacked
+Relation	34	41	SuperSub	true	protests	joined
+Relation	33	10	SuperSub	true	violence	began
+Relation	33	11	SuperSub	true	violence	raided
+Relation	33	17	SuperSub	true	violence	Gunfire
+Relation	33	16	SuperSub	true	violence	attacked
+Relation	30	3	SuperSub	true	process	killing
+Relation	30	4	SuperSub	true	process	wounding
+Relation	30	9	SuperSub	true	process	fighting
+Relation	34	3	SuperSub	true	protests	killing
+Relation	34	4	SuperSub	true	protests	wounding
+Relation	34	10	SuperSub	true	protests	began
+Relation	34	11	SuperSub	true	protests	raided
+Relation	34	17	SuperSub	true	protests	Gunfire
+Relation	34	16	SuperSub	true	protests	attacked
+Relation	30	10	SuperSub	true	process	began
+Relation	30	11	SuperSub	true	process	raided
+Relation	30	17	SuperSub	true	process	Gunfire
+Relation	30	16	SuperSub	true	process	attacked
+Relation	12	3	SuperSub	true	camping	killing
+Relation	12	4	SuperSub	true	camping	wounding
+Relation	30	1	SuperSub	true	process	violence
+Relation	30	12	SuperSub	true	process	camping
+Relation	12	10	SuperSub	true	camping	began
+Relation	12	11	SuperSub	true	camping	raided
+Relation	12	17	SuperSub	true	camping	Gunfire
+Relation	12	16	SuperSub	true	camping	attacked
+Relation	34	1	SuperSub	true	protests	violence
+Relation	34	9	SuperSub	true	protests	fighting
+Relation	33	3	SuperSub	true	violence	killing
+Relation	33	4	SuperSub	true	violence	wounding
+Relation	35	3	SuperSub	true	camped	killing
+Relation	35	4	SuperSub	true	camped	wounding
+Relation	35	10	SuperSub	true	camped	began
+Relation	35	11	SuperSub	true	camped	raided
+Relation	35	17	SuperSub	true	camped	Gunfire
+Relation	35	16	SuperSub	true	camped	attacked
+Relation	34	41	SuperSub	true	protests	joined
+Relation	33	10	SuperSub	true	violence	began
+Relation	33	11	SuperSub	true	violence	raided
+Relation	33	17	SuperSub	true	violence	Gunfire
+Relation	33	16	SuperSub	true	violence	attacked
+Relation	30	3	SuperSub	true	process	killing
+Relation	30	4	SuperSub	true	process	wounding
+Relation	30	9	SuperSub	true	process	fighting
+Relation	34	3	SuperSub	true	protests	killing
+Relation	34	4	SuperSub	true	protests	wounding
+Relation	34	10	SuperSub	true	protests	began
+Relation	34	11	SuperSub	true	protests	raided
+Relation	34	17	SuperSub	true	protests	Gunfire
+Relation	34	16	SuperSub	true	protests	attacked
+Relation	30	10	SuperSub	true	process	began
+Relation	30	11	SuperSub	true	process	raided
+Relation	30	17	SuperSub	true	process	Gunfire
+Relation	30	16	SuperSub	true	process	attacked

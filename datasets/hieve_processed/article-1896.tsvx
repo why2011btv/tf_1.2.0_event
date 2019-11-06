@@ -1,0 +1,135 @@
+Text	Electoral officials in Congo struggled to finish counting votes from last week ’ s presidential election on Tuesday , sending helicopters to remote polling stations to try to meet a midnight deadline as street tensions rose . A delay in issuing full preliminary results from the vote in the vast central African state could further complicate an election already marred by deadly violence , logistical problems and allegations of fraud . “ We want to keep to the date of December 6 , but we ’ ve had some logistical problems , these have hampered us , ” electoral body spokesman Mathieu Mpita said by telephone . “ If we don ’ t have the maximum initial tallies , we will release partial results. ” The electoral commission set the deadline for a full preliminary count for Dec. 6 , the fifth anniversary of President Joseph Kabila ’ s inauguration , and the day the opposition says marks the end of his constitutional term . U.N.-led diplomatic efforts are under way to allow a delay to the results if needed , according to sources . Partial preliminary results issued so far , representing nearly 70 % of the ballots cast , give Kabila a 10-point lead over his chief rival , Etienne Tshisekedi . The opposition has said it will reject the outcome . At least 18 people have been killed in election-related violence so far , according to US-based Human Rights Watch , and a senior member of Kabila ’ s camp said the government would have to call in the army if protests become “ too chaotic ” . Banks closing There was a heavy security presence on the streets of the capital on Tuesday , and some residents piled into boats to cross the Congo River into neighbouring Congo Republic , fearing renewed violence after the results . Banks across the city were shutting early and the city ’ s normally chaotic central market was quiet . “ I have my normal clients , but they aren ’ t here . I don ’ t know if they are scared , ” said Rose Nsele , sitting next to a pile of manioc leaves she had been unable to sell . The first locally organised and funded election since the official end of years of war in 2003 that killed 5,4 million people was meant to offer hope of greater stability . But fears are mounting that a rejection of the results will unleash bloodshed . Veteran opposition leader Tshisekedi enjoys broad support in Kinshasa , a city of 10 million people . Congo ’ s election commission defied all odds to hold the presidential and parliamentary vote last week . Often chaotic and at times violent , voting had to be stretched over three days due to delays in places . International observers say the various steps of the counting process after the initial tally at polling stations had been poorly organised , with ballots and results sheets often lost or destroyed in the process . Joseph Kabila succeeded his father , Laurent Kabila , who was shot dead by a bodyguard in 2001 . He won U.N.-sponsored elections in 2006 , promising he would bring an end to a decade of war and chaos . But his government has struggled against local and foreign rebel groups in the east and Congo remains among the most risky countries in which to do business .
+Event	1	struggled	I_Action	30	4
+Event	2	counting	Occurrence	50	7
+Event	3	election	Occurrence	95	15
+Event	4	sending	I_Action	116	19
+Event	5	try	I_Action	167	26
+Event	6	rose	StateChange	218	35
+Event	7	vote	Occurrence	277	46
+Event	8	election	Occurrence	344	57
+Event	9	marred	I_Action	361	59
+Event	10	violence	HalfGeneric	378	62
+Event	11	allegations	HalfGeneric	412	67
+Event	12	hampered	Occurrence	529	94
+Event	13	said	Reporting	582	103
+Event	14	set	Occurrence	707	128
+Event	15	inauguration	Occurrence	816	149
+Event	16	says	Reporting	857	156
+Event	17	efforts	HalfGeneric	925	167
+Event	18	issued	Occurrence	1040	188
+Event	19	cast	HalfGeneric	1094	199
+Event	20	said	Reporting	1189	217
+Event	21	killed	Occurrence	1251	230
+Event	22	violence	HalfGeneric	1278	233
+Event	23	said	Reporting	1374	253
+Event	24	protests	HalfGeneric	1428	264
+Event	25	piled	I_Action	1570	291
+Event	26	shutting	HalfGeneric	1717	316
+Event	27	said	Reporting	1873	355
+Event	28	organised	I_Action	1977	377
+Event	29	funded	I_Action	1991	379
+Event	30	election	Occurrence	1998	380
+Event	31	war	Occurrence	2042	388
+Event	32	killed	Occurrence	2059	392
+Event	33	mounting	StateChange	2145	408
+Event	34	defied	I_Action	2338	441
+Event	35	hold	I_Action	2357	445
+Event	36	vote	Occurrence	2397	450
+Event	37	voting	Occurrence	2449	461
+Event	38	stretched	I_Action	2466	465
+Event	39	delays	HalfGeneric	2499	471
+Event	40	say	Reporting	2541	477
+Event	41	process	Occurrence	2579	484
+Event	42	tally	Occurrence	2605	488
+Event	43	lost	HalfGeneric	2696	503
+Event	44	destroyed	HalfGeneric	2704	505
+Event	45	process	Occurrence	2721	508
+Event	46	succeeded	Occurrence	2744	512
+Event	47	shot	Occurrence	2790	521
+Event	48	won	I_Action	2827	530
+Event	49	elections	Occurrence	2846	532
+Event	50	promising	I_Action	2865	536
+Event	51	struggled	Occurrence	2950	554
+Relation	8	3	Coref	false	election	election
+Relation	19	7	Coref	false	cast	vote
+Relation	30	8	Coref	false	election	election
+Relation	36	19	Coref	false	vote	cast
+Relation	37	36	Coref	false	voting	vote
+Relation	41	2	Coref	false	process	counting
+Relation	45	41	Coref	false	process	process
+Relation	8	10	SuperSub	false	election	violence
+Relation	8	11	SuperSub	false	election	allegations
+Relation	2	12	SuperSub	false	counting	hampered
+Relation	3	7	SuperSub	false	election	vote
+Relation	3	2	SuperSub	false	election	counting
+Relation	8	18	SuperSub	false	election	issued
+Relation	8	17	SuperSub	false	election	efforts
+Relation	22	21	SuperSub	false	violence	killed
+Relation	24	22	SuperSub	false	protests	violence
+Relation	8	24	SuperSub	false	election	protests
+Relation	31	32	SuperSub	false	war	killed
+Relation	37	39	SuperSub	false	voting	delays
+Relation	2	26	SuperSub	false	counting	shutting
+Relation	30	33	SuperSub	false	election	mounting
+Relation	45	44	SuperSub	false	process	destroyed
+Relation	45	43	SuperSub	false	process	lost
+Relation	41	42	SuperSub	false	process	tally
+Relation	49	46	SuperSub	false	elections	succeeded
+Relation	49	15	SuperSub	false	elections	inauguration
+Relation	3	10	SuperSub	true	election	violence
+Relation	30	10	SuperSub	true	election	violence
+Relation	3	11	SuperSub	true	election	allegations
+Relation	30	11	SuperSub	true	election	allegations
+Relation	41	12	SuperSub	true	process	hampered
+Relation	8	7	SuperSub	true	election	vote
+Relation	3	19	SuperSub	true	election	cast
+Relation	8	2	SuperSub	true	election	counting
+Relation	3	41	SuperSub	true	election	process
+Relation	3	18	SuperSub	true	election	issued
+Relation	30	18	SuperSub	true	election	issued
+Relation	3	17	SuperSub	true	election	efforts
+Relation	30	17	SuperSub	true	election	efforts
+Relation	3	24	SuperSub	true	election	protests
+Relation	30	24	SuperSub	true	election	protests
+Relation	36	39	SuperSub	true	vote	delays
+Relation	41	26	SuperSub	true	process	shutting
+Relation	8	33	SuperSub	true	election	mounting
+Relation	41	44	SuperSub	true	process	destroyed
+Relation	41	43	SuperSub	true	process	lost
+Relation	45	42	SuperSub	true	process	tally
+Relation	2	42	SuperSub	true	counting	tally
+Relation	3	12	SuperSub	true	election	hampered
+Relation	3	26	SuperSub	true	election	shutting
+Relation	24	21	SuperSub	true	protests	killed
+Relation	8	22	SuperSub	true	election	violence
+Relation	8	12	SuperSub	true	election	hampered
+Relation	8	26	SuperSub	true	election	shutting
+Relation	3	42	SuperSub	true	election	tally
+Relation	3	22	SuperSub	true	election	violence
+Relation	3	21	SuperSub	true	election	killed
+Relation	30	22	SuperSub	true	election	violence
+Relation	30	21	SuperSub	true	election	killed
+Relation	3	12	SuperSub	true	election	hampered
+Relation	3	26	SuperSub	true	election	shutting
+Relation	24	21	SuperSub	true	protests	killed
+Relation	8	22	SuperSub	true	election	violence
+Relation	8	12	SuperSub	true	election	hampered
+Relation	8	26	SuperSub	true	election	shutting
+Relation	3	42	SuperSub	true	election	tally
+Relation	3	22	SuperSub	true	election	violence
+Relation	3	21	SuperSub	true	election	killed
+Relation	30	22	SuperSub	true	election	violence
+Relation	30	21	SuperSub	true	election	killed
+Relation	8	21	SuperSub	true	election	killed
+Relation	3	12	SuperSub	true	election	hampered
+Relation	3	26	SuperSub	true	election	shutting
+Relation	24	21	SuperSub	true	protests	killed
+Relation	8	22	SuperSub	true	election	violence
+Relation	8	12	SuperSub	true	election	hampered
+Relation	8	26	SuperSub	true	election	shutting
+Relation	3	42	SuperSub	true	election	tally
+Relation	3	22	SuperSub	true	election	violence
+Relation	3	21	SuperSub	true	election	killed
+Relation	30	22	SuperSub	true	election	violence
+Relation	30	21	SuperSub	true	election	killed
+Relation	8	21	SuperSub	true	election	killed

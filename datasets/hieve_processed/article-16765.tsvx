@@ -1,0 +1,57 @@
+Text	Mexican authorities have found 49 dismembered bodies on a highway near the northern industrial city of Monterrey . The gruesome find is the latest in a string of suspected drug related killings in the country . The body parts were found stuffed into bags in the early hours of Sunday . It follows a similar incident last Wednesday , when 18 victims were found decapitated and dismembered near Mexico ’ s second-largest city , Guadalajara . Both cities are in the state of Nuevo Leon , which has seen escalating violence between rival drug cartels . More than 47,000 people are thought to have been killed in drug-related attacks since President Felipe Calderon launched a crackdown on organized crime in 2006 .
+Event	1	found	Occurrence	25	3
+Event	2	find	Occurrence	127	20
+Event	3	killings	HalfGeneric	184	31
+Event	4	found	Occurrence	229	40
+Event	5	stuffed	Occurrence	235	41
+Event	6	incident	Occurrence	304	55
+Event	7	found	Occurrence	350	63
+Event	8	decapitated	Occurrence	356	64
+Event	9	dismembered	Occurrence	372	5
+Event	10	escalating	StateChange	491	89
+Event	11	attacks	HalfGeneric	611	108
+Event	12	launched	I_Action	651	113
+Event	13	crackdown	Occurrence	662	115
+Relation	1	2	Coref	false	found	find
+Relation	4	2	Coref	false	found	find
+Relation	6	8	SuperSub	false	incident	decapitated
+Relation	6	9	SuperSub	false	incident	dismembered
+Relation	6	7	SuperSub	false	incident	found
+Relation	10	3	SuperSub	false	escalating	killings
+Relation	10	6	SuperSub	false	escalating	incident
+Relation	11	10	SuperSub	false	attacks	escalating
+Relation	13	11	SuperSub	false	crackdown	attacks
+Relation	10	8	SuperSub	true	escalating	decapitated
+Relation	10	9	SuperSub	true	escalating	dismembered
+Relation	10	7	SuperSub	true	escalating	found
+Relation	11	3	SuperSub	true	attacks	killings
+Relation	11	6	SuperSub	true	attacks	incident
+Relation	13	10	SuperSub	true	crackdown	escalating
+Relation	10	8	SuperSub	true	escalating	decapitated
+Relation	10	9	SuperSub	true	escalating	dismembered
+Relation	10	7	SuperSub	true	escalating	found
+Relation	11	3	SuperSub	true	attacks	killings
+Relation	11	6	SuperSub	true	attacks	incident
+Relation	13	10	SuperSub	true	crackdown	escalating
+Relation	11	8	SuperSub	true	attacks	decapitated
+Relation	11	9	SuperSub	true	attacks	dismembered
+Relation	11	7	SuperSub	true	attacks	found
+Relation	13	3	SuperSub	true	crackdown	killings
+Relation	13	6	SuperSub	true	crackdown	incident
+Relation	13	8	SuperSub	true	crackdown	decapitated
+Relation	13	9	SuperSub	true	crackdown	dismembered
+Relation	13	7	SuperSub	true	crackdown	found
+Relation	10	8	SuperSub	true	escalating	decapitated
+Relation	10	9	SuperSub	true	escalating	dismembered
+Relation	10	7	SuperSub	true	escalating	found
+Relation	11	3	SuperSub	true	attacks	killings
+Relation	11	6	SuperSub	true	attacks	incident
+Relation	13	10	SuperSub	true	crackdown	escalating
+Relation	11	8	SuperSub	true	attacks	decapitated
+Relation	11	9	SuperSub	true	attacks	dismembered
+Relation	11	7	SuperSub	true	attacks	found
+Relation	13	3	SuperSub	true	crackdown	killings
+Relation	13	6	SuperSub	true	crackdown	incident
+Relation	13	8	SuperSub	true	crackdown	decapitated
+Relation	13	9	SuperSub	true	crackdown	dismembered
+Relation	13	7	SuperSub	true	crackdown	found

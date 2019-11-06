@@ -1,0 +1,41 @@
+Text	A rally car has crashed into a crowd in France , killing two people . The toll could worsen given some of the injuries sustained by other people in the crowd . During a race in southern France on Saturday , the orange-coloured car which had been competing in the 14th annual Maures regional rally , swerved off the road , killing a 20-year-old spectator and a fifty year old race marshal . At least fifteen other people , including children and youths , were badly injured . Two teenagers are listed in critical condition . It was the second day of the rally at Plan-de-la-Tour in the Var region near the Mediterranean coast . Local prosecutors have been sent to the scene to investigate . According to initial reports , a rally driver mistook an intersection where he was supposed to turn right . He is reported to have driven straight ahead , plunging into the spectators . The driver of the vehicle is also in hospital suffering shock .
+Event	1	crashed	Occurrence	16	4
+Event	2	killing	Occurrence	48	11
+Event	3	sustained	Occurrence	117	24
+Event	4	race	Occurrence	166	34
+Event	5	competing	Occurrence	242	47
+Event	6	rally	Occurrence	287	1
+Event	7	swerved	Occurrence	294	56
+Event	8	killing	Occurrence	316	61
+Event	9	injured	Occurrence	456	86
+Event	10	listed	Reporting	483	91
+Event	11	rally	Occurrence	542	54
+Event	12	sent	I_Action	643	119
+Event	13	reports	Reporting	698	129
+Event	14	mistook	Occurrence	722	134
+Event	15	reported	Reporting	789	147
+Event	16	driven	Occurrence	806	150
+Event	17	plunging	Occurrence	829	154
+Event	18	suffering	Occurrence	905	168
+Relation	6	4	Coref	false	rally	race
+Relation	9	3	Coref	false	injured	sustained
+Relation	8	2	Coref	false	killing	killing
+Relation	11	6	Coref	false	rally	rally
+Relation	17	1	Coref	false	plunging	crashed
+Relation	4	5	SuperSub	false	race	competing
+Relation	16	7	SuperSub	false	driven	swerved
+Relation	7	1	SuperSub	false	swerved	crashed
+Relation	1	2	SuperSub	false	crashed	killing
+Relation	16	14	SuperSub	false	driven	mistook
+Relation	6	5	SuperSub	true	rally	competing
+Relation	7	17	SuperSub	true	swerved	plunging
+Relation	17	2	SuperSub	true	plunging	killing
+Relation	1	8	SuperSub	true	crashed	killing
+Relation	16	1	SuperSub	true	driven	crashed
+Relation	7	2	SuperSub	true	swerved	killing
+Relation	16	1	SuperSub	true	driven	crashed
+Relation	7	2	SuperSub	true	swerved	killing
+Relation	16	2	SuperSub	true	driven	killing
+Relation	16	1	SuperSub	true	driven	crashed
+Relation	7	2	SuperSub	true	swerved	killing
+Relation	16	2	SuperSub	true	driven	killing

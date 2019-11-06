@@ -1,0 +1,92 @@
+Text	Rhys Owen Jones , 21 , and Keri Mules , 20 , appeared before magistrates in Brisbane today and pleaded guilty to trespassing , stealing and keeping a protected animal , Australia ’ s Department of Justice said . The two friends from south Wales were arrested after breaking into Sea World on Queensland ’ s Gold Coast during an alcohol-fuelled escapade on April 14 . They also swam with dolphins and let off a fire extinguisher in a shark enclosure , according to AAP news agency . Jones , reported to be a former British Royal Marine and Mules , reported to be a bricklayer , were in Australia on a working holiday visa when the incident took place . They snuck into the animal park along with Australian James Vasilj , 18 , after drinking 1.5 litres of vodka between them at a beach party , AAP said . The two Welshmen then snatched a fairy penguin called Dirk from an aquarium before waking up with the flightless bird in their apartment the following day . The friends ’ lawyer Bill Potts told Southport Magistrates ’ court they meant no harm to the animal and tried to care for it by feeding it and putting it in the shower when they woke up with hangovers . Jones and Mules took photo and video footage of the animal before releasing it into a canal , but were arrested after a friend saw updates they had posted about their antics on Facebook and reported them to police . The seven-year-old bird was later spotted by a member of the public , rescued unharmed and returned to Sea World before it was reunited with girlfriend Peaches . Mr Potts told magistrate Brian Kucks that the tourists ’ actions were immature and stupid , but there was no malice involved , according to reports . The court also heard how the Britons had written a letter of apology to Sea World and the Australian public and deeply regretted their actions . Mr Kucks accepted an appeal not to record convictions against the pair and fined them 1000 Australian dollars each . AAP quoted him saying : “ You could have found yourselves in a morgue if you ’ d gone into the wrong enclosure . Perhaps next time you are at a party you will consider drinking a little less vodka . '' Following the hearing Mr Potts told reporters : “ The boys understand they did something stupid . They are just pleased that in the end no penguin was harmed . '' Vasilj , who is facing a single charge of trespassing , had his case adjourned to June 27 .
+Event	1	appeared	Occurrence	44	12
+Event	2	pleaded	Occurrence	95	19
+Event	3	trespassing	Occurrence	113	22
+Event	4	stealing	Occurrence	126	24
+Event	5	keeping	Occurrence	139	26
+Event	6	said	Reporting	202	37
+Event	7	arrested	Occurrence	246	46
+Event	8	breaking	Occurrence	261	48
+Event	9	escapade	Occurrence	339	61
+Event	10	swam	Occurrence	371	68
+Event	11	let	Occurrence	394	72
+Event	12	reported	Reporting	482	90
+Event	13	reported	Reporting	538	101
+Event	14	incident	Occurrence	621	117
+Event	15	snuck	Occurrence	648	122
+Event	16	party	Occurrence	775	146
+Event	17	said	Reporting	786	149
+Event	18	snatched	Occurrence	814	155
+Event	19	waking	Occurrence	876	165
+Event	20	told	Reporting	981	184
+Event	21	tried	I_Action	1053	197
+Event	22	feeding	Occurrence	1077	203
+Event	23	putting	Occurrence	1092	206
+Event	24	woke	Occurrence	1128	213
+Event	25	took	Occurrence	1168	118
+Event	26	releasing	Occurrence	1218	230
+Event	27	arrested	Occurrence	1255	238
+Event	28	saw	Perception	1279	242
+Event	29	posted	Reporting	1300	246
+Event	30	antics	Occurrence	1320	249
+Event	31	reported	Occurrence	1343	253
+Event	32	spotted	Perception	1402	263
+Event	33	rescued	Occurrence	1437	271
+Event	34	returned	Occurrence	1459	274
+Event	35	reunited	Occurrence	1495	281
+Event	36	told	Reporting	1539	288
+Event	37	actions	Occurrence	1586	296
+Event	38	reports	HalfGeneric	1668	311
+Event	39	heard	Perception	1692	316
+Event	40	written	Occurrence	1718	321
+Event	41	accepted	Occurrence	1831	341
+Event	42	appeal	Occurrence	1843	343
+Event	43	fined	Occurrence	1897	352
+Event	44	quoted	Reporting	1943	360
+Event	45	saying	Reporting	1954	362
+Event	46	hearing	Occurrence	2149	403
+Event	47	told	Reporting	2166	406
+Event	48	adjourned	Occurrence	2361	446
+Relation	18	4	Coref	false	snatched	stealing
+Relation	19	24	Coref	false	waking	woke
+Relation	27	7	Coref	false	arrested	arrested
+Relation	37	30	Coref	false	actions	antics
+Relation	46	1	Coref	false	hearing	appeared
+Relation	1	2	SuperSub	false	appeared	pleaded
+Relation	9	8	SuperSub	false	escapade	breaking
+Relation	1	39	SuperSub	false	appeared	heard
+Relation	1	41	SuperSub	false	appeared	accepted
+Relation	1	42	SuperSub	false	appeared	appeal
+Relation	1	43	SuperSub	false	appeared	fined
+Relation	9	14	SuperSub	false	escapade	incident
+Relation	14	10	SuperSub	false	incident	swam
+Relation	14	11	SuperSub	false	incident	let
+Relation	14	4	SuperSub	false	incident	stealing
+Relation	14	3	SuperSub	false	incident	trespassing
+Relation	14	5	SuperSub	false	incident	keeping
+Relation	3	8	SuperSub	false	trespassing	breaking
+Relation	9	16	SuperSub	false	escapade	party
+Relation	46	2	SuperSub	true	hearing	pleaded
+Relation	46	39	SuperSub	true	hearing	heard
+Relation	46	41	SuperSub	true	hearing	accepted
+Relation	46	42	SuperSub	true	hearing	appeal
+Relation	46	43	SuperSub	true	hearing	fined
+Relation	14	18	SuperSub	true	incident	snatched
+Relation	9	10	SuperSub	true	escapade	swam
+Relation	9	11	SuperSub	true	escapade	let
+Relation	9	4	SuperSub	true	escapade	stealing
+Relation	9	3	SuperSub	true	escapade	trespassing
+Relation	9	5	SuperSub	true	escapade	keeping
+Relation	14	8	SuperSub	true	incident	breaking
+Relation	9	10	SuperSub	true	escapade	swam
+Relation	9	11	SuperSub	true	escapade	let
+Relation	9	4	SuperSub	true	escapade	stealing
+Relation	9	3	SuperSub	true	escapade	trespassing
+Relation	9	5	SuperSub	true	escapade	keeping
+Relation	14	8	SuperSub	true	incident	breaking
+Relation	9	10	SuperSub	true	escapade	swam
+Relation	9	11	SuperSub	true	escapade	let
+Relation	9	4	SuperSub	true	escapade	stealing
+Relation	9	3	SuperSub	true	escapade	trespassing
+Relation	9	5	SuperSub	true	escapade	keeping
+Relation	14	8	SuperSub	true	incident	breaking

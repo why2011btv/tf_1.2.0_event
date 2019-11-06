@@ -1,0 +1,213 @@
+Text	THE trial of Anders Behring Breivik was interrupted briefly by a family member of a victim who hurled a shoe at the confessed mass killer and yelled `` go to hell '' before being escorted from the court room . The shoe attack , which came as a coroner presented more autopsy reports on the mostly-young victims of the July massacre at Utoya island was followed by applause , `` bravos '' and tears among onlookers in the courtroom , and led to a temporary suspension of proceedings on the 17th day of the trial . The black shoe did not hit Breivik but landed on one of his lawyers , Vibeke Hein Baera , who sits between the accused and the onlookers . `` Luckily , it was just a shoe , '' Hein Baera said . The attacker , a man of Iraqi origin whose brother was one of the 69 people Breivik shot dead on Utoya on July 22 , was quickly brought under control by security guards and escorted out of the courtroom as he continued to shout in English : `` Go to Hell ! '' When the proceedings resumed a few minutes later , Breivik addressed the onlookers . `` If someone wants to throw something at me , do it at me while I 'm entering or leaving , and not at my lawyer , '' he said . The shoe attack was the first serious incident since the beginning of the 33-year-old right-wing extremist 's trial on April 16 . Breivik has been charged with committing terrorist acts on July 22 when he killed a total of 77 people by first bombing a government building in Oslo before going on a shooting rampage on Utoeya , where the ruling Labour Party 's youth wing was hosting a summer camp . He has confessed to the acts but has refused to plead guilty , insisting his massacres were `` cruel but necessary '' to stop the Labour Party 's `` multicultural experiment '' and the `` Muslim invasion '' of Norway and Europe . His mainly young victims were `` legitimate targets , '' he said . The proceedings have so far been marked by tears and embraces among the survivors and victims ' family members gathered in the courtroom , but until Friday none of the onlookers had directly addressed the confessed killer . While he will surely be found guilty , his 10-week trial will help determine the tricky question of his sanity and whether he will be sent to prison or to a mental institution . Two court-ordered evaluations have reached opposition conclusions , and it will be up to the five-judge panel to rule on the issue when they hand down their verdict in mid-July . Breivik himself is intent upon proving his sanity so his anti-Islam ideology will not be written off as the ravings of a lunatic .
+Event	1	trial	Occurrence	4	1
+Event	2	interrupted	Occurrence	40	7
+Event	3	hurled	Occurrence	95	17
+Event	4	yelled	Reporting	142	26
+Event	5	escorted	Occurrence	175	34
+Event	6	attack	Occurrence	214	42
+Event	7	came	I_Action	228	45
+Event	8	presented	Occurrence	246	49
+Event	9	massacre	Occurrence	317	60
+Event	10	followed	I_Action	346	65
+Event	11	applause	Occurrence	358	67
+Event	12	bravos	HalfGeneric	369	70
+Event	13	led	I_Action	425	81
+Event	14	suspension	I_Action	444	85
+Event	15	proceedings	Occurrence	458	87
+Event	16	trial	Occurrence	493	94
+Event	17	landed	Occurrence	539	104
+Event	18	said	Reporting	678	136
+Event	19	shot	Occurrence	767	155
+Event	20	brought	Occurrence	810	165
+Event	21	escorted	Occurrence	855	172
+Event	22	shout	Reporting	904	181
+Event	23	proceedings	Occurrence	945	193
+Event	24	resumed	Occurrence	957	194
+Event	25	addressed	Occurrence	994	201
+Event	26	said	Reporting	1132	234
+Event	27	attack	Occurrence	1147	238
+Event	28	incident	Occurrence	1176	243
+Event	29	beginning	Occurrence	1195	246
+Event	30	trial	Occurrence	1247	253
+Event	31	charged	I_Action	1283	261
+Event	32	killed	Occurrence	1341	271
+Event	33	bombing	Occurrence	1378	279
+Event	34	going	I_Action	1423	286
+Event	35	rampage	Occurrence	1443	290
+Event	36	hosting	I_Action	1509	303
+Event	37	camp	Occurrence	1526	306
+Event	38	confessed	I_Action	1539	22
+Event	39	acts	Occurrence	1556	265
+Event	40	refused	I_Action	1569	316
+Event	41	insisting	Reporting	1594	321
+Event	42	massacres	Occurrence	1608	323
+Event	43	said	Reporting	1802	362
+Event	44	proceedings	Occurrence	1812	365
+Event	45	trial	Occurrence	2079	412
+Event	46	evaluations	Occurrence	2223	438
+Event	47	reached	I_Action	2240	440
+Relation	1	16	Coref	false	trial	trial
+Relation	23	15	Coref	false	proceedings	proceedings
+Relation	27	6	Coref	false	attack	attack
+Relation	28	27	Coref	false	incident	attack
+Relation	30	1	Coref	false	trial	trial
+Relation	9	19	Coref	false	massacre	shot
+Relation	39	42	Coref	false	acts	massacres
+Relation	44	23	Coref	false	proceedings	proceedings
+Relation	45	30	Coref	false	trial	trial
+Relation	16	15	SuperSub	false	trial	proceedings
+Relation	15	2	SuperSub	false	proceedings	interrupted
+Relation	2	5	SuperSub	false	interrupted	escorted
+Relation	15	8	SuperSub	false	proceedings	presented
+Relation	2	11	SuperSub	false	interrupted	applause
+Relation	2	12	SuperSub	false	interrupted	bravos
+Relation	2	6	SuperSub	false	interrupted	attack
+Relation	6	3	SuperSub	false	attack	hurled
+Relation	6	17	SuperSub	false	attack	landed
+Relation	23	24	SuperSub	false	proceedings	resumed
+Relation	23	25	SuperSub	false	proceedings	addressed
+Relation	2	20	SuperSub	false	interrupted	brought
+Relation	2	21	SuperSub	false	interrupted	escorted
+Relation	30	29	SuperSub	false	trial	beginning
+Relation	33	32	SuperSub	false	bombing	killed
+Relation	35	9	SuperSub	false	rampage	massacre
+Relation	39	33	SuperSub	false	acts	bombing
+Relation	39	35	SuperSub	false	acts	rampage
+Relation	45	46	SuperSub	false	trial	evaluations
+Relation	1	15	SuperSub	true	trial	proceedings
+Relation	16	23	SuperSub	true	trial	proceedings
+Relation	23	2	SuperSub	true	proceedings	interrupted
+Relation	23	8	SuperSub	true	proceedings	presented
+Relation	2	27	SuperSub	true	interrupted	attack
+Relation	27	3	SuperSub	true	attack	hurled
+Relation	27	17	SuperSub	true	attack	landed
+Relation	15	24	SuperSub	true	proceedings	resumed
+Relation	44	24	SuperSub	true	proceedings	resumed
+Relation	15	25	SuperSub	true	proceedings	addressed
+Relation	44	25	SuperSub	true	proceedings	addressed
+Relation	1	29	SuperSub	true	trial	beginning
+Relation	45	29	SuperSub	true	trial	beginning
+Relation	35	19	SuperSub	true	rampage	shot
+Relation	42	33	SuperSub	true	massacres	bombing
+Relation	42	35	SuperSub	true	massacres	rampage
+Relation	30	46	SuperSub	true	trial	evaluations
+Relation	16	2	SuperSub	true	trial	interrupted
+Relation	16	8	SuperSub	true	trial	presented
+Relation	15	5	SuperSub	true	proceedings	escorted
+Relation	15	11	SuperSub	true	proceedings	applause
+Relation	15	12	SuperSub	true	proceedings	bravos
+Relation	15	6	SuperSub	true	proceedings	attack
+Relation	15	20	SuperSub	true	proceedings	brought
+Relation	15	21	SuperSub	true	proceedings	escorted
+Relation	2	3	SuperSub	true	interrupted	hurled
+Relation	2	17	SuperSub	true	interrupted	landed
+Relation	39	32	SuperSub	true	acts	killed
+Relation	39	9	SuperSub	true	acts	massacre
+Relation	1	2	SuperSub	true	trial	interrupted
+Relation	1	8	SuperSub	true	trial	presented
+Relation	1	5	SuperSub	true	trial	escorted
+Relation	1	11	SuperSub	true	trial	applause
+Relation	1	12	SuperSub	true	trial	bravos
+Relation	1	6	SuperSub	true	trial	attack
+Relation	1	20	SuperSub	true	trial	brought
+Relation	1	21	SuperSub	true	trial	escorted
+Relation	16	24	SuperSub	true	trial	resumed
+Relation	16	25	SuperSub	true	trial	addressed
+Relation	23	5	SuperSub	true	proceedings	escorted
+Relation	23	11	SuperSub	true	proceedings	applause
+Relation	23	12	SuperSub	true	proceedings	bravos
+Relation	23	6	SuperSub	true	proceedings	attack
+Relation	23	20	SuperSub	true	proceedings	brought
+Relation	23	21	SuperSub	true	proceedings	escorted
+Relation	23	3	SuperSub	true	proceedings	hurled
+Relation	23	17	SuperSub	true	proceedings	landed
+Relation	42	32	SuperSub	true	massacres	killed
+Relation	42	9	SuperSub	true	massacres	massacre
+Relation	16	2	SuperSub	true	trial	interrupted
+Relation	16	8	SuperSub	true	trial	presented
+Relation	15	5	SuperSub	true	proceedings	escorted
+Relation	15	11	SuperSub	true	proceedings	applause
+Relation	15	12	SuperSub	true	proceedings	bravos
+Relation	15	6	SuperSub	true	proceedings	attack
+Relation	15	20	SuperSub	true	proceedings	brought
+Relation	15	21	SuperSub	true	proceedings	escorted
+Relation	2	3	SuperSub	true	interrupted	hurled
+Relation	2	17	SuperSub	true	interrupted	landed
+Relation	39	32	SuperSub	true	acts	killed
+Relation	39	9	SuperSub	true	acts	massacre
+Relation	1	2	SuperSub	true	trial	interrupted
+Relation	1	8	SuperSub	true	trial	presented
+Relation	1	5	SuperSub	true	trial	escorted
+Relation	1	11	SuperSub	true	trial	applause
+Relation	1	12	SuperSub	true	trial	bravos
+Relation	1	6	SuperSub	true	trial	attack
+Relation	1	20	SuperSub	true	trial	brought
+Relation	1	21	SuperSub	true	trial	escorted
+Relation	16	24	SuperSub	true	trial	resumed
+Relation	16	25	SuperSub	true	trial	addressed
+Relation	23	5	SuperSub	true	proceedings	escorted
+Relation	23	11	SuperSub	true	proceedings	applause
+Relation	23	12	SuperSub	true	proceedings	bravos
+Relation	23	6	SuperSub	true	proceedings	attack
+Relation	23	20	SuperSub	true	proceedings	brought
+Relation	23	21	SuperSub	true	proceedings	escorted
+Relation	23	3	SuperSub	true	proceedings	hurled
+Relation	23	17	SuperSub	true	proceedings	landed
+Relation	42	32	SuperSub	true	massacres	killed
+Relation	42	9	SuperSub	true	massacres	massacre
+Relation	16	5	SuperSub	true	trial	escorted
+Relation	16	11	SuperSub	true	trial	applause
+Relation	16	12	SuperSub	true	trial	bravos
+Relation	16	6	SuperSub	true	trial	attack
+Relation	16	20	SuperSub	true	trial	brought
+Relation	16	21	SuperSub	true	trial	escorted
+Relation	16	3	SuperSub	true	trial	hurled
+Relation	16	17	SuperSub	true	trial	landed
+Relation	15	3	SuperSub	true	proceedings	hurled
+Relation	15	17	SuperSub	true	proceedings	landed
+Relation	1	3	SuperSub	true	trial	hurled
+Relation	1	17	SuperSub	true	trial	landed
+Relation	16	2	SuperSub	true	trial	interrupted
+Relation	16	8	SuperSub	true	trial	presented
+Relation	15	5	SuperSub	true	proceedings	escorted
+Relation	15	11	SuperSub	true	proceedings	applause
+Relation	15	12	SuperSub	true	proceedings	bravos
+Relation	15	6	SuperSub	true	proceedings	attack
+Relation	15	20	SuperSub	true	proceedings	brought
+Relation	15	21	SuperSub	true	proceedings	escorted
+Relation	2	3	SuperSub	true	interrupted	hurled
+Relation	2	17	SuperSub	true	interrupted	landed
+Relation	39	32	SuperSub	true	acts	killed
+Relation	39	9	SuperSub	true	acts	massacre
+Relation	1	2	SuperSub	true	trial	interrupted
+Relation	1	8	SuperSub	true	trial	presented
+Relation	1	5	SuperSub	true	trial	escorted
+Relation	1	11	SuperSub	true	trial	applause
+Relation	1	12	SuperSub	true	trial	bravos
+Relation	1	6	SuperSub	true	trial	attack
+Relation	1	20	SuperSub	true	trial	brought
+Relation	1	21	SuperSub	true	trial	escorted
+Relation	16	24	SuperSub	true	trial	resumed
+Relation	16	25	SuperSub	true	trial	addressed
+Relation	23	5	SuperSub	true	proceedings	escorted
+Relation	23	11	SuperSub	true	proceedings	applause
+Relation	23	12	SuperSub	true	proceedings	bravos
+Relation	23	6	SuperSub	true	proceedings	attack
+Relation	23	20	SuperSub	true	proceedings	brought
+Relation	23	21	SuperSub	true	proceedings	escorted
+Relation	23	3	SuperSub	true	proceedings	hurled
+Relation	23	17	SuperSub	true	proceedings	landed
+Relation	42	32	SuperSub	true	massacres	killed
+Relation	42	9	SuperSub	true	massacres	massacre
+Relation	16	5	SuperSub	true	trial	escorted
+Relation	16	11	SuperSub	true	trial	applause
+Relation	16	12	SuperSub	true	trial	bravos
+Relation	16	6	SuperSub	true	trial	attack
+Relation	16	20	SuperSub	true	trial	brought
+Relation	16	21	SuperSub	true	trial	escorted
+Relation	16	3	SuperSub	true	trial	hurled
+Relation	16	17	SuperSub	true	trial	landed
+Relation	15	3	SuperSub	true	proceedings	hurled
+Relation	15	17	SuperSub	true	proceedings	landed
+Relation	1	3	SuperSub	true	trial	hurled
+Relation	1	17	SuperSub	true	trial	landed

@@ -1,0 +1,67 @@
+Text	Russian Prime Minister Vladimir Putin has said most Russians do not want a repeat of political unrest that occurred in neighbouring Kyrgyzstan and Ukraine . Mr Putin also sought to address allegations of outside influence in the political process as the country is hit by a wave of protests after a disputed election on Sunday . His comments come after US secretary of state Hillary Clinton spoke about support of democratic opponents . Mr Putin said that by describing Russia 's election as rigged , Mrs Clinton `` gave a signal '' to opposition parties : `` They heard this signal and with the support of the US State Department began their active work , '' he said . Mr Putin alleged that hundreds of millions of dollars in foreign funds were funnelled and used to sway the vote . His ruling United Russia party lost a significant number of parliamentary seats in the election . Former Soviet leader Mikhail Gorbachev said the results must be annulled and a new poll held amid fraud claims . Days of protests have hit the capital Moscow and elsewhere as residents vent their anger at the ruling elite . More than 250 people were arrested during rallies in Moscow and St Petersburg on Tuesday night as they demanded Mr Putin step down . Thousands of troops have been deployed in the Russian capital as a result . Liberal opposition party leader Boris Nemtsov was among the hundreds of people who were arrested . He was later released without charge .
+Event	1	said	Reporting	42	6
+Event	2	unrest	Occurrence	95	16
+Event	3	occurred	I_Action	107	18
+Event	4	sought	I_Action	170	28
+Event	5	hit	Occurrence	264	43
+Event	6	wave	I_Action	273	46
+Event	7	protests	HalfGeneric	281	48
+Event	8	election	Occurrence	307	52
+Event	9	come	I_Action	340	58
+Event	10	spoke	Reporting	389	66
+Event	11	said	Reporting	443	75
+Event	12	describing	Reporting	456	78
+Event	13	election	Occurrence	476	81
+Event	14	gave	Occurrence	509	88
+Event	15	heard	Perception	553	98
+Event	16	began	I_Action	619	110
+Event	17	work	HalfGeneric	638	113
+Event	18	said	Reporting	648	117
+Event	19	alleged	Reporting	663	121
+Event	20	funnelled	Occurrence	730	132
+Event	21	used	I_Action	744	134
+Event	22	sway	I_Action	752	136
+Event	23	vote	Occurrence	761	138
+Event	24	lost	StateChange	798	145
+Event	25	election	Occurrence	854	154
+Event	26	said	Reporting	903	161
+Event	27	protests	Occurrence	984	178
+Event	28	hit	HalfGeneric	998	180
+Event	29	vent	Occurrence	1048	188
+Event	30	arrested	Occurrence	1112	201
+Event	31	rallies	HalfGeneric	1128	203
+Event	32	demanded	I_Action	1189	214
+Event	33	deployed	Occurrence	1248	225
+Event	34	arrested	Occurrence	1381	248
+Event	35	released	Occurrence	1404	253
+Relation	13	8	Coref	false	election	election
+Relation	25	13	Coref	false	election	election
+Relation	27	7	Coref	false	protests	protests
+Relation	28	5	Coref	false	hit	hit
+Relation	34	30	Coref	false	arrested	arrested
+Relation	14	15	SuperSub	false	gave	heard
+Relation	13	23	SuperSub	false	election	vote
+Relation	25	24	SuperSub	false	election	lost
+Relation	27	29	SuperSub	false	protests	vent
+Relation	7	5	SuperSub	false	protests	hit
+Relation	13	20	SuperSub	false	election	funnelled
+Relation	27	31	SuperSub	false	protests	rallies
+Relation	31	30	SuperSub	false	rallies	arrested
+Relation	27	33	SuperSub	false	protests	deployed
+Relation	25	23	SuperSub	true	election	vote
+Relation	8	23	SuperSub	true	election	vote
+Relation	13	24	SuperSub	true	election	lost
+Relation	7	29	SuperSub	true	protests	vent
+Relation	27	5	SuperSub	true	protests	hit
+Relation	7	28	SuperSub	true	protests	hit
+Relation	25	20	SuperSub	true	election	funnelled
+Relation	8	20	SuperSub	true	election	funnelled
+Relation	7	31	SuperSub	true	protests	rallies
+Relation	31	34	SuperSub	true	rallies	arrested
+Relation	7	33	SuperSub	true	protests	deployed
+Relation	27	30	SuperSub	true	protests	arrested
+Relation	7	30	SuperSub	true	protests	arrested
+Relation	27	30	SuperSub	true	protests	arrested
+Relation	7	30	SuperSub	true	protests	arrested
+Relation	27	30	SuperSub	true	protests	arrested
+Relation	7	30	SuperSub	true	protests	arrested

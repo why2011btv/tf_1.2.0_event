@@ -1,0 +1,23 @@
+Text	Adam Lambert and Adam Levine are two of the many celebrities who cheered for President Obama 's gay marriage support . Robin Roberts from ABC News reported last Wednesday that Obama affirmed the legalization of marriage between same sex couples . The statement became hot news over social networking sites in minutes . It was followed with celebrities reacting positively to it with former 'American Idol ' contestant , Adam Lambert , expressing his thoughts over Twitter . Lambert has a boyfriend but emphasized that he still has no plans of tying the knot . The Sue Sylvester of 'Glee , ' Jane Lynch , expressed her joy to the President with a shoutout tweet of `` Obama : Marriage ? Gay is okay ! '' It was in 2010 when the comedian married her girlfriend . Even the straight guys like Adam Levine of Maroon 5 thanked Obama for the exemplary leadership the President has shown . Neil Patrick Harris was never left out and wrote a simple 'Bravo ! ' for the fair US President .
+Event	1	cheered	Occurrence	65	12
+Event	2	support	Occurrence	108	19
+Event	3	reported	Reporting	145	26
+Event	4	affirmed	I_Action	180	31
+Event	5	statement	Occurrence	248	42
+Event	6	became	StateChange	258	43
+Event	7	followed	Occurrence	322	55
+Event	8	reacting	Occurrence	348	58
+Event	9	expressing	Reporting	428	72
+Event	10	emphasized	Reporting	494	83
+Event	11	expressed	Reporting	592	105
+Event	12	tweet	Reporting	643	114
+Event	13	married	Occurrence	717	133
+Event	14	thanked	Occurrence	793	147
+Event	15	shown	Perception	854	156
+Event	16	wrote	Occurrence	904	166
+Relation	2	5	Coref	false	support	statement
+Relation	8	1	SuperSub	false	reacting	cheered
+Relation	8	14	SuperSub	false	reacting	thanked
+Relation	5	15	SuperSub	false	statement	shown
+Relation	8	16	SuperSub	false	reacting	wrote
+Relation	2	15	SuperSub	true	support	shown

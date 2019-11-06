@@ -1,0 +1,93 @@
+Text	Ceremonies were scheduled from Pearl Harbor in Hawaii to Washington DC on the US East Coast to remember the 2,400 Americans who died on December 7 , 1941 when Japan launched a devastating surprise offensive on the US Pacific Fleet . President Barack Obama called for the Stars and Stripes to be flown at half mast on federal buildings across the country , to mark National Pearl Harbor Remembrance Sunday . At exactly 7:55am ( 1745 GMT ) on that fateful day , Japan awakened the American `` sleeping giant , '' bombing the US Pacific Fleet anchored in Hawaii . In two hours some 20 ships were sunk or damaged and 164 planes destroyed . Of the 2,400 who died , nearly half were killed in a matter of seconds aboard the giant USS Arizona battleship , when a bomb detonated the ship 's munitions depot , igniting a conflagration that burned for three days . Denouncing `` a date which will live in infamy , '' president Franklin Roosevelt declared war on Japan , leading the United States into the Second World War at a time when many of his countrymen had hoped to avoid the conflict . Three days later , Germany declared war on the United States . The US entry was to change the course of the conflict . In Pearl Harbor on Wednesday , just west of Honolulu , a handful of USS Arizona survivors will join other military veterans to salute those who died in the attacks , an annual ceremony made more poignant by the 70th anniversary . In Washington , where a ceremony is scheduled at the US capital 's World War II Memorial , Hawaiian-born Mr Obama paid tribute on Tuesday to `` the more than 3,500 Americans killed or wounded during that deadly attack and ... to the heroes whose courage ensured our nation would recover from this vicious blow .
+Event	1	scheduled	I_Action	16	2
+Event	2	remember	Occurrence	98	17
+Event	3	died	Occurrence	131	22
+Event	4	launched	I_Action	170	30
+Event	5	offensive	Occurrence	202	34
+Event	6	called	I_Action	260	44
+Event	7	awakened	Occurrence	471	84
+Event	8	bombing	Occurrence	514	92
+Event	9	sunk	Occurrence	598	108
+Event	10	damaged	Occurrence	606	110
+Event	11	destroyed	Occurrence	629	114
+Event	12	died	Occurrence	657	120
+Event	13	killed	Occurrence	680	125
+Event	14	detonated	Occurrence	766	141
+Event	15	igniting	I_Action	807	148
+Event	16	conflagration	Occurrence	818	150
+Event	17	burned	Occurrence	837	152
+Event	18	Denouncing	Occurrence	859	157
+Event	19	declared	Occurrence	939	171
+Event	20	leading	Occurrence	962	176
+Event	21	War	Occurrence	1013	184
+Event	22	conflict	Occurrence	1081	198
+Event	23	declared	Occurrence	1117	205
+Event	24	entry	Occurrence	1159	214
+Event	25	change	StateChange	1175	217
+Event	26	conflict	Occurrence	1200	222
+Event	27	died	Occurrence	1355	250
+Event	28	attacks	Occurrence	1370	253
+Event	29	scheduled	Occurrence	1477	273
+Event	30	paid	I_Action	1556	287
+Event	31	tribute	Occurrence	1561	288
+Event	32	killed	Occurrence	1617	298
+Event	33	wounded	Occurrence	1627	300
+Event	34	attack	Occurrence	1654	304
+Event	35	ensured	I_Action	1700	312
+Event	36	recover	Occurrence	1725	316
+Event	37	blow	Occurrence	1754	320
+Relation	3	12	Coref	false	died	died
+Relation	22	21	Coref	false	conflict	War
+Relation	20	24	Coref	false	leading	entry
+Relation	22	26	Coref	false	conflict	conflict
+Relation	27	12	Coref	false	died	died
+Relation	28	5	Coref	false	attacks	offensive
+Relation	5	8	Coref	false	offensive	bombing
+Relation	34	28	Coref	false	attack	attacks
+Relation	37	34	Coref	false	blow	attack
+Relation	5	7	SuperSub	false	offensive	awakened
+Relation	8	3	SuperSub	false	bombing	died
+Relation	8	9	SuperSub	false	bombing	sunk
+Relation	8	10	SuperSub	false	bombing	damaged
+Relation	8	11	SuperSub	false	bombing	destroyed
+Relation	8	14	SuperSub	false	bombing	detonated
+Relation	14	13	SuperSub	false	detonated	killed
+Relation	14	16	SuperSub	false	detonated	conflagration
+Relation	19	18	SuperSub	false	declared	Denouncing
+Relation	22	23	SuperSub	false	conflict	declared
+Relation	22	24	SuperSub	false	conflict	entry
+Relation	22	25	SuperSub	false	conflict	change
+Relation	2	31	SuperSub	false	remember	tribute
+Relation	34	32	SuperSub	false	attack	killed
+Relation	34	33	SuperSub	false	attack	wounded
+Relation	28	7	SuperSub	true	attacks	awakened
+Relation	8	7	SuperSub	true	bombing	awakened
+Relation	5	3	SuperSub	true	offensive	died
+Relation	8	12	SuperSub	true	bombing	died
+Relation	5	9	SuperSub	true	offensive	sunk
+Relation	5	10	SuperSub	true	offensive	damaged
+Relation	5	11	SuperSub	true	offensive	destroyed
+Relation	5	14	SuperSub	true	offensive	detonated
+Relation	21	23	SuperSub	true	War	declared
+Relation	26	23	SuperSub	true	conflict	declared
+Relation	21	24	SuperSub	true	War	entry
+Relation	26	24	SuperSub	true	conflict	entry
+Relation	22	20	SuperSub	true	conflict	leading
+Relation	21	25	SuperSub	true	War	change
+Relation	26	25	SuperSub	true	conflict	change
+Relation	28	32	SuperSub	true	attacks	killed
+Relation	37	32	SuperSub	true	blow	killed
+Relation	28	33	SuperSub	true	attacks	wounded
+Relation	37	33	SuperSub	true	blow	wounded
+Relation	8	13	SuperSub	true	bombing	killed
+Relation	8	16	SuperSub	true	bombing	conflagration
+Relation	5	13	SuperSub	true	offensive	killed
+Relation	5	16	SuperSub	true	offensive	conflagration
+Relation	8	13	SuperSub	true	bombing	killed
+Relation	8	16	SuperSub	true	bombing	conflagration
+Relation	5	13	SuperSub	true	offensive	killed
+Relation	5	16	SuperSub	true	offensive	conflagration
+Relation	8	13	SuperSub	true	bombing	killed
+Relation	8	16	SuperSub	true	bombing	conflagration
+Relation	5	13	SuperSub	true	offensive	killed
+Relation	5	16	SuperSub	true	offensive	conflagration

@@ -1,0 +1,124 @@
+Text	Lance Corporal Lee Thomas Davies , 27 , from the 1st Battalion Welsh Guards , was killed alongside Corporal Brent John McCarthy , 25 , of the Royal Air Force at a patrol base in the Lashkar Gah district of Helmand province . The servicemen were providing security for a meeting with local officials when two people wearing Afghan police uniforms opened fire . One of the policemen was shot dead in an ensuing gunfight and the other fled and has yet to be caught . The killings in Helmand came less than two months after two other British servicemen were shot dead by an Afghan soldier in Lashkar Gah after an apparent quarrel . A total of 414 British troops have died in the Afghan campaign . Around 20 coalition troops have been shot dead in 2012 so far by their allies and many more wounded . The toll of the `` green on blue '' attacks has risen steeply in the past year , leading commanders to enforce new safeguards against infiltration and assassination , including `` guardian angel '' sentries to watch over soldiers as they eat or sleep . The reasons for the killings remain unclear . While some appear to be assassinations by Taliban sympathisers , many appear instead to be due to disputes and arguments . Coalition commanders seeking to play down the significance of the killings have said there are many more incidents where Afghan police or soldiers shoot each other due to feuds or grievances . They also claim the increase in the number of shootings only mirrors the rapidly growing size of the Afghan police and army .
+Event	1	killed	Occurrence	82	16
+Event	2	providing	Occurrence	245	46
+Event	3	meeting	Occurrence	270	50
+Event	4	opened	I_Action	349	61
+Event	5	fire	Occurrence	356	62
+Event	6	shot	Occurrence	387	69
+Event	7	gunfight	Occurrence	411	74
+Event	8	fled	Occurrence	434	78
+Event	9	killings	Occurrence	472	87
+Event	10	came	I_Action	492	90
+Event	11	shot	Occurrence	561	101
+Event	12	quarrel	Occurrence	628	113
+Event	13	died	HalfGeneric	672	122
+Event	14	campaign	Occurrence	694	126
+Event	15	shot	HalfGeneric	741	134
+Event	16	wounded	HalfGeneric	799	146
+Event	17	attacks	HalfGeneric	840	157
+Event	18	risen	StateChange	852	159
+Event	19	leading	I_Action	887	166
+Event	20	enforce	Occurrence	909	169
+Event	21	killings	Occurrence	1079	197
+Event	22	assassinations	Occurrence	1131	206
+Event	23	killings	Occurrence	1297	232
+Event	24	said	Reporting	1314	234
+Event	25	incidents	HalfGeneric	1339	239
+Event	26	shoot	HalfGeneric	1384	245
+Event	27	feuds	HalfGeneric	1408	250
+Event	28	claim	Reporting	1439	256
+Event	29	increase	StateChange	1449	258
+Event	30	shootings	HalfGeneric	1475	263
+Event	31	growing	StateChange	1513	268
+Relation	9	1	Coref	false	killings	killed
+Relation	21	23	Coref	false	killings	killings
+Relation	3	2	SuperSub	false	meeting	providing
+Relation	2	7	SuperSub	false	providing	gunfight
+Relation	7	5	SuperSub	false	gunfight	fire
+Relation	7	6	SuperSub	false	gunfight	shot
+Relation	7	1	SuperSub	false	gunfight	killed
+Relation	7	8	SuperSub	false	gunfight	fled
+Relation	12	11	SuperSub	false	quarrel	shot
+Relation	13	9	SuperSub	false	died	killings
+Relation	13	12	SuperSub	false	died	quarrel
+Relation	14	13	SuperSub	false	campaign	died
+Relation	14	3	SuperSub	false	campaign	meeting
+Relation	14	15	SuperSub	false	campaign	shot
+Relation	14	16	SuperSub	false	campaign	wounded
+Relation	14	17	SuperSub	false	campaign	attacks
+Relation	17	18	SuperSub	false	attacks	risen
+Relation	14	20	SuperSub	false	campaign	enforce
+Relation	14	21	SuperSub	false	campaign	killings
+Relation	21	22	SuperSub	false	killings	assassinations
+Relation	14	25	SuperSub	false	campaign	incidents
+Relation	25	26	SuperSub	false	incidents	shoot
+Relation	25	27	SuperSub	false	incidents	feuds
+Relation	14	30	SuperSub	false	campaign	shootings
+Relation	30	29	SuperSub	false	shootings	increase
+Relation	14	31	SuperSub	false	campaign	growing
+Relation	7	9	SuperSub	true	gunfight	killings
+Relation	13	1	SuperSub	true	died	killed
+Relation	14	23	SuperSub	true	campaign	killings
+Relation	23	22	SuperSub	true	killings	assassinations
+Relation	3	7	SuperSub	true	meeting	gunfight
+Relation	2	5	SuperSub	true	providing	fire
+Relation	2	6	SuperSub	true	providing	shot
+Relation	2	1	SuperSub	true	providing	killed
+Relation	2	8	SuperSub	true	providing	fled
+Relation	13	11	SuperSub	true	died	shot
+Relation	14	9	SuperSub	true	campaign	killings
+Relation	14	12	SuperSub	true	campaign	quarrel
+Relation	14	2	SuperSub	true	campaign	providing
+Relation	14	18	SuperSub	true	campaign	risen
+Relation	14	22	SuperSub	true	campaign	assassinations
+Relation	14	26	SuperSub	true	campaign	shoot
+Relation	14	27	SuperSub	true	campaign	feuds
+Relation	14	29	SuperSub	true	campaign	increase
+Relation	3	7	SuperSub	true	meeting	gunfight
+Relation	2	5	SuperSub	true	providing	fire
+Relation	2	6	SuperSub	true	providing	shot
+Relation	2	1	SuperSub	true	providing	killed
+Relation	2	8	SuperSub	true	providing	fled
+Relation	13	11	SuperSub	true	died	shot
+Relation	14	9	SuperSub	true	campaign	killings
+Relation	14	12	SuperSub	true	campaign	quarrel
+Relation	14	2	SuperSub	true	campaign	providing
+Relation	14	18	SuperSub	true	campaign	risen
+Relation	14	22	SuperSub	true	campaign	assassinations
+Relation	14	26	SuperSub	true	campaign	shoot
+Relation	14	27	SuperSub	true	campaign	feuds
+Relation	14	29	SuperSub	true	campaign	increase
+Relation	3	5	SuperSub	true	meeting	fire
+Relation	3	6	SuperSub	true	meeting	shot
+Relation	3	1	SuperSub	true	meeting	killed
+Relation	3	8	SuperSub	true	meeting	fled
+Relation	14	11	SuperSub	true	campaign	shot
+Relation	14	7	SuperSub	true	campaign	gunfight
+Relation	14	5	SuperSub	true	campaign	fire
+Relation	14	6	SuperSub	true	campaign	shot
+Relation	14	1	SuperSub	true	campaign	killed
+Relation	14	8	SuperSub	true	campaign	fled
+Relation	3	7	SuperSub	true	meeting	gunfight
+Relation	2	5	SuperSub	true	providing	fire
+Relation	2	6	SuperSub	true	providing	shot
+Relation	2	1	SuperSub	true	providing	killed
+Relation	2	8	SuperSub	true	providing	fled
+Relation	13	11	SuperSub	true	died	shot
+Relation	14	9	SuperSub	true	campaign	killings
+Relation	14	12	SuperSub	true	campaign	quarrel
+Relation	14	2	SuperSub	true	campaign	providing
+Relation	14	18	SuperSub	true	campaign	risen
+Relation	14	22	SuperSub	true	campaign	assassinations
+Relation	14	26	SuperSub	true	campaign	shoot
+Relation	14	27	SuperSub	true	campaign	feuds
+Relation	14	29	SuperSub	true	campaign	increase
+Relation	3	5	SuperSub	true	meeting	fire
+Relation	3	6	SuperSub	true	meeting	shot
+Relation	3	1	SuperSub	true	meeting	killed
+Relation	3	8	SuperSub	true	meeting	fled
+Relation	14	11	SuperSub	true	campaign	shot
+Relation	14	7	SuperSub	true	campaign	gunfight
+Relation	14	5	SuperSub	true	campaign	fire
+Relation	14	6	SuperSub	true	campaign	shot
+Relation	14	1	SuperSub	true	campaign	killed
+Relation	14	8	SuperSub	true	campaign	fled

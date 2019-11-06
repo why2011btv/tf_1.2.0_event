@@ -1,0 +1,43 @@
+Text	The Olympic torch has begun its journey to London after surviving a scare when the sacred flame was extinguished shortly before it was used to light the 'cheese grater ' , The Telegraph reports . A gust of wind put the flame out as it was being carried out in a bowl from the temple of Hera , where it had been lit from the rays of the sun , into the ancient stadium in Olympia . The Priestess carrying the flame had to leave the arena and re-light the bowl from a lamp that had been lit earlier as insurance against the flame going out . The London torch was then successfully lit and the first leg of the relay was run through the ancient Olympic stadium by Liverpool-born Greek swimming world champion Spyros Gianniotis . He handed the torch to Alex Loukos from Newham , 19 , who was a member of the victorious London bid team in Singapore in 2005 . The torch will travel around Greece for a week before arriving in Cornwall on Friday May 18 . Armenia 's Greco-Roman wrestling team headed by Olympic champion Levon Julfalakyan came back home with one gold and two bronze winners .
+Event	1	begun	I_Action	22	4
+Event	2	journey	Occurrence	32	6
+Event	3	surviving	I_Action	56	10
+Event	4	scare	Occurrence	68	12
+Event	5	extinguished	Occurrence	100	18
+Event	6	used	I_Action	135	23
+Event	7	light	Occurrence	143	25
+Event	8	reports	Reporting	184	33
+Event	9	put	Occurrence	208	39
+Event	10	carried	Occurrence	242	47
+Event	11	lit	Occurrence	307	62
+Event	12	carrying	Occurrence	388	79
+Event	13	leave	Occurrence	414	84
+Event	15	lit	Occurrence	478	97
+Event	16	lit	Occurrence	571	113
+Event	17	run	Occurrence	610	122
+Event	18	handed	Occurrence	720	138
+Event	19	came	Occurrence	1017	193
+Relation	9	5	Coref	false	put	extinguished
+Relation	12	10	Coref	false	carrying	carried
+Relation	7	16	Coref	false	light	lit
+Relation	14	16	Coref	false	light	lit
+Relation	4	5	SuperSub	false	scare	extinguished
+Relation	10	4	SuperSub	false	carried	scare
+Relation	12	13	SuperSub	false	carrying	leave
+Relation	12	14	SuperSub	false	carrying	light
+Relation	2	17	SuperSub	false	journey	run
+Relation	2	18	SuperSub	false	journey	handed
+Relation	2	16	SuperSub	false	journey	lit
+Relation	4	9	SuperSub	true	scare	put
+Relation	12	4	SuperSub	true	carrying	scare
+Relation	10	13	SuperSub	true	carried	leave
+Relation	10	14	SuperSub	true	carried	light
+Relation	12	16	SuperSub	true	carrying	lit
+Relation	2	14	SuperSub	true	journey	light
+Relation	2	7	SuperSub	true	journey	light
+Relation	10	5	SuperSub	true	carried	extinguished
+Relation	12	5	SuperSub	true	carrying	extinguished
+Relation	10	5	SuperSub	true	carried	extinguished
+Relation	12	5	SuperSub	true	carrying	extinguished
+Relation	10	5	SuperSub	true	carried	extinguished
+Relation	12	5	SuperSub	true	carrying	extinguished

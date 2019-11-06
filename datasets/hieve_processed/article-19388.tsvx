@@ -1,0 +1,36 @@
+Text	A new lawyer for OJ Simpson has filed a new attempt to gain his release from Nevada state prison , alleging the former American football star and actor was so badly represented by lawyers in his trial and previous appeals that he deserves a retrial . A 94-page document filed in Clark County District Court in Las Vegas faults the trial strategy and performance of attorneys Yale Galanter of Miami and Gabriel Grasso of Las Vegas , but maintains Simpson 's same basic defence . It says the National Football League Hall of Famer wanted to recover from sports memorabilia dealers family photos and personal mementoes stolen from him after his 1995 acquittal in the Los Angeles deaths of his ex-wife , Nicole Brown Simpson , and her friend , Ronald Goldman . Simpson was convicted in 2008 in Las Vegas of charges including kidnapping and armed robbery in a caper in a casino hotel room crammed with two memorabilia dealers and a middle man , Simpson and five others later convicted of felonies . Simpson , 64 , was sentenced in December 2008 to nine to 33 years behind bars . He is the only one in the case still in prison . The filing , called a writ of habeas corpus , is a common next-step appeals strategy to blame trial and initial appeals attorneys for a defendant 's conviction . If state courts deny it , it can be appealed against to federal courts . Almost all of the 22 grounds that lawyer Patricia Palm of Las Vegas cited in the document fault Mr Galanter and Mr Grasso . Ms Palm is due to argue the case on July 3 in Clark County District Court in Las Vegas . The first claim is that Mr Galanter had a conflict of interest so severe he should have removed himself from the case . It does not raise a similar contention against Mr Grasso . Mr Galanter declined comment , saying he wanted to read the complete document and supporting appendices . Mr Grasso said he had not read the document , but `` I 'm behind OJ and I hope this petition helps him get out of prison '' . Simpson 's current private lawyer , Malcolm LaVergne , declined comment .
+Event	1	filed	I_Action	32	7
+Event	2	attempt	I_Action	44	10
+Event	3	alleging	Reporting	98	20
+Event	4	represented	Occurrence	164	31
+Event	5	trial	Occurrence	194	36
+Event	6	appeals	HalfGeneric	213	39
+Event	7	filed	Occurrence	268	49
+Event	8	trial	Occurrence	329	60
+Event	9	says	Reporting	476	86
+Event	10	stolen	Occurrence	611	106
+Event	11	acquittal	Occurrence	642	112
+Event	12	deaths	Occurrence	671	117
+Event	13	convicted	I_Action	760	135
+Event	14	kidnapping	Occurrence	812	144
+Event	15	robbery	Occurrence	833	147
+Event	16	convicted	I_Action	960	171
+Event	17	felonies	HalfGeneric	973	173
+Event	18	sentenced	Occurrence	1000	180
+Event	19	filing	Occurrence	1112	205
+Event	20	called	Reporting	1120	207
+Event	21	cited	Reporting	1405	261
+Event	22	declined	I_Action	1737	328
+Event	23	saying	Reporting	1755	331
+Event	24	said	Reporting	1839	345
+Event	25	petition	Occurrence	1909	363
+Event	26	declined	I_Action	2000	381
+Relation	8	5	Coref	true	trial	trial
+Relation	19	7	Coref	false	filing	filed
+Relation	25	19	Coref	false	petition	filing
+Relation	5	4	SuperSub	false	trial	represented
+Relation	5	18	SuperSub	false	trial	sentenced
+Relation	17	14	SuperSub	false	felonies	kidnapping
+Relation	17	15	SuperSub	false	felonies	robbery
+Relation	8	4	SuperSub	true	trial	represented
+Relation	8	18	SuperSub	true	trial	sentenced

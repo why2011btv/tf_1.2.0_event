@@ -1,0 +1,61 @@
+Text	South Korea has asked China whether it is the source of a sophisticated missile carrier displayed by North Korea during a military parade last weekend , a Seoul official said Friday . Military experts have pointed to China as the probable supplier of the 16-wheel truck , but China has denied it . U.N. Security Council resolutions ban countries from supplying arms-related materials to North Korea . North Korea used the vehicle to unveil a new long-range missile during Sunday 's celebrations marking the centennial of the birth of its late founder , Kim Il Sung . Two days earlier , North Korea launched a long-range rocket but said it failed to put a satellite in orbit . Seoul was checking whether China , North Korea 's only major ally , was the missile carrier provider , a South Korean Foreign Ministry official said , speaking on condition of anonymity , citing the diplomatic sensitivity of the issue . On Thursday , China denied any wrongdoing in connection with the vehicle 's appearance at the North Korean parade . Foreign Ministry spokesman Liu Weimin told a regular news conference that China is against the spread of weapons of mass destruction and carriers for such weapons . U.S. State Department spokesman Mark Toner said in a briefing that China has repeatedly said it 's complying fully with U.N. Security Council resolutions sanctioning North Korea . But Toner said he was n't aware whether China had given assurances on the missile carrier . The carrier , also believed capable of launching missiles , was the biggest yet displayed by North Korea and gives the country the ability to transport long-range missiles around its territory , making them harder to locate and destroy .
+Event	1	asked	Occurrence	16	3
+Event	2	displayed	Occurrence	88	15
+Event	3	parade	Occurrence	131	22
+Event	4	said	Reporting	169	29
+Event	5	pointed	Occurrence	204	35
+Event	6	denied	Reporting	283	50
+Event	7	used	I_Action	408	69
+Event	8	unveil	Occurrence	428	73
+Event	9	celebrations	Occurrence	476	81
+Event	10	centennial	Occurrence	501	84
+Event	11	birth	Occurrence	519	87
+Event	12	launched	Occurrence	589	103
+Event	13	said	Reporting	622	108
+Event	14	failed	I_Action	630	110
+Event	15	checking	Occurrence	676	120
+Event	16	said	Reporting	806	143
+Event	17	speaking	Occurrence	812	145
+Event	18	citing	Reporting	848	151
+Event	19	denied	I_Action	915	163
+Event	20	appearance	Occurrence	970	172
+Event	21	parade	Occurrence	1001	177
+Event	22	told	Reporting	1047	184
+Event	23	conference	Occurrence	1067	188
+Event	24	said	Reporting	1216	212
+Event	25	briefing	Occurrence	1226	215
+Event	26	said	Reporting	1261	220
+Event	27	resolutions	HalfGeneric	1314	56
+Event	28	sanctioning	Occurrence	1326	230
+Event	29	said	Reporting	1361	236
+Event	30	displayed	Occurrence	1519	265
+Relation	1	15	Coref	false	asked	checking
+Relation	20	2	Coref	false	appearance	displayed
+Relation	21	3	Coref	false	parade	parade
+Relation	30	20	Coref	false	displayed	appearance
+Relation	3	2	SuperSub	false	parade	displayed
+Relation	2	8	SuperSub	false	displayed	unveil
+Relation	9	3	SuperSub	false	celebrations	parade
+Relation	10	9	SuperSub	false	centennial	celebrations
+Relation	21	2	SuperSub	true	parade	displayed
+Relation	3	20	SuperSub	true	parade	appearance
+Relation	20	8	SuperSub	true	appearance	unveil
+Relation	9	21	SuperSub	true	celebrations	parade
+Relation	3	8	SuperSub	true	parade	unveil
+Relation	9	2	SuperSub	true	celebrations	displayed
+Relation	10	3	SuperSub	true	centennial	parade
+Relation	21	8	SuperSub	true	parade	unveil
+Relation	3	8	SuperSub	true	parade	unveil
+Relation	9	2	SuperSub	true	celebrations	displayed
+Relation	10	3	SuperSub	true	centennial	parade
+Relation	21	8	SuperSub	true	parade	unveil
+Relation	9	8	SuperSub	true	celebrations	unveil
+Relation	10	2	SuperSub	true	centennial	displayed
+Relation	10	8	SuperSub	true	centennial	unveil
+Relation	3	8	SuperSub	true	parade	unveil
+Relation	9	2	SuperSub	true	celebrations	displayed
+Relation	10	3	SuperSub	true	centennial	parade
+Relation	21	8	SuperSub	true	parade	unveil
+Relation	9	8	SuperSub	true	celebrations	unveil
+Relation	10	2	SuperSub	true	centennial	displayed
+Relation	10	8	SuperSub	true	centennial	unveil

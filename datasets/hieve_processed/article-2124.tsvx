@@ -1,0 +1,87 @@
+Text	The Rev . Billy Graham was released from hospital Tuesday after spending six days recovering from pneumonia , his second bout with the lung infection in the past seven months . Doctors decided to let the 93-year-old evangelist go home after he responded well to antibiotics and physical therapy to increase his strength , said Nancy Lindell , a spokeswoman for Mission Hospital in Asheville , North Carolina . Graham said he was grateful for the thoughts and prayers from around the world , according to a statement released by the hospital . `` I also appreciated the wonderful treatment I received here from such caring doctors and nurses , and feel I have made some new friends , '' Graham said . `` But I am especially looking forward to seeing my home decorated for Christmas and spending the holidays with members of my family . '' Graham was admitted Nov. 30 after suffering from congestion , a cough and slight fever . He was diagnosed with pneumonia . He spent five days at the hospital with the same ailment in May . In October 2008 , Graham was hospitalized after he tripped and fell over one of his dogs . Earlier that same year , he had elective surgery on a shunt that controls excess fluid on his brain . The shunt was first installed in 2000 and drains fluid through a small tube , relieving excess pressure that can cause symptoms similar to Parkinson 's disease . Graham has also suffered from prostate cancer and was hospitalized in 2007 for nearly two weeks after experiencing intestinal bleeding . His wife , Ruth Bell Graham , died in June 2007 . The evangelist has led a worldwide ministry that packed stadiums with believers and has counseled every U.S. president since Harry Truman . He published his most recent book , `` Nearing Home , '' last month and plans to continue writing his next book , which he said will summarize his six decades of work . Graham rarely appears in public now . The Billy Graham Evangelistic Association is run by Graham 's son , Franklin . Doctors used the six-day hospital stay for routine tests on Graham that he had already scheduled . They sent him home with orders to continue his therapy to increase his strength and mobility .
+Event	1	released	Occurrence	26	6
+Event	2	spending	Occurrence	63	11
+Event	3	recovering	I_Action	81	14
+Event	4	bout	Occurrence	119	20
+Event	5	decided	I_Action	182	32
+Event	6	let	Occurrence	193	34
+Event	7	responded	Occurrence	241	42
+Event	8	therapy	I_Action	284	48
+Event	9	increase	Occurrence	295	50
+Event	10	said	Reporting	318	54
+Event	11	said	Reporting	410	70
+Event	12	released	Occurrence	508	88
+Event	13	treatment	HalfGeneric	568	99
+Event	14	received	I_Action	580	101
+Event	15	made	Occurrence	647	114
+Event	16	said	Reporting	678	121
+Event	17	admitted	Occurrence	828	150
+Event	18	suffering	I_Action	851	154
+Event	19	diagnosed	Occurrence	911	166
+Event	20	spent	Occurrence	940	171
+Event	21	hospitalized	Occurrence	1030	190
+Event	22	tripped	Occurrence	1052	193
+Event	23	fell	Occurrence	1064	195
+Event	24	surgery	Occurrence	1131	210
+Event	25	installed	Occurrence	1211	226
+Event	26	hospitalized	Occurrence	1404	259
+Event	27	experiencing	I_Action	1452	267
+Event	28	bleeding	Occurrence	1476	269
+Event	29	died	Occurrence	1514	278
+Event	30	published	Occurrence	1675	306
+Event	31	said	Reporting	1788	330
+Event	32	stay	Occurrence	1980	365
+Event	33	tests	HalfGeneric	1997	368
+Event	34	scheduled	Occurrence	2033	375
+Event	35	sent	Occurrence	2049	378
+Relation	32	2	Coref	false	stay	spending
+Relation	35	1	Coref	false	sent	released
+Relation	6	1	Coref	false	let	released
+Relation	32	33	SuperSub	false	stay	tests
+Relation	22	23	SuperSub	false	tripped	fell
+Relation	2	17	SuperSub	false	spending	admitted
+Relation	2	19	SuperSub	false	spending	diagnosed
+Relation	2	15	SuperSub	false	spending	made
+Relation	2	13	SuperSub	false	spending	treatment
+Relation	7	9	SuperSub	false	responded	increase
+Relation	13	7	SuperSub	false	treatment	responded
+Relation	4	2	SuperSub	false	bout	spending
+Relation	2	33	SuperSub	true	spending	tests
+Relation	32	17	SuperSub	true	stay	admitted
+Relation	32	19	SuperSub	true	stay	diagnosed
+Relation	32	15	SuperSub	true	stay	made
+Relation	32	13	SuperSub	true	stay	treatment
+Relation	4	32	SuperSub	true	bout	stay
+Relation	2	7	SuperSub	true	spending	responded
+Relation	13	9	SuperSub	true	treatment	increase
+Relation	4	17	SuperSub	true	bout	admitted
+Relation	4	19	SuperSub	true	bout	diagnosed
+Relation	4	15	SuperSub	true	bout	made
+Relation	4	13	SuperSub	true	bout	treatment
+Relation	32	7	SuperSub	true	stay	responded
+Relation	32	9	SuperSub	true	stay	increase
+Relation	4	33	SuperSub	true	bout	tests
+Relation	2	7	SuperSub	true	spending	responded
+Relation	13	9	SuperSub	true	treatment	increase
+Relation	4	17	SuperSub	true	bout	admitted
+Relation	4	19	SuperSub	true	bout	diagnosed
+Relation	4	15	SuperSub	true	bout	made
+Relation	4	13	SuperSub	true	bout	treatment
+Relation	32	7	SuperSub	true	stay	responded
+Relation	32	9	SuperSub	true	stay	increase
+Relation	4	33	SuperSub	true	bout	tests
+Relation	2	9	SuperSub	true	spending	increase
+Relation	4	7	SuperSub	true	bout	responded
+Relation	4	9	SuperSub	true	bout	increase
+Relation	2	7	SuperSub	true	spending	responded
+Relation	13	9	SuperSub	true	treatment	increase
+Relation	4	17	SuperSub	true	bout	admitted
+Relation	4	19	SuperSub	true	bout	diagnosed
+Relation	4	15	SuperSub	true	bout	made
+Relation	4	13	SuperSub	true	bout	treatment
+Relation	32	7	SuperSub	true	stay	responded
+Relation	32	9	SuperSub	true	stay	increase
+Relation	4	33	SuperSub	true	bout	tests
+Relation	2	9	SuperSub	true	spending	increase
+Relation	4	7	SuperSub	true	bout	responded
+Relation	4	9	SuperSub	true	bout	increase

@@ -1,0 +1,18 @@
+Text	A teenager has admitted murdering twelve year old Michaela Davis in West Dublin last year . Jonathan Byrne also pleaded guilty to rape . The body of Michaela Davis was found on the bank of the Royal Canal near Clonsilla in August 2010 . A post mortem found that she had been attacked , sexually abused and strangled . Byrne from Lohunda Downs in Clonsilla was remanded in custody for sentencing in December . At sentencing he will receive a mandatory life sentence and victim impact submissions will also be heard
+Event	1	admitted	I_Action	16	3
+Event	2	murdering	Occurrence	25	4
+Event	3	pleaded	Reporting	112	19
+Event	4	rape	Occurrence	130	22
+Event	5	found	Occurrence	167	30
+Event	6	mortem	Occurrence	242	46
+Event	7	found	Perception	249	47
+Event	8	attacked	Occurrence	273	52
+Event	9	abused	Occurrence	292	55
+Event	10	strangled	Occurrence	303	57
+Event	11	remanded	I_Action	357	66
+Relation	9	4	Coref	false	abused	rape
+Relation	10	2	Coref	false	strangled	murdering
+Relation	8	9	SuperSub	false	attacked	abused
+Relation	8	10	SuperSub	false	attacked	strangled
+Relation	8	4	SuperSub	true	attacked	rape
+Relation	8	2	SuperSub	true	attacked	murdering

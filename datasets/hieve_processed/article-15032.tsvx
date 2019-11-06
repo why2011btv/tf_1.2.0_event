@@ -1,0 +1,82 @@
+Text	The first passengers rescued from a helicopter that ditched in the North Sea have arrived at hospital . Fourteen people - 12 passengers and two crew - were on board the aircraft when it came down 40km off the coast of Aberdeen shortly after noon . The EC225 helicopter , operated by Bond Offshore , had been on its way from Aberdeen to the offshore Maersk Resilient rig and the Ensco 102 rig . Rig operator Conoco Phillips said the passengers were contractors on their way to support the drilling rigs . Two of those on board worked for Halliburton and the others were from Ensco , Brundt and Stag , Conoco Phillips said . The companies could not be immediately contacted for comment . A Bond spokesman said : `` A low pressure oil warning light came on and the helicopter made a controlled descent and landed in the North Sea . It did n't crash . '' The alarm was raised and a major rescue began . Everyone on board was recovered from the sea and put in life rafts . They were then being flown back to Aberdeen for medical checks , although it is understood nobody was injured . The coastguard said three search and rescue helicopters , including one from the coastguard and one from the RAF , were at the scene , along with two lifeboats . The ditching was the latest in a series of incidents involving helicopters in the North Sea . Sixteen people died when a Super Puma plunged into the sea when its gearbox failed while flying to Aberdeen on April 1st , 2009 . The 14 passengers and two crew were returning from BP 's Miller platform when it went down 18km north-east of Peterhead . In February 2009 , 18 people survived after a helicopter ditched in the North Sea .
+Event	1	rescued	Occurrence	21	3
+Event	2	ditched	Occurrence	52	8
+Event	3	arrived	Occurrence	82	14
+Event	4	came	Occurrence	185	34
+Event	5	operated	Occurrence	268	50
+Event	6	said	Reporting	418	78
+Event	7	said	Reporting	608	113
+Event	8	said	Reporting	693	128
+Event	9	came	Occurrence	733	137
+Event	10	made	I_Action	760	142
+Event	11	descent	Occurrence	778	145
+Event	12	landed	Occurrence	790	147
+Event	13	raised	Occurrence	847	162
+Event	14	rescue	Occurrence	866	166
+Event	15	began	I_Action	873	167
+Event	16	recovered	Occurrence	902	173
+Event	17	put	Occurrence	929	178
+Event	18	flown	Occurrence	969	187
+Event	19	said	Reporting	1073	205
+Event	20	ditching	Occurrence	1220	234
+Event	21	incidents	HalfGeneric	1259	242
+Event	22	died	Occurrence	1324	252
+Event	23	plunged	Occurrence	1347	257
+Event	24	failed	Occurrence	1385	264
+Event	25	flying	Occurrence	1398	266
+Event	26	returning	Occurrence	1473	282
+Event	27	went	Occurrence	1517	290
+Event	28	survived	Occurrence	1585	303
+Event	29	ditched	Occurrence	1613	307
+Relation	4	2	Coref	false	came	ditched
+Relation	12	4	Coref	false	landed	came
+Relation	20	4	Coref	false	ditching	came
+Relation	20	12	Coref	false	ditching	landed
+Relation	14	1	Coref	false	rescue	rescued
+Relation	23	27	Coref	false	plunged	went
+Relation	14	16	SuperSub	false	rescue	recovered
+Relation	14	17	SuperSub	false	rescue	put
+Relation	21	20	SuperSub	false	incidents	ditching
+Relation	23	22	SuperSub	false	plunged	died
+Relation	25	24	SuperSub	false	flying	failed
+Relation	25	27	SuperSub	false	flying	went
+Relation	14	13	SuperSub	false	rescue	raised
+Relation	21	23	SuperSub	false	incidents	plunged
+Relation	21	29	SuperSub	false	incidents	ditched
+Relation	14	18	SuperSub	false	rescue	flown
+Relation	18	3	SuperSub	false	flown	arrived
+Relation	25	23	SuperSub	false	flying	plunged
+Relation	26	25	SuperSub	false	returning	flying
+Relation	1	16	SuperSub	true	rescued	recovered
+Relation	1	17	SuperSub	true	rescued	put
+Relation	21	12	SuperSub	true	incidents	landed
+Relation	21	4	SuperSub	true	incidents	came
+Relation	27	22	SuperSub	true	went	died
+Relation	25	23	SuperSub	true	flying	plunged
+Relation	1	13	SuperSub	true	rescued	raised
+Relation	21	27	SuperSub	true	incidents	went
+Relation	1	18	SuperSub	true	rescued	flown
+Relation	25	27	SuperSub	true	flying	went
+Relation	21	22	SuperSub	true	incidents	died
+Relation	14	3	SuperSub	true	rescue	arrived
+Relation	25	22	SuperSub	true	flying	died
+Relation	26	24	SuperSub	true	returning	failed
+Relation	26	27	SuperSub	true	returning	went
+Relation	26	23	SuperSub	true	returning	plunged
+Relation	1	3	SuperSub	true	rescued	arrived
+Relation	21	22	SuperSub	true	incidents	died
+Relation	14	3	SuperSub	true	rescue	arrived
+Relation	25	22	SuperSub	true	flying	died
+Relation	26	24	SuperSub	true	returning	failed
+Relation	26	27	SuperSub	true	returning	went
+Relation	26	23	SuperSub	true	returning	plunged
+Relation	1	3	SuperSub	true	rescued	arrived
+Relation	26	22	SuperSub	true	returning	died
+Relation	21	22	SuperSub	true	incidents	died
+Relation	14	3	SuperSub	true	rescue	arrived
+Relation	25	22	SuperSub	true	flying	died
+Relation	26	24	SuperSub	true	returning	failed
+Relation	26	27	SuperSub	true	returning	went
+Relation	26	23	SuperSub	true	returning	plunged
+Relation	1	3	SuperSub	true	rescued	arrived
+Relation	26	22	SuperSub	true	returning	died

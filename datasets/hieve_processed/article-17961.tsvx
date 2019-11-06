@@ -1,0 +1,44 @@
+Text	Eleven UN peacekeepers in the eastern Democratic Republic of Congo were wounded , two of them critically , after villagers opened fire on the troops , officials said . The villagers descended on the UN base in the eastern South Kivu region on Monday after an overnight attack on their village reportedly killed six people , a UN spokesman in Kinshasa , Monodje Mounoubai , told AFP news agency . The residents were protesting that the UN troops `` did nothing to defend '' the village during the attack , which was blamed on Democratic Forces for the Liberation of Rwanda , Mounoubai said . `` Shots directed at our troops were fired from this demonstrating crowd and wounded 11 , two critically and two seriously . Our troops did not return fire because if they had fired there would have been carnage , '' he said . `` They controlled themselves . '' The UN base is in the Bunyiakiri district of South Kivu province . Diplomatic sources at the United Nations in New York had said the wounded peacekeepers were Pakistani . The UN mission in DR Congo reported that `` elements '' of a Mai-Mai group , the Rai Mutomboki , `` may have been part of the protest and may have fired on the peacekeepers , '' UN spokesman Martin Nesirky said . `` The mission is monitoring the situation and has sent reinforcements to the area , which is now reportedly calm but tense . ''
+Event	1	wounded	Occurrence	72	11
+Event	2	opened	I_Action	121	20
+Event	3	fire	Occurrence	128	21
+Event	4	said	Reporting	158	27
+Event	5	descended	Occurrence	178	31
+Event	6	attack	Occurrence	265	47
+Event	7	killed	Occurrence	300	52
+Event	8	told	Reporting	366	65
+Event	9	protesting	Reporting	407	73
+Event	10	attack	Occurrence	484	88
+Event	11	blamed	I_Action	502	92
+Event	12	said	Reporting	570	103
+Event	13	Shots	Occurrence	577	106
+Event	14	directed	I_Action	583	107
+Event	15	fired	I_Action	611	112
+Event	16	wounded	Occurrence	651	118
+Event	17	said	Reporting	789	146
+Event	18	controlled	Occurrence	801	150
+Event	19	said	Reporting	948	177
+Event	20	wounded	Occurrence	957	179
+Event	21	reported	Reporting	1021	190
+Event	22	protest	Occurrence	1112	211
+Event	23	said	Reporting	1189	225
+Event	24	monitoring	Occurrence	1211	231
+Event	25	sent	Occurrence	1244	236
+Relation	10	6	Coref	false	attack	attack
+Relation	1	16	Coref	false	wounded	wounded
+Relation	16	20	Coref	false	wounded	wounded
+Relation	13	3	Coref	false	Shots	fire
+Relation	6	7	SuperSub	false	attack	killed
+Relation	24	25	SuperSub	false	monitoring	sent
+Relation	22	5	SuperSub	false	protest	descended
+Relation	22	18	SuperSub	false	protest	controlled
+Relation	22	13	SuperSub	false	protest	Shots
+Relation	13	16	SuperSub	false	Shots	wounded
+Relation	10	7	SuperSub	true	attack	killed
+Relation	22	3	SuperSub	true	protest	fire
+Relation	3	16	SuperSub	true	fire	wounded
+Relation	13	20	SuperSub	true	Shots	wounded
+Relation	13	1	SuperSub	true	Shots	wounded
+Relation	22	16	SuperSub	true	protest	wounded
+Relation	22	16	SuperSub	true	protest	wounded
+Relation	22	16	SuperSub	true	protest	wounded

@@ -1,0 +1,326 @@
+Text	In Baghdad , three car bombs , two roadside bombs and one suicide car bomb hit mainly Shi'ite areas , killing 15 people and wounding 61 , the sources said . Two car bombs and three roadside bombs aimed at police and army patrols in the northern oil city of Kirkuk killed eight people and wounded 26 , police and hospital sources said . `` I was trying to stop traffic to let a police patrol pass ... A car bomb exploded , I fell on the ground and police took me to the hospital , '' a policeman wounded in the face and chest told Reuters as doctors tended him . He declined to be named . It was Iraq 's bloodiest day since Al Qaeda 's affiliate in the country , the Islamic State of Iraq group , killed at least 52 people with a series of 30 blasts on March 20 . No group has yet claimed responsibility for Thursday 's attacks . Colonel Dhiya al-Wakeel , a spokesman for the Baghdad operations command , said the attacks were an attempt to convince the Iraqi people that the country was still insecure . `` Our forces are capable of confronting such challenges and this will not affect the improvement in the security situation or our security plans , '' Wakeel told the State-owned , Iraqiya TV . Heightened tension between Shi'ites , Sunnis and Kurds in the coalition government since U.S. troops withdrew in December has raised fears of a return to sectarian violence of the kind that pushed Iraq to the brink of civil war a few years ago . The country is less violent than at the height of that conflict in 2006-07 , but bombings and killings still happen daily , often aimed at Shi'ite areas and local security forces . Kirkuk , home to Arabs , Kurds , Turkmen and others , is at the heart of a long-running dispute between the central government and the autonomous Kurdish region , which claims the city and the region 's rich oil reserves . Some critics say the government of Prime Minister Nuri al-Maliki is not doing enough to stem the threat from militants . `` They are saying they are changing security plans , they are redeploying troops but it is like they are changing the decorations only , '' Ali Al-Haidari , an Iraqi security expert , told Reuters . `` Is there any new technology , any new laws supporting the security process ? The answer is no . The natural result for that is there are gaps here and there . '' The biggest attack in Baghdad was in the Kadhimiya district , where a car bomb killed five and wounded 24 , sources said . A car bomb targeting the health minister 's motorcade went off in the central Haifa district , killing two civilians and wounding at least four of the minister 's guards , a police source said . His spokesman said five guards were wounded in the attack . Car and roadside bombs also went off in Baghdad 's Amil , Palestine Street and Zaafaraniya districts . A political crisis erupted in Iraq in December when the Shi'ite-led government tried to remove Sunni Deputy Prime Minister Saleh al-Mutlaq and sought an arrest warrant for Sunni Vice President Tareq al-Hashemi on charges he ran death squads . Critics of Maliki viewed the moves as an attempt by the Shi'ite premier to consolidate power , and many Sunnis fear he is trying to sideline them from government . Maliki has said the charges against Hashemi were brought by the judicial system . Parliament speaker Osama al-Nujaifi said security force leaders should take responsibility for not stopping the explosions . `` Some ( groups ) are seeking to exploit the domestic crisis to target unity and try to sow sectarian and racist strife , '' he said in a statement . Elsewhere in northern Iraq , two car bombs targeting government-backed Sunni Sahwa militia went off in Samarra , two blasts hit Baquba , a roadside bomb exploded in Mosul and another roadside device exploded in Taji . One policeman was killed in the town of Hadid , 10 km ( 6 miles ) west of Baquba , when gunmen opened fire on the station where he worked from a passing car , police sources said . In the mainly Sunni Muslim province of Anbar in the west , two car bombs targeting police killed four and wounded 10 in Ramadi while a roadside bomb wounded four people in Falluja .
+Event	1	hit	Occurrence	74	15
+Event	2	killing	Occurrence	100	20
+Event	3	wounding	Occurrence	122	24
+Event	4	said	Reporting	147	29
+Event	5	killed	Occurrence	260	51
+Event	6	wounded	Occurrence	284	55
+Event	7	said	Reporting	324	62
+Event	8	trying	I_Action	337	67
+Event	9	exploded	Occurrence	402	81
+Event	10	fell	Occurrence	414	84
+Event	11	took	Occurrence	444	90
+Event	12	wounded	Occurrence	482	99
+Event	13	told	Reporting	512	105
+Event	14	tended	Occurrence	536	109
+Event	15	declined	I_Action	551	113
+Event	16	killed	Occurrence	677	140
+Event	17	blasts	Occurrence	723	150
+Event	18	attacks	Occurrence	798	164
+Event	19	said	Reporting	880	178
+Event	20	attacks	Occurrence	889	180
+Event	21	attempt	I_Action	905	183
+Event	22	told	Reporting	1132	223
+Event	23	Heightened	StateChange	1165	230
+Event	24	withdrew	Occurrence	1266	245
+Event	25	raised	StateChange	1291	249
+Event	26	pushed	Occurrence	1355	261
+Event	27	conflict	Occurrence	1465	285
+Event	28	bombings	HalfGeneric	1490	290
+Event	29	killings	HalfGeneric	1503	292
+Event	30	happen	HalfGeneric	1518	294
+Event	31	dispute	Occurrence	1672	326
+Event	32	say	Reporting	1817	351
+Event	33	saying	Reporting	1934	373
+Event	34	changing	Occurrence	1950	376
+Event	35	redeploying	Occurrence	1984	382
+Event	36	told	Reporting	2101	404
+Event	37	attack	Occurrence	2284	443
+Event	38	killed	Occurrence	2350	456
+Event	39	wounded	Occurrence	2366	459
+Event	40	said	Reporting	2386	463
+Event	41	went	Occurrence	2445	474
+Event	42	killing	Occurrence	2485	482
+Event	43	wounding	Occurrence	2511	486
+Event	44	said	Reporting	2576	499
+Event	45	said	Reporting	2596	503
+Event	46	wounded	Occurrence	2618	507
+Event	47	attack	Occurrence	2633	510
+Event	48	went	Occurrence	2669	517
+Event	49	crisis	Occurrence	2753	532
+Event	50	erupted	I_Action	2760	533
+Event	51	tried	I_Action	2820	542
+Event	52	sought	I_Action	2884	552
+Event	53	viewed	Perception	3001	572
+Event	54	moves	HalfGeneric	3012	574
+Event	55	attempt	I_Action	3024	577
+Event	56	said	Reporting	3156	601
+Event	57	brought	Occurrence	3194	607
+Event	58	said	Reporting	3262	617
+Event	59	explosions	Occurrence	3338	628
+Event	60	seeking	I_Action	3369	636
+Event	61	crisis	Occurrence	3401	641
+Event	62	said	Reporting	3472	656
+Event	63	went	Occurrence	3583	674
+Event	64	blasts	Occurrence	3608	680
+Event	65	hit	Occurrence	3615	681
+Event	66	exploded	Occurrence	3643	687
+Event	67	exploded	Occurrence	3689	694
+Event	68	killed	Occurrence	3725	701
+Event	69	opened	I_Action	3798	720
+Event	70	fire	Occurrence	3805	721
+Event	71	passing	Occurrence	3848	730
+Event	72	said	Reporting	3876	735
+Event	73	killed	Occurrence	3971	754
+Event	74	wounded	Occurrence	3987	757
+Event	75	wounded	Occurrence	4030	765
+Relation	20	18	Coref	false	attacks	attacks
+Relation	41	47	Coref	false	went	attack
+Relation	61	49	Coref	false	crisis	crisis
+Relation	1	2	SuperSub	false	hit	killing
+Relation	1	3	SuperSub	false	hit	wounding
+Relation	9	12	SuperSub	false	exploded	wounded
+Relation	17	16	SuperSub	false	blasts	killed
+Relation	18	1	SuperSub	false	attacks	hit
+Relation	20	37	SuperSub	false	attacks	attack
+Relation	37	38	SuperSub	false	attack	killed
+Relation	37	39	SuperSub	false	attack	wounded
+Relation	20	41	SuperSub	false	attacks	went
+Relation	41	42	SuperSub	false	went	killing
+Relation	41	43	SuperSub	false	went	wounding
+Relation	47	46	SuperSub	false	attack	wounded
+Relation	20	48	SuperSub	false	attacks	went
+Relation	59	63	SuperSub	false	explosions	went
+Relation	59	64	SuperSub	false	explosions	blasts
+Relation	59	66	SuperSub	false	explosions	exploded
+Relation	59	67	SuperSub	false	explosions	exploded
+Relation	70	68	SuperSub	false	fire	killed
+Relation	71	70	SuperSub	false	passing	fire
+Relation	18	5	SuperSub	false	attacks	killed
+Relation	18	6	SuperSub	false	attacks	wounded
+Relation	18	9	SuperSub	false	attacks	exploded
+Relation	1	37	SuperSub	false	hit	attack
+Relation	1	41	SuperSub	false	hit	went
+Relation	1	48	SuperSub	false	hit	went
+Relation	61	29	SuperSub	false	crisis	killings
+Relation	61	28	SuperSub	false	crisis	bombings
+Relation	27	26	SuperSub	false	conflict	pushed
+Relation	28	20	SuperSub	false	bombings	attacks
+Relation	49	54	SuperSub	false	crisis	moves
+Relation	28	59	SuperSub	false	bombings	explosions
+Relation	59	73	SuperSub	false	explosions	killed
+Relation	59	74	SuperSub	false	explosions	wounded
+Relation	59	75	SuperSub	false	explosions	wounded
+Relation	20	1	SuperSub	true	attacks	hit
+Relation	18	37	SuperSub	true	attacks	attack
+Relation	18	41	SuperSub	true	attacks	went
+Relation	20	47	SuperSub	true	attacks	attack
+Relation	47	42	SuperSub	true	attack	killing
+Relation	47	43	SuperSub	true	attack	wounding
+Relation	41	46	SuperSub	true	went	wounded
+Relation	18	48	SuperSub	true	attacks	went
+Relation	20	5	SuperSub	true	attacks	killed
+Relation	20	6	SuperSub	true	attacks	wounded
+Relation	20	9	SuperSub	true	attacks	exploded
+Relation	1	47	SuperSub	true	hit	attack
+Relation	49	29	SuperSub	true	crisis	killings
+Relation	49	28	SuperSub	true	crisis	bombings
+Relation	28	18	SuperSub	true	bombings	attacks
+Relation	61	54	SuperSub	true	crisis	moves
+Relation	18	2	SuperSub	true	attacks	killing
+Relation	18	3	SuperSub	true	attacks	wounding
+Relation	20	38	SuperSub	true	attacks	killed
+Relation	20	39	SuperSub	true	attacks	wounded
+Relation	20	42	SuperSub	true	attacks	killing
+Relation	20	43	SuperSub	true	attacks	wounding
+Relation	71	68	SuperSub	true	passing	killed
+Relation	18	12	SuperSub	true	attacks	wounded
+Relation	1	38	SuperSub	true	hit	killed
+Relation	1	39	SuperSub	true	hit	wounded
+Relation	1	42	SuperSub	true	hit	killing
+Relation	1	43	SuperSub	true	hit	wounding
+Relation	61	20	SuperSub	true	crisis	attacks
+Relation	61	59	SuperSub	true	crisis	explosions
+Relation	28	37	SuperSub	true	bombings	attack
+Relation	28	41	SuperSub	true	bombings	went
+Relation	28	48	SuperSub	true	bombings	went
+Relation	28	63	SuperSub	true	bombings	went
+Relation	28	64	SuperSub	true	bombings	blasts
+Relation	28	66	SuperSub	true	bombings	exploded
+Relation	28	67	SuperSub	true	bombings	exploded
+Relation	28	73	SuperSub	true	bombings	killed
+Relation	28	74	SuperSub	true	bombings	wounded
+Relation	28	75	SuperSub	true	bombings	wounded
+Relation	20	2	SuperSub	true	attacks	killing
+Relation	20	3	SuperSub	true	attacks	wounding
+Relation	18	38	SuperSub	true	attacks	killed
+Relation	18	39	SuperSub	true	attacks	wounded
+Relation	18	42	SuperSub	true	attacks	killing
+Relation	18	43	SuperSub	true	attacks	wounding
+Relation	20	46	SuperSub	true	attacks	wounded
+Relation	20	12	SuperSub	true	attacks	wounded
+Relation	1	46	SuperSub	true	hit	wounded
+Relation	49	20	SuperSub	true	crisis	attacks
+Relation	49	59	SuperSub	true	crisis	explosions
+Relation	49	37	SuperSub	true	crisis	attack
+Relation	49	41	SuperSub	true	crisis	went
+Relation	49	48	SuperSub	true	crisis	went
+Relation	49	63	SuperSub	true	crisis	went
+Relation	49	64	SuperSub	true	crisis	blasts
+Relation	49	66	SuperSub	true	crisis	exploded
+Relation	49	67	SuperSub	true	crisis	exploded
+Relation	49	73	SuperSub	true	crisis	killed
+Relation	49	74	SuperSub	true	crisis	wounded
+Relation	49	75	SuperSub	true	crisis	wounded
+Relation	28	1	SuperSub	true	bombings	hit
+Relation	28	5	SuperSub	true	bombings	killed
+Relation	28	6	SuperSub	true	bombings	wounded
+Relation	28	9	SuperSub	true	bombings	exploded
+Relation	18	2	SuperSub	true	attacks	killing
+Relation	18	3	SuperSub	true	attacks	wounding
+Relation	20	38	SuperSub	true	attacks	killed
+Relation	20	39	SuperSub	true	attacks	wounded
+Relation	20	42	SuperSub	true	attacks	killing
+Relation	20	43	SuperSub	true	attacks	wounding
+Relation	71	68	SuperSub	true	passing	killed
+Relation	18	12	SuperSub	true	attacks	wounded
+Relation	1	38	SuperSub	true	hit	killed
+Relation	1	39	SuperSub	true	hit	wounded
+Relation	1	42	SuperSub	true	hit	killing
+Relation	1	43	SuperSub	true	hit	wounding
+Relation	61	20	SuperSub	true	crisis	attacks
+Relation	61	59	SuperSub	true	crisis	explosions
+Relation	28	37	SuperSub	true	bombings	attack
+Relation	28	41	SuperSub	true	bombings	went
+Relation	28	48	SuperSub	true	bombings	went
+Relation	28	63	SuperSub	true	bombings	went
+Relation	28	64	SuperSub	true	bombings	blasts
+Relation	28	66	SuperSub	true	bombings	exploded
+Relation	28	67	SuperSub	true	bombings	exploded
+Relation	28	73	SuperSub	true	bombings	killed
+Relation	28	74	SuperSub	true	bombings	wounded
+Relation	28	75	SuperSub	true	bombings	wounded
+Relation	20	2	SuperSub	true	attacks	killing
+Relation	20	3	SuperSub	true	attacks	wounding
+Relation	18	38	SuperSub	true	attacks	killed
+Relation	18	39	SuperSub	true	attacks	wounded
+Relation	18	42	SuperSub	true	attacks	killing
+Relation	18	43	SuperSub	true	attacks	wounding
+Relation	20	46	SuperSub	true	attacks	wounded
+Relation	20	12	SuperSub	true	attacks	wounded
+Relation	1	46	SuperSub	true	hit	wounded
+Relation	49	20	SuperSub	true	crisis	attacks
+Relation	49	59	SuperSub	true	crisis	explosions
+Relation	49	37	SuperSub	true	crisis	attack
+Relation	49	41	SuperSub	true	crisis	went
+Relation	49	48	SuperSub	true	crisis	went
+Relation	49	63	SuperSub	true	crisis	went
+Relation	49	64	SuperSub	true	crisis	blasts
+Relation	49	66	SuperSub	true	crisis	exploded
+Relation	49	67	SuperSub	true	crisis	exploded
+Relation	49	73	SuperSub	true	crisis	killed
+Relation	49	74	SuperSub	true	crisis	wounded
+Relation	49	75	SuperSub	true	crisis	wounded
+Relation	28	1	SuperSub	true	bombings	hit
+Relation	28	5	SuperSub	true	bombings	killed
+Relation	28	6	SuperSub	true	bombings	wounded
+Relation	28	9	SuperSub	true	bombings	exploded
+Relation	61	37	SuperSub	true	crisis	attack
+Relation	61	41	SuperSub	true	crisis	went
+Relation	61	48	SuperSub	true	crisis	went
+Relation	61	63	SuperSub	true	crisis	went
+Relation	61	64	SuperSub	true	crisis	blasts
+Relation	61	66	SuperSub	true	crisis	exploded
+Relation	61	67	SuperSub	true	crisis	exploded
+Relation	61	73	SuperSub	true	crisis	killed
+Relation	61	74	SuperSub	true	crisis	wounded
+Relation	61	75	SuperSub	true	crisis	wounded
+Relation	61	38	SuperSub	true	crisis	killed
+Relation	61	39	SuperSub	true	crisis	wounded
+Relation	61	42	SuperSub	true	crisis	killing
+Relation	61	43	SuperSub	true	crisis	wounding
+Relation	28	38	SuperSub	true	bombings	killed
+Relation	28	39	SuperSub	true	bombings	wounded
+Relation	28	42	SuperSub	true	bombings	killing
+Relation	28	43	SuperSub	true	bombings	wounding
+Relation	49	38	SuperSub	true	crisis	killed
+Relation	49	39	SuperSub	true	crisis	wounded
+Relation	49	42	SuperSub	true	crisis	killing
+Relation	49	43	SuperSub	true	crisis	wounding
+Relation	28	2	SuperSub	true	bombings	killing
+Relation	28	3	SuperSub	true	bombings	wounding
+Relation	28	12	SuperSub	true	bombings	wounded
+Relation	18	2	SuperSub	true	attacks	killing
+Relation	18	3	SuperSub	true	attacks	wounding
+Relation	20	38	SuperSub	true	attacks	killed
+Relation	20	39	SuperSub	true	attacks	wounded
+Relation	20	42	SuperSub	true	attacks	killing
+Relation	20	43	SuperSub	true	attacks	wounding
+Relation	71	68	SuperSub	true	passing	killed
+Relation	18	12	SuperSub	true	attacks	wounded
+Relation	1	38	SuperSub	true	hit	killed
+Relation	1	39	SuperSub	true	hit	wounded
+Relation	1	42	SuperSub	true	hit	killing
+Relation	1	43	SuperSub	true	hit	wounding
+Relation	61	20	SuperSub	true	crisis	attacks
+Relation	61	59	SuperSub	true	crisis	explosions
+Relation	28	37	SuperSub	true	bombings	attack
+Relation	28	41	SuperSub	true	bombings	went
+Relation	28	48	SuperSub	true	bombings	went
+Relation	28	63	SuperSub	true	bombings	went
+Relation	28	64	SuperSub	true	bombings	blasts
+Relation	28	66	SuperSub	true	bombings	exploded
+Relation	28	67	SuperSub	true	bombings	exploded
+Relation	28	73	SuperSub	true	bombings	killed
+Relation	28	74	SuperSub	true	bombings	wounded
+Relation	28	75	SuperSub	true	bombings	wounded
+Relation	20	2	SuperSub	true	attacks	killing
+Relation	20	3	SuperSub	true	attacks	wounding
+Relation	18	38	SuperSub	true	attacks	killed
+Relation	18	39	SuperSub	true	attacks	wounded
+Relation	18	42	SuperSub	true	attacks	killing
+Relation	18	43	SuperSub	true	attacks	wounding
+Relation	20	46	SuperSub	true	attacks	wounded
+Relation	20	12	SuperSub	true	attacks	wounded
+Relation	1	46	SuperSub	true	hit	wounded
+Relation	49	20	SuperSub	true	crisis	attacks
+Relation	49	59	SuperSub	true	crisis	explosions
+Relation	49	37	SuperSub	true	crisis	attack
+Relation	49	41	SuperSub	true	crisis	went
+Relation	49	48	SuperSub	true	crisis	went
+Relation	49	63	SuperSub	true	crisis	went
+Relation	49	64	SuperSub	true	crisis	blasts
+Relation	49	66	SuperSub	true	crisis	exploded
+Relation	49	67	SuperSub	true	crisis	exploded
+Relation	49	73	SuperSub	true	crisis	killed
+Relation	49	74	SuperSub	true	crisis	wounded
+Relation	49	75	SuperSub	true	crisis	wounded
+Relation	28	1	SuperSub	true	bombings	hit
+Relation	28	5	SuperSub	true	bombings	killed
+Relation	28	6	SuperSub	true	bombings	wounded
+Relation	28	9	SuperSub	true	bombings	exploded
+Relation	61	37	SuperSub	true	crisis	attack
+Relation	61	41	SuperSub	true	crisis	went
+Relation	61	48	SuperSub	true	crisis	went
+Relation	61	63	SuperSub	true	crisis	went
+Relation	61	64	SuperSub	true	crisis	blasts
+Relation	61	66	SuperSub	true	crisis	exploded
+Relation	61	67	SuperSub	true	crisis	exploded
+Relation	61	73	SuperSub	true	crisis	killed
+Relation	61	74	SuperSub	true	crisis	wounded
+Relation	61	75	SuperSub	true	crisis	wounded
+Relation	61	38	SuperSub	true	crisis	killed
+Relation	61	39	SuperSub	true	crisis	wounded
+Relation	61	42	SuperSub	true	crisis	killing
+Relation	61	43	SuperSub	true	crisis	wounding
+Relation	28	38	SuperSub	true	bombings	killed
+Relation	28	39	SuperSub	true	bombings	wounded
+Relation	28	42	SuperSub	true	bombings	killing
+Relation	28	43	SuperSub	true	bombings	wounding
+Relation	49	38	SuperSub	true	crisis	killed
+Relation	49	39	SuperSub	true	crisis	wounded
+Relation	49	42	SuperSub	true	crisis	killing
+Relation	49	43	SuperSub	true	crisis	wounding
+Relation	28	2	SuperSub	true	bombings	killing
+Relation	28	3	SuperSub	true	bombings	wounding
+Relation	28	12	SuperSub	true	bombings	wounded

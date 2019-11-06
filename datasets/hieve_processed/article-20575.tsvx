@@ -1,0 +1,25 @@
+Text	Two Pakistani air force planes crashed in a residential area in northwestern Pakistan on Thursday , killing all four pilots on board and injuring five people on the ground , police said . Residents of Nowshera city , where the planes went down , reported that the aircraft collided before they crashed , but the air force is still investigating , said police official Fazil Khan . The planes took off from an air force academy in nearby Risalpur , said Mohammad Hussain , the Nowshera police chief . Local TV footage showed the twisted metal wreckage from one of the planes among a group of houses in Nowshera . The air force has suffered a series of crashes over the past year that it has said were the result of technical problems .
+Event	1	crashed	Occurrence	31	5
+Event	2	killing	Occurrence	99	16
+Event	3	injuring	Occurrence	136	23
+Event	4	said	Reporting	179	31
+Event	5	went	Occurrence	230	41
+Event	6	reported	Reporting	241	44
+Event	7	collided	Occurrence	268	48
+Event	8	crashed	Occurrence	289	51
+Event	9	investigating	Occurrence	325	59
+Event	10	said	Reporting	340	61
+Event	11	took	Occurrence	384	69
+Event	12	said	Reporting	439	80
+Event	13	showed	Occurrence	506	92
+Event	14	suffered	I_Action	618	114
+Event	15	crashes	HalfGeneric	639	118
+Event	16	said	Reporting	678	126
+Relation	5	1	Coref	false	went	crashed
+Relation	8	5	Coref	false	crashed	went
+Relation	1	2	SuperSub	false	crashed	killing
+Relation	1	3	SuperSub	false	crashed	injuring
+Relation	15	8	SuperSub	false	crashes	crashed
+Relation	5	2	SuperSub	true	went	killing
+Relation	5	3	SuperSub	true	went	injuring
+Relation	15	5	SuperSub	true	crashes	went
